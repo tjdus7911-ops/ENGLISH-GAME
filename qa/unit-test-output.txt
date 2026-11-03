@@ -1,0 +1,94 @@
+
+ RUN  v2.1.8 /home/claude/english-game
+
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 단어 10개 학습: 복습 일정 10개, 모시 발견 열림, 일일 퀘스트 완료 → 별 +10 1회만
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 강의를 열지 않고 문제만 풀면 문법 완료·보상 없음, 강의+확인문제 완료 시 퀘스트 완료
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 오답 → 오답노트 등록, 다음 날 복습에서 맞히면 해결
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 다음 날 복습: 대상 조회 → 결과 반영 → 다음 복습일 갱신 → 파트너 XP +20 하루 1회
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 서로 다른 2일 복습 + 정답률 + XP 40 → Lv.2 성장, 파트너 변경 후에도 성장 기록 유지
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 단원 평가 통과 → 희귀 캐릭터 1회, A1 평가 통과 → 특별 캐릭터
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 말하기: STT 누락 단어가 있으면 재연습 복습 등록, 숙련도(정답) 기록에는 넣지 않음
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 표현 학습: 기록·복습·포인트·XP 연동, 중복 지급 없음
+ ✓ tests/logic/store.test.ts > 학습 이벤트 → 보상·복습·캐릭터·마을 (통합) > 발견 퀴즈 문제: 오늘 학습 내용으로 3문제 생성
+ ✓ tests/logic/store.test.ts > 저장·복원 > IndexedDB 에 저장되고 재실행(재수화) 후 복원
+ ✓ tests/logic/store.test.ts > 저장·복원 > 손상 데이터: 앱이 죽지 않고 초기 상태로 복구 + recovered 표시
+ ✓ tests/logic/store.test.ts > 저장·복원 > JSON 이 아닌 데이터도 비정상 종료 없음
+ ✓ tests/logic/store.test.ts > 저장·복원 > 마이그레이션: 이전 버전 데이터의 누락 필드를 채우고 기존 기록 유지
+ ✓ tests/logic/store.test.ts > 집 꾸미기·정원 통합 > 퀘스트 별로 가구 구매 → 배치 → 집 Lv.2 → 정원 해금 → 정원 꾸미기 → 저장·복원
+ ✓ tests/logic/home-quests.test.ts > 카탈로그 정량 기준 > 가구 ≥15, 벽지 3, 바닥 3, 정원 장식 ≥13, 보상 아이템 정의 일치
+ ✓ tests/logic/home-quests.test.ts > 카탈로그 정량 기준 > 퀘스트 수: 일일 6 · 주간 3 · 업적 ≥7 · 공간 ≥1
+ ✓ tests/logic/home-quests.test.ts > 가구 구매·배치 > 별로 구매, 잔액 부족·미해금·보상 전용·중복 구매 불가
+ ✓ tests/logic/home-quests.test.ts > 가구 구매·배치 > 미보유 아이템 배치 0건, 슬롯 종류 검증, 미리보기 확정 시에만 저장, 교체 시 보관함 유지
+ ✓ tests/logic/home-quests.test.ts > 가구 구매·배치 > 집 Lv.2 = 새 가구 3개 배치 + 문법 2단원, 내려가지 않음
+ ✓ tests/logic/home-quests.test.ts > 비밀 정원 해금 > 문법 3단원 + 꾸미기 3회 + 집 Lv.2 모두 충족해야 개방, 개방 후 다시 잠기지 않음
+ ✓ tests/logic/home-quests.test.ts > 퀘스트 상태·수령 > 주 시작은 월요일
+ ✓ tests/logic/home-quests.test.ts > 퀘스트 상태·수령 > available → in_progress → completed → claimed, 다음 날 다시 available
+ ✓ tests/logic/home-quests.test.ts > 퀘스트 상태·수령 > locked: 복습 없음 · 정원 조건 미충족
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > A1 문법 단원 최소 10개
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u01: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u02: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u03: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u04: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u05: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u06: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u07: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u08: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u09: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > a1-u10: 예문 ≥5, 연습문제 ≥15, 영작, 단원 평가, 필수 요소
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > 전문가 검수 전 "공개 가능" 표시 0건
+ ✓ tests/content/content.test.ts > A1 문법 콘텐츠 (정량 기준) > A2~B2 는 준비 중
+ ✓ tests/content/content.test.ts > 문항 공통 검증 > 문항 id 중복 없음
+ ✓ tests/content/content.test.ts > 문항 공통 검증 > 정답·해설 등록률 100%, 정답-선택지 일치, 오답 선택지가 정답으로 채점되지 않음
+ ✓ tests/content/content.test.ts > 영단어 > A1 영단어 최소 300개, 예문·해석·발음기호·관련 문법 100%
+ ✓ tests/content/content.test.ts > 영단어 > afford 는 can't afford to 패턴과 연결
+ ✓ tests/content/content.test.ts > 듣기·말하기 > A1 듣기 대화 ≥10, 문제·받아쓰기·핵심 표현
+ ✓ tests/content/content.test.ts > 듣기·말하기 > 받아쓰기 정답 단어가 실제 음성 문장에 들어 있음
+ ✓ tests/content/content.test.ts > 듣기·말하기 > A1 따라 말하기 문장 ≥30
+ ✓ tests/content/content.test.ts > 표현 학습관 > 카테고리별 수량: 필수 50, 여행 30, 비즈니스 20, 구동사·숙어 50, 상황 10, 드라마 3
+ ✓ tests/content/content.test.ts > 표현 학습관 > 모든 표현에 한국어 해설·상황·비슷한 표현·뉘앙스·대화 예문
+ ✓ tests/content/content.test.ts > 표현 학습관 > 영상 콘텐츠 권리 확인 기록 100% · 제3자 자료 미사용
+ ✓ tests/content/content.test.ts > 음성 파일 > 콘텐츠가 참조하는 모든 음성 파일이 실제로 존재 (음성 제공률 100%)
+ ✓ tests/content/content.test.ts > 캐릭터 > 6종, 희귀도 구성
+ ✓ tests/logic/game.test.ts > 별 경제 > 지급은 eventId 당 1회, 잔액은 거래 합계
+ ✓ tests/logic/game.test.ts > 별 경제 > 잔액 부족 시 소비 실패 → 잔액 음수 0건
+ ✓ tests/logic/game.test.ts > 성장 XP > 보유 캐릭터에만, 같은 이벤트 중복 없음
+ ✓ tests/logic/game.test.ts > 캐릭터 획득/파트너 > 최초 획득 시 자동 파트너, 중복 획득 없음
+ ✓ tests/logic/game.test.ts > 캐릭터 획득/파트너 > 미보유 캐릭터는 파트너 지정 불가, 변경해도 성장 데이터 유지
+ ✓ tests/logic/game.test.ts > 학습 성취 기반 발견 > 성취 전에는 발견 없음 → 단어 10개 학습 시 모시 발견 열림
+ ✓ tests/logic/game.test.ts > 학습 성취 기반 발견 > 3문제 중 2개 이상 정답이면 획득, 실패 시 재학습 후 재도전, 중복 없음
+ ✓ tests/logic/game.test.ts > 학습 성취 기반 발견 > 조건이 열리지 않은 캐릭터는 퀴즈로도 획득 불가
+ ✓ tests/logic/game.test.ts > 학습 성취 기반 발견 > 모두 수집
+ ✓ tests/logic/game.test.ts > 진화 > XP·서로 다른 복습일·정답률 모두 충족해야 Lv.2
+ ✓ tests/logic/game.test.ts > 마을 3단계 > 누적 성취로 1→2→3, 감소 없음
+ ✓ tests/logic/srs.test.ts > 날짜 계산 > 월/연 경계
+ ✓ tests/logic/srs.test.ts > 날짜 계산 > 로컬 자정 직전/직후 시각은 서로 다른 날짜 키
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 신규 학습 시 당일 복습 일정 생성, 중복 생성 없음
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 계속 맞히면 0→1→3→7→14→30일 간격
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 오답이면 단계 하락 + 내일 다시, 반복 오답은 어려운 항목
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 보통(50~79%)이면 단계 유지
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 같은 날 재응시로 단계를 두 번 올릴 수 없음
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 다음 날 복습 대상 조회 (날짜 변경 시뮬레이션)
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 장기 미접속: 밀린 항목은 삭제되지 않고 복습 대상으로 남음, 우선순위 분할
+ ✓ tests/logic/srs.test.ts > 복습 일정 > 어려운 항목이 먼저
+ ✓ tests/logic/workload_mastery_speech.test.ts > 학습량 조절 > 문항 수가 적으면 보류
+ ✓ tests/logic/workload_mastery_speech.test.ts > 학습량 조절 > 90% 이상 증가 제안
+ ✓ tests/logic/workload_mastery_speech.test.ts > 학습량 조절 > 70~89% 유지
+ ✓ tests/logic/workload_mastery_speech.test.ts > 학습량 조절 > 50~69% 20% 감소
+ ✓ tests/logic/workload_mastery_speech.test.ts > 학습량 조절 > 50% 미만 40% 감소 + 복습
+ ✓ tests/logic/workload_mastery_speech.test.ts > 숙련도/취약 개념 > 정답률·복습일수 계산과 취약 개념
+ ✓ tests/logic/workload_mastery_speech.test.ts > 말하기 STT 비교 > 완전 일치
+ ✓ tests/logic/workload_mastery_speech.test.ts > 말하기 STT 비교 > 누락·추가·다르게 인식
+ ✓ tests/logic/workload_mastery_speech.test.ts > 말하기 STT 비교 > 축약형·숫자 표기 차이는 같은 단어로 본다
+ ✓ tests/logic/workload_mastery_speech.test.ts > 말하기 STT 비교 > 발음 평가는 준비 중 상태 반환 (STT로 점수 생성 안 함)
+ ✓ tests/logic/grading.test.ts > 채점 > 객관식: 정답 선택지만 정답
+ ✓ tests/logic/grading.test.ts > 채점 > 빈칸: 대소문자·공백 무시
+ ✓ tests/logic/grading.test.ts > 채점 > 단어 배열: 순서가 맞아야 정답
+ ✓ tests/logic/grading.test.ts > 채점 > 영작: 문장 끝 구두점·곡선 따옴표 무시, 축약형 동일 처리
+ ✓ tests/logic/grading.test.ts > 채점 > 복수 정답 허용
+ ✓ tests/logic/grading.test.ts > 채점 > can not / cannot / can't 동일
+
+ Test Files  7 passed (7)
+      Tests  85 passed (85)
+   Start at  16:20:13
+   Duration  7.78s (transform 632ms, setup 787ms, collect 921ms, tests 388ms, environment 3.54s, prepare 778ms)
+

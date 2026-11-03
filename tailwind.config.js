@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        accent: { DEFAULT: '#E9513B', dark: '#C63E2B', soft: '#FDECE8' },
+        accent: { DEFAULT: '#E9513B', dark: '#B3361F', soft: '#FDECE8' },
         ink: { DEFAULT: '#1F2328', soft: '#57606A', faint: '#8C959F' },
         line: '#E6E8EB',
         mist: '#F5F6F8',

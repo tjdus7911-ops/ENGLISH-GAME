@@ -10,13 +10,15 @@ type Placements = Record<string, string | null | undefined>;
 
 function SlotHit({ slot, selected, empty, onSelect, wall = false }: { slot: Slot; selected: boolean; empty: boolean; onSelect?: (id: string) => void; wall?: boolean }) {
   if (!onSelect) return null;
-  const w = wall ? 52 : 64;
-  const h = wall ? 40 : 58;
+  const w = wall ? 52 : 60;
+  const h = wall ? 40 : 56;
+  const cy = slot.y - h / 2 + 8;
   return (
     <g role="button" tabIndex={0} aria-label={`${slot.label} 자리${empty ? ' (비어 있음)' : ''}`} data-testid={`slot-${slot.id}`}
       onClick={() => onSelect(slot.id)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onSelect(slot.id); } }} style={{ cursor: 'pointer' }}>
-      <rect x={slot.x - w / 2} y={slot.y - h + 8} width={w} height={h} rx="12" fill={selected ? 'rgba(233,81,59,.12)' : 'rgba(255,255,255,0)'} stroke={selected ? '#E9513B' : empty ? '#fff' : 'none'} strokeWidth="2.5" strokeDasharray={empty ? '5 4' : undefined} />
-      {empty && <text x={slot.x} y={slot.y - h / 2 + 10} textAnchor="middle" fontSize="20" fill="#fff" fontWeight="700" style={{ pointerEvents: 'none' }}>+</text>}
+      {/* 터치 영역 (투명, 44px 이상) */}
+      <rect x={slot.x - w / 2} y={slot.y - h + 8} width={w} height={h} rx="12" fill="rgba(255,255,255,0.001)" stroke={selected ? '#E9513B' : 'none'} strokeWidth="3" />
+      {empty && <g style={{ pointerEvents: 'none' }}><circle cx={slot.x} cy={cy} r="11" fill="rgba(255,255,255,.75)" stroke="#E9513B" strokeWidth="1.5" strokeDasharray="3 2" /><text x={slot.x} y={cy + 5} textAnchor="middle" fontSize="15" fill="#E9513B" fontWeight="700">+</text></g>}
     </g>
   );
 }
@@ -104,6 +106,8 @@ export function GardenScene({ placements, onSelect, selected }: { placements: Pl
         <polygon points="200,120 390,215 200,310 10,215" fill="#B9E08F" />
         <polygon points="10,215 200,310 200,320 10,225" fill="#9A6B45" /><polygon points="390,215 200,310 200,320 390,225" fill="#7F5638" />
         <ellipse cx="200" cy="250" rx="86" ry="30" fill="none" stroke="#F3E3C3" strokeWidth="14" />
+        {[[60, 210], [340, 210], [150, 300], [250, 300], [100, 250], [300, 250]].map(([x, y], i) => <path key={i} d={`M${x - 6} ${y} q3 -8 6 0 q3 -8 6 0`} stroke="#6FB55E" strokeWidth="2" fill="none" />)}
+        <path d="M30 210 Q60 196 90 206 L90 214 Q60 204 30 218Z" fill="#7CC06A" /><path d="M310 206 Q340 196 370 210 L370 218 Q340 204 310 214Z" fill="#7CC06A" />
         {GARDEN_SLOTS.map((slot) => {
           const id = placements[slot.id];
           const item = id ? FURNITURE_BY_ID[id] : null;

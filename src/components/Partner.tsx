@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import type { CharacterAnimState } from '@/domain/types';
 import { CHARACTER_BY_ID, GUIDE } from '@/content/characters';
 import { DECORATION_RULES } from '@/domain/game/state';
@@ -47,7 +47,10 @@ export function CelebrationLayer() {
   const nav = useNavigate();
   const toasts = cel.filter((c) => c.kind === 'reward' || c.kind === 'decoration');
   const big = cel.find((c) => c.kind === 'character' || c.kind === 'levelup');
-  const story = !big ? cel.find((c) => c.kind === 'story') : undefined;
+  const { pathname } = useLocation();
+  // 이야기는 학습 흐름을 끊지 않도록 마을·집·정원·도감·퀘스트 화면에서만 보여 준다
+  const storyHere = /^\/(home|house|garden|collection|quests|spaces|discover)/.test(pathname);
+  const story = !big && storyHere ? cel.find((c) => c.kind === 'story') : undefined;
   const [line, setLine] = useState(0);
   useEffect(() => { setLine(0); }, [story?.id]);
 

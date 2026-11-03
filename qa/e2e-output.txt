@@ -1,0 +1,18 @@
+
+Running 13 tests using 1 worker
+
+  ✓   1 [mobile-chromium] › e2e/features.spec.ts:6:3 › 말하기 예외 처리 › 마이크 권한 거부 → 안내 메시지, 앱 정상 (1.9s)
+  ✓   2 [mobile-chromium] › e2e/features.spec.ts:15:3 › 말하기 예외 처리 › 동의 없이 녹음 시작 불가 (동의 모달) (1.5s)
+  ✓   3 [mobile-chromium] › e2e/features.spec.ts:23:3 › 말하기 예외 처리 › 음성 인식 미지원 → 대체 안내 + 녹음 후 스스로 비교 모드 (2.0s)
+  ✓   4 [mobile-chromium] › e2e/features.spec.ts:37:1 › 듣기: 재생·일시정지·속도·스크립트 숨김 + 실제 음성 로드 (1.8s)
+  ✓   5 [mobile-chromium] › e2e/features.spec.ts:53:1 › 표현 학습관: 검색·레벨 필터·상세·저장·학습 완료·복습 등록 (3.4s)
+  ✓   6 [mobile-chromium] › e2e/features.spec.ts:81:1 › 영상 영어: 재생·자막 표시/숨김·구간 반복·이해도 문제·권리 기록 (5.9s)
+  ✓   7 [mobile-chromium] › e2e/features.spec.ts:104:1 › 설정: 애니메이션 최소화·데이터 초기화 확인 (1.4s)
+  ✓   8 [mobile-chromium] › e2e/journey.spec.ts:15:1 › 시나리오 A~D: 첫 학습 → 캐릭터 획득 → 다음 날 복습·성장 → 파트너 변경 → 마을 (1.3m)
+  ✓   9 [mobile-chromium] › e2e/journey.spec.ts:291:1 › 예외: 첫 실행·복습 없음·미보유 파트너 화면 (2.1s)
+  ✓  10 [mobile-chromium] › e2e/layout.spec.ts:9:3 › 레이아웃 360px: 가로 스크롤 없음 · 주요 버튼 44px (9.2s)
+  ✓  11 [mobile-chromium] › e2e/layout.spec.ts:9:3 › 레이아웃 390px: 가로 스크롤 없음 · 주요 버튼 44px (9.5s)
+  ✓  12 [mobile-chromium] › e2e/layout.spec.ts:9:3 › 레이아웃 430px: 가로 스크롤 없음 · 주요 버튼 44px (9.3s)
+  ✓  13 [mobile-chromium] › e2e/layout.spec.ts:9:3 › 레이아웃 768px: 가로 스크롤 없음 · 주요 버튼 44px (9.2s)
+
+  13 passed (2.4m)

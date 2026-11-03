@@ -131,7 +131,7 @@ export function WrongNotes() {
         {(['open', 'all'] as const).map((f) => <button key={f} role="tab" aria-selected={filter === f} onClick={() => setFilter(f)} className={cx('flex-1 min-h-[44px] rounded-xl font-semibold text-sm', filter === f ? 'bg-ink text-white' : 'text-ink-soft')}>{f === 'open' ? '복습 필요' : '전체 기록'}</button>)}
       </div>
       <div className="flex gap-1 overflow-x-auto pb-2" role="group" aria-label="영역 필터">
-        {Object.entries(AREA).map(([k, l]) => <button key={k} onClick={() => setArea(k)} aria-pressed={area === k} data-testid={`area-${k}`} className={cx('min-h-[40px] px-3 rounded-full text-sm font-semibold border shrink-0', area === k ? 'bg-accent text-white border-accent' : 'bg-white border-line')}>{l}</button>)}
+        {Object.entries(AREA).map(([k, l]) => <button key={k} onClick={() => setArea(k)} aria-pressed={area === k} data-testid={`area-${k}`} className={cx('min-h-[44px] px-3 rounded-full text-sm font-semibold border shrink-0', area === k ? 'bg-accent text-white border-accent' : 'bg-white border-line')}>{l}</button>)}
       </div>
       {notes.length === 0 ? <Empty icon="✨" title={filter === 'open' ? '복습할 오답이 없어요' : '아직 오답 기록이 없어요'} /> : (
         <>

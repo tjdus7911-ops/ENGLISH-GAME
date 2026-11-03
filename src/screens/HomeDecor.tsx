@@ -124,7 +124,7 @@ export function ShopScreen() {
     <Page title="가구 상점" back="/house" right={<Stars />}>
       <p className="text-xs text-ink-soft mb-2">별은 퀘스트·단원 평가·업적으로 모을 수 있어요. 유료 결제·랜덤 뽑기는 없어요.</p>
       <div className="flex gap-1 overflow-x-auto pb-1" role="tablist">
-        {TABS.map(([k, l]) => <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)} className={cx('min-h-[40px] px-3 rounded-full text-sm font-semibold border shrink-0', tab === k ? 'bg-accent text-white border-accent' : 'bg-white border-line')}>{l}</button>)}
+        {TABS.map(([k, l]) => <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)} className={cx('min-h-[44px] px-3 rounded-full text-sm font-semibold border shrink-0', tab === k ? 'bg-accent text-white border-accent' : 'bg-white border-line')}>{l}</button>)}
       </div>
       {msg && <p className="text-sm text-center my-2" role="status">{msg}</p>}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-3" data-testid="shop-grid">

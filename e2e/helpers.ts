@@ -9,8 +9,12 @@ export async function answerCurrent(page: Page, correct = true) {
   const data = questionById(qid);
   if (!data) throw new Error(`unknown question ${qid}`);
   if (data.type === 'mc' || data.type === 'translate') {
-    const choice = correct ? data.answers[0] : data.choices!.find((c) => !data.answers.includes(c))!;
-    await q.getByRole('button', { name: choice, exact: true }).first().click();
+    let choice = data.answers[0];
+    if (!correct) {
+      const texts = await q.locator('div.grid.gap-2 > button').allInnerTexts();
+      choice = texts.map((t) => t.trim()).find((t) => !data.answers.includes(t))!;
+    }
+    await q.getByRole('button', { name: choice, exact: true }).first().click({ timeout: 8000 }).catch((e) => { throw new Error(`qid=${qid} choice=${choice}: ${e.message}`); });
   } else if (data.type === 'order') {
     const target = correct ? data.answers[0].replace(/[.?!]$/, '').split(' ') : [...data.tokens!].reverse();
     const bank = q.locator('div.flex.flex-wrap.gap-2.mt-3 > button');
@@ -30,6 +34,7 @@ export async function answerCurrent(page: Page, correct = true) {
 }
 
 export async function runQuiz(page: Page, correct: boolean | ((i: number) => boolean) = true) {
+  await dismissModals(page);
   for (let i = 0; i < 60; i++) {
     await answerCurrent(page, typeof correct === 'function' ? correct(i) : correct);
     const next = page.getByRole('button', { name: /다음 문제|결과 보기/ });
@@ -43,9 +48,13 @@ export async function runQuiz(page: Page, correct: boolean | ((i: number) => boo
 
 /** 축하 모달·토스트 닫기 */
 export async function dismissModals(page: Page) {
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 12; i++) {
+    await page.waitForTimeout(150);
+    const skip = page.getByTestId('story-skip');
+    if (await skip.isVisible().catch(() => false)) { await skip.click(); continue; }
     const b = page.getByRole('button', { name: '좋아요!' });
-    if (await b.isVisible().catch(() => false)) await b.click(); else break;
+    if (await b.isVisible().catch(() => false)) { await b.click(); continue; }
+    break;
   }
 }
 

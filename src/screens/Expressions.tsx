@@ -32,7 +32,7 @@ function Filters({ f }: { f: ReturnType<typeof useFilters> }) {
       <input value={f.q} onChange={(e) => f.setQ(e.target.value)} placeholder="상황·표현 검색 (예: 호텔, 사과, check)" aria-label="상황별 검색"
         className="w-full min-h-[48px] rounded-2xl border border-line px-4 bg-white focus:outline-none focus:ring-2 focus:ring-accent/40" />
       <div className="flex gap-1 overflow-x-auto pb-1" role="group" aria-label="레벨 필터">
-        {LEVELS.map((l) => <button key={l} onClick={() => f.setLevel(l)} aria-pressed={f.level === l} className={cx('min-h-[40px] min-w-[52px] px-3 rounded-full text-sm font-semibold border shrink-0', f.level === l ? 'bg-ink text-white border-ink' : 'bg-white border-line')}>{l === 'all' ? '전체' : l}</button>)}
+        {LEVELS.map((l) => <button key={l} onClick={() => f.setLevel(l)} aria-pressed={f.level === l} className={cx('min-h-[44px] min-w-[52px] px-3 rounded-full text-sm font-semibold border shrink-0', f.level === l ? 'bg-ink text-white border-ink' : 'bg-white border-line')}>{l === 'all' ? '전체' : l}</button>)}
       </div>
     </div>
   );
