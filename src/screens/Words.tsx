@@ -40,11 +40,13 @@ export function WordsHub() {
 
 function WordCard({ v }: { v: Vocabulary }) {
   const g = GRAMMAR_BY_ID[v.grammarId];
+  const learnedOn = useApp((s) => s.learning.learnedWords[v.id]);
+  const review = useApp((s) => s.learning.reviews[`word:${v.id}`]);
   return (
     <Card data-testid="word-card">
       <div className="flex items-start gap-3">
         <div className="flex-1 min-w-0">
-          <div className="flex items-baseline gap-2 flex-wrap"><p className="text-3xl font-extrabold break-words">{v.word}</p><Tag>{v.pos}</Tag></div>
+          <div className="flex items-baseline gap-2 flex-wrap"><p className="text-3xl font-extrabold break-words">{v.word}</p><Tag>{v.pos}</Tag><Tag tone="accent">A1</Tag></div>
           <p className="text-ink-soft text-sm mt-1">{v.ipa} · <span aria-label="한글 발음 참고">[{v.koPron}]</span></p>
           <p className="text-lg font-semibold mt-2">{v.meaning}</p>
         </div>
@@ -55,7 +57,8 @@ function WordCard({ v }: { v: Vocabulary }) {
         <AudioButton src={v.exampleAudio} text={v.example} label="예문 듣기" size="sm" />
       </div>
       {v.pattern && <p className="mt-3 text-sm"><Tag tone="lilac">연결 패턴</Tag> <b>{v.pattern}</b></p>}
-      <p className="mt-3 text-xs text-ink-soft">관련 문법: <Link className="underline" to={`/grammar/${g.id}`}>{g.title}</Link></p>
+      <p className="mt-3 text-xs" data-testid="word-status"><b>학습 상태</b> · {learnedOn ? `학습함 (${learnedOn})` : '새 단어'}{review && <> · 다음 복습 {review.due}</>}</p>
+      <p className="mt-1 text-xs text-ink-soft">관련 문법: <Link className="underline" to={`/grammar/${g.id}`}>{g.title}</Link></p>
       <p className="mt-1 text-[11px] text-ink-faint">발음기호는 CMU 사전 기반 미국식 자동 변환 · 음성은 합성 음성(TTS)입니다.</p>
     </Card>
   );

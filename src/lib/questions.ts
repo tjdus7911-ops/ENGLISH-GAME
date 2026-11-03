@@ -33,8 +33,30 @@ export function wordReverseQ(v: Vocabulary, seed = 1): Question {
   return { id: `wr-${v.id}`, type: 'mc', prompt: '뜻에 맞는 영어 단어를 고르세요.', sentence: v.meaning, choices, answers: [v.word], explanation: `${v.meaning} = ${v.word}`, conceptId: v.grammarId };
 }
 
+/** 듣고 단어 선택하기 */
+export function wordListenQ(v: Vocabulary, seed = 1): Question {
+  const others = shuffle(VOCAB.filter((x) => x.id !== v.id && x.word !== v.word && x.word.length > 2), hashSeed(v.id) + seed + 7).slice(0, 3);
+  const choices = shuffle([v.word, ...others.map((o) => o.word)], hashSeed(v.id + 'l') + seed);
+  return { id: `wl-${v.id}`, type: 'mc', prompt: '잘 듣고 들린 단어를 고르세요.', choices, answers: [v.word], explanation: `들린 단어: ${v.word} (${v.meaning})`, conceptId: v.grammarId, audio: v.audio };
+}
+
+/** 문장 속 의미 이해: 예문을 보고 단어의 뜻 고르기 */
+export function wordInContextQ(v: Vocabulary, seed = 1): Question {
+  const q = wordMeaningQ(v, seed);
+  return { ...q, id: `wc-${v.id}`, prompt: `문장 속 "${v.word}"의 뜻을 고르세요.`, sentence: v.example, explanation: `${v.example} — ${v.exampleKo}` };
+}
+
+/** 뜻 맞히기 · 영어 단어 맞히기 · 빈칸 · 문장 속 의미 · 듣고 고르기 순환 */
 export function wordQuiz(words: Vocabulary[], seed = Date.now()): Question[] {
-  return words.map((w, i) => (i % 3 === 2 ? wordBlankQ(w) ?? wordMeaningQ(w, seed) : i % 3 === 1 ? wordReverseQ(w, seed) : wordMeaningQ(w, seed)));
+  return words.map((w, i) => {
+    switch (i % 5) {
+      case 0: return wordMeaningQ(w, seed);
+      case 1: return wordReverseQ(w, seed);
+      case 2: return wordBlankQ(w) ?? wordInContextQ(w, seed);
+      case 3: return wordListenQ(w, seed);
+      default: return wordInContextQ(w, seed);
+    }
+  });
 }
 
 /** 문장 → 단어 배열 문제 */
@@ -56,7 +78,7 @@ export function reviewQuestion(item: ReviewItem): Question | null {
       const t = turn % 3;
       if (t === 0) return wordMeaningQ(v, turn);
       if (t === 1) return wordBlankQ(v) ?? wordReverseQ(v, turn);
-      return wordReverseQ(v, turn);
+      return turn % 2 ? wordListenQ(v, turn) : wordReverseQ(v, turn);
     }
     case 'grammar': {
       const u = GRAMMAR_BY_ID[item.refId];

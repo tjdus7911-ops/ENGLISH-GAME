@@ -63,7 +63,7 @@ function TextInput({ q, disabled, onSubmit }: { q: Question; disabled: boolean; 
 export function QuestionView({ q, onAnswer, answered }: { q: Question; onAnswer: (given: string, correct: boolean) => void; answered: { given: string; correct: boolean } | null }) {
   const isChoice = q.type === 'mc' || q.type === 'translate';
   return (
-    <div>
+    <div data-qid={q.id} data-testid="question">
       <p className="text-sm font-semibold text-ink-soft">{q.prompt}</p>
       {(q.sentence || q.audio) && (
         <div className="mt-2 flex items-start gap-3">

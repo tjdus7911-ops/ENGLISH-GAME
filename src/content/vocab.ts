@@ -1,6 +1,6 @@
 import type { Vocabulary } from '@/domain/types';
 import { VOCAB_TSV } from './vocab-data';
-import IPA from './vocab-ipa.json';
+import IPA from './vocab-ipa.json' with { type: 'json' };
 import { tts } from './audio';
 
 const POS_CODE: Record<string, string> = { 명: 'n', 동: 'v', 형: 'adj', 부: 'adv', 대: 'pron', 전: 'prep', 접: 'conj', 조: 'aux', 감: 'int' };

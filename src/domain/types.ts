@@ -201,6 +201,8 @@ export interface StudyLogEntry {
   title: string;
   correct: number;
   total: number;
+  /** 확인 문제: 강의 열람 + 전체 문항 수행으로 완료 인정됐는지 */
+  completed?: boolean;
 }
 
 export interface Settings {
@@ -216,7 +218,7 @@ export interface Settings {
 export type Rarity = 'common' | 'rare' | 'special';
 
 export type CharacterAnimState =
-  | 'idle' | 'greeting' | 'studying' | 'correct' | 'incorrect' | 'hint' | 'review' | 'completed' | 'levelup';
+  | 'idle' | 'walking' | 'greeting' | 'studying' | 'correct' | 'incorrect' | 'hint' | 'review' | 'completed' | 'levelup';
 
 export interface Character {
   id: string;
@@ -240,7 +242,7 @@ export interface UserCharacter {
   leveledUpOn?: string;
 }
 
-export type RewardType = 'discovery-points' | 'growth-xp' | 'character';
+export type RewardType = 'growth-xp' | 'character' | 'item';
 
 export interface RewardTransaction {
   eventId: string; // 고유 학습 이벤트 id — 중복 지급 방지 키
@@ -252,11 +254,10 @@ export interface RewardTransaction {
 }
 
 export interface DiscoveryState {
-  /** 발견 이벤트가 열려 있는 캐릭터 */
-  pendingCharacterId: string | null;
-  /** 실패 후 재학습이 필요한지 */
-  requireRestudy: boolean;
-  lastFailedOn?: string;
+  /** 학습 성취로 발견 이벤트가 열린 캐릭터 */
+  unlocked: string[];
+  /** 퀴즈 실패 후 재학습이 필요한 캐릭터 → 실패일 */
+  restudy: Record<string, string>;
   attempts: number;
 }
 
@@ -265,4 +266,5 @@ export type DecorationId = 'flowers' | 'tree' | 'library-banner' | 'residents' |
 export interface VillageProgress {
   unlocked: DecorationId[];
   seen: DecorationId[]; // 새로 생긴 장식 알림용
+  level: 1 | 2 | 3;
 }

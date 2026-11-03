@@ -76,11 +76,28 @@ export function Analysis() {
   const weak = weakConcepts(m);
   const list = Object.values(m).sort((a, b) => a.conceptId.localeCompare(b.conceptId));
   const listening = l.answers.filter((a) => a.source === 'listening');
+  const totalSec = Object.values(l.studySeconds ?? {}).reduce((a, b) => a + b, 0);
+  const todaySec = l.studySeconds?.[today()] ?? 0;
+  const weakWords = Object.values(l.wrongNotes).filter((n) => !n.resolved && /^w[qbrlc]-/.test(n.questionId)).map((n) => n.questionId.slice(3));
+  const areas: [string, number][] = [
+    ['단어', Object.keys(l.learnedWords).length], ['문법 단원', Object.keys(l.lectureViewed).length], ['듣기', Object.keys(l.listeningDone).length],
+    ['말하기 문장', new Set(l.speakingAttempts.map((a) => a.sentenceId)).size], ['독해', Object.keys(l.readingsDone).length], ['표현', Object.keys(l.expressionsDone).length],
+  ];
   const speakingStt = l.speakingAttempts.filter((a) => a.mode === 'stt');
   return (
     <Page title="실력 분석" back="/home">
       {list.length === 0 ? <Empty icon="📈" title="아직 분석할 학습 기록이 없어요" desc="문제를 풀면 개념별 정답률과 취약 개념을 보여 드려요." /> : (
         <>
+          <Card className="grid grid-cols-3 gap-2 text-center" data-testid="stats-summary">
+            <div><p className="text-xs text-ink-soft">오늘 학습</p><p className="font-bold">{Math.round(todaySec / 60)}분</p></div>
+            <div><p className="text-xs text-ink-soft">누적 학습</p><p className="font-bold">{Math.round(totalSec / 60)}분</p></div>
+            <div><p className="text-xs text-ink-soft">학습 완료</p><p className="font-bold">{l.log.filter((e) => e.kind !== 'level-test').length}회</p></div>
+          </Card>
+          <p className="text-[11px] text-ink-faint mt-1">학습 시간은 학습 화면을 실제로 보고 있던 시간(15초 단위)으로 측정해요.</p>
+          <SectionTitle>영역별 학습 현황</SectionTitle>
+          <Card className="grid grid-cols-3 gap-2 text-center text-sm">{areas.map(([k, v]) => <div key={k}><p className="text-xs text-ink-soft">{k}</p><p className="font-bold">{v}</p></div>)}</Card>
+          <SectionTitle>취약 어휘</SectionTitle>
+          <Card className="text-sm">{weakWords.length ? weakWords.slice(0, 20).join(', ') : '틀린 단어가 없어요.'}</Card>
           <SectionTitle>취약 개념</SectionTitle>
           {weak.length === 0 ? <Card><p className="text-sm">취약 개념이 없어요. (3회 이상 풀고 최근 정답률 70% 미만인 개념을 표시해요)</p></Card> : (
             <div className="grid gap-2" data-testid="weak-concepts">{weak.map((c) => (

@@ -8,7 +8,7 @@ import { LEVEL_TEST, LEVELS, estimateLevel } from '@/content/reading-leveltest';
 import { cx } from '@/lib/cx';
 
 const PURPOSES = ['일상 회화', '여행', '업무·비즈니스', '시험 대비', '자기계발', '아이와 함께'];
-const MINUTES = [5, 10, 15, 30];
+const MINUTES = [10, 20, 30];
 
 export function Onboarding() {
   const nav = useNavigate();
@@ -32,27 +32,35 @@ export function Onboarding() {
   );
 }
 
+const SELF = ['완전 처음이에요', '쉬운 단어·문장은 알아요', '간단한 대화를 할 수 있어요', '일상 대화는 꽤 해요'];
+const AMOUNT: { label: string; words: number }[] = [{ label: '가볍게', words: 5 }, { label: '보통', words: 10 }, { label: '많이', words: 15 }];
+
+function Choice({ on, onClick, children, testId }: { on: boolean; onClick: () => void; children: React.ReactNode; testId?: string }) {
+  return <button onClick={onClick} aria-pressed={on} data-testid={testId} className={cx('min-h-[52px] rounded-2xl border-2 px-3 text-left font-semibold', on ? 'border-accent bg-accent-soft text-accent-dark' : 'border-line bg-white')}>{children}</button>;
+}
+
 export function Goal() {
   const nav = useNavigate();
   const complete = useApp((s) => s.completeOnboarding);
-  const update = useApp((s) => s.updateSettings);
   const loc = useLocation();
   const purpose = (loc.state as { purpose?: string } | null)?.purpose ?? '일상 회화';
-  const [m, setM] = useState(15);
+  const [self, setSelf] = useState(SELF[0]);
+  const [m, setM] = useState(20);
+  const [amount, setAmount] = useState(1);
+  const [noti, setNoti] = useState(true);
   return (
-    <Page title="하루 학습 시간" back="/onboarding">
-      <p className="text-ink-soft text-sm">하루에 얼마나 공부할까요? 언제든 MY에서 바꿀 수 있어요.</p>
-      <div className="grid gap-2 mt-4">
-        {MINUTES.map((x) => (
-          <button key={x} onClick={() => setM(x)} aria-pressed={m === x}
-            className={cx('min-h-[60px] rounded-2xl border-2 px-4 text-left flex items-center justify-between', m === x ? 'border-accent bg-accent-soft' : 'border-line bg-white')}>
-            <span className="font-bold">하루 {x}분</span>
-            <span className="text-sm text-ink-soft">{x <= 5 ? '가볍게' : x <= 10 ? '꾸준히' : x <= 15 ? '추천' : '집중'} · 신규 단어 {x <= 5 ? 5 : x <= 15 ? 10 : 15}개</span>
-          </button>
-        ))}
-      </div>
+    <Page title="학습 목표 설정" back="/onboarding">
+      <h2 className="font-bold mb-2">지금 영어 수준은 어느 정도인가요?</h2>
+      <div className="grid gap-2">{SELF.map((x) => <Choice key={x} on={self === x} onClick={() => setSelf(x)}>{x}</Choice>)}</div>
+      <h2 className="font-bold mt-6 mb-2">하루 학습 시간</h2>
+      <div className="grid grid-cols-3 gap-2">{MINUTES.map((x) => <Choice key={x} on={m === x} onClick={() => setM(x)} testId={`min-${x}`}>하루 {x}분</Choice>)}</div>
+      <h2 className="font-bold mt-6 mb-2">선호 학습량 (하루 신규 단어)</h2>
+      <div className="grid grid-cols-3 gap-2">{AMOUNT.map((a, i) => <Choice key={a.label} on={amount === i} onClick={() => setAmount(i)}>{a.label} · {a.words}개</Choice>)}</div>
+      <h2 className="font-bold mt-6 mb-2">학습 알림</h2>
+      <div className="grid grid-cols-2 gap-2"><Choice on={noti} onClick={() => setNoti(true)}>받을게요</Choice><Choice on={!noti} onClick={() => setNoti(false)}>받지 않을래요</Choice></div>
+      <p className="text-xs text-ink-faint mt-2">모든 설정은 언제든 MY에서 바꿀 수 있어요.</p>
       <div className="mt-6">
-        <Button size="lg" onClick={() => { complete(purpose, m); update({ dailyNewWords: m <= 5 ? 5 : m <= 15 ? 10 : 15 }); nav('/level-test'); }}>레벨 진단 시작</Button>
+        <Button size="lg" onClick={() => { complete({ purpose, selfLevel: self, minutes: m, dailyNewWords: AMOUNT[amount].words, notifications: noti }); nav('/level-test'); }}>레벨 진단 시작</Button>
       </div>
     </Page>
   );
@@ -69,7 +77,8 @@ export function LevelTestScreen() {
         <Card>
           <p className="font-bold text-lg">A1~B2 기초 레벨 진단</p>
           <p className="text-sm text-ink-soft mt-2 leading-relaxed">총 {LEVEL_TEST.length}문항 · 약 5분. 쉬운 문제부터 점점 어려워져요. 모르면 가장 그럴듯한 답을 고르세요.</p>
-          <p className="text-xs text-ink-faint mt-3">※ 앱 내부 추정 기준이며 공인 CEFR 인증이 아닙니다.</p>
+          <p className="text-xs text-ink-soft mt-3"><b>평가 범위:</b> 문법·어휘(읽기 기반 객관식). <b>듣기·말하기·쓰기 능력은 평가하지 않아요.</b></p>
+          <p className="text-xs text-ink-faint mt-1">※ 앱 내부 추정 기준이며 공인 CEFR 인증이 아닙니다.</p>
         </Card>
         <div className="mt-4 grid gap-2">
           <Button size="lg" onClick={() => setStarted(true)}>시작하기</Button>
@@ -98,7 +107,7 @@ export function LevelResult() {
       <Card className="text-center">
         <p className="text-sm text-ink-soft">추천 학습 레벨</p>
         <p className="text-5xl font-extrabold text-accent mt-1" data-testid="level-result">{lt.level}</p>
-        <p className="text-xs text-ink-faint mt-2">내부 추정 기준 · 공인 인증 아님</p>
+        <p className="text-xs text-ink-faint mt-2">문법·어휘 기준 내부 추정 · 듣기·말하기 미평가 · 공인 인증 아님</p>
       </Card>
       {lt.byLevel && Object.keys(lt.byLevel).length > 0 && (
         <Card className="mt-3">

@@ -58,7 +58,7 @@ function Flowers({ x, y }: { x: number; y: number }) {
 
 type BuildingId = 'home' | 'library' | 'forest' | 'exam';
 const BUILDINGS: { id: BuildingId; label: string; sub: string; to: string; cx: number; cy: number; hit: [number, number, number, number] }[] = [
-  { id: 'home', label: '나의 집', sub: '파트너 · 성장', to: '/partner', cx: 108, cy: 186, hit: [60, 120, 100, 96] },
+  { id: 'home', label: '나의 집', sub: '집 꾸미기 · 파트너', to: '/house', cx: 108, cy: 186, hit: [60, 120, 100, 96] },
   { id: 'library', label: '도서관', sub: '문법 · 독해', to: '/grammar', cx: 292, cy: 186, hit: [240, 112, 104, 104] },
   { id: 'forest', label: '단어 숲', sub: '영단어 · 복습', to: '/words', cx: 96, cy: 300, hit: [44, 236, 104, 98] },
   { id: 'exam', label: '시험장', sub: '단원 평가 · 레벨 테스트', to: '/exam', cx: 304, cy: 300, hit: [252, 236, 104, 98] },
@@ -79,6 +79,7 @@ function Walker({ id, level, partner, index, reduce }: { id: string; level: 1 | 
   const [pos, setPos] = useState(() => randomPoint(index * 3.7 + 1));
   const [face, setFace] = useState(1);
   const [react, setReact] = useState(false);
+  const [moving, setMoving] = useState(false);
   const step = useRef(index * 11 + 5);
   useEffect(() => {
     if (reduce) return;
@@ -89,6 +90,8 @@ function Walker({ id, level, partner, index, reduce }: { id: string; level: 1 | 
       step.current += 1;
       const n = randomPoint(step.current * 1.37 + index);
       setPos((p) => { setFace(n.x < p.x ? -1 : 1); return n; });
+      setMoving(true);
+      window.setTimeout(() => { if (alive) setMoving(false); }, 2200);
       t = window.setTimeout(tick, 2600 + ((step.current * 977) % 2400));
     };
     let t = window.setTimeout(tick, 900 + index * 500);
@@ -112,7 +115,7 @@ function Walker({ id, level, partner, index, reduce }: { id: string; level: 1 | 
       {partner && <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] font-bold bg-accent text-white rounded-full px-1.5 leading-4 whitespace-nowrap">파트너</span>}
       {react && <span className="absolute -top-8 left-1/2 -translate-x-1/2 bg-white border border-line rounded-xl px-2 py-0.5 text-xs whitespace-nowrap pop-in">{ch.lines.greeting?.[0]?.slice(0, 18)}</span>}
       <span className={cx('block w-full h-full', !reduce && react && 'hop')} style={{ transform: `scaleX(${face})` }}>
-        <CharacterArt id={id} level={level} state={react ? 'greeting' : 'idle'} size={100} className="w-full h-full" />
+        <CharacterArt id={id} level={level} state={react ? 'greeting' : moving ? 'walking' : 'idle'} size={100} className="w-full h-full" />
       </span>
     </button>
   );
@@ -121,6 +124,8 @@ function Walker({ id, level, partner, index, reduce }: { id: string; level: 1 | 
 export function Village() {
   const nav = useNavigate();
   const unlocked = useApp((s) => s.game.village.unlocked);
+  const vlevel = useApp((s) => s.game.village.level ?? 1);
+  const gardenOpen = useApp((s) => !!s.home.spaces.garden);
   const chars = useApp((s) => s.game.characters);
   const partnerId = useApp((s) => s.game.partnerId);
   const reduceSetting = useApp((s) => s.settings.reduceMotion);
@@ -141,7 +146,7 @@ export function Village() {
   const onKey = (e: KeyboardEvent, b: (typeof BUILDINGS)[number]) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(b); } };
 
   return (
-    <div className="relative w-full select-none" style={{ aspectRatio: `${W} / ${H}` }} data-testid="village" data-stage={unlocked.length}>
+    <div className="relative w-full select-none" style={{ aspectRatio: `${W} / ${H}` }} data-testid="village" data-stage={vlevel} data-decorations={unlocked.length}>
       <svg viewBox={`0 ${Y0} ${W} ${H}`} className="absolute inset-0 w-full h-full" aria-hidden>
         <defs>
           <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#DDF0FF" /><stop offset="1" stopColor="#FFF6EA" /></linearGradient>
@@ -189,6 +194,19 @@ export function Village() {
           <circle cx="304" cy="250" r="5" fill="#fff" /><path d="M301 250 l2 2 l4 -4" stroke="#E9A23B" strokeWidth="1.6" fill="none" />
         </g>
 
+        {/* 마을 2단계: 가로등·연못 장식 */}
+        {vlevel >= 2 && <g data-testid="v2">
+          {[[160, 214], [240, 214], [150, 296], [250, 296]].map(([x, y], i) => <g key={i}><rect x={x - 1.5} y={y - 26} width="3" height="26" fill="#4A5A6A" /><circle cx={x} cy={y - 28} r="4.5" fill="#FFE08A" /><circle cx={x} cy={y - 28} r="9" fill="#FFE08A" opacity=".25" /></g>)}
+          <ellipse cx="186" cy="180" rx="5" ry="2" fill="#7CC06A" /><ellipse cx="214" cy="174" rx="4" ry="1.6" fill="#7CC06A" /><circle cx="214" cy="173" r="1.6" fill="#FF9AA8" />
+        </g>}
+        {/* 마을 3단계: 정원 아치·건물 외관 변화 */}
+        {vlevel >= 3 && <g data-testid="v3">
+          <path d="M120 176 L120 158 Q132 146 144 158 L144 176" stroke="#FF9AA8" strokeWidth="3.5" fill="none" />
+          <rect x="122" y="166" width="10" height="5" fill="#FF9AA8" /><rect x="296" y="166" width="10" height="5" fill="#FF9AA8" />
+          <path d="M100 150 L100 138 L106 138 L106 146" fill="#C63E2B" />
+          {[60, 340, 30, 370].map((x, i) => <Tree key={i} x={x} y={300 + (i % 2) * 10} s={0.8} c={i % 2 ? '#FFB7C9' : '#7CC06A'} />)}
+          {gardenOpen && <text x="132" y="186" fontSize="7" textAnchor="middle" fill="#5A3B26" fontWeight="700">정원</text>}
+        </g>}
         {/* 장식 */}
         {has('flowers') && <g><Flowers x={150} y={208} /><Flowers x={252} y={210} /><Flowers x={190} y={312} /><Flowers x={60} y={250} /></g>}
         {has('tree') && <Tree x={44} y={232} s={1.5} c="#4FA24D" />}

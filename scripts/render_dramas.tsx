@@ -121,6 +121,8 @@ async function main() {
     const out = `public/video/${d.id}.mp4`;
     execFileSync('ffmpeg', ['-loglevel', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', join(work, 'images.txt'), '-i', join(work, 'audio.wav'),
       '-vf', 'scale=960:540,fps=24,format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '28', '-c:a', 'aac', '-b:a', '64k', '-movflags', '+faststart', '-shortest', out], { cwd: work.startsWith('/') ? undefined : undefined });
+    // VP9/Opus WebM 대체 소스 (H.264 미지원 브라우저용)
+    execFileSync('ffmpeg', ['-loglevel', 'error', '-y', '-i', out, '-c:v', 'libvpx-vp9', '-b:v', '0', '-crf', '40', '-deadline', 'realtime', '-cpu-used', '8', '-row-mt', '1', '-c:a', 'libopus', '-b:a', '48k', out.replace('.mp4', '.webm')]);
     await sharp(frame(d.script[0].scene, A, B, null, false)).jpeg({ quality: 70 }).toFile(`public/video/${d.id}.jpg`);
     const real = dur(out);
     cues[d.id] = { duration: +real.toFixed(2), cues: list };

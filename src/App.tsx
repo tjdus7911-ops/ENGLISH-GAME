@@ -14,6 +14,8 @@ import { FreeStudy, ReadingHub, Reader, Analysis, History } from '@/screens/Stud
 import { Discover, Collection, CharacterDetail, PartnerScreen, Growth } from '@/screens/Characters';
 import { ExamHall, A1Exam } from '@/screens/Exam';
 import { MyScreen } from '@/screens/My';
+import { HouseScreen, ShopScreen, InventoryScreen, GardenScreen, SpacesScreen, QuestsScreen } from '@/screens/HomeDecor';
+import { useStudyTimer } from '@/lib/studyTimer';
 
 const ExpressionHall = lazy(() => import('@/screens/Expressions').then((m) => ({ default: m.ExpressionHall })));
 const ExpressionList = lazy(() => import('@/screens/Expressions').then((m) => ({ default: m.ExpressionList })));
@@ -55,6 +57,7 @@ function Gate({ children }: { children: ReactNode }) {
 function ScrollTop() {
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  useStudyTimer(pathname);
   return null;
 }
 
@@ -103,6 +106,12 @@ export default function App() {
             <Route path="/exam" element={<ExamHall />} />
             <Route path="/exam/a1" element={<A1Exam />} />
             <Route path="/my" element={<MyScreen />} />
+            <Route path="/house" element={<HouseScreen />} />
+            <Route path="/shop" element={<ShopScreen />} />
+            <Route path="/inventory" element={<InventoryScreen />} />
+            <Route path="/garden" element={<GardenScreen />} />
+            <Route path="/spaces" element={<SpacesScreen />} />
+            <Route path="/quests" element={<QuestsScreen />} />
             <Route path="/expressions" element={<ExpressionHall />} />
             <Route path="/expressions/saved" element={<SavedExpressions />} />
             <Route path="/expressions/c/:cat" element={<ExpressionList />} />

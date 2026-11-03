@@ -66,8 +66,11 @@ export function VideoLesson() {
           {/* 영상 재생 영역 (학습 설명 영역과 분리) */}
           <div className="rounded-3xl overflow-hidden bg-black">
             <div className="relative" style={{ aspectRatio: '16 / 9' }}>
-              <video ref={vref} src={resolveAsset(d.video)} poster={d.poster ? resolveAsset(d.poster) : undefined} playsInline preload="metadata" className="absolute inset-0 w-full h-full" data-testid="video"
-                onTimeUpdate={(e) => setT(e.currentTarget.currentTime)} onPlay={() => setPlaying(true)} onPause={() => setPlaying(false)} onError={() => setErr(true)} onClick={() => { const v = vref.current; if (v) { if (v.paused) void v.play(); else v.pause(); } }} />
+              <video ref={vref} poster={d.poster ? resolveAsset(d.poster) : undefined} playsInline preload="metadata" className="absolute inset-0 w-full h-full" data-testid="video"
+                onTimeUpdate={(e) => setT(e.currentTarget.currentTime)} onPlay={() => setPlaying(true)} onPause={() => setPlaying(false)} onError={() => setErr(true)} onClick={() => { const v = vref.current; if (v) { if (v.paused) void v.play(); else v.pause(); } }}>
+                <source src={resolveAsset(d.video.replace('.mp4', '.webm'))} type="video/webm" />
+                <source src={resolveAsset(d.video)} type="video/mp4" />
+              </video>
               {/* 자막: 영상 영역 하단 안쪽에만 표시 → 아래 컨트롤과 겹치지 않음 */}
               {(enSub || koSub) && cue && (
                 <div className="absolute inset-x-2 bottom-2 text-center pointer-events-none" data-testid="subtitle">

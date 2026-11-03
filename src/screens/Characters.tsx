@@ -4,7 +4,8 @@ import { useApp, today, discoveryInfo, studiedConceptsOn } from '@/store/app';
 import { CHARACTERS, CHARACTER_BY_ID } from '@/content/characters';
 import { conceptLabel } from '@/content/grammar';
 import { computeMastery } from '@/domain/learning/mastery';
-import { growthCheck, LV2_XP, LV2_MIN_REVIEW_DAYS, LV2_MIN_ACCURACY, DISCOVERY_PASS } from '@/domain/game/state';
+import { growthCheck, LV2_XP, LV2_MIN_REVIEW_DAYS, LV2_MIN_ACCURACY, DISCOVERY_PASS, DISCOVERY_MILESTONES } from '@/domain/game/state';
+import { EVOLUTION_REWARD, FURNITURE_BY_ID } from '@/content/furniture';
 import { discoveryQuestions } from '@/lib/questions';
 import { CharacterArt } from '@/components/CharacterArt';
 import { Button, Card, Empty, Page, Progress, SectionTitle, Tag } from '@/components/ui';
@@ -22,8 +23,11 @@ export function Discover() {
   const [outcome, setOutcome] = useState<{ success: boolean; correct: number; id: string } | null>(null);
   const d = today();
   const questions = useMemo(() => {
-    const words = Object.entries(s.learning.learnedWords).filter(([, date]) => date === d).map(([id]) => id);
-    return discoveryQuestions(studiedConceptsOn(s.learning, d).filter((c) => c.startsWith('a1-u')), words, d.length * 7 + words.length);
+    const todayWords = Object.entries(s.learning.learnedWords).filter(([, date]) => date === d).map(([id]) => id);
+    const words = todayWords.length ? todayWords : Object.keys(s.learning.learnedWords).slice(-20);
+    const concepts = studiedConceptsOn(s.learning, d).filter((c) => c.startsWith('a1-u'));
+    const fallback = [...new Set(Object.values(s.learning.log).map((e) => e.refId).filter((x) => x.startsWith('a1-u')))];
+    return discoveryQuestions(concepts.length ? concepts : fallback, words, d.length * 7 + words.length);
     // 발견 퀴즈 문제는 진입 시점 고정
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -49,7 +53,8 @@ export function Discover() {
     );
   }
   if (!info.ok) {
-    const msg = info.reason === 'all-collected' ? '일반 캐릭터를 모두 만났어요! 희귀·특별 캐릭터는 시험장에서 만날 수 있어요.' : info.reason === 'restudy' ? '학습을 하나 더 완료하면 다시 도전할 수 있어요.' : info.reason === 'no-study' ? '오늘 학습을 먼저 완료해 주세요.' : `발견 포인트가 ${info.need}P 더 필요해요.`;
+    const nextM = DISCOVERY_MILESTONES.find((m) => !s.game.characters[m.characterId]);
+    const msg = info.reason === 'all-collected' ? '일반 캐릭터를 모두 만났어요! 희귀·특별 캐릭터는 시험장에서 만날 수 있어요.' : info.reason === 'restudy' ? '학습을 하나 더 완료하면 다시 도전할 수 있어요.' : `학습 목표를 달성하면 발견 이벤트가 열려요. 다음 조건: ${nextM?.label ?? '-'}`;
     return <Page title="캐릭터 발견" back="/home"><Empty icon="🔍" title="지금은 발견할 수 없어요" desc={msg} action={<Link to="/today"><Button>오늘의 학습</Button></Link>} /></Page>;
   }
   if (phase === 'intro') {
@@ -119,7 +124,8 @@ function GrowthPanel({ id }: { id: string }) {
         {row(g.reviewDaysOk, `"${ch.conceptLabel}" 서로 다른 날 ${LV2_MIN_REVIEW_DAYS}일 이상 복습`, `${g.reviewDays}일`)}
         {row(g.accuracyOk, `"${ch.conceptLabel}" 최근 정답률 ${LV2_MIN_ACCURACY * 100}% 이상`, g.accuracy === null ? '-' : `${Math.round(g.accuracy * 100)}%`)}
       </ul>
-      <p className="text-xs text-ink-faint mt-2">같은 문제를 반복해서는 성장하지 않아요. 경험치는 대표 파트너일 때 '오늘의 복습 완료'(하루 1회) 등으로 얻어요.</p>
+      <p className="text-xs text-ink-faint mt-2">같은 문제를 반복해서는 성장하지 않아요. 경험치는 대표 파트너일 때 신규 학습·복습(하루 1회)·단원 평가·듣기·말하기·주간 퀘스트로 얻어요.</p>
+      <p className="text-xs mt-1">🎁 진화 보상: {FURNITURE_BY_ID[EVOLUTION_REWARD[id]].name}</p>
     </Card>
   );
 }

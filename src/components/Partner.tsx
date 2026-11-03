@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import type { CharacterAnimState } from '@/domain/types';
 import { CHARACTER_BY_ID, GUIDE } from '@/content/characters';
 import { DECORATION_RULES } from '@/domain/game/state';
+import { STORIES } from '@/content/furniture';
 import { useApp } from '@/store/app';
 import { cx } from '@/lib/cx';
 import { CharacterArt, GuideArt } from './CharacterArt';
@@ -46,6 +47,9 @@ export function CelebrationLayer() {
   const nav = useNavigate();
   const toasts = cel.filter((c) => c.kind === 'reward' || c.kind === 'decoration');
   const big = cel.find((c) => c.kind === 'character' || c.kind === 'levelup');
+  const story = !big ? cel.find((c) => c.kind === 'story') : undefined;
+  const [line, setLine] = useState(0);
+  useEffect(() => { setLine(0); }, [story?.id]);
 
   useEffect(() => {
     if (!toasts.length) return;
@@ -62,6 +66,17 @@ export function CelebrationLayer() {
           </div>
         ))}
       </div>
+      {story && story.kind === 'story' && STORIES[story.storyId] && (
+        <Modal open label="이야기" onClose={() => dismiss(story.id)}>
+          <div data-testid="story-modal" data-story={story.storyId}>
+            <div className="flex items-center justify-between"><p className="text-sm font-semibold text-accent-dark">📖 {STORIES[story.storyId].title}</p>
+              <button className="text-sm text-ink-soft min-h-[44px] px-2" onClick={() => dismiss(story.id)} data-testid="story-skip">건너뛰기</button></div>
+            <div className="mt-3"><PartnerBubble state="greeting" text={STORIES[story.storyId].lines[line]} /></div>
+            <p className="text-xs text-ink-faint mt-2 text-right">{line + 1} / {STORIES[story.storyId].lines.length}</p>
+            <Button size="lg" className="mt-3" data-testid="story-next" onClick={() => (line + 1 < STORIES[story.storyId].lines.length ? setLine(line + 1) : dismiss(story.id))}>{line + 1 < STORIES[story.storyId].lines.length ? '다음' : '좋아!'}</Button>
+          </div>
+        </Modal>
+      )}
       {big && (
         <Modal open label={big.kind === 'character' ? '캐릭터 획득' : '캐릭터 성장'} onClose={() => dismiss(big.id)}>
           {(() => {

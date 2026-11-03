@@ -1,7 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useMemo } from 'react';
-import { useApp, today, discoveryInfo } from '@/store/app';
-import { availablePoints, DISCOVERY_COST } from '@/domain/game/state';
+import { useApp, today, discoveryInfo, claimableCount } from '@/store/app';
+import { starBalance, VILLAGE_LEVELS, DISCOVERY_MILESTONES } from '@/domain/game/state';
+import { CHARACTER_BY_ID } from '@/content/characters';
 import { countDueByKind } from '@/domain/learning/srs';
 import { Village } from '@/components/Village';
 import { PartnerBubble } from '@/components/Partner';
@@ -18,7 +19,9 @@ export function Home() {
   const unit = currentUnit(s.learning);
   const step = nextStep(s.learning, unit.id);
   const doneToday = stepsDoneOn(s.learning, d);
-  const pts = availablePoints(s.game);
+  const pts = starBalance(s.game);
+  const claimable = claimableCount(s);
+  const vLevel = VILLAGE_LEVELS.find((v) => v.level === s.game.village.level) ?? VILLAGE_LEVELS[0];
   const disc = discoveryInfo(s);
   const skipped = s.learning.reviewSkippedOn === d;
   const reviewFirst = due.total > 0 && !skipped;
@@ -35,6 +38,7 @@ export function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2 min-w-0">
               <span className="font-extrabold text-lg">시작의 숲</span>
+              <span className="text-xs text-ink-soft" data-testid="village-level">마을 {vLevel.level}단계</span>
               <Tag tone="accent">{s.profile.levelTest.level ?? 'A1'}</Tag>
             </div>
             <Link to="/my" className="min-h-[44px] min-w-[44px] grid place-items-center rounded-full hover:bg-mist" aria-label="MY 및 설정">⚙️</Link>
@@ -42,7 +46,7 @@ export function Home() {
           <div className="grid grid-cols-3 gap-2 mt-2" data-testid="home-stats">
             <div className="rounded-2xl bg-mist px-3 py-2"><p className="text-[11px] text-ink-soft">오늘 진도</p><p className="font-bold" data-testid="today-progress">{doneToday}단계</p></div>
             <div className="rounded-2xl bg-mist px-3 py-2"><p className="text-[11px] text-ink-soft">복습 예정</p><p className="font-bold" data-testid="due-count">{due.total}개</p></div>
-            <div className="rounded-2xl bg-mist px-3 py-2"><p className="text-[11px] text-ink-soft">발견 포인트</p><p className="font-bold" data-testid="points">{pts}P</p></div>
+            <div className="rounded-2xl bg-mist px-3 py-2"><p className="text-[11px] text-ink-soft">별</p><p className="font-bold" data-testid="points">★ {pts}</p></div>
           </div>
         </div>
       </header>
@@ -64,20 +68,26 @@ export function Home() {
         {disc.ok && (
           <Card className="mt-3 bg-butter border-[#F2D98A]">
             <p className="font-bold">✨ 숲에서 무언가 반짝여요!</p>
-            <p className="text-sm text-ink-soft mt-1">오늘 배운 내용으로 퀴즈 3문제를 풀면 새 친구를 만날 수 있어요.</p>
+            <p className="text-sm text-ink-soft mt-1">{CHARACTER_BY_ID[disc.characterId].conceptLabel} 학습 성취로 발견 이벤트가 열렸어요. 퀴즈 3문제 중 2개 이상 맞히면 친구가 돼요.</p>
             <Button className="mt-3 w-full" onClick={() => nav('/discover')} data-testid="go-discover">발견하러 가기</Button>
           </Card>
         )}
         {!disc.ok && disc.reason === 'restudy' && (
           <Card className="mt-3"><p className="text-sm">🔍 발견 퀴즈에 아쉽게 실패했어요. <b>학습을 하나 더 완료</b>하면 다시 도전할 수 있어요.</p></Card>
         )}
-        {!disc.ok && disc.reason === 'points' && studiedToday && (
-          <p className="mt-3 text-xs text-ink-soft text-center">다음 친구 발견까지 발견 포인트 {disc.need}P 남았어요 (발견 1회 {DISCOVERY_COST}P)</p>
-        )}
+        {!disc.ok && disc.reason === 'none' && (() => {
+          const nextM = DISCOVERY_MILESTONES.find((m) => !s.game.characters[m.characterId]);
+          return nextM ? <p className="mt-3 text-xs text-ink-soft text-center">다음 숲 친구 발견 조건: {nextM.label}</p> : null;
+        })()}
 
         {tomorrowDue > 0 && <p className="mt-3 text-xs text-ink-soft text-center">내일 복습 예정: {tomorrowDue}개 더</p>}
 
-        <div className="grid grid-cols-2 gap-2 mt-4">
+        <div className="grid grid-cols-3 gap-2 mt-4">
+          <Link to="/quests" className="relative rounded-2xl bg-white border border-line p-3 min-h-[64px]" data-testid="go-quests"><p className="font-bold">📜 퀘스트</p><p className="text-xs text-ink-soft">별 받기</p>{claimable > 0 && <span className="absolute top-2 right-2 bg-bad text-white text-[11px] rounded-full min-w-5 h-5 px-1 grid place-items-center" data-testid="claimable">{claimable}</span>}</Link>
+          <Link to="/house" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">🏡 나의 집</p><p className="text-xs text-ink-soft">Lv.{s.home.houseLevel}</p></Link>
+          <Link to="/spaces" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">🗺 공간</p><p className="text-xs text-ink-soft">{s.home.spaces.garden ? '정원 개방' : '정원 잠김'}</p></Link>
+        </div>
+        <div className="grid grid-cols-2 gap-2 mt-2">
           <Link to="/free" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">📚 자유학습</p><p className="text-xs text-ink-soft">원하는 것부터</p></Link>
           <Link to="/expressions" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">💬 표현 학습관</p><p className="text-xs text-ink-soft">회화·여행·영상</p></Link>
           <Link to="/wrong-notes" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">📝 오답노트</p><p className="text-xs text-ink-soft">{Object.values(s.learning.wrongNotes).filter((w) => !w.resolved).length}개</p></Link>

@@ -1,6 +1,6 @@
 import type { Dialogue, DialogueLine, Example, Level, Question } from '@/domain/types';
 import { tts } from '../audio';
-import CUES from './video-cues.json';
+import CUES from './video-cues.json' with { type: 'json' };
 
 type L = [speaker: 'A' | 'B', en: string, ko: string];
 const C = 'expr-situation';

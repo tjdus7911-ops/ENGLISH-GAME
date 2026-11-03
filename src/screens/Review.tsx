@@ -98,12 +98,24 @@ export function Review() {
   );
 }
 
+export const AREA: Record<string, string> = { all: '전체', word: '단어', grammar: '문법', listening: '듣기', speaking: '말하기', reading: '읽기', writing: '쓰기', expression: '표현' };
+export function areaOf(qid: string, source: string): string {
+  if (/^w[qbrlc]-/.test(qid)) return 'word';
+  if (/^rv-spk/.test(qid)) return 'speaking';
+  if (/^dlg|^sit|^drama/.test(qid) || source === 'listening' || source === 'video') return 'listening';
+  if (/^rd-/.test(qid)) return 'reading';
+  if (/^(ess|trv|biz|phr)-/.test(qid)) return 'expression';
+  if (/-w\d+$/.test(qid)) return 'writing';
+  return 'grammar';
+}
+
 export function WrongNotes() {
   const s = useApp();
   const [filter, setFilter] = useState<'open' | 'all'>('open');
+  const [area, setArea] = useState('all');
   const [practice, setPractice] = useState<Question[] | null>(null);
   const [res, setRes] = useState<QResult[] | null>(null);
-  const notes = Object.values(s.learning.wrongNotes).filter((n) => filter === 'all' || !n.resolved).sort((a, b) => b.lastWrongOn.localeCompare(a.lastWrongOn) || b.wrongCount - a.wrongCount);
+  const notes = Object.values(s.learning.wrongNotes).filter((n) => filter === 'all' || !n.resolved).filter((n) => area === 'all' || areaOf(n.questionId, n.source) === area).sort((a, b) => b.lastWrongOn.localeCompare(a.lastWrongOn) || b.wrongCount - a.wrongCount);
   const groups = notes.reduce<Record<string, typeof notes>>((m, n) => ({ ...m, [n.conceptId]: [...(m[n.conceptId] ?? []), n] }), {});
   if (practice) {
     return (
@@ -118,6 +130,9 @@ export function WrongNotes() {
       <div className="flex gap-1 p-1 bg-white border border-line rounded-2xl mb-3" role="tablist">
         {(['open', 'all'] as const).map((f) => <button key={f} role="tab" aria-selected={filter === f} onClick={() => setFilter(f)} className={cx('flex-1 min-h-[44px] rounded-xl font-semibold text-sm', filter === f ? 'bg-ink text-white' : 'text-ink-soft')}>{f === 'open' ? '복습 필요' : '전체 기록'}</button>)}
       </div>
+      <div className="flex gap-1 overflow-x-auto pb-2" role="group" aria-label="영역 필터">
+        {Object.entries(AREA).map(([k, l]) => <button key={k} onClick={() => setArea(k)} aria-pressed={area === k} data-testid={`area-${k}`} className={cx('min-h-[40px] px-3 rounded-full text-sm font-semibold border shrink-0', area === k ? 'bg-accent text-white border-accent' : 'bg-white border-line')}>{l}</button>)}
+      </div>
       {notes.length === 0 ? <Empty icon="✨" title={filter === 'open' ? '복습할 오답이 없어요' : '아직 오답 기록이 없어요'} /> : (
         <>
           <Button className="w-full mb-3" onClick={() => setPractice(notes.slice(0, 10).map((n) => questionById(n.questionId)).filter((q): q is Question => !!q))} data-testid="retry-wrong">오답 {Math.min(10, notes.length)}개 다시 풀기</Button>
@@ -129,7 +144,7 @@ export function WrongNotes() {
                   const q = questionById(n.questionId);
                   return (
                     <Card key={n.questionId} className="!p-3" data-testid="wrong-note">
-                      <div className="flex items-center gap-1 mb-1 flex-wrap">{n.resolved ? <Tag tone="ok">해결</Tag> : <Tag tone="accent">오답 {n.wrongCount}회</Tag>}{['listening', 'video'].includes(n.source) && <Tag>🎧 재청취 추천</Tag>}<span className="text-[11px] text-ink-faint ml-auto">{n.lastWrongOn}</span></div>
+                      <div className="flex items-center gap-1 mb-1 flex-wrap">{n.resolved ? <Tag tone="ok">해결</Tag> : <Tag tone="accent">오답 {n.wrongCount}회</Tag>}<Tag>{AREA[areaOf(n.questionId, n.source)]}</Tag>{s.learning.reviews && Object.values(s.learning.reviews).find((r) => r.conceptId === n.conceptId) && <Tag tone="lilac">복습 {Object.values(s.learning.reviews).filter((r) => r.conceptId === n.conceptId).map((r) => r.due).sort()[0]}</Tag>}{['listening', 'video'].includes(n.source) && <Tag>🎧 재청취 추천</Tag>}<span className="text-[11px] text-ink-faint ml-auto">{n.lastWrongOn}</span></div>
                       {q ? (<><p className="text-sm text-ink-soft">{q.prompt}</p>{q.sentence && <p className="font-semibold">{q.sentence}</p>}<p className="text-sm mt-1"><span className="text-bad">내 답: {n.lastGiven || '-'}</span> · <span className="text-ok">정답: {q.answers[0]}</span></p><p className="text-xs text-ink-soft mt-1">{q.explanation}</p></>) : <p className="text-sm text-ink-soft">문항 {n.questionId}</p>}
                     </Card>
                   );
