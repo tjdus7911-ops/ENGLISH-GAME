@@ -4,7 +4,7 @@ import { useApp, today, discoveryInfo, claimableCount } from '@/store/app';
 import { starBalance, VILLAGE_LEVELS, DISCOVERY_MILESTONES } from '@/domain/game/state';
 import { CHARACTER_BY_ID } from '@/content/characters';
 import { countDueByKind } from '@/domain/learning/srs';
-import { Village } from '@/components/Village';
+import { VillageScene } from '@/game/village/VillageScene';
 import { PartnerBubble } from '@/components/Partner';
 import { Button, Card, Tag } from '@/components/ui';
 import { currentUnit, nextStep, STEPS, stepsDoneOn } from '@/lib/curriculum';
@@ -61,7 +61,7 @@ export function Home() {
         )}
 
         <div className="mt-3 rounded-[28px] overflow-hidden border border-line bg-white">
-          <Village />
+          <VillageScene />
         </div>
         <div className="mt-3"><PartnerBubble state={reviewFirst ? 'review' : studiedToday ? 'completed' : 'greeting'} /></div>
 

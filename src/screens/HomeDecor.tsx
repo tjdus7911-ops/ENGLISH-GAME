@@ -4,8 +4,10 @@ import { useApp, homeContext, questList } from '@/store/app';
 import { HOUSE_LEVELS, SLOTS, SPACES, isItemUnlocked, type ItemCategory, type SpaceId } from '@/domain/game/home';
 import { starBalance } from '@/domain/game/state';
 import { FURNITURE, FURNITURE_BY_ID, CATEGORY_LABEL } from '@/content/furniture';
-import { GardenScene, HouseScene } from '@/components/HomeScenes';
-import { FurnitureThumb } from '@/components/FurnitureArt';
+import { HouseScene } from '@/game/house/HouseScene';
+import { GardenScene } from '@/game/garden/GardenScene';
+import { ItemImage } from '@/game/ItemImage';
+import { QuestRewardOverlay, type QuestReward } from '@/game/QuestRewardOverlay';
 import { PartnerBubble } from '@/components/Partner';
 import { Button, Card, Empty, Modal, Page, SectionTitle, Tag } from '@/components/ui';
 import { cx } from '@/lib/cx';
@@ -24,6 +26,7 @@ function DecorEditor({ space }: { space: SpaceId }) {
   const [draft, setDraft] = useState<Record<string, string | null>>({});
   const [slot, setSlot] = useState<string | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
+  const [mode, setMode] = useState<'view' | 'decorate'>('view');
   const effective = { ...home.placements[space], ...draft };
   const dirty = Object.keys(draft).some((k) => (home.placements[space][k] ?? null) !== draft[k]);
   const slotDef = SLOTS[space].find((x) => x.id === slot);
@@ -32,9 +35,17 @@ function DecorEditor({ space }: { space: SpaceId }) {
   return (
     <>
       <div className="rounded-3xl overflow-hidden border border-line bg-white">
-        {space === 'house' ? <HouseScene placements={effective} onSelect={(id) => { setSlot(id); setMsg(null); }} selected={slot} /> : <GardenScene placements={effective} onSelect={(id) => { setSlot(id); setMsg(null); }} selected={slot} />}
+        {space === 'house'
+          ? <HouseScene placements={effective} mode={mode} onSelect={(id) => { setSlot(id); setMsg(null); }} selected={slot} />
+          : <GardenScene placements={effective} mode={mode} onSelect={(id) => { setSlot(id); setMsg(null); }} selected={slot} />}
       </div>
-      <p className="text-xs text-ink-soft mt-2">점선 자리나 가구를 눌러 바꿔 보세요. 확정하기 전까지는 미리보기예요.</p>
+      <div className="flex items-center gap-2 mt-2">
+        <p className="text-xs text-ink-soft flex-1">{mode === 'view' ? '감상 모드 — 꾸미기를 시작하면 바꿀 수 있는 자리가 보여요.' : '바꿀 자리를 눌러 보세요. 확정하기 전까지는 미리보기예요. 보유 가구는 별 없이 교체돼요.'}</p>
+        <Button size="sm" variant={mode === 'view' ? 'primary' : 'secondary'} data-testid="decor-toggle" aria-pressed={mode === 'decorate'}
+          onClick={() => { if (mode === 'decorate') { setSlot(null); } setMode(mode === 'view' ? 'decorate' : 'view'); }}>
+          {mode === 'view' ? '꾸미기 시작' : '꾸미기 끝내기'}
+        </Button>
+      </div>
       {dirty && (
         <div className="sticky bottom-0 z-10 mt-3 grid grid-cols-2 gap-2 bg-mist py-2" data-testid="decor-actions">
           <Button variant="secondary" onClick={() => { setDraft({}); setSlot(null); setMsg('배치를 취소했어요.'); }} data-testid="decor-cancel">배치 취소</Button>
@@ -54,7 +65,7 @@ function DecorEditor({ space }: { space: SpaceId }) {
                 {owned.map((f) => (
                   <button key={f.itemId} onClick={() => { setDraft({ ...draft, [slotDef.id]: f.itemId }); setSlot(null); }} aria-pressed={effective[slotDef.id] === f.itemId} data-testid={`opt-${f.itemId}`}
                     className={cx('rounded-2xl border-2 p-2 bg-white text-center min-h-[44px]', effective[slotDef.id] === f.itemId ? 'border-accent' : 'border-line')}>
-                    <div className="grid place-items-center"><FurnitureThumb item={f} size={56} /></div>
+                    <div className="grid place-items-center"><ItemImage itemId={f.itemId} size={56} /></div>
                     <p className="text-[11px] font-semibold leading-tight mt-1">{f.name}</p>
                   </button>
                 ))}
@@ -133,7 +144,7 @@ export function ShopScreen() {
           const unlocked = isItemUnlocked(f, s.home);
           return (
             <div key={f.itemId} className="rounded-2xl bg-white border border-line p-3 text-center" data-testid={`shop-${f.itemId}`}>
-              <div className="grid place-items-center"><FurnitureThumb item={f} size={72} /></div>
+              <div className="grid place-items-center"><ItemImage itemId={f.itemId} size={72} /></div>
               <p className="font-semibold text-sm mt-1">{f.name}</p>
               <p className="text-[11px] text-ink-soft">{CATEGORY_LABEL[f.category]} · {RARITY_LABEL[f.rarity]}</p>
               {owned ? <Tag tone="ok">보유 중</Tag>
@@ -147,7 +158,7 @@ export function ShopScreen() {
       <div className="grid grid-cols-3 gap-2">
         {FURNITURE.filter((f) => f.unlockCondition.type === 'reward').map((f) => (
           <div key={f.itemId} className={cx('rounded-2xl border p-2 text-center', s.home.inventory[f.itemId] ? 'bg-white border-line' : 'bg-white/60 border-dashed border-line')}>
-            <div className={cx('grid place-items-center', !s.home.inventory[f.itemId] && 'opacity-40 grayscale')}><FurnitureThumb item={f} size={48} /></div>
+            <div className={cx('grid place-items-center', !s.home.inventory[f.itemId] && 'opacity-40 grayscale')}><ItemImage itemId={f.itemId} size={48} /></div>
             <p className="text-[11px] font-semibold leading-tight">{f.name}</p>
             <p className="text-[10px] text-ink-faint">{f.unlockCondition.type === 'reward' ? f.unlockCondition.label : ''}</p>
           </div>
@@ -156,7 +167,7 @@ export function ShopScreen() {
       <Modal open={!!item} onClose={() => setConfirm(null)} label="구매 확인">
         {item && (
           <div className="text-center">
-            <div className="grid place-items-center"><FurnitureThumb item={item} size={110} /></div>
+            <div className="grid place-items-center"><ItemImage itemId={item.itemId} size={110} /></div>
             <p className="font-bold text-lg">{item.name}</p>
             <p className="text-sm text-ink-soft">★ {item.price} 사용 · 구매 후 잔액 ★ {bal - item.price}</p>
             <div className="grid gap-2 mt-4">
@@ -180,7 +191,7 @@ export function InventoryScreen() {
       <div className="grid grid-cols-3 gap-2" data-testid="inventory">
         {items.map(({ o, f }) => (
           <div key={f.itemId} className="rounded-2xl bg-white border border-line p-2 text-center" data-testid={`inv-${f.itemId}`}>
-            <div className="grid place-items-center"><FurnitureThumb item={f} size={56} /></div>
+            <div className="grid place-items-center"><ItemImage itemId={f.itemId} size={56} /></div>
             <p className="text-[11px] font-semibold leading-tight">{f.name}</p>
             <div className="flex justify-center gap-1 mt-1 flex-wrap">{placedIds.has(f.itemId) ? <Tag tone="accent">배치 중</Tag> : <Tag>보관</Tag>}{o.source !== 'purchase' && <Tag tone="lilac">{o.source === 'default' ? '기본' : '보상'}</Tag>}</div>
           </div>
@@ -199,8 +210,8 @@ export function GardenScreen() {
   if (!open) {
     return (
       <Page title="비밀 정원" back="/house">
+        <div className="rounded-3xl overflow-hidden border border-line bg-white mb-3"><GardenScene placements={{}} locked /></div>
         <Card className="text-center" data-testid="garden-locked">
-          <p className="text-4xl">🔒🌷</p>
           <p className="font-bold mt-2">아직 잠겨 있는 비밀 정원</p>
           <p className="text-sm text-ink-soft mt-1">{garden.desc}</p>
         </Card>
@@ -262,7 +273,7 @@ export function QuestsScreen() {
   const s = useApp();
   const init = new URLSearchParams(window.location.hash.split('?')[1] ?? '').get('t');
   const [tab, setTab] = useState<'daily' | 'weekly' | 'achievement' | 'space'>(init === 'space' || init === 'weekly' || init === 'achievement' ? init : 'daily');
-  const [reward, setReward] = useState<{ title: string; stars: number; items: string[] } | null>(null);
+  const [reward, setReward] = useState<QuestReward | null>(null);
   const list = useMemo(() => questList(s).filter((x) => x.q.type === tab), [s, tab]);
   const TABS: [typeof tab, string][] = [['daily', '일일'], ['weekly', '주간'], ['achievement', '업적'], ['space', '공간 개방']];
   return (
@@ -293,18 +304,7 @@ export function QuestsScreen() {
         ))}
       </div>
       {tab === 'space' && <p className="text-xs text-ink-soft mt-3">공간 개방 퀘스트는 조건(문법 3단원 · 꾸미기 3회 · 집 Lv.2)을 모두 채우면 완료돼요.</p>}
-      <Modal open={!!reward} onClose={() => setReward(null)} label="퀘스트 완료 보상">
-        {reward && (
-          <div className="text-center" data-testid="quest-reward">
-            <p className="text-sm font-semibold text-accent-dark">퀘스트 완료 보상</p>
-            <p className="text-5xl my-3">⭐</p>
-            <p className="font-bold">{reward.title}</p>
-            <p className="text-2xl font-extrabold mt-1">★ +{reward.stars}</p>
-            {reward.items.length > 0 && <div className="flex justify-center gap-2 mt-3">{reward.items.map((i) => <div key={i} className="text-center"><FurnitureThumb item={FURNITURE_BY_ID[i]} size={64} /><p className="text-xs">{FURNITURE_BY_ID[i].name}</p></div>)}</div>}
-            <Button size="lg" className="mt-4" onClick={() => setReward(null)}>확인</Button>
-          </div>
-        )}
-      </Modal>
+      <QuestRewardOverlay reward={reward} onClose={() => setReward(null)} />
     </Page>
   );
 }

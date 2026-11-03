@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { answerCurrent, dismissModals, runQuiz, MOCK_STT } from './helpers';
-import { WALK, inWalkZone } from '../src/components/Village';
+import { VILLAGE, pointInPolygon } from '../src/game/layout';
 
 test.use({ timezoneId: 'Asia/Seoul', locale: 'ko-KR' });
 
@@ -157,6 +157,8 @@ test('시나리오 A~D: 첫 학습 → 캐릭터 획득 → 다음 날 복습·�
   await expect(page.getByTestId('star-balance')).toContainText(String(stars - 50));
   await page.goto('/#/house');
   await dismissModals(page);
+  await expect(page.getByTestId('slot-sofa')).toHaveCount(0); // 감상 모드: 슬롯 숨김
+  await page.getByTestId('decor-toggle').click();
   await page.getByTestId('slot-sofa').click();
   await page.getByTestId('opt-sofa-pink').click();
   await expect(page.getByTestId('placed-sofa')).toHaveAttribute('data-item', 'sofa-pink');
@@ -274,7 +276,7 @@ test('시나리오 A~D: 첫 학습 → 캐릭터 획득 → 다음 날 복습·�
     const w = page.getByTestId(`walker-${id}`);
     const x = Number(await w.getAttribute('data-x'));
     const y = Number(await w.getAttribute('data-y'));
-    expect(inWalkZone(x, y), `${id} (${x},${y}) in zone ${JSON.stringify(WALK)}`).toBe(true);
+    expect(pointInPolygon([x, y], VILLAGE.walkArea), `${id} (${x},${y}) in walk area`).toBe(true);
   }
   await page.getByTestId('walker-whisk').click();
   await expect(page.getByTestId('walker-whisk')).toContainText('궁금한');

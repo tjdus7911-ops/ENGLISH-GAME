@@ -1,0 +1,995 @@
+{
+ "generatedFrom": "Figma AI (gpt-image-2.5-flare) — 2026-11-03",
+ "items": {
+  "buildings/home-stage1": {
+   "w": 392,
+   "h": 437,
+   "anchor": [
+    196,
+    431
+   ],
+   "sheet": "buildings-sheet"
+  },
+  "buildings/library-stage1": {
+   "w": 404,
+   "h": 481,
+   "anchor": [
+    202,
+    475
+   ],
+   "sheet": "buildings-sheet"
+  },
+  "buildings/wordforest-stage1": {
+   "w": 427,
+   "h": 502,
+   "anchor": [
+    214,
+    496
+   ],
+   "sheet": "buildings-sheet"
+  },
+  "buildings/exam-stage1": {
+   "w": 410,
+   "h": 505,
+   "anchor": [
+    205,
+    499
+   ],
+   "sheet": "buildings-sheet"
+  },
+  "buildings/home-stage3": {
+   "w": 418,
+   "h": 473,
+   "anchor": [
+    209,
+    467
+   ],
+   "sheet": "buildings-stage3-sheet"
+  },
+  "buildings/library-stage3": {
+   "w": 430,
+   "h": 465,
+   "anchor": [
+    215,
+    459
+   ],
+   "sheet": "buildings-stage3-sheet"
+  },
+  "buildings/wordforest-stage3": {
+   "w": 466,
+   "h": 500,
+   "anchor": [
+    233,
+    494
+   ],
+   "sheet": "buildings-stage3-sheet"
+  },
+  "buildings/exam-stage3": {
+   "w": 431,
+   "h": 495,
+   "anchor": [
+    216,
+    489
+   ],
+   "sheet": "buildings-stage3-sheet"
+  },
+  "village/deco-flowerbed-round": {
+   "w": 259,
+   "h": 236,
+   "anchor": [
+    130,
+    230
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-flowerbed-tulip": {
+   "w": 290,
+   "h": 233,
+   "anchor": [
+    145,
+    227
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-bigtree": {
+   "w": 314,
+   "h": 350,
+   "anchor": [
+    157,
+    344
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-lamp": {
+   "w": 117,
+   "h": 325,
+   "anchor": [
+    58,
+    319
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-lilypad": {
+   "w": 246,
+   "h": 188,
+   "anchor": [
+    123,
+    182
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-bridge": {
+   "w": 323,
+   "h": 236,
+   "anchor": [
+    162,
+    230
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-garden-arch": {
+   "w": 277,
+   "h": 333,
+   "anchor": [
+    138,
+    327
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-fence": {
+   "w": 283,
+   "h": 206,
+   "anchor": [
+    142,
+    200
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "village/deco-blossom-tree": {
+   "w": 324,
+   "h": 348,
+   "anchor": [
+    162,
+    342
+   ],
+   "sheet": "village-deco-sheet"
+  },
+  "characters/guide-idle": {
+   "w": 411,
+   "h": 584,
+   "anchor": [
+    205,
+    578
+   ],
+   "sheet": "guide-sheet"
+  },
+  "characters/guide-hop": {
+   "w": 411,
+   "h": 584,
+   "anchor": [
+    205,
+    578
+   ],
+   "sheet": "guide-sheet"
+  },
+  "characters/guide-wave": {
+   "w": 411,
+   "h": 584,
+   "anchor": [
+    205,
+    578
+   ],
+   "sheet": "guide-sheet"
+  },
+  "furniture/bed-old": {
+   "w": 296,
+   "h": 297,
+   "anchor": [
+    148,
+    291
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/bed-wood": {
+   "w": 329,
+   "h": 316,
+   "anchor": [
+    164,
+    310
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/bed-flower": {
+   "w": 313,
+   "h": 316,
+   "anchor": [
+    156,
+    310
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/desk-small": {
+   "w": 278,
+   "h": 271,
+   "anchor": [
+    139,
+    265
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/desk-study": {
+   "w": 299,
+   "h": 324,
+   "anchor": [
+    150,
+    318
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/chair-wood": {
+   "w": 206,
+   "h": 297,
+   "anchor": [
+    103,
+    291
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/chair-cushion": {
+   "w": 205,
+   "h": 303,
+   "anchor": [
+    102,
+    297
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/sp-mossy": {
+   "w": 266,
+   "h": 310,
+   "anchor": [
+    133,
+    304
+   ],
+   "sheet": "furniture-1-beds-desks-chairs"
+  },
+  "furniture/shelf-small": {
+   "w": 261,
+   "h": 316,
+   "anchor": [
+    130,
+    310
+   ],
+   "sheet": "furniture-2-shelves-sofas"
+  },
+  "furniture/shelf-big": {
+   "w": 293,
+   "h": 475,
+   "anchor": [
+    146,
+    469
+   ],
+   "sheet": "furniture-2-shelves-sofas"
+  },
+  "furniture/sp-cobi": {
+   "w": 284,
+   "h": 396,
+   "anchor": [
+    142,
+    390
+   ],
+   "sheet": "furniture-2-shelves-sofas"
+  },
+  "furniture/sofa-pink": {
+   "w": 422,
+   "h": 369,
+   "anchor": [
+    211,
+    363
+   ],
+   "sheet": "furniture-2-shelves-sofas"
+  },
+  "furniture/sofa-green": {
+   "w": 430,
+   "h": 366,
+   "anchor": [
+    215,
+    360
+   ],
+   "sheet": "furniture-2-shelves-sofas"
+  },
+  "furniture/sp-whisk": {
+   "w": 451,
+   "h": 379,
+   "anchor": [
+    226,
+    373
+   ],
+   "sheet": "furniture-2-shelves-sofas"
+  },
+  "furniture/lamp-stand": {
+   "w": 164,
+   "h": 354,
+   "anchor": [
+    82,
+    348
+   ],
+   "sheet": "furniture-3-lamps-plants"
+  },
+  "furniture/lamp-mushroom": {
+   "w": 192,
+   "h": 352,
+   "anchor": [
+    96,
+    346
+   ],
+   "sheet": "furniture-3-lamps-plants"
+  },
+  "furniture/lamp-star": {
+   "w": 159,
+   "h": 375,
+   "anchor": [
+    80,
+    369
+   ],
+   "sheet": "furniture-3-lamps-plants"
+  },
+  "furniture/sp-lumi": {
+   "w": 189,
+   "h": 360,
+   "anchor": [
+    94,
+    354
+   ],
+   "sheet": "furniture-3-lamps-plants"
+  },
+  "furniture/plant-small": {
+   "w": 202,
+   "h": 257,
+   "anchor": [
+    101,
+    251
+   ],
+   "sheet": "furniture-3-lamps-plants"
+  },
+  "furniture/plant-monstera": {
+   "w": 291,
+   "h": 362,
+   "anchor": [
+    146,
+    356
+   ],
+   "sheet": "furniture-3-lamps-plants"
+  },
+  "furniture/plant-sprout": {
+   "w": 169,
+   "h": 248,
+   "anchor": [
+    84,
+    242
+   ],
+   "sheet": "furniture-3-lamps-plants"
+  },
+  "furniture/rug-round": {
+   "w": 325,
+   "h": 206,
+   "anchor": [
+    162,
+    103
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "furniture/rug-check": {
+   "w": 346,
+   "h": 223,
+   "anchor": [
+    173,
+    112
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "furniture/rug-paw": {
+   "w": 344,
+   "h": 224,
+   "anchor": [
+    172,
+    112
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "furniture/sp-plip": {
+   "w": 331,
+   "h": 205,
+   "anchor": [
+    166,
+    102
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "furniture/frame-forest": {
+   "w": 239,
+   "h": 323,
+   "anchor": [
+    120,
+    162
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "furniture/frame-sea": {
+   "w": 238,
+   "h": 322,
+   "anchor": [
+    119,
+    161
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "furniture/frame-certificate": {
+   "w": 237,
+   "h": 316,
+   "anchor": [
+    118,
+    158
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "furniture/sp-stella": {
+   "w": 243,
+   "h": 321,
+   "anchor": [
+    122,
+    160
+   ],
+   "sheet": "furniture-4-rugs-frames"
+  },
+  "garden/g-bed-tulip": {
+   "w": 318,
+   "h": 234,
+   "anchor": [
+    159,
+    228
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-bed-daisy": {
+   "w": 320,
+   "h": 231,
+   "anchor": [
+    160,
+    225
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-bed-lavender": {
+   "w": 321,
+   "h": 243,
+   "anchor": [
+    160,
+    237
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-tree-cherry": {
+   "w": 323,
+   "h": 356,
+   "anchor": [
+    162,
+    350
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-tree-apple": {
+   "w": 301,
+   "h": 365,
+   "anchor": [
+    150,
+    359
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-tree-maple": {
+   "w": 307,
+   "h": 364,
+   "anchor": [
+    154,
+    358
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-fountain": {
+   "w": 337,
+   "h": 294,
+   "anchor": [
+    168,
+    288
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-bench-wood": {
+   "w": 315,
+   "h": 289,
+   "anchor": [
+    158,
+    283
+   ],
+   "sheet": "garden-deco-1"
+  },
+  "garden/g-bench-white": {
+   "w": 328,
+   "h": 309,
+   "anchor": [
+    164,
+    303
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "garden/g-light-lamp": {
+   "w": 170,
+   "h": 378,
+   "anchor": [
+    85,
+    372
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "garden/g-light-firefly": {
+   "w": 233,
+   "h": 341,
+   "anchor": [
+    116,
+    335
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "garden/g-path-stone": {
+   "w": 301,
+   "h": 271,
+   "anchor": [
+    150,
+    265
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "effects/icon-star": {
+   "w": 233,
+   "h": 234,
+   "anchor": [
+    116,
+    228
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "effects/icon-gift": {
+   "w": 238,
+   "h": 258,
+   "anchor": [
+    119,
+    252
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "effects/sparkle": {
+   "w": 218,
+   "h": 265,
+   "anchor": [
+    109,
+    259
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "effects/icon-trophy": {
+   "w": 258,
+   "h": 242,
+   "anchor": [
+    129,
+    236
+   ],
+   "sheet": "garden-deco-2-icons"
+  },
+  "characters/mossy-lv1-idle": {
+   "w": 348,
+   "h": 454,
+   "anchor": [
+    174,
+    448
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-lv1-walk": {
+   "w": 348,
+   "h": 454,
+   "anchor": [
+    174,
+    448
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-lv1-wave": {
+   "w": 348,
+   "h": 454,
+   "anchor": [
+    174,
+    448
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-lv2-idle": {
+   "w": 348,
+   "h": 454,
+   "anchor": [
+    174,
+    448
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-lv2-walk": {
+   "w": 348,
+   "h": 454,
+   "anchor": [
+    174,
+    448
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-lv2-wave": {
+   "w": 348,
+   "h": 454,
+   "anchor": [
+    174,
+    448
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/plip-lv1-idle": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/plip-lv1-walk": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/plip-lv1-wave": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/plip-lv2-idle": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/plip-lv2-walk": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/plip-lv2-wave": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/lumi-lv1-idle": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/lumi-lv1-walk": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/lumi-lv1-wave": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/lumi-lv2-idle": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/lumi-lv2-walk": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/lumi-lv2-wave": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/cobi-lv1-idle": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/cobi-lv1-walk": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/cobi-lv1-wave": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/cobi-lv2-idle": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/cobi-lv2-walk": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/cobi-lv2-wave": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/whisk-lv1-idle": {
+   "w": 481,
+   "h": 413,
+   "anchor": [
+    240,
+    407
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-lv1-walk": {
+   "w": 481,
+   "h": 413,
+   "anchor": [
+    240,
+    407
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-lv1-wave": {
+   "w": 481,
+   "h": 413,
+   "anchor": [
+    240,
+    407
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-lv2-idle": {
+   "w": 481,
+   "h": 413,
+   "anchor": [
+    240,
+    407
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-lv2-walk": {
+   "w": 481,
+   "h": 413,
+   "anchor": [
+    240,
+    407
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-lv2-wave": {
+   "w": 481,
+   "h": 413,
+   "anchor": [
+    240,
+    407
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/stella-lv1-idle": {
+   "w": 306,
+   "h": 491,
+   "anchor": [
+    153,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-lv1-walk": {
+   "w": 306,
+   "h": 491,
+   "anchor": [
+    153,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-lv1-wave": {
+   "w": 306,
+   "h": 491,
+   "anchor": [
+    153,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-lv2-idle": {
+   "w": 306,
+   "h": 491,
+   "anchor": [
+    153,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-lv2-walk": {
+   "w": 306,
+   "h": 491,
+   "anchor": [
+    153,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-lv2-wave": {
+   "w": 306,
+   "h": 491,
+   "anchor": [
+    153,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "village/bg": {
+   "w": 1024,
+   "h": 1280,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "village-bg"
+  },
+  "house/room": {
+   "w": 1280,
+   "h": 1024,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "house-room"
+  },
+  "garden/bg": {
+   "w": 1280,
+   "h": 1024,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "garden-bg"
+  },
+  "house/wall-basic": {
+   "w": 384,
+   "h": 384,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "house-textures"
+  },
+  "house/wall-mint": {
+   "w": 384,
+   "h": 384,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "house-textures"
+  },
+  "house/wall-flower": {
+   "w": 384,
+   "h": 384,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "house-textures"
+  },
+  "house/floor-basic": {
+   "w": 384,
+   "h": 384,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "house-textures"
+  },
+  "house/floor-tile": {
+   "w": 384,
+   "h": 384,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "house-textures"
+  },
+  "house/floor-warm": {
+   "w": 384,
+   "h": 384,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "house-textures"
+  }
+ }
+}

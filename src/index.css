@@ -40,3 +40,7 @@ button { touch-action: manipulation; }
 .subs { text-shadow: 0 1px 2px rgba(0,0,0,.6); }
 a:has(> button) { display: inline-block; }
 a.block:has(> button), .grid > a:has(> button) { display: block; }
+.bld-img { transition: transform .16s ease; transform-origin: 50% 92%; }
+.bld-img-press { transform: scale(1.05); filter: brightness(1.06); }
+.deco-in { animation: popIn .4s ease-out; }
+.hit-poly:focus-visible { stroke: #E9513B; stroke-width: 6; }
