@@ -1,0 +1,206 @@
+{
+ "drama-01": {
+  "duration": 42.11,
+  "cues": [
+   {
+    "start": 2.85,
+    "end": 5.84,
+    "speaker": "Mark",
+    "en": "Good morning! Are you new here?",
+    "ko": "좋은 아침이에요! 새로 오셨어요?"
+   },
+   {
+    "start": 6.49,
+    "end": 10.15,
+    "speaker": "Jiwoo",
+    "en": "Yes, it's my first day. I'm Jiwoo.",
+    "ko": "네, 오늘 첫날이에요. 지우라고 합니다."
+   },
+   {
+    "start": 10.8,
+    "end": 14.36,
+    "speaker": "Mark",
+    "en": "Nice to meet you. I'm Mark, the team leader.",
+    "ko": "반가워요. 저는 팀장 마크예요."
+   },
+   {
+    "start": 15.01,
+    "end": 19.64,
+    "speaker": "Jiwoo",
+    "en": "Oh! Nice to meet you, too. I'm a little nervous.",
+    "ko": "아! 저도 반갑습니다. 조금 긴장돼요."
+   },
+   {
+    "start": 20.29,
+    "end": 23.65,
+    "speaker": "Mark",
+    "en": "Don't worry. Everyone is friendly.",
+    "ko": "걱정 마세요. 다들 친절해요."
+   },
+   {
+    "start": 24.3,
+    "end": 27.36,
+    "speaker": "Mark",
+    "en": "Let's grab a coffee before the meeting.",
+    "ko": "회의 전에 커피 한잔해요."
+   },
+   {
+    "start": 28.01,
+    "end": 31.26,
+    "speaker": "Jiwoo",
+    "en": "Sounds good. Thank you so much!",
+    "ko": "좋아요. 정말 감사합니다!"
+   },
+   {
+    "start": 31.91,
+    "end": 35.78,
+    "speaker": "Mark",
+    "en": "The meeting starts at ten. The coffee is on me!",
+    "ko": "회의는 10시에 시작해요. 커피는 제가 살게요!"
+   },
+   {
+    "start": 36.43,
+    "end": 40.1,
+    "speaker": "Jiwoo",
+    "en": "Wow, thanks! I'm not nervous anymore.",
+    "ko": "와, 감사해요! 이제 긴장 안 돼요."
+   }
+  ]
+ },
+ "drama-02": {
+  "duration": 37.66,
+  "cues": [
+   {
+    "start": 2.85,
+    "end": 6.65,
+    "speaker": "Emma",
+    "en": "Oh no. It's raining, and I don't have an umbrella.",
+    "ko": "이런. 비가 오는데 우산이 없어요."
+   },
+   {
+    "start": 7.3,
+    "end": 9.26,
+    "speaker": "Hajun",
+    "en": "Where are you going?",
+    "ko": "어디 가세요?"
+   },
+   {
+    "start": 9.91,
+    "end": 13.27,
+    "speaker": "Emma",
+    "en": "To the library. It's next to the park.",
+    "ko": "도서관이요. 공원 옆에 있어요."
+   },
+   {
+    "start": 13.92,
+    "end": 17.14,
+    "speaker": "Hajun",
+    "en": "Me too! We can share my umbrella.",
+    "ko": "저도요! 제 우산 같이 써요."
+   },
+   {
+    "start": 17.79,
+    "end": 20.54,
+    "speaker": "Emma",
+    "en": "Really? Are you sure?",
+    "ko": "정말요? 괜찮으세요?"
+   },
+   {
+    "start": 21.19,
+    "end": 24.23,
+    "speaker": "Hajun",
+    "en": "Of course. No big deal.",
+    "ko": "물론이죠. 별일 아니에요."
+   },
+   {
+    "start": 24.88,
+    "end": 27.99,
+    "speaker": "Emma",
+    "en": "Thank you. You're so kind.",
+    "ko": "고마워요. 정말 친절하시네요."
+   },
+   {
+    "start": 28.64,
+    "end": 32.15,
+    "speaker": "Hajun",
+    "en": "Here we are. The library is right there.",
+    "ko": "다 왔어요. 도서관이 바로 저기예요."
+   },
+   {
+    "start": 32.8,
+    "end": 35.63,
+    "speaker": "Emma",
+    "en": "Thanks again! Have a good day.",
+    "ko": "다시 한번 고마워요! 좋은 하루 보내세요."
+   }
+  ]
+ },
+ "drama-03": {
+  "duration": 41.13,
+  "cues": [
+   {
+    "start": 2.85,
+    "end": 6.18,
+    "speaker": "Baker",
+    "en": "Hi there! What can I get for you?",
+    "ko": "안녕하세요! 뭘 드릴까요?"
+   },
+   {
+    "start": 6.83,
+    "end": 10.62,
+    "speaker": "Minho",
+    "en": "I'd like a chocolate cake. It's my friend's birthday.",
+    "ko": "초콜릿 케이크 주세요. 친구 생일이에요."
+   },
+   {
+    "start": 11.27,
+    "end": 14.81,
+    "speaker": "Baker",
+    "en": "I'm sorry. We ran out of chocolate cake.",
+    "ko": "죄송해요. 초콜릿 케이크가 다 떨어졌어요."
+   },
+   {
+    "start": 15.46,
+    "end": 18.47,
+    "speaker": "Minho",
+    "en": "Oh no. What do you recommend?",
+    "ko": "아이고. 뭘 추천하세요?"
+   },
+   {
+    "start": 19.12,
+    "end": 22,
+    "speaker": "Baker",
+    "en": "The strawberry cake is very popular.",
+    "ko": "딸기 케이크가 아주 인기 많아요."
+   },
+   {
+    "start": 22.65,
+    "end": 27.49,
+    "speaker": "Minho",
+    "en": "Great. I'll take it. Can you write \"Happy Birthday, Sora\"?",
+    "ko": "좋아요. 그걸로 할게요. \"생일 축하해, 소라\"라고 써 주실 수 있어요?"
+   },
+   {
+    "start": 28.14,
+    "end": 31.65,
+    "speaker": "Baker",
+    "en": "Sure. It will be ready in ten minutes.",
+    "ko": "그럼요. 10분이면 준비돼요."
+   },
+   {
+    "start": 32.3,
+    "end": 35.16,
+    "speaker": "Minho",
+    "en": "Perfect. Can I pay by card?",
+    "ko": "좋아요. 카드로 계산할 수 있나요?"
+   },
+   {
+    "start": 35.81,
+    "end": 39.13,
+    "speaker": "Baker",
+    "en": "Of course. I hope your friend loves it!",
+    "ko": "물론이죠. 친구분이 좋아하시면 좋겠어요!"
+   }
+  ]
+ }
+}
