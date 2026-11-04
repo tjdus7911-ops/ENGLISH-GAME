@@ -113,7 +113,7 @@ export function grantItem(home: HomeState, itemId: string, at: number): { home: 
   return { home: { ...home, inventory: { ...home.inventory, [itemId]: { itemId, acquiredAt: at, source: 'reward' } } }, granted: true };
 }
 
-export type PlaceError = 'not-owned' | 'wrong-slot' | 'unknown-slot' | 'space-locked';
+export type PlaceError = 'not-owned' | 'wrong-slot' | 'unknown-slot' | 'space-locked' | 'duplicate';
 
 /** 배치 초안 검증: 보유한 아이템만, 슬롯 종류가 맞을 때만 */
 export function validatePlacement(home: HomeState, catalog: Record<string, FurnitureItem>, space: SpaceId, slotId: string, itemId: string | null): PlaceError | null {
@@ -127,6 +127,13 @@ export function validatePlacement(home: HomeState, catalog: Record<string, Furni
   return null;
 }
 
+/** 슬롯에 아이템 놓기(초안): 같은 아이템이 다른 슬롯에 있으면 그 슬롯은 비운다(=이동). 교체된 기존 아이템은 보관함에 남는다. */
+export function placeInDraft(current: Record<string, string | null | undefined>, draft: Record<string, string | null>, slotId: string, itemId: string | null): Record<string, string | null> {
+  const next = { ...draft, [slotId]: itemId };
+  if (itemId) for (const [k, v] of Object.entries({ ...current, ...draft })) if (k !== slotId && v === itemId) next[k] = null;
+  return next;
+}
+
 /** 미리보기 초안을 확정. 바뀐 것이 있으면 꾸미기 횟수 +1. 교체된 아이템은 보관함에 그대로 남는다. */
 export function commitPlacements(home: HomeState, catalog: Record<string, FurnitureItem>, space: SpaceId, draft: Record<string, string | null>): { home: HomeState; ok: boolean; changed: boolean; error?: PlaceError } {
   for (const [slotId, itemId] of Object.entries(draft)) {
@@ -135,6 +142,9 @@ export function commitPlacements(home: HomeState, catalog: Record<string, Furnit
   }
   const prev = home.placements[space] ?? {};
   const next = { ...prev, ...draft };
+  // 같은 가구는 1개만 보유 → 두 슬롯에 동시에 놓을 수 없다 (오류 시 기존 배치 그대로)
+  const used = Object.values(next).filter((id): id is string => !!id);
+  if (new Set(used).size !== used.length) return { home, ok: false, changed: false, error: 'duplicate' };
   const changed = Object.keys(next).some((k) => (prev[k] ?? null) !== (next[k] ?? null));
   if (!changed) return { home, ok: true, changed: false };
   return { home: { ...home, placements: { ...home.placements, [space]: next }, decorateCount: home.decorateCount + 1 }, ok: true, changed: true };

@@ -5,7 +5,7 @@ import { AssetGate, Stage } from '../Stage';
 import { assetUrl, characterKey, useAssets } from '../assets';
 import { HOUSE, itemAsset, type Pt } from '../layout';
 import { HouseFurniture } from './HouseFurniture';
-import { SlotMarker } from '../SlotMarker';
+import { SlotMarker, type SlotState } from '../SlotMarker';
 import { HousePartner } from './HousePartner';
 
 type Placements = Record<string, string | null | undefined>;
@@ -27,7 +27,7 @@ function Surface({ itemId, poly, skew, id }: { itemId: string; poly: Pt[]; skew:
   );
 }
 
-export function HouseScene({ placements, mode = 'view', selected, onSelect }: { placements: Placements; mode?: 'view' | 'decorate'; selected?: string | null; onSelect?: (slotId: string) => void }) {
+export function HouseScene({ placements, mode = 'view', selected, onSelect, slotState }: { placements: Placements; mode?: 'view' | 'decorate'; selected?: string | null; onSelect?: (slotId: string) => void; slotState?: (slotId: string) => SlotState }) {
   const partnerId = useApp((s) => s.game.partnerId);
   const partnerLv = useApp((s) => (s.game.partnerId ? s.game.characters[s.game.partnerId]?.level ?? 1 : 1));
   const wall = placements.wallpaper ?? 'wall-basic';
@@ -46,9 +46,9 @@ export function HouseScene({ placements, mode = 'view', selected, onSelect }: { 
         {partnerId && <HousePartner id={partnerId} level={partnerLv as 1 | 2} placements={placements} />}
         {mode === 'decorate' && onSelect && (
           <>
-            {Object.entries(HOUSE.slots).map(([id, s]) => <SlotMarker key={id} id={id} label={SLOT_LABEL[id]} at={[s.at[0], s.at[1] - (id === 'rug' || id === 'frame' ? 0 : 40)]} size={HOUSE.size} empty={!placements[id]} selected={selected === id} onSelect={onSelect} />)}
-            <SlotMarker id="wallpaper" label="벽지" at={[1000, 170]} size={HOUSE.size} empty={false} selected={selected === 'wallpaper'} onSelect={onSelect} />
-            <SlotMarker id="floor" label="바닥" at={[640, 900]} size={HOUSE.size} empty={false} selected={selected === 'floor'} onSelect={onSelect} />
+            {Object.entries(HOUSE.slots).map(([id, s]) => <SlotMarker key={id} id={id} label={SLOT_LABEL[id]} at={[s.at[0], s.at[1] - (id === 'rug' || id === 'frame' ? 0 : 40)]} size={HOUSE.size} empty={!placements[id]} selected={selected === id} onSelect={onSelect} state={slotState?.(id)} />)}
+            <SlotMarker id="wallpaper" label="벽지" at={[1000, 170]} size={HOUSE.size} empty={false} selected={selected === 'wallpaper'} onSelect={onSelect} state={slotState?.('wallpaper')} />
+            <SlotMarker id="floor" label="바닥" at={[640, 900]} size={HOUSE.size} empty={false} selected={selected === 'floor'} onSelect={onSelect} state={slotState?.('floor')} />
           </>
         )}
       </Stage>

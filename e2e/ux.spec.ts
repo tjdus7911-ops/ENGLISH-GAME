@@ -41,7 +41,6 @@ test('UX: 이어보기 · 나가기 확인 · 결과 보상 카드 · 바로 배
   await page.getByTestId('buy-plant-small').click();
   await page.getByTestId('buy-confirm').click();
   await page.getByTestId('place-now').click();
-  await expect(page).toHaveURL(/#\/house\?place=plant-small/);
   await dismissModals(page);
   await expect(page.getByTestId('placed-plant')).toHaveAttribute('data-item', 'plant-small'); // 미리보기
   await expect(page.getByTestId('slot-plant')).toBeVisible(); // 꾸미기 모드

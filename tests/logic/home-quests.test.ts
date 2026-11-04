@@ -1,4 +1,4 @@
-import { buyItem, commitPlacements, computeHouseLevel, decoratedItemCount, grantItem, isItemUnlocked, spaceConditionsMet, unlockSpace, validatePlacement, SPACES } from '@/domain/game/home';
+import { buyItem, commitPlacements, placeInDraft, computeHouseLevel, decoratedItemCount, grantItem, isItemUnlocked, spaceConditionsMet, unlockSpace, validatePlacement, SPACES } from '@/domain/game/home';
 import { earnStars, initialGameState, starBalance } from '@/domain/game/state';
 import { QUESTS, claimKey, questStatus, weekStartOf, type QuestContext } from '@/domain/game/quests';
 import { FURNITURE, FURNITURE_BY_ID, DEFAULT_ITEMS, DEFAULT_PLACEMENTS, counts } from '@/content/furniture';
@@ -57,6 +57,27 @@ describe('가구 구매·배치', () => {
     const removed = commitPlacements(c.home, FURNITURE_BY_ID, 'house', { sofa: null });
     expect(removed.home.placements.house.sofa).toBeNull();
     expect(removed.home.inventory['sofa-pink']).toBeDefined(); // 제거해도 보관함 유지
+  });
+  it('보관함 배치: 같은 가구 중복 배치 금지, 이동 시 원래 자리 비움, 교체된 가구는 보관함 유지, 오류 시 기존 배치 유지', () => {
+    let h = { ...home0(), spaces: { garden: { unlockedAt: 1 } } } as ReturnType<typeof home0>;
+    for (const id of ['g-bed-daisy', 'g-bed-lavender', 'plant-small', 'plant-monstera']) h = buyItem(rich(), h, FURNITURE_BY_ID[id], 0).home;
+    h = commitPlacements(h, FURNITURE_BY_ID, 'garden', { bed1: 'g-bed-daisy' }).home;
+    // 같은 꽃밭을 두 자리에 → 거부, 기존 그대로
+    const dup = commitPlacements(h, FURNITURE_BY_ID, 'garden', { bed2: 'g-bed-daisy' });
+    expect(dup).toMatchObject({ ok: false, error: 'duplicate' });
+    expect(dup.home).toBe(h);
+    // placeInDraft: 다른 자리로 옮기면 원래 자리는 비워짐 → 저장 가능
+    const move = placeInDraft(h.placements.garden, {}, 'bed2', 'g-bed-daisy');
+    expect(move).toEqual({ bed2: 'g-bed-daisy', bed1: null });
+    const moved = commitPlacements(h, FURNITURE_BY_ID, 'garden', move).home;
+    expect(moved.placements.garden).toMatchObject({ bed1: null, bed2: 'g-bed-daisy' });
+    // 교체: 화분 자리의 기존 가구는 보관함에 남음
+    let hh = commitPlacements(h, FURNITURE_BY_ID, 'house', { plant: 'plant-small' }).home;
+    hh = commitPlacements(hh, FURNITURE_BY_ID, 'house', placeInDraft(hh.placements.house, {}, 'plant', 'plant-monstera')).home;
+    expect(hh.placements.house.plant).toBe('plant-monstera');
+    expect(hh.inventory['plant-small']).toBeDefined();
+    // 호환되지 않는 슬롯 → 거부, 기존 유지
+    expect(commitPlacements(hh, FURNITURE_BY_ID, 'house', { bed: 'plant-small' })).toMatchObject({ ok: false, error: 'wrong-slot' });
   });
   it('집 Lv.2 = 새 가구 3개 배치 + 문법 2단원, 내려가지 않음', () => {
     let h = home0();

@@ -4,7 +4,7 @@ import { AssetGate, Stage } from '../Stage';
 import { assetUrl, characterKey, heightFor, anchorOf, useAssets, levelScale } from '../assets';
 import { GARDEN, itemAsset } from '../layout';
 import { GardenDecoration } from './GardenDecoration';
-import { SlotMarker } from '../SlotMarker';
+import { SlotMarker, type SlotState } from '../SlotMarker';
 import { useReducedMotion } from '../village/VillageScene';
 
 const LABEL: Record<string, string> = { tree1: '나무 1', tree2: '나무 2', light1: '조명 1', light2: '조명 2', path1: '산책로 1', bed1: '꽃밭 1', fountain: '분수', bed2: '꽃밭 2', bench1: '벤치', path2: '산책로 2', bed3: '꽃밭 3' };
@@ -32,7 +32,7 @@ function Walker({ id, level, index }: { id: string; level: 1 | 2; index: number 
   );
 }
 
-export function GardenScene({ placements, mode = 'view', selected, onSelect, locked = false }: { placements: Record<string, string | null | undefined>; mode?: 'view' | 'decorate'; selected?: string | null; onSelect?: (id: string) => void; locked?: boolean }) {
+export function GardenScene({ placements, mode = 'view', selected, onSelect, locked = false, slotState }: { placements: Record<string, string | null | undefined>; mode?: 'view' | 'decorate'; selected?: string | null; onSelect?: (id: string) => void; locked?: boolean; slotState?: (slotId: string) => SlotState }) {
   const chars = useApp((s) => s.game.characters);
   const owned = Object.values(chars).slice(0, 4);
   const items = Object.entries(placements).filter(([, id]) => id) as [string, string][];
@@ -46,7 +46,7 @@ export function GardenScene({ placements, mode = 'view', selected, onSelect, loc
         {!locked && owned.map((uc, i) => <Walker key={uc.id} id={uc.id} level={uc.level} index={i} />)}
         {locked && <div className="absolute inset-0 grid place-items-center" style={{ zIndex: 100 }}><span className="rounded-full bg-white/90 px-4 py-2 font-bold shadow">🔒 잠긴 비밀 정원</span></div>}
         {!locked && mode === 'decorate' && onSelect && Object.entries(GARDEN.slots).map(([id, s]) => (
-          <SlotMarker key={id} id={id} label={LABEL[id]} at={[s.at[0], s.at[1] - 30]} size={GARDEN.size} empty={!placements[id]} selected={selected === id} onSelect={onSelect} />
+          <SlotMarker key={id} id={id} label={LABEL[id]} at={[s.at[0], s.at[1] - 30]} size={GARDEN.size} empty={!placements[id]} selected={selected === id} onSelect={onSelect} state={slotState?.(id)} />
         ))}
       </Stage>
     </AssetGate>

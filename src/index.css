@@ -59,3 +59,8 @@ a.block:has(> button), .grid > a:has(> button) { display: block; }
 .word-swap { animation: word-swap .2s ease-out; }
 @keyframes word-swap { from { opacity: 0; transform: translateX(14px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .flip-inner { transition: none; } .word-swap { animation: none; } }
+
+/* 보관함에서 고른 가구를 놓을 수 있는 슬롯: 은은한 하이라이트 */
+.slot-pulse { animation: slot-pulse 1.6s ease-in-out infinite; }
+@keyframes slot-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(31,138,91,.35); } 50% { box-shadow: 0 0 0 8px rgba(31,138,91,0); } }
+@media (prefers-reduced-motion: reduce) { .slot-pulse { animation: none; } }
