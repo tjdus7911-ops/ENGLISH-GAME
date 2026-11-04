@@ -587,58 +587,166 @@
    "sheet": "garden-deco-2-icons"
   },
   "characters/mossy-lv1-idle": {
-   "w": 348,
-   "h": 454,
+   "w": 402,
+   "h": 466,
    "anchor": [
-    174,
-    448
+    201,
+    460
    ],
    "sheet": "mossy-sheet"
   },
   "characters/mossy-lv1-walk": {
-   "w": 348,
-   "h": 454,
+   "w": 402,
+   "h": 466,
    "anchor": [
-    174,
-    448
+    201,
+    460
    ],
    "sheet": "mossy-sheet"
   },
   "characters/mossy-lv1-wave": {
-   "w": 348,
-   "h": 454,
+   "w": 402,
+   "h": 466,
    "anchor": [
-    174,
-    448
+    201,
+    460
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-variant-idle": {
+   "w": 402,
+   "h": 466,
+   "anchor": [
+    201,
+    460
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-variant-walk": {
+   "w": 402,
+   "h": 466,
+   "anchor": [
+    201,
+    460
+   ],
+   "sheet": "mossy-sheet"
+  },
+  "characters/mossy-variant-wave": {
+   "w": 402,
+   "h": 466,
+   "anchor": [
+    201,
+    460
    ],
    "sheet": "mossy-sheet"
   },
   "characters/mossy-lv2-idle": {
-   "w": 348,
-   "h": 454,
+   "w": 357,
+   "h": 474,
    "anchor": [
-    174,
-    448
+    178,
+    468
    ],
-   "sheet": "mossy-sheet"
+   "sheet": "mossy-evolved-sheet"
   },
   "characters/mossy-lv2-walk": {
-   "w": 348,
-   "h": 454,
+   "w": 357,
+   "h": 474,
    "anchor": [
-    174,
-    448
+    178,
+    468
    ],
-   "sheet": "mossy-sheet"
+   "sheet": "mossy-evolved-sheet"
   },
   "characters/mossy-lv2-wave": {
-   "w": 348,
-   "h": 454,
+   "w": 357,
+   "h": 474,
    "anchor": [
-    174,
-    448
+    178,
+    468
    ],
-   "sheet": "mossy-sheet"
+   "sheet": "mossy-evolved-sheet"
+  },
+  "characters/mossy-lv2-happy": {
+   "w": 357,
+   "h": 474,
+   "anchor": [
+    178,
+    468
+   ],
+   "sheet": "mossy-evolved-sheet"
+  },
+  "characters/mossy-lv2-sleep": {
+   "w": 357,
+   "h": 474,
+   "anchor": [
+    178,
+    468
+   ],
+   "sheet": "mossy-evolved-sheet"
+  },
+  "characters/mossy-lv2-study": {
+   "w": 357,
+   "h": 474,
+   "anchor": [
+    178,
+    468
+   ],
+   "sheet": "mossy-evolved-sheet"
+  },
+  "characters/mossy-lv2-sit": {
+   "w": 357,
+   "h": 474,
+   "anchor": [
+    178,
+    468
+   ],
+   "sheet": "mossy-evolved-sheet"
+  },
+  "characters/mossy-lv2-evolve": {
+   "w": 357,
+   "h": 474,
+   "anchor": [
+    178,
+    468
+   ],
+   "sheet": "mossy-evolved-sheet"
+  },
+  "characters/mossy-lv1-happy": {
+   "w": 402,
+   "h": 466,
+   "anchor": [
+    201,
+    460
+   ],
+   "sheet": "mossy-actions-sheet"
+  },
+  "characters/mossy-lv1-sleep": {
+   "w": 402,
+   "h": 466,
+   "anchor": [
+    201,
+    460
+   ],
+   "sheet": "mossy-actions-sheet"
+  },
+  "characters/mossy-lv1-study": {
+   "w": 402,
+   "h": 466,
+   "anchor": [
+    201,
+    460
+   ],
+   "sheet": "mossy-actions-sheet"
+  },
+  "characters/mossy-lv1-sit": {
+   "w": 402,
+   "h": 466,
+   "anchor": [
+    201,
+    460
+   ],
+   "sheet": "mossy-actions-sheet"
   },
   "characters/plip-lv1-idle": {
    "w": 392,
@@ -667,7 +775,7 @@
    ],
    "sheet": "plip-sheet"
   },
-  "characters/plip-lv2-idle": {
+  "characters/plip-variant-idle": {
    "w": 392,
    "h": 398,
    "anchor": [
@@ -675,24 +783,132 @@
     392
    ],
    "sheet": "plip-sheet"
+  },
+  "characters/plip-variant-walk": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/plip-variant-wave": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-sheet"
+  },
+  "characters/plip-lv2-idle": {
+   "w": 378,
+   "h": 444,
+   "anchor": [
+    189,
+    438
+   ],
+   "sheet": "plip-evolved-sheet"
   },
   "characters/plip-lv2-walk": {
-   "w": 392,
-   "h": 398,
+   "w": 378,
+   "h": 444,
    "anchor": [
-    196,
-    392
+    189,
+    438
    ],
-   "sheet": "plip-sheet"
+   "sheet": "plip-evolved-sheet"
   },
   "characters/plip-lv2-wave": {
+   "w": 378,
+   "h": 444,
+   "anchor": [
+    189,
+    438
+   ],
+   "sheet": "plip-evolved-sheet"
+  },
+  "characters/plip-lv2-happy": {
+   "w": 378,
+   "h": 444,
+   "anchor": [
+    189,
+    438
+   ],
+   "sheet": "plip-evolved-sheet"
+  },
+  "characters/plip-lv2-sleep": {
+   "w": 378,
+   "h": 444,
+   "anchor": [
+    189,
+    438
+   ],
+   "sheet": "plip-evolved-sheet"
+  },
+  "characters/plip-lv2-study": {
+   "w": 378,
+   "h": 444,
+   "anchor": [
+    189,
+    438
+   ],
+   "sheet": "plip-evolved-sheet"
+  },
+  "characters/plip-lv2-sit": {
+   "w": 378,
+   "h": 444,
+   "anchor": [
+    189,
+    438
+   ],
+   "sheet": "plip-evolved-sheet"
+  },
+  "characters/plip-lv2-evolve": {
+   "w": 378,
+   "h": 444,
+   "anchor": [
+    189,
+    438
+   ],
+   "sheet": "plip-evolved-sheet"
+  },
+  "characters/plip-lv1-happy": {
    "w": 392,
    "h": 398,
    "anchor": [
     196,
     392
    ],
-   "sheet": "plip-sheet"
+   "sheet": "plip-actions-sheet"
+  },
+  "characters/plip-lv1-sleep": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-actions-sheet"
+  },
+  "characters/plip-lv1-study": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-actions-sheet"
+  },
+  "characters/plip-lv1-sit": {
+   "w": 392,
+   "h": 398,
+   "anchor": [
+    196,
+    392
+   ],
+   "sheet": "plip-actions-sheet"
   },
   "characters/lumi-lv1-idle": {
    "w": 412,
@@ -721,7 +937,7 @@
    ],
    "sheet": "lumi-sheet"
   },
-  "characters/lumi-lv2-idle": {
+  "characters/lumi-variant-idle": {
    "w": 412,
    "h": 432,
    "anchor": [
@@ -729,24 +945,132 @@
     426
    ],
    "sheet": "lumi-sheet"
+  },
+  "characters/lumi-variant-walk": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/lumi-variant-wave": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-sheet"
+  },
+  "characters/lumi-lv2-idle": {
+   "w": 358,
+   "h": 472,
+   "anchor": [
+    179,
+    466
+   ],
+   "sheet": "lumi-evolved-sheet"
   },
   "characters/lumi-lv2-walk": {
-   "w": 412,
-   "h": 432,
+   "w": 358,
+   "h": 472,
    "anchor": [
-    206,
-    426
+    179,
+    466
    ],
-   "sheet": "lumi-sheet"
+   "sheet": "lumi-evolved-sheet"
   },
   "characters/lumi-lv2-wave": {
+   "w": 358,
+   "h": 472,
+   "anchor": [
+    179,
+    466
+   ],
+   "sheet": "lumi-evolved-sheet"
+  },
+  "characters/lumi-lv2-happy": {
+   "w": 358,
+   "h": 472,
+   "anchor": [
+    179,
+    466
+   ],
+   "sheet": "lumi-evolved-sheet"
+  },
+  "characters/lumi-lv2-sleep": {
+   "w": 358,
+   "h": 472,
+   "anchor": [
+    179,
+    466
+   ],
+   "sheet": "lumi-evolved-sheet"
+  },
+  "characters/lumi-lv2-study": {
+   "w": 358,
+   "h": 472,
+   "anchor": [
+    179,
+    466
+   ],
+   "sheet": "lumi-evolved-sheet"
+  },
+  "characters/lumi-lv2-sit": {
+   "w": 358,
+   "h": 472,
+   "anchor": [
+    179,
+    466
+   ],
+   "sheet": "lumi-evolved-sheet"
+  },
+  "characters/lumi-lv2-evolve": {
+   "w": 358,
+   "h": 472,
+   "anchor": [
+    179,
+    466
+   ],
+   "sheet": "lumi-evolved-sheet"
+  },
+  "characters/lumi-lv1-happy": {
    "w": 412,
    "h": 432,
    "anchor": [
     206,
     426
    ],
-   "sheet": "lumi-sheet"
+   "sheet": "lumi-actions-sheet"
+  },
+  "characters/lumi-lv1-sleep": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-actions-sheet"
+  },
+  "characters/lumi-lv1-study": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-actions-sheet"
+  },
+  "characters/lumi-lv1-sit": {
+   "w": 412,
+   "h": 432,
+   "anchor": [
+    206,
+    426
+   ],
+   "sheet": "lumi-actions-sheet"
   },
   "characters/cobi-lv1-idle": {
    "w": 398,
@@ -775,7 +1099,7 @@
    ],
    "sheet": "cobi-sheet"
   },
-  "characters/cobi-lv2-idle": {
+  "characters/cobi-variant-idle": {
    "w": 398,
    "h": 404,
    "anchor": [
@@ -783,132 +1107,456 @@
     398
    ],
    "sheet": "cobi-sheet"
+  },
+  "characters/cobi-variant-walk": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/cobi-variant-wave": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-sheet"
+  },
+  "characters/cobi-lv2-idle": {
+   "w": 382,
+   "h": 452,
+   "anchor": [
+    191,
+    446
+   ],
+   "sheet": "cobi-evolved-sheet"
   },
   "characters/cobi-lv2-walk": {
-   "w": 398,
-   "h": 404,
+   "w": 382,
+   "h": 452,
    "anchor": [
-    199,
-    398
+    191,
+    446
    ],
-   "sheet": "cobi-sheet"
+   "sheet": "cobi-evolved-sheet"
   },
   "characters/cobi-lv2-wave": {
+   "w": 382,
+   "h": 452,
+   "anchor": [
+    191,
+    446
+   ],
+   "sheet": "cobi-evolved-sheet"
+  },
+  "characters/cobi-lv2-happy": {
+   "w": 382,
+   "h": 452,
+   "anchor": [
+    191,
+    446
+   ],
+   "sheet": "cobi-evolved-sheet"
+  },
+  "characters/cobi-lv2-sleep": {
+   "w": 382,
+   "h": 452,
+   "anchor": [
+    191,
+    446
+   ],
+   "sheet": "cobi-evolved-sheet"
+  },
+  "characters/cobi-lv2-study": {
+   "w": 382,
+   "h": 452,
+   "anchor": [
+    191,
+    446
+   ],
+   "sheet": "cobi-evolved-sheet"
+  },
+  "characters/cobi-lv2-sit": {
+   "w": 382,
+   "h": 452,
+   "anchor": [
+    191,
+    446
+   ],
+   "sheet": "cobi-evolved-sheet"
+  },
+  "characters/cobi-lv2-evolve": {
+   "w": 382,
+   "h": 452,
+   "anchor": [
+    191,
+    446
+   ],
+   "sheet": "cobi-evolved-sheet"
+  },
+  "characters/cobi-lv1-happy": {
    "w": 398,
    "h": 404,
    "anchor": [
     199,
     398
    ],
-   "sheet": "cobi-sheet"
+   "sheet": "cobi-actions-sheet"
+  },
+  "characters/cobi-lv1-sleep": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-actions-sheet"
+  },
+  "characters/cobi-lv1-study": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-actions-sheet"
+  },
+  "characters/cobi-lv1-sit": {
+   "w": 398,
+   "h": 404,
+   "anchor": [
+    199,
+    398
+   ],
+   "sheet": "cobi-actions-sheet"
   },
   "characters/whisk-lv1-idle": {
    "w": 481,
-   "h": 413,
+   "h": 440,
    "anchor": [
     240,
-    407
+    434
    ],
    "sheet": "whisk-sheet"
   },
   "characters/whisk-lv1-walk": {
    "w": 481,
-   "h": 413,
+   "h": 440,
    "anchor": [
     240,
-    407
+    434
    ],
    "sheet": "whisk-sheet"
   },
   "characters/whisk-lv1-wave": {
    "w": 481,
-   "h": 413,
+   "h": 440,
    "anchor": [
     240,
-    407
+    434
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-variant-idle": {
+   "w": 481,
+   "h": 440,
+   "anchor": [
+    240,
+    434
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-variant-walk": {
+   "w": 481,
+   "h": 440,
+   "anchor": [
+    240,
+    434
+   ],
+   "sheet": "whisk-sheet"
+  },
+  "characters/whisk-variant-wave": {
+   "w": 481,
+   "h": 440,
+   "anchor": [
+    240,
+    434
    ],
    "sheet": "whisk-sheet"
   },
   "characters/whisk-lv2-idle": {
-   "w": 481,
-   "h": 413,
+   "w": 396,
+   "h": 449,
    "anchor": [
-    240,
-    407
+    198,
+    443
    ],
-   "sheet": "whisk-sheet"
+   "sheet": "whisk-evolved-sheet"
   },
   "characters/whisk-lv2-walk": {
-   "w": 481,
-   "h": 413,
+   "w": 396,
+   "h": 449,
    "anchor": [
-    240,
-    407
+    198,
+    443
    ],
-   "sheet": "whisk-sheet"
+   "sheet": "whisk-evolved-sheet"
   },
   "characters/whisk-lv2-wave": {
+   "w": 396,
+   "h": 449,
+   "anchor": [
+    198,
+    443
+   ],
+   "sheet": "whisk-evolved-sheet"
+  },
+  "characters/whisk-lv2-happy": {
+   "w": 396,
+   "h": 449,
+   "anchor": [
+    198,
+    443
+   ],
+   "sheet": "whisk-evolved-sheet"
+  },
+  "characters/whisk-lv2-sleep": {
+   "w": 396,
+   "h": 449,
+   "anchor": [
+    198,
+    443
+   ],
+   "sheet": "whisk-evolved-sheet"
+  },
+  "characters/whisk-lv2-study": {
+   "w": 396,
+   "h": 449,
+   "anchor": [
+    198,
+    443
+   ],
+   "sheet": "whisk-evolved-sheet"
+  },
+  "characters/whisk-lv2-sit": {
+   "w": 396,
+   "h": 449,
+   "anchor": [
+    198,
+    443
+   ],
+   "sheet": "whisk-evolved-sheet"
+  },
+  "characters/whisk-lv2-evolve": {
+   "w": 396,
+   "h": 449,
+   "anchor": [
+    198,
+    443
+   ],
+   "sheet": "whisk-evolved-sheet"
+  },
+  "characters/whisk-lv1-happy": {
    "w": 481,
-   "h": 413,
+   "h": 440,
    "anchor": [
     240,
-    407
+    434
    ],
-   "sheet": "whisk-sheet"
+   "sheet": "whisk-actions-sheet"
+  },
+  "characters/whisk-lv1-sleep": {
+   "w": 481,
+   "h": 440,
+   "anchor": [
+    240,
+    434
+   ],
+   "sheet": "whisk-actions-sheet"
+  },
+  "characters/whisk-lv1-study": {
+   "w": 481,
+   "h": 440,
+   "anchor": [
+    240,
+    434
+   ],
+   "sheet": "whisk-actions-sheet"
+  },
+  "characters/whisk-lv1-sit": {
+   "w": 481,
+   "h": 440,
+   "anchor": [
+    240,
+    434
+   ],
+   "sheet": "whisk-actions-sheet"
   },
   "characters/stella-lv1-idle": {
-   "w": 306,
+   "w": 392,
    "h": 491,
    "anchor": [
-    153,
+    196,
     485
    ],
    "sheet": "stella-sheet"
   },
   "characters/stella-lv1-walk": {
-   "w": 306,
+   "w": 392,
    "h": 491,
    "anchor": [
-    153,
+    196,
     485
    ],
    "sheet": "stella-sheet"
   },
   "characters/stella-lv1-wave": {
-   "w": 306,
+   "w": 392,
    "h": 491,
    "anchor": [
-    153,
+    196,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-variant-idle": {
+   "w": 392,
+   "h": 491,
+   "anchor": [
+    196,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-variant-walk": {
+   "w": 392,
+   "h": 491,
+   "anchor": [
+    196,
+    485
+   ],
+   "sheet": "stella-sheet"
+  },
+  "characters/stella-variant-wave": {
+   "w": 392,
+   "h": 491,
+   "anchor": [
+    196,
     485
    ],
    "sheet": "stella-sheet"
   },
   "characters/stella-lv2-idle": {
-   "w": 306,
-   "h": 491,
+   "w": 359,
+   "h": 529,
    "anchor": [
-    153,
-    485
+    179,
+    523
    ],
-   "sheet": "stella-sheet"
+   "sheet": "stella-evolved-sheet"
   },
   "characters/stella-lv2-walk": {
-   "w": 306,
-   "h": 491,
+   "w": 359,
+   "h": 529,
    "anchor": [
-    153,
-    485
+    179,
+    523
    ],
-   "sheet": "stella-sheet"
+   "sheet": "stella-evolved-sheet"
   },
   "characters/stella-lv2-wave": {
-   "w": 306,
+   "w": 359,
+   "h": 529,
+   "anchor": [
+    179,
+    523
+   ],
+   "sheet": "stella-evolved-sheet"
+  },
+  "characters/stella-lv2-happy": {
+   "w": 359,
+   "h": 529,
+   "anchor": [
+    179,
+    523
+   ],
+   "sheet": "stella-evolved-sheet"
+  },
+  "characters/stella-lv2-sleep": {
+   "w": 359,
+   "h": 529,
+   "anchor": [
+    179,
+    523
+   ],
+   "sheet": "stella-evolved-sheet"
+  },
+  "characters/stella-lv2-study": {
+   "w": 359,
+   "h": 529,
+   "anchor": [
+    179,
+    523
+   ],
+   "sheet": "stella-evolved-sheet"
+  },
+  "characters/stella-lv2-sit": {
+   "w": 359,
+   "h": 529,
+   "anchor": [
+    179,
+    523
+   ],
+   "sheet": "stella-evolved-sheet"
+  },
+  "characters/stella-lv2-evolve": {
+   "w": 359,
+   "h": 529,
+   "anchor": [
+    179,
+    523
+   ],
+   "sheet": "stella-evolved-sheet"
+  },
+  "characters/stella-lv1-happy": {
+   "w": 392,
    "h": 491,
    "anchor": [
-    153,
+    196,
     485
    ],
-   "sheet": "stella-sheet"
+   "sheet": "stella-actions-sheet"
+  },
+  "characters/stella-lv1-sleep": {
+   "w": 392,
+   "h": 491,
+   "anchor": [
+    196,
+    485
+   ],
+   "sheet": "stella-actions-sheet"
+  },
+  "characters/stella-lv1-study": {
+   "w": 392,
+   "h": 491,
+   "anchor": [
+    196,
+    485
+   ],
+   "sheet": "stella-actions-sheet"
+  },
+  "characters/stella-lv1-sit": {
+   "w": 392,
+   "h": 491,
+   "anchor": [
+    196,
+    485
+   ],
+   "sheet": "stella-actions-sheet"
   },
   "village/bg": {
    "w": 1024,
@@ -936,6 +1584,24 @@
     0
    ],
    "sheet": "garden-bg"
+  },
+  "spaces/greenhouse": {
+   "w": 1280,
+   "h": 1024,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "concept-greenhouse"
+  },
+  "spaces/lakeside": {
+   "w": 1280,
+   "h": 1024,
+   "anchor": [
+    0,
+    0
+   ],
+   "sheet": "concept-lakeside"
   },
   "house/wall-basic": {
    "w": 384,

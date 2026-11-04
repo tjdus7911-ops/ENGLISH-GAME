@@ -4,7 +4,7 @@ import { useApp } from '@/store/app';
 import { GRAMMAR_UNITS } from '@/content/grammar';
 import { Button, Card, Page, SectionTitle, Tag } from '@/components/ui';
 import { QuizRunner, ResultView, toAnswers, type QResult } from '@/components/Quiz';
-import { CharacterArt } from '@/components/CharacterArt';
+import { CharacterImage } from '@/game/CharacterImage';
 import { RARE_ID, SPECIAL_ID } from '@/content/characters';
 
 export function ExamHall() {
@@ -13,11 +13,11 @@ export function ExamHall() {
   return (
     <Page title="시험장" back="/home">
       <Card className="flex items-center gap-3">
-        <CharacterArt id={SPECIAL_ID} silhouette={!owned[SPECIAL_ID]} size={64} />
+        <CharacterImage id={SPECIAL_ID} silhouette={!owned[SPECIAL_ID]} size={64} />
         <div className="flex-1"><p className="font-bold">A1 레벨 평가</p><p className="text-xs text-ink-soft">10개 단원 종합 20문항 · 80% 이상 통과 시 특별 캐릭터</p>{l.a1Exam && <p className="text-xs mt-1">{l.a1Exam.passed ? <Tag tone="ok">통과</Tag> : <Tag>최근 {l.a1Exam.correct}/{l.a1Exam.total}</Tag>}</p>}</div>
         <Link to="/exam/a1"><Button size="sm" data-testid="go-a1-exam">응시</Button></Link>
       </Card>
-      <SectionTitle right={<span className="flex items-center gap-1 text-xs text-ink-soft"><CharacterArt id={RARE_ID} silhouette={!owned[RARE_ID]} size={28} />첫 통과 시 희귀 캐릭터</span>}>단원 평가</SectionTitle>
+      <SectionTitle right={<span className="flex items-center gap-1 text-xs text-ink-soft"><CharacterImage id={RARE_ID} silhouette={!owned[RARE_ID]} size={28} />첫 통과 시 희귀 캐릭터</span>}>단원 평가</SectionTitle>
       <div className="grid gap-2">
         {GRAMMAR_UNITS.map((u) => {
           const t = l.unitTests[u.id];

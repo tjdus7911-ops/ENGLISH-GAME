@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { CHARACTER_BY_ID } from '@/content/characters';
-import { assetUrl, characterKey, heightFor, anchorOf } from '../assets';
+import { assetUrl, characterKey, heightFor, anchorOf, levelScale } from '../assets';
 import { VILLAGE, walkPoint, type Pt } from '../layout';
 
 /**
@@ -10,7 +10,7 @@ import { VILLAGE, walkPoint, type Pt } from '../layout';
 export function VillageCharacter({ id, level, partner, index, reduce }: { id: string; level: 1 | 2; partner: boolean; index: number; reduce: boolean }) {
   const ch = CHARACTER_BY_ID[id];
   const [W, H] = VILLAGE.size;
-  const width = partner ? VILLAGE.characterWidth * 1.15 : VILLAGE.characterWidth;
+  const width = (partner ? VILLAGE.characterWidth * 1.15 : VILLAGE.characterWidth) * levelScale(level);
   const [pos, setPos] = useState<Pt>(() => walkPoint(index * 7919 + 17, VILLAGE.walkArea));
   const [face, setFace] = useState(1);
   const [walking, setWalking] = useState(false);

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useApp } from '@/store/app';
 import { AssetGate, Stage } from '../Stage';
-import { assetUrl, characterKey, heightFor, anchorOf, useAssets } from '../assets';
+import { assetUrl, characterKey, heightFor, anchorOf, useAssets, levelScale } from '../assets';
 import { GARDEN, itemAsset } from '../layout';
 import { GardenDecoration } from './GardenDecoration';
 import { SlotMarker } from '../SlotMarker';
@@ -24,7 +24,7 @@ function Walker({ id, level, index }: { id: string; level: 1 | 2; index: number 
   const face = -Math.sin(t) > 0 ? 1 : -1; // 진행 방향
   const step = Math.floor(t * 18) % 2;
   const key = characterKey(id, level, reduce || step === 0 ? 'idle' : 'walk');
-  const w = GARDEN.characterWidth; const h = heightFor(characterKey(id, level, 'idle'), w); const [ax, ay] = anchorOf(characterKey(id, level, 'idle'));
+  const w = GARDEN.characterWidth * levelScale(level); const h = heightFor(characterKey(id, level, 'idle'), w); const [ax, ay] = anchorOf(characterKey(id, level, 'idle'));
   const [W, H] = GARDEN.size;
   return (
     <img src={assetUrl(key)} alt="" draggable={false} data-testid={`garden-walker-${id}`} className="absolute pointer-events-none"

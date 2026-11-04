@@ -30,9 +30,16 @@ SHEETS = {
     'garden-deco-1': (4, 2, 'garden', C('g-bed-tulip', 'g-bed-daisy', 'g-bed-lavender', 'g-tree-cherry', 'g-tree-apple', 'g-tree-maple', 'g-fountain', 'g-bench-wood'), 'bottom'),
     'garden-deco-2-icons': (4, 2, None, C('garden/g-bench-white', 'garden/g-light-lamp', 'garden/g-light-firefly', 'garden/g-path-stone', 'effects/icon-star', 'effects/icon-gift', 'effects/sparkle', 'effects/icon-trophy'), 'bottom'),
 }
+EVOLVED_POSES = ('idle', 'walk', 'wave', 'happy', 'sleep', 'study', 'sit', 'evolve')
+ACTION_POSES = ('happy', 'sleep', 'study', 'sit')
 for cid in ['mossy', 'plip', 'lumi', 'cobi', 'whisk', 'stella']:
-    SHEETS[f'{cid}-sheet'] = (3, 2, 'characters', C(*[f'{cid}-lv{lv}-{p}' for lv in (1, 2) for p in ('idle', 'walk', 'wave')]), 'bottom')
-BACKGROUNDS = {'village-bg': 'village/bg', 'house-room': 'house/room', 'garden-bg': 'garden/bg'}
+    # 기존 시트: 상단 = 기본형(lv1), 하단 = 장식만 추가된 성장 변형(variant, 진화 연출 중간 프레임)
+    SHEETS[f'{cid}-sheet'] = (3, 2, 'characters', C(*[f'{cid}-lv1-{p}' for p in ('idle', 'walk', 'wave')], *[f'{cid}-variant-{p}' for p in ('idle', 'walk', 'wave')]), 'bottom')
+    # 신규 시트(Figma 02 페이지): 진화형(lv2) 8포즈 · 기본형 부족 행동 4포즈
+    SHEETS[f'{cid}-evolved-sheet'] = (4, 2, 'characters', C(*[f'{cid}-lv2-{p}' for p in EVOLVED_POSES]), 'bottom')
+    SHEETS[f'{cid}-actions-sheet'] = (4, 1, 'characters', C(*[f'{cid}-lv1-{p}' for p in ACTION_POSES]), 'bottom')
+BACKGROUNDS = {'village-bg': 'village/bg', 'house-room': 'house/room', 'garden-bg': 'garden/bg',
+               'concept-greenhouse': 'spaces/greenhouse', 'concept-lakeside': 'spaces/lakeside'}
 TEXTURES = ('house-textures', 3, 2, C('wall-basic', 'wall-mint', 'wall-flower', 'floor-basic', 'floor-tile', 'floor-warm'))
 
 
@@ -72,14 +79,58 @@ def save(img: Image.Image, rel: str):
     img.save(OUT / f'{rel}.webp', 'WEBP', quality=86, method=6)
 
 
+GLOW_COLOR = {'cobi': (255, 196, 92), 'lumi': (255, 214, 96), 'mossy': (196, 236, 120), 'stella': (255, 224, 160)}
+
+
+GLOW_SKIP_TOP = {'mossy': 0.22}  # 모시 머리 위 분홍 꽃은 원래 그림이므로 제외
+
+
+def despill_glow(manifest):
+    """진화 빛(evolve) 포즈의 후광 테두리는 생성 단계에서 마젠타 배경 위에 그려져 분홍빛 링으로 남는다.
+    외곽선에서 22px 이내의 분홍 계열 픽셀(b>g, r>150)만 캐릭터 고유 빛 색으로 바꾼다(밝기 유지, 알파 유지)."""
+    for rel in manifest['items']:
+        if not rel.endswith('-evolve'): continue
+        cid = rel.split('/')[1].split('-')[0]
+        if cid not in GLOW_COLOR: continue
+        a = np.asarray(Image.open(ART / f'{rel}.png').convert('RGBA')).astype(np.float32)
+        r, g, b, al = a[..., 0], a[..., 1], a[..., 2], a[..., 3]
+        dist = ndimage.distance_transform_edt(al > 8)
+        band = (al > 8) & (dist <= 22)
+        pink = band & (b > g + 8) & (r > 150)
+        if cid in GLOW_SKIP_TOP: pink[: int(a.shape[0] * GLOW_SKIP_TOP[cid])] = False
+        gc = np.array(GLOW_COLOR[cid], np.float32)
+        lum = (0.3 * r + 0.59 * g + 0.11 * b) / max(1, 0.3 * gc[0] + 0.59 * gc[1] + 0.11 * gc[2])
+        for i in range(3):
+            a[..., i] = np.where(pink, np.clip(gc[i] * np.clip(lum, 0.6, 1.25), 0, 255), a[..., i])
+        save(Image.fromarray(np.clip(a, 0, 255).astype(np.uint8), 'RGBA'), rel)
+        print('glow recolor', rel, int(pink.sum()))
+
+
 def normalize_characters(manifest):
     """같은 캐릭터의 모든 포즈(Lv1·Lv2·행동)를 동일 캔버스에 맞춘다 (하단 중앙 정렬).
     포즈마다 트림 크기가 달라 표시 너비 고정 시 크기가 출렁이는 문제를 막는다."""
-    groups = {}
-    for rel in manifest['items']:
-        if rel.startswith('characters/'):
+    items = manifest['items']
+    # 1) 행동 시트는 생성 배율이 달라, 기쁨 포즈 높이 = 기본 idle 높이 × 1.1 이 되도록 맞춘다
+    for rel in list(items):
+        if rel.startswith('characters/') and rel.endswith('-lv1-happy'):
             cid = rel.split('/')[1].split('-')[0]
-            groups.setdefault(cid, []).append(rel)
+            ref = items.get(f'characters/{cid}-lv1-idle')
+            if not ref: continue
+            f = 1.1 * ref['h'] / items[rel]['h']
+            for p in ACTION_POSES:
+                r = f'characters/{cid}-lv1-{p}'
+                im = Image.open(ART / f'{r}.png').convert('RGBA')
+                im = im.resize((max(1, round(im.width * f)), max(1, round(im.height * f))), Image.LANCZOS)
+                save(im, r); items[r].update({'w': im.width, 'h': im.height})
+            print('rescaled actions', cid, round(f, 3))
+    # 2) 같은 캐릭터·같은 단계(lv1+variant / lv2)는 하나의 캔버스 크기로
+    groups = {}
+    for rel in items:
+        if rel.startswith('characters/'):
+            stem = rel.split('/')[1]
+            cid = stem.split('-')[0]
+            grp = 'guide' if cid == 'guide' else (f'{cid}-lv2' if '-lv2-' in stem else f'{cid}-lv1')
+            groups.setdefault(grp, []).append(rel)
     for cid, rels in groups.items():
         imgs = {r: Image.open(ART / f'{r}.png').convert('RGBA') for r in rels}
         W = max(i.width for i in imgs.values()); H = max(i.height for i in imgs.values())
@@ -139,6 +190,7 @@ def main(src: pathlib.Path, preview=False):
             save(tile, f'house/{name}')
             manifest['items'][f'house/{name}'] = {'w': 384, 'h': 384, 'anchor': [0, 0], 'sheet': stem}
         print('ok', stem)
+    despill_glow(manifest)
     normalize_characters(manifest)
     (OUT / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
     if 'ASSET_OUT' not in os.environ:  # 앱 빌드에 포함되는 사본 (크기·기준점 동기 조회용)

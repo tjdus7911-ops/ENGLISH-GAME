@@ -1,11 +1,12 @@
 import { useMemo } from 'react';
 import { FURNITURE_BY_ID } from '@/content/furniture';
 import { useApp } from '@/store/app';
-import { AssetGate, SpriteImg, Stage } from '../Stage';
+import { AssetGate, Stage } from '../Stage';
 import { assetUrl, characterKey, useAssets } from '../assets';
 import { HOUSE, itemAsset, type Pt } from '../layout';
 import { HouseFurniture } from './HouseFurniture';
 import { SlotMarker } from '../SlotMarker';
+import { HousePartner } from './HousePartner';
 
 type Placements = Record<string, string | null | undefined>;
 const SLOT_LABEL: Record<string, string> = { wallpaper: '벽지', floor: '바닥', frame: '액자', desk: '책상', bookshelf: '책장', bed: '침대', lamp: '조명', chair: '의자', rug: '러그', plant: '화분', sofa: '소파' };
@@ -33,7 +34,7 @@ export function HouseScene({ placements, mode = 'view', selected, onSelect }: { 
   const floor = placements.floor ?? 'floor-basic';
   const furniture = Object.entries(placements).filter(([slot, id]) => id && slot !== 'wallpaper' && slot !== 'floor') as [string, string][];
   const keys = useMemo(() => [HOUSE.background, ...furniture.map(([, id]) => itemAsset(id, 'house')!), ...(wall !== 'wall-basic' ? [itemAsset(wall, 'house')!] : []), ...(floor !== 'floor-basic' ? [itemAsset(floor, 'house')!] : []),
-    ...(partnerId ? [characterKey(partnerId, partnerLv as 1 | 2, 'idle')] : [])], [furniture, wall, floor, partnerId, partnerLv]);
+    ...(partnerId ? (['idle', 'walk', 'study', 'sit', 'sleep'] as const).map((p) => characterKey(partnerId, partnerLv as 1 | 2, p)) : [])], [furniture, wall, floor, partnerId, partnerLv]);
   const state = useAssets(keys);
   return (
     <AssetGate state={state} label="나의 집">
@@ -42,7 +43,7 @@ export function HouseScene({ placements, mode = 'view', selected, onSelect }: { 
         {wall !== 'wall-basic' && <><Surface id="wl" itemId={wall} poly={HOUSE.walls.left} skew={-27} /><Surface id="wr" itemId={wall} poly={HOUSE.walls.right} skew={27} /></>}
         {floor !== 'floor-basic' && <Surface id="fl" itemId={floor} poly={HOUSE.walls.floor} skew={0} />}
         {furniture.map(([slot, id]) => <HouseFurniture key={slot} slotId={slot} itemId={id} />)}
-        {partnerId && <SpriteImg assetKey={characterKey(partnerId, partnerLv as 1 | 2, 'idle')} at={HOUSE.partnerAt} width={HOUSE.partnerWidth} size={HOUSE.size} className="char-idle" testId="house-partner" />}
+        {partnerId && <HousePartner id={partnerId} level={partnerLv as 1 | 2} placements={placements} />}
         {mode === 'decorate' && onSelect && (
           <>
             {Object.entries(HOUSE.slots).map(([id, s]) => <SlotMarker key={id} id={id} label={SLOT_LABEL[id]} at={[s.at[0], s.at[1] - (id === 'rug' || id === 'frame' ? 0 : 40)]} size={HOUSE.size} empty={!placements[id]} selected={selected === id} onSelect={onSelect} />)}

@@ -6,7 +6,8 @@ import { DECORATION_RULES } from '@/domain/game/state';
 import { STORIES } from '@/content/furniture';
 import { useApp } from '@/store/app';
 import { cx } from '@/lib/cx';
-import { CharacterArt, GuideArt } from './CharacterArt';
+import { CharacterImage, GuideImage } from '@/game/CharacterImage';
+import { EvolutionSequence } from '@/game/EvolutionSequence';
 import { Button, Modal } from './ui';
 
 export function usePartner() {
@@ -31,7 +32,7 @@ export function PartnerBubble({ state, text, compact = false }: { state: Charact
   if (!line) return null;
   return (
     <div className={cx('flex items-end gap-2', compact && 'opacity-95')} aria-live="polite">
-      {p ? <CharacterArt id={p.ch.id} level={p.uc.level} state={state} size={compact ? 48 : 64} /> : <GuideArt size={compact ? 44 : 60} />}
+      {p ? <CharacterImage id={p.ch.id} level={p.uc.level} state={state} size={compact ? 48 : 64} /> : <GuideImage size={compact ? 44 : 60} />}
       <div className="relative rounded-2xl rounded-bl-sm bg-white border border-line px-3 py-2 text-sm max-w-[80%]">
         <span className="font-semibold text-accent-dark mr-1">{p ? p.ch.name : GUIDE.name}</span>{line}
       </div>
@@ -90,9 +91,9 @@ export function CelebrationLayer() {
               <div className="text-center" data-testid={big.kind === 'character' ? 'acquire-modal' : 'levelup-modal'}>
                 <p className="text-sm font-semibold text-accent-dark">{big.kind === 'character' ? (ch.rarity === 'common' ? '새 친구 발견!' : ch.rarity === 'rare' ? '희귀 캐릭터 획득!' : '특별 캐릭터 획득!') : '캐릭터 성장!'}</p>
                 <div className="my-3 grid place-items-center">
-                  <div className={cx('rounded-full p-4', big.kind === 'levelup' ? 'bg-butter glow' : 'bg-mint')}>
-                    <CharacterArt id={id} level={lv} state={big.kind === 'levelup' ? 'levelup' : 'greeting'} size={140} />
-                  </div>
+                  {big.kind === 'levelup' ? <div className="rounded-full p-2 bg-butter glow"><EvolutionSequence id={id} size={140} /></div> : (
+                    <div className="rounded-full p-4 bg-mint"><CharacterImage id={id} level={lv} state="greeting" size={140} /></div>
+                  )}
                 </div>
                 <p className="text-2xl font-extrabold">{ch.name} {big.kind === 'levelup' && <span className="text-accent">Lv.2</span>}</p>
                 <p className="text-sm text-ink-soft mt-1">{ch.species} · {ch.conceptLabel}</p>

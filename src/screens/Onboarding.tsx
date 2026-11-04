@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useApp } from '@/store/app';
 import { Button, Card, Page, Tag } from '@/components/ui';
-import { GuideArt } from '@/components/CharacterArt';
+import { GuideImage } from '@/game/CharacterImage';
 import { QuizRunner, toAnswers, type QResult } from '@/components/Quiz';
 import { LEVEL_TEST, LEVELS, estimateLevel } from '@/content/reading-leveltest';
 import { cx } from '@/lib/cx';
@@ -16,7 +16,7 @@ export function Onboarding() {
   return (
     <Page>
       <div className="text-center pt-6">
-        <div className="grid place-items-center"><GuideArt size={96} /></div>
+        <div className="grid place-items-center"><GuideImage size={96} /></div>
         <h1 className="text-2xl font-extrabold mt-3">영어 마을에 오신 걸 환영해요</h1>
         <p className="text-ink-soft mt-2 text-sm leading-relaxed">영어를 공부할수록 숲 친구들이 모이고<br />나만의 영어 마을이 자라요.</p>
       </div>

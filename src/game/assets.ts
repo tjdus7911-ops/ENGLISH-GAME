@@ -67,3 +67,6 @@ export const characterKey = (id: string, level: 1 | 2, pose: CharacterPose): str
   return hasAsset(key) || pose === 'idle' ? key : characterKey(id, level, POSE_FALLBACK[pose]);
 };
 export const guideKey = (pose: 'idle' | 'hop' | 'wave') => `characters/guide-${pose}`;
+
+/** 진화형은 기본형보다 조금 크게 보여 준다 (캔버스는 단계별로 정규화되어 있음) */
+export const levelScale = (level: 1 | 2) => (level === 2 ? 1.18 : 1);

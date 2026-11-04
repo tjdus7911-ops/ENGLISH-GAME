@@ -7,7 +7,7 @@ import { computeMastery } from '@/domain/learning/mastery';
 import { growthCheck, LV2_XP, LV2_MIN_REVIEW_DAYS, LV2_MIN_ACCURACY, DISCOVERY_PASS, DISCOVERY_MILESTONES } from '@/domain/game/state';
 import { EVOLUTION_REWARD, FURNITURE_BY_ID } from '@/content/furniture';
 import { discoveryQuestions } from '@/lib/questions';
-import { CharacterArt } from '@/components/CharacterArt';
+import { CharacterImage } from '@/game/CharacterImage';
 import { Button, Card, Empty, Page, Progress, SectionTitle, Tag } from '@/components/ui';
 import { QuizRunner, toAnswers } from '@/components/Quiz';
 import { PartnerBubble } from '@/components/Partner';
@@ -37,7 +37,7 @@ export function Discover() {
     return (
       <Page title="캐릭터 발견 결과" back="/home">
         <Card className="text-center" data-testid="discover-result">
-          <div className="grid place-items-center"><CharacterArt id={ch.id} silhouette={!outcome.success} state={outcome.success ? 'greeting' : 'idle'} size={150} /></div>
+          <div className="grid place-items-center"><CharacterImage id={ch.id} silhouette={!outcome.success} state={outcome.success ? 'greeting' : 'idle'} size={150} /></div>
           <p className="text-sm text-ink-soft">{outcome.correct} / 3 정답</p>
           {outcome.success ? (
             <><p className="text-2xl font-extrabold mt-1">{ch.name}을(를) 만났어요!</p><p className="text-sm text-ink-soft">{ch.species} · 도감에 등록됐어요</p></>
@@ -61,7 +61,7 @@ export function Discover() {
     return (
       <Page title="캐릭터 발견" back="/home">
         <Card className="text-center">
-          <div className="grid place-items-center"><CharacterArt id={info.characterId} silhouette size={150} /></div>
+          <div className="grid place-items-center"><CharacterImage id={info.characterId} silhouette size={150} /></div>
           <p className="text-xl font-bold">숲속에 누군가 있어요…</p>
           <p className="text-sm text-ink-soft mt-1">오늘 배운 내용으로 퀴즈 3문제! {DISCOVERY_PASS}문제 이상 맞히면 친구가 돼요.</p>
         </Card>
@@ -94,7 +94,7 @@ export function Collection() {
           return (
             <Link key={c.id} to={`/collection/${c.id}`} data-testid={`col-${c.id}`} data-owned={!!uc}
               className={cx('rounded-2xl border p-3 text-center bg-white', uc ? 'border-line' : 'border-dashed border-line bg-white/60')}>
-              <div className="grid place-items-center"><CharacterArt id={c.id} level={uc?.level ?? 1} silhouette={!uc} size={88} state={uc ? 'idle' : 'idle'} /></div>
+              <div className="grid place-items-center"><CharacterImage id={c.id} level={uc?.level ?? 1} silhouette={!uc} size={88} state={uc ? 'idle' : 'idle'} /></div>
               <p className="font-bold text-sm mt-1">{uc ? c.name : '???'} {uc && <span className="text-accent text-xs">Lv.{uc.level}</span>}</p>
               <div className="flex justify-center gap-1 mt-1 flex-wrap"><Tag tone={RARITY[c.rarity].tone}>{RARITY[c.rarity].label}</Tag>{partnerId === c.id && <Tag tone="accent">파트너</Tag>}</div>
             </Link>
@@ -141,7 +141,7 @@ export function CharacterDetail() {
   return (
     <Page title={uc ? ch.name : '미발견 캐릭터'}>
       <Card className="text-center">
-        <div className="grid place-items-center"><CharacterArt id={id} level={uc?.level ?? 1} silhouette={!uc} size={170} state={uc ? 'greeting' : 'idle'} /></div>
+        <div className="grid place-items-center"><CharacterImage id={id} level={uc?.level ?? 1} silhouette={!uc} size={170} state={uc ? 'greeting' : 'idle'} /></div>
         <p className="text-2xl font-extrabold">{uc ? ch.name : '???'} {uc && <span className="text-accent">Lv.{uc.level}</span>}</p>
         <div className="flex justify-center gap-1 mt-1"><Tag tone={RARITY[ch.rarity].tone}>{RARITY[ch.rarity].label}</Tag><Tag>{ch.conceptLabel}</Tag></div>
       </Card>
@@ -156,7 +156,7 @@ export function CharacterDetail() {
           {uc.level === 2 && (
             <>
               <SectionTitle>성장 전후</SectionTitle>
-              <Card className="flex items-center justify-around"><div className="text-center"><CharacterArt id={id} level={1} size={90} /><p className="text-xs">Lv.1</p></div><span className="text-2xl">→</span><div className="text-center"><CharacterArt id={id} level={2} size={90} /><p className="text-xs">Lv.2</p></div></Card>
+              <Card className="flex items-center justify-around"><div className="text-center"><CharacterImage id={id} level={1} size={90} /><p className="text-xs">Lv.1</p></div><span className="text-2xl">→</span><div className="text-center"><CharacterImage id={id} level={2} size={90} /><p className="text-xs">Lv.2</p></div></Card>
             </>
           )}
           <div className="mt-3"><GrowthPanel id={id} /></div>
@@ -191,7 +191,7 @@ export function PartnerScreen() {
               return (
                 <button key={c.id} role="radio" aria-checked={on} onClick={() => setPartner(c.id)} data-testid={`partner-${c.id}`}
                   className={cx('flex items-center gap-3 rounded-2xl border-2 p-3 bg-white text-left min-h-[72px]', on ? 'border-accent' : 'border-line')}>
-                  <CharacterArt id={c.id} level={uc.level} size={56} />
+                  <CharacterImage id={c.id} level={uc.level} size={56} />
                   <span className="flex-1"><span className="font-bold block">{c.name} <span className="text-accent text-sm">Lv.{uc.level}</span></span><span className="text-xs text-ink-soft">{c.conceptLabel} · {uc.xp} XP</span></span>
                   {on && <Tag tone="accent">파트너</Tag>}
                 </button>
@@ -214,7 +214,7 @@ export function Growth() {
   return (
     <Page title={`${ch.name} 성장`}>
       <Card className="text-center">
-        <div className={cx('mx-auto w-fit rounded-full p-4', uc.level === 2 ? 'bg-butter glow' : 'bg-mint')}><CharacterArt id={id} level={uc.level} state={uc.level === 2 ? 'levelup' : 'idle'} size={160} /></div>
+        <div className={cx('mx-auto w-fit rounded-full p-4', uc.level === 2 ? 'bg-butter glow' : 'bg-mint')}><CharacterImage id={id} level={uc.level} state={uc.level === 2 ? 'levelup' : 'idle'} size={160} /></div>
         <p className="text-xl font-extrabold mt-2">Lv.{uc.level}</p>
         <p className="text-sm text-ink-soft">{uc.level === 2 ? ch.lines.levelup?.[0] : '복습을 꾸준히 하면 성장해요.'}</p>
       </Card>

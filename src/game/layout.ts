@@ -77,6 +77,12 @@ export const HOUSE = {
   } as Record<string, { at: Pt; width: number }>,
   partnerAt: [560, 760] as Pt,
   partnerWidth: 130,
+  /** 가구 상호작용 지점: 해당 슬롯에 가구가 있을 때만 이동. z 를 주면 가구 위에 그린다(소파·침대) */
+  interact: {
+    desk: { at: [330, 600] as Pt, pose: 'study' as const },
+    sofa: { at: [830, 780] as Pt, pose: 'sit' as const, z: 840 },
+    bed: { at: [925, 470] as Pt, pose: 'sleep' as const, z: 600 },
+  } as Record<string, { at: Pt; pose: 'study' | 'sit' | 'sleep'; z?: number }>,
 };
 
 // ─────────────────────────── 정원 (1280×1024) ───────────────────────────
