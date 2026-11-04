@@ -1,6 +1,7 @@
 import { useEffect, useState, type ReactNode, type ButtonHTMLAttributes } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cx } from '@/lib/cx';
+import { clearLeaveGuard, leaveGuardMessage } from '@/lib/leaveGuard';
 import { onPlayStatus, playAudio, playStatus, stopAudio } from '@/lib/audio';
 import { useApp } from '@/store/app';
 
@@ -45,15 +46,27 @@ export function Progress({ value, max, label }: { value: number; max: number; la
 
 export function Page({ title, back = true, children, right, className, onBack }: { title?: string; back?: boolean | string; children: ReactNode; right?: ReactNode; className?: string; onBack?: () => void }) {
   const nav = useNavigate();
+  const [leaveMsg, setLeaveMsg] = useState<string | null>(null);
   useEffect(() => () => stopAudio(), []);
+  const goBack = () => { if (onBack) onBack(); else if (typeof back === 'string') nav(back); else if (window.history.length > 1) nav(-1); else nav('/home'); };
   return (
     <div className={cx('min-h-[100dvh] bg-mist', className)}>
+      <Modal open={!!leaveMsg} onClose={() => setLeaveMsg(null)} label="나가기 확인">
+        <div className="text-center" data-testid="leave-confirm">
+          <p className="font-bold text-lg">이 화면을 나갈까요?</p>
+          <p className="text-sm text-ink-soft mt-1">{leaveMsg}</p>
+          <div className="grid grid-cols-2 gap-2 mt-4">
+            <Button variant="secondary" onClick={() => setLeaveMsg(null)} data-testid="leave-stay">계속하기</Button>
+            <Button onClick={() => { setLeaveMsg(null); clearLeaveGuard(); goBack(); }} data-testid="leave-go">나가기</Button>
+          </div>
+        </div>
+      </Modal>
       {title !== undefined && (
         <header className="sticky top-0 z-20 bg-white/95 backdrop-blur border-b border-line">
           <div className="mx-auto max-w-[560px] flex items-center gap-1 h-14 px-2">
             {back ? (
               <button aria-label="뒤로 가기" className="w-11 h-11 grid place-items-center rounded-full hover:bg-mist text-xl"
-                onClick={() => { if (onBack) onBack(); else if (typeof back === 'string') nav(back); else if (window.history.length > 1) nav(-1); else nav('/home'); }}>
+                onClick={() => { const m = leaveGuardMessage(); if (m) setLeaveMsg(m); else goBack(); }}>
                 ‹
               </button>
             ) : <span className="w-3" />}

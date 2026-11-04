@@ -12,9 +12,20 @@ function hashSeed(s: string) {
   return h || 1;
 }
 
+/** 오답 보기 3개: 같은 품사 우선, 모자라면 다른 품사로 채움 (예: 조동사 can 은 같은 품사 단어가 없어 보기가 1개뿐이던 문제) */
+function distractors(v: Vocabulary, distinct: (x: Vocabulary) => boolean, seed: number, samePos = true) {
+  const pool = VOCAB.filter((x) => x.id !== v.id && distinct(x));
+  const same = shuffle(pool.filter((x) => !samePos || x.pos === v.pos), seed).slice(0, 3);
+  if (same.length >= 3) return same;
+  const rest = shuffle(pool.filter((x) => !same.includes(x)), seed + 11);
+  const out = [...same];
+  for (const x of rest) { if (out.length >= 3) break; if (!out.some((o) => !distinct(o) || o.meaning === x.meaning || o.word === x.word)) out.push(x); }
+  return out;
+}
+
 /** 단어 뜻 맞히기 (객관식) */
 export function wordMeaningQ(v: Vocabulary, seed = 1): Question {
-  const others = shuffle(VOCAB.filter((x) => x.id !== v.id && x.pos === v.pos && x.meaning !== v.meaning), hashSeed(v.id) + seed).slice(0, 3);
+  const others = distractors(v, (x) => x.meaning !== v.meaning, hashSeed(v.id) + seed);
   const choices = shuffle([v.meaning, ...others.map((o) => o.meaning)], hashSeed(v.id + 'c') + seed);
   return { id: `wq-${v.id}`, type: 'mc', prompt: '단어의 뜻을 고르세요.', sentence: v.word, choices, answers: [v.meaning], explanation: `${v.word} (${v.pos}) = ${v.meaning}`, conceptId: v.grammarId, audio: v.audio };
 }
@@ -28,7 +39,7 @@ export function wordBlankQ(v: Vocabulary): Question | null {
 
 /** 영어 → 뜻 / 뜻 → 영어 */
 export function wordReverseQ(v: Vocabulary, seed = 1): Question {
-  const others = shuffle(VOCAB.filter((x) => x.id !== v.id && x.pos === v.pos && x.word !== v.word), hashSeed(v.id) + seed + 3).slice(0, 3);
+  const others = distractors(v, (x) => x.word !== v.word, hashSeed(v.id) + seed + 3);
   const choices = shuffle([v.word, ...others.map((o) => o.word)], hashSeed(v.id + 'r') + seed);
   return { id: `wr-${v.id}`, type: 'mc', prompt: '뜻에 맞는 영어 단어를 고르세요.', sentence: v.meaning, choices, answers: [v.word], explanation: `${v.meaning} = ${v.word}`, conceptId: v.grammarId };
 }

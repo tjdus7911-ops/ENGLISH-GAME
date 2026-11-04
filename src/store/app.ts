@@ -1,3 +1,4 @@
+import { VOCAB_BY_ID } from '@/content/vocab';
 import { create } from 'zustand';
 import { persist, createJSONStorage, type StateStorage } from 'zustand/middleware';
 import { get as idbGet, set as idbSet, del as idbDel } from 'idb-keyval';
@@ -54,6 +55,8 @@ export interface LearningState {
   speakingAttempts: SpeakingAttempt[];
   expressionsDone: Record<string, string>;
   savedExpressions: string[];
+  /** 저장한 단어 (단어 id) — 단어장 '저장한 단어' */
+  savedWords: string[];
   dramasDone: Record<string, string>;
   readingsDone: Record<string, string>;
   log: StudyLogEntry[];
@@ -76,7 +79,7 @@ export interface AppState {
 
 const initialLearning = (): LearningState => ({
   answers: [], reviews: {}, wrongNotes: {}, learnedWords: {}, steps: {}, lectureViewed: {}, unitTests: {}, a1Exam: null,
-  listeningDone: {}, speakingAttempts: [], expressionsDone: {}, savedExpressions: [], dramasDone: {}, readingsDone: {}, log: [], reviewSkippedOn: null, studySeconds: {},
+  listeningDone: {}, speakingAttempts: [], expressionsDone: {}, savedExpressions: [], savedWords: [], dramasDone: {}, readingsDone: {}, log: [], reviewSkippedOn: null, studySeconds: {},
 });
 
 const initialHome = (): HomeState => ({ ...initialHomeState(DEFAULT_ITEMS), placements: { house: { ...DEFAULT_PLACEMENTS }, garden: {} } });
@@ -344,6 +347,9 @@ export interface Actions {
   freePractice: (title: string, answers: Ans[]) => void;
   skipReviewToday: () => void;
   toggleSaveExpression: (id: string) => void;
+  toggleSaveWord: (id: string) => void;
+  /** 주제·난이도 단어장 챕터(5단어) 완료: 학습 기록은 단어 id 기준으로 통합, 첫 완료 시 별·XP 소량 */
+  completeWordSet: (chapterId: string, title: string, wordIds: string[], answers: Ans[]) => void;
   resolveDiscoveryQuiz: (characterId: string, correct: number, answers: Ans[]) => { success: boolean };
   setPartner: (id: string) => boolean;
   claimQuest: (questId: string) => { ok: boolean; stars: number; items: string[] };
@@ -547,6 +553,31 @@ export const useApp = create<AppState & Actions & { hydrated: boolean }>()(
       freePractice: (title, answers) => set((s) => applyStudyEvent(s, { log: { kind: 'free', refId: 'free', title, correct: answers.filter((a) => a.correct).length, total: answers.length }, answers })),
 
       skipReviewToday: () => set((s) => ({ learning: { ...s.learning, reviewSkippedOn: today() } })),
+
+      toggleSaveWord: (id) => set((s) => {
+        const cur = s.learning.savedWords ?? [];
+        return { learning: { ...s.learning, savedWords: cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id] } };
+      }),
+
+      completeWordSet: (chapterId, title, wordIds, answers) => set((s) => {
+        const before = Object.keys(s.learning.learnedWords).length;
+        const newOnes = wordIds.filter((w) => !s.learning.learnedWords[w]);
+        const after = before + newOnes.length;
+        const rewards: StudyEvent['rewards'] = [];
+        for (let k = Math.floor(before / 10) + 1; k <= Math.floor(after / 10); k++) rewards.push({ eventId: `vocab10:${k}`, xp: 5, reason: `신규 단어 ${k * 10}개 달성` });
+        // 챕터 첫 완료(새 단어가 1개 이상 포함된 경우만) — 같은 챕터 반복으로는 다시 지급되지 않음
+        if (newOnes.length > 0) rewards.push({ eventId: `wordset:${chapterId}`, stars: 2, xp: 3, reason: `${title} 완료` });
+        return applyStudyEvent(s, {
+          log: { kind: 'words', refId: chapterId, title: `단어장 · ${title}`, correct: answers.filter((a) => a.correct).length, total: answers.length },
+          answers, rewards,
+          reviewsToCreate: wordIds.map((w) => ({ kind: 'word' as const, refId: w, conceptId: VOCAB_BY_ID[w]?.grammarId ?? 'a1-u01' })),
+          mutate: (l, date) => {
+            const learnedWords = { ...l.learnedWords };
+            for (const w of newOnes) learnedWords[w] = date;
+            return { ...l, learnedWords };
+          },
+        });
+      }),
 
       toggleSaveExpression: (id) => set((s) => {
         const saved = s.learning.savedExpressions.includes(id) ? s.learning.savedExpressions.filter((x) => x !== id) : [...s.learning.savedExpressions, id];

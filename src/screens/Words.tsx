@@ -5,16 +5,16 @@ import { GRAMMAR_BY_ID, GRAMMAR_UNITS } from '@/content/grammar';
 import { vocabForUnit, VOCAB } from '@/content/vocab';
 import { AudioButton, Button, Card, Page, Progress, Tag, Empty } from '@/components/ui';
 import { QuizRunner, ResultView, toAnswers, type QResult } from '@/components/Quiz';
-import { PartnerBubble } from '@/components/Partner';
+import { WordStudy } from '@/components/WordStudyCard';
 import { nextNewWords, wordQuiz } from '@/lib/questions';
 import { currentUnit } from '@/lib/curriculum';
-import type { Vocabulary } from '@/domain/types';
 
-export function WordsHub() {
+/** 보조 메뉴: 기존 문법 단원별 단어장 (학습 기록은 단어 id 로 단어 숲과 통합) */
+export function GrammarWordsHub() {
   const learned = useApp((s) => s.learning.learnedWords);
   const total = Object.keys(learned).length;
   return (
-    <Page title="단어 숲" back="/home">
+    <Page title="문법 단원별 단어장" back="/words">
       <Card>
         <p className="text-sm text-ink-soft">학습한 A1 단어</p>
         <p className="text-2xl font-extrabold">{total} <span className="text-ink-faint text-base">/ {VOCAB.length}</span></p>
@@ -38,32 +38,6 @@ export function WordsHub() {
   );
 }
 
-function WordCard({ v }: { v: Vocabulary }) {
-  const g = GRAMMAR_BY_ID[v.grammarId];
-  const learnedOn = useApp((s) => s.learning.learnedWords[v.id]);
-  const review = useApp((s) => s.learning.reviews[`word:${v.id}`]);
-  return (
-    <Card data-testid="word-card">
-      <div className="flex items-start gap-3">
-        <div className="flex-1 min-w-0">
-          <div className="flex items-baseline gap-2 flex-wrap"><p className="text-3xl font-extrabold break-words">{v.word}</p><Tag>{v.pos}</Tag><Tag tone="accent">A1</Tag></div>
-          <p className="text-ink-soft text-sm mt-1">{v.ipa} · <span aria-label="한글 발음 참고">[{v.koPron}]</span></p>
-          <p className="text-lg font-semibold mt-2">{v.meaning}</p>
-        </div>
-        <AudioButton src={v.audio} text={v.word} label="단어 발음 듣기" />
-      </div>
-      <div className="mt-4 rounded-2xl bg-mist p-3 flex items-start gap-3">
-        <div className="flex-1 min-w-0"><p className="font-medium">{v.example}</p><p className="text-sm text-ink-soft mt-1">{v.exampleKo}</p></div>
-        <AudioButton src={v.exampleAudio} text={v.example} label="예문 듣기" size="sm" />
-      </div>
-      {v.pattern && <p className="mt-3 text-sm"><Tag tone="lilac">연결 패턴</Tag> <b>{v.pattern}</b></p>}
-      <p className="mt-3 text-xs" data-testid="word-status"><b>학습 상태</b> · {learnedOn ? `학습함 (${learnedOn})` : '새 단어'}{review && <> · 다음 복습 {review.due}</>}</p>
-      <p className="mt-1 text-xs text-ink-soft">관련 문법: <Link className="underline" to={`/grammar/${g.id}`}>{g.title}</Link></p>
-      <p className="mt-1 text-[11px] text-ink-faint">발음기호는 CMU 사전 기반 미국식 자동 변환 · 음성은 합성 음성(TTS)입니다.</p>
-    </Card>
-  );
-}
-
 export function WordLearn() {
   const { unitId = '' } = useParams();
   const [sp] = useSearchParams();
@@ -80,7 +54,10 @@ export function WordLearn() {
     return fresh.length ? fresh : vocabForUnit(unitId).slice(0, daily);
   });
   const isRepeat = words.every((w) => learned[w.id]);
-  const [i, setI] = useState(0);
+  // 새로고침해도 보던 카드 위치를 이어서 (같은 날·같은 단원·같은 단어 묶음일 때만)
+  const posKey = `words-pos:${unitId}:${new Date().toDateString()}:${words.map((w) => w.id).join(',')}`;
+  const [i, setIRaw] = useState(() => { try { const v = Number(sessionStorage.getItem(posKey)); return Number.isFinite(v) && v > 0 && v < words.length ? v : 0; } catch { return 0; } });
+  const setI = (n: number) => { setIRaw(n); try { sessionStorage.setItem(posKey, String(n)); } catch { /* 저장 불가 환경 무시 */ } };
   const [phase, setPhase] = useState<'cards' | 'quiz' | 'result'>('cards');
   const [results, setResults] = useState<QResult[]>([]);
   const quiz = useMemo(() => wordQuiz(words, unitId.length * 31 + words.length), [words, unitId]);
@@ -105,10 +82,9 @@ export function WordLearn() {
         <>
           <div className="flex items-center gap-3 mb-3"><span className="text-sm font-semibold text-ink-soft whitespace-nowrap">{i + 1} / {words.length}</span><Progress value={i + 1} max={words.length} /></div>
           {isRepeat && <p className="text-xs text-ink-soft mb-2">이 단원의 단어를 모두 학습했어요. 다시 보기 모드입니다 (보상은 중복 지급되지 않아요).</p>}
-          <WordCard v={words[i]} />
-          <div className="mt-3"><PartnerBubble state="studying" compact /></div>
+          <WordStudy key={words[i].id} v={words[i]} index={i} total={words.length} />
           <div className="grid grid-cols-2 gap-2 mt-4">
-            <Button variant="secondary" disabled={i === 0} onClick={() => setI(i - 1)}>이전</Button>
+            <Button variant="secondary" disabled={i === 0} onClick={() => setI(i - 1)}>이전 단어</Button>
             {i + 1 < words.length ? <Button onClick={() => setI(i + 1)}>다음 단어</Button> : <Button onClick={() => setPhase('quiz')} data-testid="start-word-quiz">단어 퀴즈</Button>}
           </div>
         </>

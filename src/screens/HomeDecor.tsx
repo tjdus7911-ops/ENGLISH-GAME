@@ -11,6 +11,7 @@ import { QuestRewardOverlay, type QuestReward } from '@/game/QuestRewardOverlay'
 import { PartnerBubble } from '@/components/Partner';
 import { Button, Card, Empty, Modal, Page, SectionTitle, Tag } from '@/components/ui';
 import { cx } from '@/lib/cx';
+import { useLeaveGuard } from '@/lib/leaveGuard';
 
 function Stars() {
   const n = useApp((s) => starBalance(s.game));
@@ -23,12 +24,18 @@ const RARITY_LABEL: Record<string, string> = { basic: '기본', common: '일반'
 function DecorEditor({ space }: { space: SpaceId }) {
   const home = useApp((s) => s.home);
   const commit = useApp((s) => s.commitDecor);
-  const [draft, setDraft] = useState<Record<string, string | null>>({});
+  // 상점에서 '바로 배치하기' → #/house?place=itemId : 꾸미기 모드 + 해당 자리에 미리보기 (확정 전까지 저장 안 됨)
+  const placeId = new URLSearchParams(window.location.hash.split('?')[1] ?? '').get('place');
+  const placeItem = placeId ? FURNITURE_BY_ID[placeId] : undefined;
+  const placeSlot = placeItem && placeItem.space === space && home.inventory[placeItem.itemId]
+    ? (() => { const c = SLOTS[space].filter((x) => x.accepts === placeItem.placementSlot); return c.find((x) => !home.placements[space][x.id]) ?? c[0]; })() : undefined;
+  const [draft, setDraft] = useState<Record<string, string | null>>(() => (placeSlot && placeItem && home.placements[space][placeSlot.id] !== placeItem.itemId ? { [placeSlot.id]: placeItem.itemId } : {}));
   const [slot, setSlot] = useState<string | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
-  const [mode, setMode] = useState<'view' | 'decorate'>('view');
+  const [mode, setMode] = useState<'view' | 'decorate'>(placeSlot ? 'decorate' : 'view');
   const effective = { ...home.placements[space], ...draft };
   const dirty = Object.keys(draft).some((k) => (home.placements[space][k] ?? null) !== draft[k]);
+  useLeaveGuard(dirty, '저장하지 않은 배치가 있어요. 나가면 미리보기가 사라져요.');
   const slotDef = SLOTS[space].find((x) => x.id === slot);
   const owned = slotDef ? FURNITURE.filter((f) => f.placementSlot === slotDef.accepts && f.space === space && home.inventory[f.itemId]) : [];
   const canEmpty = slotDef && slotDef.accepts !== 'wallpaper' && slotDef.accepts !== 'floor';
@@ -42,8 +49,15 @@ function DecorEditor({ space }: { space: SpaceId }) {
       <div className="flex items-center gap-2 mt-2">
         <p className="text-xs text-ink-soft flex-1">{mode === 'view' ? '감상 모드 — 꾸미기를 시작하면 바꿀 수 있는 자리가 보여요.' : '바꿀 자리를 눌러 보세요. 확정하기 전까지는 미리보기예요. 보유 가구는 별 없이 교체돼요.'}</p>
         <Button size="sm" variant={mode === 'view' ? 'primary' : 'secondary'} data-testid="decor-toggle" aria-pressed={mode === 'decorate'}
-          onClick={() => { if (mode === 'decorate') { setSlot(null); } setMode(mode === 'view' ? 'decorate' : 'view'); }}>
-          {mode === 'view' ? '꾸미기 시작' : '꾸미기 끝내기'}
+          onClick={() => {
+            if (mode === 'decorate') {
+              setSlot(null);
+              // 미저장 배치가 있으면 '끝내기' = 저장 후 감상 모드 (예전: 저장 안 된 미리보기가 감상 모드에 남았다가 화면을 나가면 사라짐)
+              if (dirty) { const r = commit(space, draft); setMsg(r.ok ? '배치를 저장했어요!' : '배치할 수 없는 아이템이에요.'); if (r.ok) setDraft({}); else return; }
+            }
+            setMode(mode === 'view' ? 'decorate' : 'view');
+          }}>
+          {mode === 'view' ? '꾸미기 시작' : dirty ? '저장하고 끝내기' : '꾸미기 끝내기'}
         </Button>
       </div>
       {dirty && (
@@ -125,6 +139,7 @@ export function ShopScreen() {
   const [tab, setTab] = useState<'all' | 'furniture' | 'deco' | 'wallpaper' | 'floor' | 'garden'>(init === 'wallpaper' || init === 'floor' ? init : init && ['flowerbed', 'tree', 'bench', 'fountain', 'gardenlight', 'path'].includes(init) ? 'garden' : 'all');
   const [confirm, setConfirm] = useState<string | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
+  const [bought, setBought] = useState<string | null>(null);
   const bal = starBalance(s.game);
   const deco: ItemCategory[] = ['lamp', 'rug', 'plant', 'frame'];
   const list = FURNITURE.filter((f) => f.price > 0).filter((f) =>
@@ -138,6 +153,11 @@ export function ShopScreen() {
         {TABS.map(([k, l]) => <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)} className={cx('min-h-[44px] px-3 rounded-full text-sm font-semibold border shrink-0', tab === k ? 'bg-accent text-white border-accent' : 'bg-white border-line')}>{l}</button>)}
       </div>
       {msg && <p className="text-sm text-center my-2" role="status">{msg}</p>}
+      {bought && (
+        <div className="flex justify-center mb-2">
+          <Button size="sm" data-testid="place-now" onClick={() => nav(`/${FURNITURE_BY_ID[bought].space === 'garden' ? 'garden' : 'house'}?place=${bought}`)}>바로 배치하기 ›</Button>
+        </div>
+      )}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-3" data-testid="shop-grid">
         {list.map((f) => {
           const owned = !!s.home.inventory[f.itemId];
@@ -171,7 +191,7 @@ export function ShopScreen() {
             <p className="font-bold text-lg">{item.name}</p>
             <p className="text-sm text-ink-soft">★ {item.price} 사용 · 구매 후 잔액 ★ {bal - item.price}</p>
             <div className="grid gap-2 mt-4">
-              <Button size="lg" data-testid="buy-confirm" onClick={() => { const r = s.buyFurniture(item.itemId); setConfirm(null); setMsg(r.ok ? `${item.name}을(를) 샀어요! 나의 집에서 배치해 보세요.` : r.error === 'insufficient' ? '별이 부족해요.' : '구매할 수 없어요.'); }}>구매하기</Button>
+              <Button size="lg" data-testid="buy-confirm" onClick={() => { const r = s.buyFurniture(item.itemId); setConfirm(null); setBought(r.ok ? item.itemId : null); setMsg(r.ok ? `${item.name}을(를) 샀어요!` : r.error === 'insufficient' ? '별이 부족해요.' : '구매할 수 없어요.'); }}>구매하기</Button>
               <Button variant="ghost" onClick={() => setConfirm(null)}>취소</Button>
             </div>
           </div>

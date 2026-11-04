@@ -3,7 +3,7 @@ import { quickStart } from './setup';
 
 const ROUTES = ['/home', '/today', '/words/a1-u01', '/grammar', '/grammar/a1-u05', '/listening/dlg-02', '/speaking/a1-u01', '/review', '/wrong-notes', '/free',
   '/analysis', '/collection', '/collection/mossy', '/partner', '/exam', '/my', '/expressions', '/expressions/c/essential', '/expressions/item/trv-01',
-  '/video/drama-02', '/house', '/shop', '/inventory', '/garden', '/spaces', '/quests', '/history', '/reading/rd-01'];
+  '/video/drama-02', '/house', '/shop', '/inventory', '/garden', '/spaces', '/quests', '/history', '/reading/rd-01', '/words', '/words/level/pre-a1', '/words/level/a2', '/words/topic/food', '/words/ch/food-pre-a1-1', '/words/search?q=app', '/words/saved', '/words/grammar'];
 
 for (const width of [360, 390, 430, 768]) {
   test(`레이아웃 ${width}px: 가로 스크롤 없음 · 주요 버튼 44px`, async ({ page }) => {

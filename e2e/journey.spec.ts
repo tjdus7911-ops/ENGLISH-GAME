@@ -46,6 +46,7 @@ test('시나리오 A~D: 첫 학습 → 캐릭터 획득 → 다음 날 복습·�
   await page.getByTestId('step-words').click();
   await expect(page.getByTestId('word-card')).toBeVisible();
   await page.getByRole('button', { name: /단어 발음 듣기/ }).click(); // 발음 듣기
+  await page.getByTestId('reveal-meaning').click(); // 하단 해석 카드 공개 후 예문 듣기
   await page.getByRole('button', { name: /예문 듣기/ }).first().click();
   for (let i = 0; i < 9; i++) await page.getByRole('button', { name: '다음 단어' }).click();
   await page.getByTestId('start-word-quiz').click();

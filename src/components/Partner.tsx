@@ -55,17 +55,19 @@ export function CelebrationLayer() {
   const [line, setLine] = useState(0);
   useEffect(() => { setLine(0); }, [story?.id]);
 
+  // 보이는 토스트(최대 3개)는 각자 2.6초 뒤 동시에 사라진다 (예전: 하나씩 순서대로 → 3개면 7.8초 동안 화면 상단을 가림)
+  const visibleIds = toasts.slice(0, 3).map((t) => t.id).join(',');
   useEffect(() => {
-    if (!toasts.length) return;
-    const t = setTimeout(() => dismiss(toasts[0].id), 2600);
-    return () => clearTimeout(t);
-  }, [toasts, dismiss]);
+    if (!visibleIds) return;
+    const timers = visibleIds.split(',').map((id) => setTimeout(() => dismiss(id), 2600));
+    return () => timers.forEach(clearTimeout);
+  }, [visibleIds, dismiss]);
 
   return (
     <>
       <div className="fixed top-16 left-0 right-0 z-40 pointer-events-none flex flex-col items-center gap-2 px-4">
         {toasts.slice(0, 3).map((t) => (
-          <div key={t.id} className="pointer-events-auto toast-in rounded-2xl bg-ink text-white px-4 py-2.5 text-sm shadow-lg max-w-[420px]" role="status">
+          <div key={t.id} className="pointer-events-none toast-in rounded-2xl bg-ink text-white px-4 py-2.5 text-sm shadow-lg max-w-[420px]" role="status">
             {t.kind === 'reward' ? `✨ ${t.text}` : `🌼 마을에 새 변화: ${DECORATION_RULES.find((d) => d.id === t.decoration)?.label}`}
           </div>
         ))}

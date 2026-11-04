@@ -5,7 +5,8 @@ import { CelebrationLayer } from '@/components/Partner';
 import { Onboarding, Goal, LevelTestScreen, LevelResult } from '@/screens/Onboarding';
 import { Home } from '@/screens/Home';
 import { Today } from '@/screens/Today';
-import { WordsHub, WordLearn } from '@/screens/Words';
+import { GrammarWordsHub, WordLearn } from '@/screens/Words';
+import { WordForestHome, WordLevelPage, WordTopicPage, ChapterLearn, WordSearch, SavedWords } from '@/screens/WordForest';
 import { GrammarHub, Lecture, GrammarPractice, GrammarWriting, UnitTest } from '@/screens/Grammar';
 import { ListeningHub, ListeningPlayer } from '@/screens/Listening';
 import { SpeakingHub, SpeakingPractice } from '@/screens/Speaking';
@@ -80,7 +81,13 @@ export default function App() {
             <Route path="/level-result" element={<LevelResult />} />
             <Route path="/home" element={<Home />} />
             <Route path="/today" element={<Today />} />
-            <Route path="/words" element={<WordsHub />} />
+            <Route path="/words" element={<WordForestHome />} />
+            <Route path="/words/grammar" element={<GrammarWordsHub />} />
+            <Route path="/words/level/:lv" element={<WordLevelPage />} />
+            <Route path="/words/topic/:topic" element={<WordTopicPage />} />
+            <Route path="/words/ch/:chapterId" element={<ChapterLearn />} />
+            <Route path="/words/search" element={<WordSearch />} />
+            <Route path="/words/saved" element={<SavedWords />} />
             <Route path="/words/:unitId" element={<WordLearn />} />
             <Route path="/grammar" element={<GrammarHub />} />
             <Route path="/grammar/:unitId" element={<Lecture />} />

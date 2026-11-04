@@ -1,3 +1,5 @@
+import { SessionRewards } from './SessionRewards';
+import { useLeaveGuard } from '@/lib/leaveGuard';
 import { useMemo, useState, type ReactNode } from 'react';
 import type { CharacterAnimState, Question, UserAnswer } from '@/domain/types';
 import { gradeAnswer, gradeOrder, shuffle } from '@/domain/learning/grading';
@@ -113,6 +115,8 @@ export function QuizRunner({ questions, onDone, title, partnerContext = 'studyin
   const [i, setI] = useState(0);
   const [results, setResults] = useState<QResult[]>([]);
   const [answered, setAnswered] = useState<{ given: string; correct: boolean } | null>(null);
+  // 한 문제라도 풀었으면 뒤로가기 전에 확인 (결과 화면으로 넘어가면 QuizRunner 가 사라지며 해제)
+  useLeaveGuard(results.length > 0 || !!answered, '지금 나가면 이번에 푼 문제는 저장되지 않아요.');
   const q = questions[i];
   if (!q) return null;
   const mood: CharacterAnimState = answered ? (answered.correct ? 'correct' : 'incorrect') : partnerContext;
@@ -151,6 +155,7 @@ export function ResultView({ results, title, children, passLabel }: { results: Q
         <p className="text-sm mt-1">정답률 {results.length ? Math.round((correct / results.length) * 100) : 0}%{passLabel ? ` · ${passLabel}` : ''}</p>
       </Card>
       <div className="mt-3"><PartnerBubble state="completed" /></div>
+      <SessionRewards />
       {wrong.length > 0 && (
         <div className="mt-4">
           <h2 className="font-bold mb-2">오답 해설 ({wrong.length})</h2>

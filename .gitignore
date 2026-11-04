@@ -10,3 +10,8 @@ coverage
 .DS_Store
 scripts/.tts
 tsconfig.tsbuildinfo
+
+# 탐색용 점검 스크린샷 (재생성 가능)
+qa/audit/
+qa/flow/
+qa/flow2/

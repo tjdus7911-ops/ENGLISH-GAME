@@ -55,7 +55,7 @@ export function DialogueLesson({ d, kind, onFinishPath }: { d: Dialogue; kind: '
           <Card>
             <p className="text-sm text-ink-soft">{d.situation}</p>
             {/* 재생 컨트롤 — 스크립트와 분리 */}
-            <div className="mt-3 flex items-center gap-2" data-testid="player">
+            <div className="mt-3 flex flex-wrap items-center gap-2 [&>button]:whitespace-nowrap" data-testid="player">
               {!fullActive || st.state === 'error' ? (
                 <Button onClick={playAll} data-testid="play-all" aria-label="대화 전체 재생">▶ 재생</Button>
               ) : st.state === 'paused' ? (
@@ -64,7 +64,7 @@ export function DialogueLesson({ d, kind, onFinishPath }: { d: Dialogue; kind: '
                 <Button onClick={pauseAudio} aria-label="일시정지" data-testid="pause">❚❚ 일시정지</Button>
               )}
               <Button variant="secondary" onClick={playAll} aria-label="처음부터 다시 듣기">↻ 반복</Button>
-              <div className="ml-auto flex items-center gap-1" role="group" aria-label="재생 속도">
+              <div className="ml-auto flex items-center gap-1 shrink-0" role="group" aria-label="재생 속도">
                 {RATES.map((r) => (
                   <button key={r} onClick={() => { setR(r); setRate(r); }} aria-pressed={rate === r}
                     className={cx('min-w-[44px] min-h-[44px] rounded-xl text-sm font-semibold', rate === r ? 'bg-ink text-white' : 'bg-mist')}>{r}x</button>
@@ -82,7 +82,7 @@ export function DialogueLesson({ d, kind, onFinishPath }: { d: Dialogue; kind: '
           <Card className="mt-2 !p-2" data-testid="script">
             {d.lines.map((l, i) => (
               <div key={i} className={cx('flex items-start gap-2 p-2 rounded-xl', st.src === l.audio && 'bg-accent-soft')}>
-                <span className={cx('text-xs font-bold w-16 shrink-0 pt-1 truncate', l.speaker === 'A' ? 'text-accent-dark' : 'text-[#3D6FB5]')}>{l.name}</span>
+                <span className={cx('text-xs font-bold w-20 shrink-0 pt-1 break-words leading-tight', l.speaker === 'A' ? 'text-accent-dark' : 'text-[#3D6FB5]')}>{l.name}</span>
                 <div className="flex-1 min-w-0">
                   {showScript ? <p className="font-medium">{l.en}</p> : <p className="text-ink-faint select-none" aria-label="스크립트 숨김">{'•'.repeat(Math.min(24, l.en.length / 2))}</p>}
                   {showKo && <p className="text-sm text-ink-soft">{l.ko}</p>}

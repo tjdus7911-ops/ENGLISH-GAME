@@ -11,6 +11,7 @@ import { useApp } from '@/store/app';
 import { VillageScene } from '@/game/village/VillageScene';
 import { HouseScene } from '@/game/house/HouseScene';
 import { GardenScene } from '@/game/garden/GardenScene';
+import { EvolutionSequence } from '@/game/EvolutionSequence';
 
 const q = new URLSearchParams(location.search);
 const scene = q.get('scene') ?? 'village';
@@ -39,6 +40,7 @@ function App() {
       <div id="shot" style={{ width }}>
         {scene === 'village' && <VillageScene />}
         {scene === 'house' && <HouseScene placements={placements} mode={(q.get('mode') as 'view' | 'decorate') ?? 'view'} selected={q.get('sel')} onSelect={() => {}} />}
+        {scene === 'evolve' && <EvolutionSequence id={q.get('id') ?? 'mossy'} size={140} />}
         {scene === 'garden' && <GardenScene placements={placements} locked={q.get('locked') === '1'} mode={(q.get('mode') as 'view' | 'decorate') ?? 'view'} onSelect={() => {}} />}
       </div>
     </MemoryRouter>

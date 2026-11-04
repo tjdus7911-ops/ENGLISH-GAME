@@ -44,3 +44,18 @@ a.block:has(> button), .grid > a:has(> button) { display: block; }
 .bld-img-press { transform: scale(1.05); filter: brightness(1.06); }
 .deco-in { animation: popIn .4s ease-out; }
 .hit-poly:focus-visible { stroke: #E9513B; stroke-width: 6; }
+
+/* 진화 연출 중간 프레임: 투명도 0 에서 시작하지 않고 살짝 커졌다 돌아오기 */
+.evo-pop { animation: evo-pop .45s ease-out; }
+@keyframes evo-pop { 0% { transform: scale(.92); filter: brightness(1.35); } 60% { transform: scale(1.06); } 100% { transform: scale(1); filter: none; } }
+@media (prefers-reduced-motion: reduce) { .evo-pop { animation: none; } }
+
+/* 단어 학습: 하단 해석 카드만 뒤집힘. 두 면을 같은 칸에 겹쳐(grid) 높이 = 더 긴 면 → 텍스트 잘림 없음 */
+.flip-card { perspective: 1200px; }
+.flip-inner { display: grid; transition: transform .38s cubic-bezier(.2,.7,.2,1); transform-style: preserve-3d; }
+.flip-inner.is-open { transform: rotateY(180deg); }
+.flip-face { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-front { transform: rotateY(180deg); }
+.word-swap { animation: word-swap .2s ease-out; }
+@keyframes word-swap { from { opacity: 0; transform: translateX(14px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .flip-inner { transition: none; } .word-swap { animation: none; } }
