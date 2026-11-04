@@ -45,7 +45,9 @@ function DecorEditor({ space }: { space: SpaceId }) {
   //  ?slot=slotId  : 보관함 '이 자리로 이동' → 해당 슬롯 선택 창
   const { search, pathname } = useLocation();
   const navTo = useNavigate();
+  const hydrated = useApp((s) => s.hydrated); // 저장 데이터(IndexedDB) 복원 전에는 보유 여부를 판단하지 않는다 (직접 링크·새로고침 진입)
   useEffect(() => {
+    if (!hydrated) return;
     const q = new URLSearchParams(search);
     const pl = q.get('place'), pk = q.get('pick'), sl = q.get('slot');
     if (!pl && !pk && !sl) return;
@@ -61,7 +63,7 @@ function DecorEditor({ space }: { space: SpaceId }) {
     if (owns(pk)) { setPick(pk); setSlot(null); setMode('decorate'); }
     if (sl && SLOTS[space].some((x) => x.id === sl)) { setPick(null); setSlot(sl); setMode('decorate'); }
     navTo(pathname, { replace: true });
-  }, [search]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [search, hydrated]); // eslint-disable-line react-hooks/exhaustive-deps
   const effective = { ...saved, ...draft };
   const dirty = Object.keys(draft).some((k) => (saved[k] ?? null) !== draft[k]);
   useLeaveGuard(dirty, '저장하지 않은 배치가 있어요. 나가면 미리보기가 사라져요.');

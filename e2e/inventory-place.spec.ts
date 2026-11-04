@@ -103,5 +103,10 @@ test('보관함 → 고정 슬롯 배치: 빈 슬롯 · 호환 불가 · 교체 
   await page.reload(); await dismissModals(page);
   await expect(page.getByTestId('placed-plant')).toHaveAttribute('data-item', 'plant-sprout');
   expect(await stars(page)).toBe(s0); // 모든 배치·교체·해제 동안 별 그대로
+  // 직접 링크/새로고침으로 진입(저장 데이터 복원 전 렌더)해도 선택 모드가 적용됨
+  await page.goto('/?cold=1#/house?pick=plant-small'); // 쿼리가 달라 전체 새로 로드
+  await dismissModals(page);
+  await expect(page.getByTestId('pick-banner')).toContainText('작은 화분');
+  await expect(page.getByTestId('slot-plant')).toHaveAttribute('data-state', 'active');
   expect(errors).toEqual([]);
 });
