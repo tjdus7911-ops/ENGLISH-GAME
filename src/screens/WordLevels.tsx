@@ -134,7 +134,7 @@ export function LevelHub() {
   const done = (rows ?? []).filter((w) => l.learnedWords[w.id]).length;
   const count = (m: Mode) => (rows ?? []).filter((w) => (m === 'unlearned' ? !l.learnedWords[w.id] : m === 'learned' ? !!l.learnedWords[w.id] : m === 'fav' ? isFavorite(l, w) : m === 'wrong' ? wrong.has(w.id) : true)).length;
   const go = (m: Mode, tp?: string) => nav(sessionUrl(lv, m, n, tp));
-  const chip = (on: boolean) => cx('shrink-0 rounded-full px-3 min-h-[38px] text-[13px] font-semibold border', on ? 'bg-ink text-white border-ink' : 'bg-white border-line');
+  const chip = (on: boolean) => cx('shrink-0 rounded-full px-3 min-h-[44px] text-[13px] font-semibold border', on ? 'bg-ink text-white border-ink' : 'bg-white border-line');
   return (
     <Page title={`${L.icon} ${L.label} (${L.cefr})`} back="/words">
       {error && <p className="text-sm text-bad">단어를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</p>}
@@ -147,7 +147,7 @@ export function LevelHub() {
             <div className="mt-2"><Progress value={done} max={Math.max(1, rows.length)} label={`${L.label} 진도`} /></div>
             <p className="text-xs text-ink-soft mt-3 mb-1">한 번에 학습할 단어 수</p>
             <div className="grid grid-cols-4 gap-1.5" role="radiogroup" aria-label="학습 단위">
-              {SIZES.map((s) => <button key={s} role="radio" aria-checked={n === s} onClick={() => setN(s)} data-testid={`size-${s}`} className={cx('rounded-xl min-h-[40px] font-bold text-sm border', n === s ? 'bg-ink text-white border-ink' : 'bg-white border-line')}>{s}개</button>)}
+              {SIZES.map((s) => <button key={s} role="radio" aria-checked={n === s} onClick={() => setN(s)} data-testid={`size-${s}`} className={cx('rounded-xl min-h-[44px] font-bold text-sm border', n === s ? 'bg-ink text-white border-ink' : 'bg-white border-line')}>{s}개</button>)}
             </div>
             <Button size="lg" className="w-full mt-3" onClick={() => go(count('unlearned') ? 'unlearned' : 'all')} data-testid="lv-start">{done ? '이어서 학습하기' : '학습 시작'} · {n}개</Button>
           </Card>
@@ -166,7 +166,7 @@ export function LevelHub() {
           </div>
           <SectionTitle>주제별 학습</SectionTitle>
           <div className="flex flex-wrap gap-1.5" data-testid="lv-topics">
-            {topics.map((t) => <button key={t.id} onClick={() => go('topic', t.id)} data-testid={`topic-${t.id}`} className="rounded-full bg-white border border-line px-3 min-h-[40px] text-[13px] font-semibold">{t.emoji} {t.label} <span className="text-ink-soft font-normal">{fmt(t.n)}</span></button>)}
+            {topics.map((t) => <button key={t.id} onClick={() => go('topic', t.id)} data-testid={`topic-${t.id}`} className="rounded-full bg-white border border-line px-3 min-h-[44px] text-[13px] font-semibold">{t.emoji} {t.label} <span className="text-ink-soft font-normal">{fmt(t.n)}</span></button>)}
           </div>
           <p className="text-[11px] text-ink-faint mt-1">사전 단어의 주제는 뜻을 기준으로 자동 분류했어요 (검수 대상). 뚜렷한 주제가 없는 단어는 ‘일반 어휘’로 모았어요.</p>
 
@@ -211,7 +211,7 @@ function WordLine({ w, showLevelLink }: { w: W; showLevelLink?: boolean }) {
         <AudioButton src={w.audio} text={w.word} size="sm" label={`${w.word} 발음 듣기`} />
         <button type="button" onClick={toggle} aria-pressed={fav} aria-label={fav ? '저장 취소' : '저장'} data-testid="line-save" className={cx('w-11 h-11 grid place-items-center rounded-full text-xl', fav ? 'text-accent' : 'text-ink-faint')}>{fav ? '★' : '☆'}</button>
       </div>
-      {showLevelLink && <Link to={`/words/level/${lvId}`} className="inline-flex items-center text-xs font-bold text-accent-dark mt-1 min-h-[36px]" data-testid="line-level-link">{LV_BY_ID[lvId].label} ({w.level}) 학습으로 이동 ›</Link>}
+      {showLevelLink && <Link to={`/words/level/${lvId}`} className="inline-flex items-center text-xs font-bold text-accent-dark mt-1 min-h-[44px]" data-testid="line-level-link">{LV_BY_ID[lvId].label} ({w.level}) 학습으로 이동 ›</Link>}
     </div>
   );
 }
