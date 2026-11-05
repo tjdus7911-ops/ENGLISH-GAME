@@ -88,7 +88,7 @@ export const b2u04: GrammarUnit = {
     tr('b2-u04-t07', 'I must have left my wallet in the taxi.', ['내가 택시에 지갑을 두고 내린 게 틀림없어.', '나는 택시에 지갑을 두고 내렸어야 했어.', '나는 택시에 지갑을 두고 내리면 안 돼.'], '내가 택시에 지갑을 두고 내린 게 틀림없어.', 'must have p.p. 는 과거에 대한 강한 확신의 추측으로 "~한 게 틀림없다"를 뜻합니다.'),
     wr('b2-u04-t08', '너는 나에게 미리 말할 수도 있었잖아.', ['You could have told me in advance.', "You could've told me in advance.", 'You could have told me beforehand.', "You could've told me beforehand.", 'You could have told me earlier.', "You could've told me earlier."], '가능했지만 하지 않은 일을 나무랄 때 could have + 과거분사를 씁니다.', 'You could have ...'),
   ],
-  prerequisites: ['b1-u03', 'a2-u05'],
+  prerequisites: ['a2-u04', 'b1-u01'],
   reviewStatus: 'expert-review-needed',
 };
 
@@ -270,6 +270,6 @@ export const b2u06: GrammarUnit = {
     tr('b2-u06-t07', 'The manager told the staff not to discuss the matter publicly.', ['매니저는 직원들에게 그 문제를 공개적으로 논의하지 말라고 말했다.', '매니저는 직원들에게 그 문제를 공개적으로 논의하라고 말했다.', '매니저는 직원들이 그 문제를 공개적으로 논의했는지 물었다.'], '매니저는 직원들에게 그 문제를 공개적으로 논의하지 말라고 말했다.', 'told + 사람 + not to + 동사원형은 "~하지 말라고 말했다"는 부정 명령 전달입니다.'),
     wr('b2-u06-t08', '그녀는 다음 날 전화하겠다고 말했다.', ['She said she would call the next day.', 'She said that she would call the next day.', 'She said she would call the following day.', 'She said that she would call the following day.', 'She said she would phone the next day.', 'She said that she would phone the next day.'], '시제 일치로 will 은 would 로, tomorrow 는 the next day 로 바뀝니다.', 'She said she would ...'),
   ],
-  prerequisites: ['b1-u04', 'b2-u05'],
+  prerequisites: ['b1-u06', 'b2-u05'],
   reviewStatus: 'expert-review-needed',
 };
