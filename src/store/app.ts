@@ -1,4 +1,8 @@
 import { VOCAB_BY_ID } from '@/content/vocab';
+import { lookup, normKey, posName } from '@/lib/lexicon';
+import { BOOK_BY_ID } from '@/content/library';
+import { PRE_A1 } from '@/content/vocab-topics';
+import { applyMyWordResults, saveMyWord, type MyWord, type SaveInput, type WordSource } from '@/domain/learning/mywords';
 import { create } from 'zustand';
 import { persist, createJSONStorage, type StateStorage } from 'zustand/middleware';
 import { get as idbGet, set as idbSet, del as idbDel } from 'idb-keyval';
@@ -22,7 +26,7 @@ import { GRAMMAR_UNITS } from '@/content/grammar';
 import { DEFAULT_ITEMS, DEFAULT_PLACEMENTS, EVOLUTION_REWARD, FURNITURE_BY_ID } from '@/content/furniture';
 
 export const STORE_KEY = 'english-village-v1';
-export const STORE_VERSION = 3;
+export const STORE_VERSION = 4;
 
 export const now = () => Date.now();
 export const today = () => toDateKey(now());
@@ -39,7 +43,14 @@ export interface Profile {
   purpose: string | null;
   selfLevel: string | null;
   dailyMinutes: number;
-  levelTest: { done: boolean; level: string | null; byLevel: Record<string, { correct: number; total: number }> | null; date?: string };
+  levelTest: {
+    done: boolean; level: string | null; byLevel: Record<string, { correct: number; total: number }> | null; date?: string;
+    /** test: 레벨 테스트 결과 · manual: 사용자가 직접 선택 · skip: 건너뜀 */
+    method?: 'test' | 'manual' | 'skip';
+    byArea?: Record<string, { correct: number; total: number }>;
+    /** 지난 테스트 기록 (재응시 이력) */
+    history?: { date: string; level: string; method: string }[];
+  };
 }
 
 export interface LearningState {
@@ -57,12 +68,18 @@ export interface LearningState {
   savedExpressions: string[];
   /** 저장한 단어 (단어 id) — 단어장 '저장한 단어' */
   savedWords: string[];
+  /** 나만의 단어장 (키: 소문자 원형) — 모든 학습 영역에서 저장한 단어를 하나로 */
+  myWords: Record<string, MyWord>;
+  /** 동화책 진행: 마지막 페이지·읽은 최대 페이지·완료일·이해도 퀴즈 최고 기록 */
+  books: Record<string, BookProgress>;
   dramasDone: Record<string, string>;
   readingsDone: Record<string, string>;
   log: StudyLogEntry[];
   reviewSkippedOn: string | null;
   studySeconds: Record<string, number>; // 날짜 → 학습 화면 체류 시간(초)
 }
+
+export interface BookProgress { page: number; maxPage: number; startedOn: string; readOn?: string; quiz?: { date: string; correct: number; total: number; passed: boolean } }
 
 export interface AppState {
   version: number;
@@ -79,7 +96,7 @@ export interface AppState {
 
 const initialLearning = (): LearningState => ({
   answers: [], reviews: {}, wrongNotes: {}, learnedWords: {}, steps: {}, lectureViewed: {}, unitTests: {}, a1Exam: null,
-  listeningDone: {}, speakingAttempts: [], expressionsDone: {}, savedExpressions: [], savedWords: [], dramasDone: {}, readingsDone: {}, log: [], reviewSkippedOn: null, studySeconds: {},
+  listeningDone: {}, speakingAttempts: [], expressionsDone: {}, savedExpressions: [], savedWords: [], myWords: {}, books: {}, dramasDone: {}, readingsDone: {}, log: [], reviewSkippedOn: null, studySeconds: {},
 });
 
 const initialHome = (): HomeState => ({ ...initialHomeState(DEFAULT_ITEMS), placements: { house: { ...DEFAULT_PLACEMENTS }, garden: {} } });
@@ -145,9 +162,23 @@ export function migrate(persisted: unknown, fromVersion: number): AppState {
     questClaims: { ...(s.questClaims ?? {}) },
     version: STORE_VERSION,
   };
+  merged.learning = { ...merged.learning, myWords: merged.learning.myWords ?? {}, books: merged.learning.books ?? {}, savedWords: merged.learning.savedWords ?? [] };
+  // v3 → v4: 기존 '저장한 단어'(영단어 id) → 나만의 단어장으로 이전 (기존 목록도 유지)
+  if (fromVersion < 4) {
+    let map = merged.learning.myWords ?? {};
+    for (const id of merged.learning.savedWords ?? []) { const e = vocabEntry(id); if (e) map = saveMyWord(map, e, 'words', id, VOCAB_BY_ID[id]?.example, toDateKey(Date.now()), Date.now()).map; }
+    merged.learning = { ...merged.learning, myWords: map };
+  }
   delete (merged.game as unknown as Record<string, unknown>).pointsEarned;
   delete (merged.game as unknown as Record<string, unknown>).pointsSpent;
   return merged;
+}
+
+/** 앱 영단어 DB 단어 → 단어장 저장 정보 */
+export function vocabEntry(id: string): SaveInput | null {
+  const v = VOCAB_BY_ID[id];
+  if (!v) return null;
+  return { key: normKey(v.word), word: v.word, meaning: v.meaning, pos: posName(v.pos), level: PRE_A1.has(v.id) ? 'Pre-A1' : 'A1', vocabId: v.id };
 }
 
 // ─────────────────────────── 파생 값 ───────────────────────────
@@ -331,7 +362,7 @@ type Ans = Omit<UserAnswer, 'id' | 'date' | 'at'>;
 
 export interface Actions {
   completeOnboarding: (p: { purpose: string; selfLevel: string; minutes: number; dailyNewWords: number; notifications: boolean }) => void;
-  saveLevelTest: (level: string, byLevel: Record<string, { correct: number; total: number }>, answers: Ans[]) => void;
+  saveLevelTest: (level: string, byLevel: Record<string, { correct: number; total: number }>, answers: Ans[], byArea?: Record<string, { correct: number; total: number }>) => void;
   completeWords: (unitId: string, wordIds: string[], answers: Ans[]) => void;
   viewLecture: (unitId: string) => void;
   completePractice: (unitId: string, answers: Ans[]) => void;
@@ -348,6 +379,14 @@ export interface Actions {
   skipReviewToday: () => void;
   toggleSaveExpression: (id: string) => void;
   toggleSaveWord: (id: string) => void;
+  /** 문장 속 단어 저장 (중복이면 출처만 추가). 고유명사·사전에 없는 단어는 저장하지 않음 */
+  saveWord: (raw: string, source: WordSource, ref?: string, context?: string) => { ok: boolean; created: boolean; key?: string };
+  removeMyWord: (key: string) => void;
+  setMemorized: (key: string, on: boolean) => void;
+  completeMyWordReview: (results: { key: string; correct: boolean; given: string }[]) => void;
+  setBookPage: (bookId: string, page: number) => void;
+  completeBook: (bookId: string, answers: Ans[]) => { passed: boolean };
+  setStudyLevel: (level: string, method?: 'manual' | 'skip') => void;
   /** 주제·난이도 단어장 챕터(5단어) 완료: 학습 기록은 단어 id 기준으로 통합, 첫 완료 시 별·XP 소량 */
   completeWordSet: (chapterId: string, title: string, wordIds: string[], answers: Ans[]) => void;
   resolveDiscoveryQuiz: (characterId: string, correct: number, answers: Ans[]) => { success: boolean };
@@ -379,11 +418,13 @@ export const useApp = create<AppState & Actions & { hydrated: boolean }>()(
         return queueStory(next, 'first-enter');
       }),
 
-      saveLevelTest: (level, byLevel, answers) => set((s) => {
+      saveLevelTest: (level, byLevel, answers, byArea) => set((s) => {
         const date = today();
         const at = now();
         const learning = { ...s.learning, answers: [...s.learning.answers, ...answers.map((a) => ({ ...a, id: cid(), date, at }))], log: [...s.learning.log, { id: cid(), date, at, kind: 'level-test' as const, refId: 'level-test', title: '레벨 진단', correct: answers.filter((a) => a.correct).length, total: answers.length }] };
-        return { learning, profile: { ...s.profile, levelTest: { done: true, level, byLevel, date } } };
+        const method = answers.length ? 'test' as const : 'skip' as const;
+        const history = [...(s.profile.levelTest.history ?? []), { date, level, method }].slice(-20);
+        return { learning, profile: { ...s.profile, levelTest: { ...s.profile.levelTest, done: true, level, byLevel, date, method, byArea: byArea ?? s.profile.levelTest.byArea, history } } };
       }),
 
       completeWords: (unitId, wordIds, answers) => set((s) => {
@@ -556,7 +597,94 @@ export const useApp = create<AppState & Actions & { hydrated: boolean }>()(
 
       toggleSaveWord: (id) => set((s) => {
         const cur = s.learning.savedWords ?? [];
-        return { learning: { ...s.learning, savedWords: cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id] } };
+        const e = vocabEntry(id);
+        const on = !cur.includes(id);
+        let myWords = s.learning.myWords ?? {};
+        if (e) {
+          if (on) myWords = saveMyWord(myWords, e, 'words', id, VOCAB_BY_ID[id]?.example, today(), now()).map;
+          else if (myWords[e.key]) { const { [e.key]: _drop, ...rest } = myWords; myWords = rest; }
+        }
+        return { learning: { ...s.learning, savedWords: on ? [...cur, id] : cur.filter((x) => x !== id), myWords } };
+      }),
+
+      saveWord: (raw, source, ref, context) => {
+        const e = lookup(raw);
+        if (!e || e.proper) return { ok: false, created: false };
+        let created = false;
+        set((s) => {
+          const r = saveMyWord(s.learning.myWords ?? {}, e, source, ref, context, today(), now());
+          created = r.created;
+          const savedWords = e.vocabId && !(s.learning.savedWords ?? []).includes(e.vocabId) ? [...(s.learning.savedWords ?? []), e.vocabId] : s.learning.savedWords;
+          return r.map === s.learning.myWords && savedWords === s.learning.savedWords ? s : { learning: { ...s.learning, myWords: r.map, savedWords } };
+        });
+        return { ok: true, created, key: e.key };
+      },
+
+      removeMyWord: (key) => set((s) => {
+        const w = s.learning.myWords?.[key];
+        if (!w) return s;
+        const { [key]: _drop, ...rest } = s.learning.myWords;
+        return { learning: { ...s.learning, myWords: rest, savedWords: w.vocabId ? (s.learning.savedWords ?? []).filter((x) => x !== w.vocabId) : s.learning.savedWords } };
+      }),
+
+      setMemorized: (key, on) => set((s) => {
+        const w = s.learning.myWords?.[key];
+        if (!w) return s;
+        return { learning: { ...s.learning, myWords: { ...s.learning.myWords, [key]: { ...w, memorizedOn: on ? today() : null } } } };
+      }),
+
+      completeMyWordReview: (results) => set((s) => {
+        const date = today();
+        const myWords = applyMyWordResults(s.learning.myWords ?? {}, results, date);
+        const interim: AppState = { ...s, learning: { ...s.learning, myWords } };
+        const correct = results.filter((r) => r.correct).length;
+        // 별 보상: 하루 1회(날짜 고유 이벤트) · 5문제 이상 풀었을 때만 → 같은 날 반복 응시로는 다시 지급되지 않음
+        return applyStudyEvent(interim, {
+          log: { kind: 'mywords', refId: date, title: '나만의 단어장 복습', correct, total: results.length },
+          answers: results.map((r) => ({ questionId: `mw:${r.key}`, conceptId: 'myword', correct: r.correct, given: r.given, source: 'review' as const })),
+          rewards: results.length >= 5 ? [{ eventId: `mywords:${date}`, stars: 2, xp: 3, reason: '나만의 단어장 복습' }] : [],
+        });
+      }),
+
+      setBookPage: (bookId, page) => set((s) => {
+        const b = BOOK_BY_ID[bookId];
+        if (!b) return s;
+        const p = Math.max(0, Math.min(page, b.pages.length - 1));
+        const cur = s.learning.books?.[bookId];
+        const maxPage = Math.max(cur?.maxPage ?? 0, p);
+        const readOn = cur?.readOn ?? (maxPage >= b.pages.length - 1 ? today() : undefined);
+        if (cur && cur.page === p && cur.maxPage === maxPage && cur.readOn === readOn) return s;
+        return { learning: { ...s.learning, books: { ...s.learning.books, [bookId]: { ...(cur ?? { startedOn: today() }), page: p, maxPage, readOn } } } };
+      }),
+
+      completeBook: (bookId, answers) => {
+        const b = BOOK_BY_ID[bookId];
+        const passed = !!b && answers.length > 0 && passRate(answers) >= 0.6;
+        if (!b) return { passed };
+        set((s) => {
+          const cur = s.learning.books?.[bookId];
+          // 끝까지 읽지 않고 퀴즈만 풀어서는 보상 없음 (마지막 페이지까지 열람 필요)
+          const read = (cur?.maxPage ?? 0) >= b.pages.length - 1;
+          return applyStudyEvent(s, {
+            log: { kind: 'book', refId: bookId, title: `동화책 「${b.titleKo}」`, correct: answers.filter((a) => a.correct).length, total: answers.length, completed: passed && read },
+            answers,
+            // 책마다 1회만 (eventId = book:id) → 다시 읽거나 퀴즈를 재응시해도 별이 추가되지 않음
+            rewards: passed && read ? [{ eventId: `book:${bookId}`, stars: 3, xp: 5, reason: `동화책 「${b.titleKo}」 완독` }] : [],
+            mutate: (l, date) => {
+              const c = l.books[bookId] ?? { page: 0, maxPage: 0, startedOn: date };
+              const rec = { date, correct: answers.filter((a) => a.correct).length, total: answers.length, passed };
+              const quiz = c.quiz && (c.quiz.passed && !passed || c.quiz.correct / c.quiz.total > rec.correct / rec.total) ? c.quiz : rec;
+              return { ...l, books: { ...l.books, [bookId]: { ...c, quiz, readOn: c.readOn ?? (read ? date : undefined) } } };
+            },
+          });
+        });
+        return { passed };
+      },
+
+      setStudyLevel: (level, method = 'manual') => set((s) => {
+        const date = today();
+        const history = [...(s.profile.levelTest.history ?? []), { date, level, method }].slice(-20);
+        return { profile: { ...s.profile, levelTest: { ...s.profile.levelTest, done: true, level, date, method, history, byLevel: s.profile.levelTest.byLevel ?? {} } } };
       }),
 
       completeWordSet: (chapterId, title, wordIds, answers) => set((s) => {

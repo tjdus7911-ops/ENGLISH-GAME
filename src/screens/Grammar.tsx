@@ -9,6 +9,7 @@ import { PartnerBubble, usePartner } from '@/components/Partner';
 import { unitDone } from '@/lib/curriculum';
 import { cx } from '@/lib/cx';
 import type { Example } from '@/domain/types';
+import { LookupContext, TappableText, useLookupOpen, useWordLookup } from '@/components/WordLookup';
 
 const STATUS_LABEL: Record<string, string> = { drafting: '작성 중', 'auto-verified': '자동 검증 완료', 'expert-review-needed': '교육 전문가 검수 필요', 'expert-reviewed': '검수 완료', published: '공개 가능' };
 
@@ -45,9 +46,10 @@ export function GrammarHub() {
 }
 
 function ExRow({ e }: { e: Example }) {
+  const open = useLookupOpen();
   return (
     <div className="flex items-start gap-3 py-2">
-      <div className="flex-1 min-w-0"><p className="font-medium">{e.en}</p><p className="text-sm text-ink-soft">{e.ko}</p></div>
+      <div className="flex-1 min-w-0"><p className="font-medium">{open ? <TappableText text={e.en} onWord={(w) => open(w, e.en)} /> : e.en}</p><p className="text-sm text-ink-soft">{e.ko}</p></div>
       {e.audio && <AudioButton src={e.audio} text={e.en} size="sm" label="예문 듣기" />}
     </div>
   );
@@ -64,8 +66,11 @@ export function Lecture() {
   const [mode, setMode] = useState<'easy' | 'detail'>('easy');
   const [more, setMore] = useState(false);
   const [help, setHelp] = useState<null | number>(null);
+  const lookup = useWordLookup('grammar', unitId);
   if (!u) return <Page title="문법"><Empty title="단원을 찾을 수 없어요" /></Page>;
   return (
+    <LookupContext.Provider value={lookup.open}>
+    {lookup.popup}
     <Page title={`${u.order}. ${u.title}`}>
       <div className="flex flex-wrap gap-1 mb-2"><Tag tone="accent">A1</Tag><Tag>{u.titleEn}</Tag><Tag tone="warn">{STATUS_LABEL[u.reviewStatus]}</Tag></div>
       <Card>
@@ -136,6 +141,7 @@ export function Lecture() {
         <Button className="mt-4 w-full" onClick={() => setHelp(null)}>닫기</Button>
       </Modal>
     </Page>
+    </LookupContext.Provider>
   );
 }
 

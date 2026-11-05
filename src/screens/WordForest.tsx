@@ -298,6 +298,7 @@ export function SavedWords() {
   const list = ids.map((id) => VOCAB_BY_ID[id]).filter(Boolean);
   return (
     <Page title="저장한 단어" back="/words">
+      <Link to="/mywords" className="block mb-3 rounded-2xl bg-butter border border-[#F2D98A] p-3 text-sm font-semibold" data-testid="to-mywords">📒 동화책·표현·문법에서 저장한 단어까지 모두 보기 → 나만의 단어장</Link>
       {list.length === 0 ? <Empty icon="☆" title="저장한 단어가 없어요" desc="단어 카드의 ☆ 를 누르면 여기에 모여요." action={<Link to="/words"><Button>단어 숲으로</Button></Link>} />
         : <div className="grid gap-2" data-testid="saved-list">{list.map((v) => <WordRow key={v.id} v={v} />)}</div>}
     </Page>

@@ -64,3 +64,17 @@ a.block:has(> button), .grid > a:has(> button) { display: block; }
 .slot-pulse { animation: slot-pulse 1.6s ease-in-out infinite; }
 @keyframes slot-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(31,138,91,.35); } 50% { box-shadow: 0 0 0 8px rgba(31,138,91,0); } }
 @media (prefers-reduced-motion: reduce) { .slot-pulse { animation: none; } }
+
+/* ── 도서관: 책 느낌 ── */
+.book-desk { background: linear-gradient(180deg, #F7EEDF 0%, #EFE2CC 100%); }
+.book-page {
+  background: #FFFDF7;
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.05) 0, rgba(0,0,0,0) 14px), repeating-linear-gradient(180deg, transparent 0 33px, rgba(180,150,110,0.07) 33px 34px);
+  border: 1px solid #EBDDC4;
+  box-shadow: 0 1px 0 #E2D2B5, 0 3px 0 #F3E9D7, 0 4px 0 #E2D2B5, 0 8px 18px rgba(120, 90, 50, 0.08);
+}
+@keyframes page-next { from { transform: perspective(900px) rotateY(-14deg) translateX(18px); opacity: .4; transform-origin: left; } to { transform: none; opacity: 1; } }
+@keyframes page-prev { from { transform: perspective(900px) rotateY(14deg) translateX(-18px); opacity: .4; transform-origin: right; } to { transform: none; opacity: 1; } }
+.page-turn-next { animation: page-next .32s ease-out; }
+.page-turn-prev { animation: page-prev .32s ease-out; }
+.reduce-motion .page-turn-next, .reduce-motion .page-turn-prev { animation: none; }

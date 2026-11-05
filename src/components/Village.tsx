@@ -59,7 +59,7 @@ function Flowers({ x, y }: { x: number; y: number }) {
 type BuildingId = 'home' | 'library' | 'forest' | 'exam';
 const BUILDINGS: { id: BuildingId; label: string; sub: string; to: string; cx: number; cy: number; hit: [number, number, number, number] }[] = [
   { id: 'home', label: '나의 집', sub: '집 꾸미기 · 파트너', to: '/house', cx: 108, cy: 186, hit: [60, 120, 100, 96] },
-  { id: 'library', label: '도서관', sub: '문법 · 독해', to: '/grammar', cx: 292, cy: 186, hit: [240, 112, 104, 104] },
+  { id: 'library', label: '도서관', sub: '동화책 · 문법', to: '/library', cx: 292, cy: 186, hit: [240, 112, 104, 104] },
   { id: 'forest', label: '단어 숲', sub: '영단어 · 복습', to: '/words', cx: 96, cy: 300, hit: [44, 236, 104, 98] },
   { id: 'exam', label: '시험장', sub: '단원 평가 · 레벨 테스트', to: '/exam', cx: 304, cy: 300, hit: [252, 236, 104, 98] },
 ];

@@ -108,6 +108,20 @@ export function Feedback({ q, answered }: { q: Question; answered: { given: stri
   );
 }
 
+/** 한 문제 + 정답 확인 + 다음 버튼 (적응형 테스트처럼 다음 문제를 바깥에서 정할 때) */
+export function QuestionCard({ q, onNext }: { q: Question; onNext: (given: string, correct: boolean) => void }) {
+  const [answered, setAnswered] = useState<{ given: string; correct: boolean } | null>(null);
+  return (
+    <div>
+      <Card>
+        <QuestionView q={q} answered={answered} onAnswer={(given, correct) => setAnswered({ given, correct })} />
+        {answered && <Feedback q={q} answered={answered} />}
+      </Card>
+      {answered && <div className="mt-3"><Button size="lg" onClick={() => onNext(answered.given, answered.correct)} data-testid="lt-next">다음</Button></div>}
+    </div>
+  );
+}
+
 /** 문제 세트 실행기. 결과는 마지막 문제를 마치면 한 번에 전달 (중간 이탈 시 기록하지 않음). */
 export function QuizRunner({ questions, onDone, title, partnerContext = 'studying', footer }: {
   questions: Question[]; onDone: (r: QResult[]) => void; title?: string; partnerContext?: CharacterAnimState; footer?: ReactNode;

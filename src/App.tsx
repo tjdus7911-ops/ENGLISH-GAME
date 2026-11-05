@@ -2,7 +2,7 @@ import { Component, lazy, Suspense, useEffect, type ReactNode } from 'react';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { useApp } from '@/store/app';
 import { CelebrationLayer } from '@/components/Partner';
-import { Onboarding, Goal, LevelTestScreen, LevelResult } from '@/screens/Onboarding';
+import { Onboarding, Goal } from '@/screens/Onboarding';
 import { Home } from '@/screens/Home';
 import { Today } from '@/screens/Today';
 import { GrammarWordsHub, WordLearn } from '@/screens/Words';
@@ -17,6 +17,12 @@ import { ExamHall, A1Exam } from '@/screens/Exam';
 import { MyScreen } from '@/screens/My';
 import { HouseScreen, ShopScreen, InventoryScreen, GardenScreen, SpacesScreen, QuestsScreen } from '@/screens/HomeDecor';
 import { useStudyTimer } from '@/lib/studyTimer';
+import { LevelCheck, LevelCheckResult, RecommendScreen, AchievementScreen } from '@/screens/LevelCheck';
+import { MyWordbook, MyWordReview } from '@/screens/MyWordbook';
+
+const LibraryHub = lazy(() => import('@/screens/Library').then((m) => ({ default: m.LibraryHub })));
+const BookShelf = lazy(() => import('@/screens/Library').then((m) => ({ default: m.BookShelf })));
+const BookReader = lazy(() => import('@/screens/Library').then((m) => ({ default: m.BookReader })));
 
 const ExpressionHall = lazy(() => import('@/screens/Expressions').then((m) => ({ default: m.ExpressionHall })));
 const ExpressionList = lazy(() => import('@/screens/Expressions').then((m) => ({ default: m.ExpressionList })));
@@ -77,8 +83,8 @@ export default function App() {
             <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="/onboarding" element={<Onboarding />} />
             <Route path="/onboarding/goal" element={<Goal />} />
-            <Route path="/level-test" element={<LevelTestScreen />} />
-            <Route path="/level-result" element={<LevelResult />} />
+            <Route path="/level-test" element={<LevelCheck />} />
+            <Route path="/level-result" element={<LevelCheckResult />} />
             <Route path="/home" element={<Home />} />
             <Route path="/today" element={<Today />} />
             <Route path="/words" element={<WordForestHome />} />
@@ -88,6 +94,13 @@ export default function App() {
             <Route path="/words/ch/:chapterId" element={<ChapterLearn />} />
             <Route path="/words/search" element={<WordSearch />} />
             <Route path="/words/saved" element={<SavedWords />} />
+            <Route path="/mywords" element={<MyWordbook />} />
+            <Route path="/mywords/review" element={<MyWordReview />} />
+            <Route path="/library" element={<LibraryHub />} />
+            <Route path="/library/books" element={<BookShelf />} />
+            <Route path="/library/book/:id" element={<BookReader />} />
+            <Route path="/recommend" element={<RecommendScreen />} />
+            <Route path="/achievement" element={<AchievementScreen />} />
             <Route path="/words/:unitId" element={<WordLearn />} />
             <Route path="/grammar" element={<GrammarHub />} />
             <Route path="/grammar/:unitId" element={<Lecture />} />

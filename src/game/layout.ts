@@ -23,7 +23,7 @@ export const VILLAGE = {
   buildings: [
     { id: 'home', label: '나의 집', sub: '집 꾸미기 · 파트너', route: '/house', at: [240, 500] as Pt, width: 330,
       image: { 1: 'buildings/home-stage1', 3: 'buildings/home-stage3' }, hit: [[95, 470], [240, 545], [385, 470], [385, 230], [240, 165], [95, 230]] as Pt[] },
-    { id: 'library', label: '도서관', sub: '문법 · 독해', route: '/grammar', at: [790, 500] as Pt, width: 340,
+    { id: 'library', label: '도서관', sub: '동화책 · 문법', route: '/library', at: [790, 500] as Pt, width: 340,
       image: { 1: 'buildings/library-stage1', 3: 'buildings/library-stage3' }, hit: [[640, 470], [790, 545], [940, 470], [940, 210], [790, 150], [640, 210]] as Pt[] },
     { id: 'forest', label: '단어 숲', sub: '영단어 · 복습', route: '/words', at: [240, 915] as Pt, width: 340,
       image: { 1: 'buildings/wordforest-stage1', 3: 'buildings/wordforest-stage3' }, hit: [[85, 885], [240, 960], [395, 885], [395, 620], [240, 560], [85, 620]] as Pt[] },

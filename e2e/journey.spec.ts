@@ -27,10 +27,15 @@ test('시나리오 A~D: 첫 학습 → 캐릭터 획득 → 다음 날 복습·�
   await page.getByRole('button', { name: '다음' }).click();
   await page.getByTestId('min-20').click();
   await page.getByRole('button', { name: '레벨 진단 시작' }).click();
-  await page.getByRole('button', { name: '시작하기' }).click();
-  await runQuiz(page, (i) => i < 6); // A1 6문항만 정답
+  await page.getByTestId('lt-start').click();
+  // 적응형 테스트: A1·A2 문항만 맞히는 학습자 → A2 로 추정
+  for (let i = 0; i < 24; i++) {
+    const lv = await page.getByTestId('lt-item').getAttribute('data-level');
+    await answerCurrent(page, lv === 'A1' || lv === 'A2');
+    await page.getByTestId('lt-next').click();
+  }
   await expect(page.getByTestId('level-result')).toHaveText('A2');
-  await page.getByRole('button', { name: '시작의 숲으로 입장' }).click();
+  await page.getByRole('button', { name: '마을로 가기' }).click();
   await expect(page.getByTestId('story-modal')).toHaveAttribute('data-story', 'first-enter');
   await page.getByTestId('story-next').click();
   await dismissModals(page); // 스토리 건너뛰기

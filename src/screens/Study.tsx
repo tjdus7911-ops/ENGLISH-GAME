@@ -16,6 +16,8 @@ const TILES = [
   { to: '/speaking', icon: '🎙', title: '말하기', desc: '따라 말하기 30문장' },
   { to: '/reading', icon: '📖', title: '독해', desc: 'A1 읽기' },
   { to: '/expressions', icon: '💬', title: '표현 학습관', desc: '회화·여행·비즈니스·영상' },
+  { to: '/library/books', icon: '📚', title: '영어 동화책', desc: 'A1~C1 듣기·읽기' },
+  { to: '/mywords', icon: '📒', title: '나만의 단어장', desc: '저장한 단어 복습' },
 ];
 
 export function FreeStudy() {

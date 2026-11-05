@@ -27,4 +27,7 @@ export const EXTRA_CONCEPTS: Record<string, string> = {
   'expr-situation': '상황별 듣기·말하기',
   'expr-video': '영상 속 영어',
   'reading-a1': 'A1 독해',
+  myword: '나만의 단어장',
+  'book-A1': 'A1 동화책', 'book-A2': 'A2 동화책', 'book-B1': 'B1 동화책', 'book-B2': 'B2 동화책', 'book-C1': 'C1 동화책',
+  'level-V': '레벨 테스트 · 영단어', 'level-G': '레벨 테스트 · 문법', 'level-E': '레벨 테스트 · 표현', 'level-R': '레벨 테스트 · 독해',
 };

@@ -62,7 +62,8 @@ export function MyScreen() {
       </Card>
 
       <SectionTitle>다시 진단하기</SectionTitle>
-      <Link to="/level-test"><Button variant="secondary" className="w-full">레벨 진단 다시 하기</Button></Link>
+      <Link to="/level-test"><Button variant="secondary" className="w-full">레벨 테스트 다시 보기</Button></Link>
+      <Link to="/achievement" className="block mt-2"><Button variant="secondary" className="w-full">나의 성장 · 레벨 직접 바꾸기</Button></Link>
 
       <SectionTitle>개인정보 · 음성 데이터 처리</SectionTitle>
       <Card className="text-sm grid gap-1.5 leading-relaxed">

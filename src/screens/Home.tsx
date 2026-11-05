@@ -92,6 +92,10 @@ export function Home() {
           <Link to="/expressions" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">💬 표현 학습관</p><p className="text-xs text-ink-soft">회화·여행·영상</p></Link>
           <Link to="/wrong-notes" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">📝 오답노트</p><p className="text-xs text-ink-soft">{Object.values(s.learning.wrongNotes).filter((w) => !w.resolved).length}개</p></Link>
           <Link to="/analysis" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]"><p className="font-bold">📈 실력 분석</p><p className="text-xs text-ink-soft">취약 개념</p></Link>
+          <Link to="/library" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]" data-testid="go-library"><p className="font-bold">📚 도서관</p><p className="text-xs text-ink-soft">동화책 · 문법</p></Link>
+          <Link to="/mywords" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]" data-testid="go-mywords"><p className="font-bold">📒 나만의 단어장</p><p className="text-xs text-ink-soft">{Object.keys(s.learning.myWords ?? {}).length}개 저장</p></Link>
+          <Link to="/recommend" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]" data-testid="go-recommend"><p className="font-bold">✨ 오늘의 추천</p><p className="text-xs text-ink-soft">내 레벨 {s.profile.levelTest.level ?? 'A1'}</p></Link>
+          <Link to="/achievement" className="rounded-2xl bg-white border border-line p-3 min-h-[64px]" data-testid="go-achievement"><p className="font-bold">🌱 나의 성장</p><p className="text-xs text-ink-soft">레벨·성취도</p></Link>
         </div>
       </main>
 

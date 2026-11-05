@@ -196,7 +196,7 @@ export interface StudyLogEntry {
   id: string;
   date: string;
   at: number;
-  kind: StepKind | 'review' | 'reading' | 'level-test' | 'free' | 'a1-exam' | 'expression' | 'situation' | 'video';
+  kind: StepKind | 'review' | 'reading' | 'level-test' | 'free' | 'a1-exam' | 'expression' | 'situation' | 'video' | 'book' | 'mywords';
   refId: string;
   title: string;
   correct: number;

@@ -8,6 +8,7 @@ import { CharacterImage, GuideImage } from '@/game/CharacterImage';
 import { CHARACTER_BY_ID } from '@/content/characters';
 import { LEVEL_LABEL, wordLevel } from '@/lib/wordbook';
 import { cx } from '@/lib/cx';
+import { TappableText, useWordLookup } from '@/components/WordLookup';
 
 const POS_NAME: Record<string, string> = { 명: '명사', 동: '동사', 형: '형용사', 부: '부사', 대: '대명사', 전: '전치사', 접: '접속사', 조: '조동사', 감: '감탄사' };
 
@@ -72,6 +73,7 @@ export function WordTopCard({ v }: { v: Vocabulary }) {
 
 /** 하단: 한국어 해석 카드 (처음엔 뒷면 → 터치하면 뒤집혀 공개, 다시 누르면 숨김) */
 export function WordMeaningCard({ v, open, onToggle }: { v: Vocabulary; open: boolean; onToggle: () => void }) {
+  const lookup = useWordLookup('words', v.id);
   return (
     <div className="flip-card mt-3" data-testid="meaning-card" data-open={open}>
       <div className={cx('flip-inner', open && 'is-open')}>
@@ -92,13 +94,14 @@ export function WordMeaningCard({ v, open, onToggle }: { v: Vocabulary; open: bo
           </button>
           <div className="mt-3 rounded-2xl bg-mist p-3 flex items-start gap-3">
             <div className="flex-1 min-w-0">
-              <p className="font-medium break-words">{v.example}</p>
+              <p className="font-medium break-words">{open ? <TappableText text={v.example} onWord={(w) => lookup.open(w, v.example)} /> : v.example}</p>
               <p className="text-sm text-ink-soft mt-1 break-words">{v.exampleKo}</p>
             </div>
             {open && <AudioButton src={v.exampleAudio} text={v.example} label="예문 듣기" size="sm" />}
           </div>
           <WordStatus v={v} />
-          <p className="text-[11px] text-ink-faint mt-1">카드 윗부분을 누르면 뜻을 다시 가려요 · 음성은 합성 음성(TTS), 발음기호는 CMU 사전 기반 미국식</p>
+          {lookup.popup}
+          <p className="text-[11px] text-ink-faint mt-1">예문 속 단어를 누르면 뜻을 보고 단어장에 저장할 수 있어요 · 카드 윗부분을 누르면 뜻을 다시 가려요 · 음성은 합성 음성(TTS), 발음기호는 CMU 사전 기반 미국식</p>
         </div>
       </div>
     </div>

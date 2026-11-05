@@ -10,6 +10,7 @@ import { PartnerBubble } from '@/components/Partner';
 import { DialogueLesson } from './Listening';
 import { SentencePractice } from './Speaking';
 import { cx } from '@/lib/cx';
+import { TappableText, useWordLookup } from '@/components/WordLookup';
 
 const LEVELS: (Level | 'all')[] = ['all', 'A1', 'A2', 'B1', 'B2'];
 
@@ -155,6 +156,7 @@ export function ExpressionDetail() {
   const complete = useApp((s) => s.completeExpression);
   const done = useApp((s) => s.learning.expressionsDone[id]);
   const [ko, setKo] = useState(true);
+  const lookup = useWordLookup('expression', id);
   const [phase, setPhase] = useState<'learn' | 'quiz' | 'result'>('learn');
   const [rs, setRs] = useState<QResult[]>([]);
   const [spoken, setSpoken] = useState(0);
@@ -183,10 +185,12 @@ export function ExpressionDetail() {
           <Card className="!p-2">{e.dialogue.map((l, i) => (
             <div key={i} className="flex items-start gap-2 p-2">
               <span className={cx('text-xs font-bold w-5 pt-1', l.speaker === 'A' ? 'text-accent-dark' : 'text-[#3D6FB5]')}>{l.speaker}</span>
-              <div className="flex-1"><p className="font-medium">{l.en}</p>{ko && <p className="text-sm text-ink-soft">{l.ko}</p>}</div>
+              <div className="flex-1"><p className="font-medium" data-testid="expr-line"><TappableText text={l.en} onWord={(w) => lookup.open(w, l.en)} /></p>{ko && <p className="text-sm text-ink-soft">{l.ko}</p>}</div>
               <AudioButton src={l.audio} text={l.en} size="sm" />
             </div>
           ))}</Card>
+          {lookup.popup}
+          <p className="text-[11px] text-ink-faint mt-1">대화 속 단어를 누르면 뜻을 보고 내 단어장에 저장할 수 있어요.</p>
           <SectionTitle>따라 말하기</SectionTitle>
           <SentencePractice s={shadow} onAttempt={() => setSpoken((n) => n + 1)} />
           <div className="mt-4"><PartnerBubble state="studying" compact text={spoken ? '좋아! 이제 듣기 문제와 응용 영작으로 마무리하자.' : '대화를 듣고 따라 말해 본 뒤 문제를 풀어 보자.'} /></div>
