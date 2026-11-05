@@ -1,6 +1,6 @@
 import type { Question } from '@/domain/types';
 import { BOOKS, type Book } from '@/content/library';
-import { lookup, type LexEntry } from './lexicon';
+import { lookup, posName, type LexEntry } from './lexicon';
 import { COMMON_LEXICON } from '@/content/common-lexicon';
 import { VOCAB } from '@/content/vocab';
 
@@ -34,4 +34,10 @@ export function myWordQuestion(e: Pick<LexEntry, 'key' | 'word' | 'meaning' | 'p
   const choices = [...picks];
   choices.splice(h % 4, 0, e.meaning);
   return { id: `mw:${e.key}`, type: 'mc', prompt: '알맞은 뜻을 고르세요', sentence: e.word, choices, answers: [e.meaning], explanation: `${e.word} (${e.pos}) = ${e.meaning}`, conceptId: 'myword' };
+}
+
+/** 영단어 사전 단어 뜻 문항 (id: wbq:<단어 id>) */
+export function bankQuestion(w: { id: string; w: string; m: string; pos: string[] }): Question {
+  const q = myWordQuestion({ key: w.w.toLowerCase(), word: w.w, meaning: w.m, pos: posName(w.pos.join('·')) }, w.id);
+  return { ...q, id: `wbq:${w.id}` };
 }

@@ -17,6 +17,8 @@ export interface LexEntry {
   vocabId?: string; // 앱 영단어 DB 단어면 id (발음 mp3·예문 사용)
   /** 이야기 속 이름 등 — 단어장 저장 대상 아님 */
   proper?: boolean;
+  /** 영단어 사전(초·중·고급) 단어 id */
+  bankId?: string;
 }
 
 const POS_FULL: Record<string, string> = { 명: '명사', 동: '동사', 형: '형용사', 부: '부사', 대: '대명사', 전: '전치사', 접: '접속사', 조: '조동사', 감: '감탄사', 한: '한정사', 수: '수사' };
@@ -99,6 +101,17 @@ export function lookupPhrase(words: string[], i: number): { entry: LexEntry; spa
 }
 
 export const lexiconSize = () => index().size;
+
+/** 영단어 사전을 불러온 뒤 터치 사전에 추가 (기존 항목은 덮어쓰지 않음) */
+export function registerLexicon(entries: { key: string; word: string; meaning: string; pos: string; level: string; bankId: string }[]) {
+  const m = index();
+  for (const e of entries) {
+    const k = normKey(e.key);
+    const cur = m.get(k);
+    if (!cur) m.set(k, { ...e, key: k, pos: posName(e.pos) });
+    else if (!cur.bankId) cur.bankId = e.bankId;
+  }
+}
 
 /** 문장 → [토큰(단어 또는 공백·구두점)] */
 export function tokenize(sentence: string): { text: string; word: boolean }[] {

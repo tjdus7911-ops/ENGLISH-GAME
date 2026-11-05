@@ -47,9 +47,13 @@ export function wordTip(v: Vocabulary): string {
 
 /** 상단: 영어 단어 카드 (항상 앞면, 뒤집히지 않음) */
 export function WordTopCard({ v }: { v: Vocabulary }) {
-  const saved = useApp((s) => (s.learning.savedWords ?? []).includes(v.id));
-  const toggle = useApp((s) => s.toggleSaveWord);
-  const lv = LEVEL_LABEL[wordLevel(v)];
+  const bank = v.id.startsWith('wb-');
+  const saved = useApp((s) => (bank ? !!s.learning.myWords?.[v.word.toLowerCase()] : (s.learning.savedWords ?? []).includes(v.id)));
+  const toggleVocab = useApp((s) => s.toggleSaveWord);
+  const saveWord = useApp((s) => s.saveWord);
+  const removeMy = useApp((s) => s.removeMyWord);
+  const toggle = (id: string) => { if (!bank) toggleVocab(id); else if (saved) removeMy(v.word.toLowerCase()); else saveWord(v.word, 'words', v.id, v.example); };
+  const lv = v.level ? { label: v.level.startsWith('A') ? '초급' : v.level.startsWith('B') ? '중급' : '고급', cefr: v.level } : LEVEL_LABEL[wordLevel(v)];
   return (
     <section className="rounded-card bg-white border border-line p-4" data-testid="word-card" aria-label="영어 단어">
       <div className="flex items-start gap-3">
@@ -101,7 +105,7 @@ export function WordMeaningCard({ v, open, onToggle }: { v: Vocabulary; open: bo
           </div>
           <WordStatus v={v} />
           {lookup.popup}
-          <p className="text-[11px] text-ink-faint mt-1">예문 속 단어를 누르면 뜻을 보고 단어장에 저장할 수 있어요 · 카드 윗부분을 누르면 뜻을 다시 가려요 · 음성은 합성 음성(TTS), 발음기호는 CMU 사전 기반 미국식</p>
+          <p className="text-[11px] text-ink-faint mt-1">{v.id.startsWith('wb-') && '한글 발음은 참고용 자동 표기 · '}예문 속 단어를 누르면 뜻을 보고 단어장에 저장할 수 있어요 · 카드 윗부분을 누르면 뜻을 다시 가려요 · 음성은 합성 음성(TTS), 발음기호는 CMU 사전 기반 미국식</p>
         </div>
       </div>
     </div>

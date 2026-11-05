@@ -5,7 +5,8 @@ import { BOOKS, BOOK_BY_ID, bookSentences } from '@/content/library';
 import { GRAMMAR_UNITS } from '@/content/grammar';
 import { EXPRESSIONS } from '@/content/expressions';
 import { VOCAB } from '@/content/vocab';
-import { lookup, tokenize, lexiconSize } from '@/lib/lexicon';
+import { lookup, tokenize, lexiconSize, registerLexicon } from '@/lib/lexicon';
+import { readFileSync } from 'node:fs';
 import { saveMyWord, myWordStatus, reviewQueue, applyMyWordResults } from '@/domain/learning/mywords';
 import { LEVEL_BANK, TEST_AREAS, TEST_LEVELS } from '@/content/level-bank';
 import { answerItem, estimate, nextItem, startAdaptive, TEST_LENGTH } from '@/domain/learning/adaptive';
@@ -50,6 +51,11 @@ describe('동화책 콘텐츠 검증 (실제 본문)', () => {
       ...EXPRESSIONS.flatMap((e) => [e.en, ...e.dialogue.map((d) => d.en)]),
       ...VOCAB.map((v) => v.example),
     ];
+    // 앱은 시작 후 영단어 사전(public/wordbank)을 터치 사전에 추가한다 — 테스트도 같은 데이터를 등록
+    for (const b of ['beginner', 'intermediate', 'advanced']) {
+      const rows = JSON.parse(readFileSync(`public/wordbank/${b}.json`, 'utf8')) as { id: string; w: string; m: string; pos: string[]; lv: string }[];
+      registerLexicon(rows.map((w) => ({ key: w.w.toLowerCase(), word: w.w, meaning: w.m, pos: w.pos.join('·'), level: w.lv, bankId: w.id })));
+    }
     const missing = new Set<string>();
     for (const s of sentences) for (const t of tokenize(s)) if (t.word && !lookup(t.text)) missing.add(t.text);
     console.log('lexicon size', lexiconSize(), 'missing', [...missing].slice(0, 30));

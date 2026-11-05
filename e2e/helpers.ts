@@ -1,5 +1,18 @@
 import { expect, type Page } from '@playwright/test';
-import { questionById } from '../src/lib/questionIndex';
+import { questionById as qById } from '../src/lib/questionIndex';
+import { bankQuestion } from '../src/lib/libraryQuiz';
+import { readFileSync } from 'node:fs';
+
+/** 영단어 사전 문항은 브라우저에서 불러온 JSON 기반 → 테스트에서는 같은 파일을 직접 읽어 정답을 찾는다 */
+let BANK: Map<string, { id: string; w: string; m: string; pos: string[] }> | null = null;
+function questionById(id: string) {
+  if (id.startsWith('wbq:')) {
+    if (!BANK) { BANK = new Map(); for (const b of ['beginner', 'intermediate', 'advanced']) for (const w of JSON.parse(readFileSync(`public/wordbank/${b}.json`, 'utf8'))) BANK.set(w.id, w); }
+    const w = BANK.get(id.slice(4));
+    return w ? bankQuestion(w) : undefined;
+  }
+  return qById(id);
+}
 
 /** 화면에 표시된 문제를 (정답 데이터로) 풀고 다음으로 넘어간다. correct=false 면 일부러 틀린다. */
 export async function answerCurrent(page: Page, correct = true) {

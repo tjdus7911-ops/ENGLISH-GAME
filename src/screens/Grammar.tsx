@@ -15,32 +15,43 @@ const STATUS_LABEL: Record<string, string> = { drafting: '작성 중', 'auto-ver
 
 export function GrammarHub() {
   const l = useApp((s) => s.learning);
+  const LV_NAME: Record<string, string> = { A1: '왕초보', A2: '초급', B1: '중급', B2: '중상급' };
   return (
-    <Page title="도서관 · 문법" back="/home">
-      <SectionTitle>A1 핵심 문법</SectionTitle>
-      <div className="grid gap-2">
-        {GRAMMAR_UNITS.map((u) => (
-          <Link key={u.id} to={`/grammar/${u.id}`} className="rounded-2xl bg-white border border-line p-3 flex items-center gap-3 min-h-[60px]" data-testid={`unit-${u.id}`}>
-            <span className="w-9 h-9 rounded-xl bg-accent-soft text-accent-dark grid place-items-center font-bold">{u.order}</span>
-            <span className="flex-1 min-w-0"><span className="block font-semibold">{u.title}</span><span className="text-xs text-ink-soft">{u.titleEn}</span></span>
-            {unitDone(l, u.id) ? <Tag tone="ok">완료</Tag> : l.steps[`${u.id}:practice`] ? <Tag tone="accent">학습 중</Tag> : null}
-          </Link>
-        ))}
-      </div>
-      <SectionTitle>A1 독해</SectionTitle>
-      <div className="grid gap-2">{READINGS.map((r) => <Link key={r.id} to={`/reading/${r.id}`} className="rounded-2xl bg-white border border-line p-3 min-h-[52px] flex items-center justify-between"><span className="font-semibold">📖 {r.title}</span>{l.readingsDone[r.id] && <Tag tone="ok">완료</Tag>}</Link>)}</div>
-      {(['A2', 'B1', 'B2'] as const).map((lv) => (
-        <div key={lv}>
-          <SectionTitle>{lv} 과정</SectionTitle>
-          <div className="grid grid-cols-2 gap-2">
-            {CURRICULUM.filter((c) => c.level === lv).map((c) => (
-              <div key={c.id} className="rounded-2xl bg-white/60 border border-dashed border-line p-3 text-sm text-ink-faint" aria-disabled>
-                {c.title}<span className="block text-[11px] mt-0.5">준비 중</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
+    <Page title="도서관 · 문법" back="/library">
+      {(['A1', 'A2', 'B1', 'B2'] as const).map((lv) => {
+        const units = GRAMMAR_UNITS.filter((u) => u.level === lv);
+        const planned = CURRICULUM.filter((c) => c.level === lv && !c.available);
+        const done = units.filter((u) => l.steps[`${u.id}:practice`]).length;
+        return (
+          <section key={lv} data-testid={`grammar-level-${lv}`}>
+            <SectionTitle right={units.length ? <span className="text-xs text-ink-soft">완료 {done}/{units.length}</span> : undefined}>{lv} {LV_NAME[lv]} 문법</SectionTitle>
+            <div className="grid gap-2">
+              {units.map((u) => (
+                <Link key={u.id} to={`/grammar/${u.id}`} className="rounded-2xl bg-white border border-line p-3 flex items-center gap-3 min-h-[60px]" data-testid={`unit-${u.id}`}>
+                  <span className="w-9 h-9 rounded-xl bg-accent-soft text-accent-dark grid place-items-center font-bold">{u.order}</span>
+                  <span className="flex-1 min-w-0"><span className="block font-semibold">{u.title}</span><span className="text-xs text-ink-soft">{u.titleEn}</span></span>
+                  {unitDone(l, u.id) || l.unitTests[u.id]?.passed ? <Tag tone="ok">완료</Tag> : l.steps[`${u.id}:practice`] ? <Tag tone="accent">학습 중</Tag> : null}
+                </Link>
+              ))}
+              {planned.length > 0 && (
+                <div className="grid grid-cols-2 gap-2">
+                  {planned.map((c) => (
+                    <div key={c.id} className="rounded-2xl bg-white/60 border border-dashed border-line p-3 text-sm text-ink-faint" aria-disabled>
+                      {c.title}<span className="block text-[11px] mt-0.5">작성 중</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+            {lv === 'A1' && (
+              <>
+                <SectionTitle>A1 독해</SectionTitle>
+                <div className="grid gap-2">{READINGS.map((r) => <Link key={r.id} to={`/reading/${r.id}`} className="rounded-2xl bg-white border border-line p-3 min-h-[52px] flex items-center justify-between"><span className="font-semibold">📖 {r.title}</span>{l.readingsDone[r.id] && <Tag tone="ok">완료</Tag>}</Link>)}</div>
+              </>
+            )}
+          </section>
+        );
+      })}
     </Page>
   );
 }
@@ -72,7 +83,7 @@ export function Lecture() {
     <LookupContext.Provider value={lookup.open}>
     {lookup.popup}
     <Page title={`${u.order}. ${u.title}`}>
-      <div className="flex flex-wrap gap-1 mb-2"><Tag tone="accent">A1</Tag><Tag>{u.titleEn}</Tag><Tag tone="warn">{STATUS_LABEL[u.reviewStatus]}</Tag></div>
+      <div className="flex flex-wrap gap-1 mb-2"><Tag tone="accent">{u.level}</Tag><Tag>{u.titleEn}</Tag><Tag tone="warn">{STATUS_LABEL[u.reviewStatus]}</Tag></div>
       <Card>
         <p className="font-bold">🎯 학습 목표</p>
         <ul className="mt-1 list-disc pl-5 text-sm space-y-0.5">{u.goal.map((g) => <li key={g}>{g}</li>)}</ul>

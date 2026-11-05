@@ -2,6 +2,7 @@ import { VOCAB_BY_ID } from '@/content/vocab';
 import { lookup, normKey, posName } from '@/lib/lexicon';
 import { BOOK_BY_ID } from '@/content/library';
 import { PRE_A1 } from '@/content/vocab-topics';
+import { bankWord as bankWordOf } from '@/lib/wordbank';
 import { applyMyWordResults, saveMyWord, type MyWord, type SaveInput, type WordSource } from '@/domain/learning/mywords';
 import { create } from 'zustand';
 import { persist, createJSONStorage, type StateStorage } from 'zustand/middleware';
@@ -387,6 +388,8 @@ export interface Actions {
   setBookPage: (bookId: string, page: number) => void;
   completeBook: (bookId: string, answers: Ans[]) => { passed: boolean };
   setStudyLevel: (level: string, method?: 'manual' | 'skip') => void;
+  /** 영단어 사전(초·중·고급) 챕터 학습 완료 */
+  completeBankSet: (chapterId: string, title: string, wordIds: string[], answers: Ans[]) => void;
   /** 주제·난이도 단어장 챕터(5단어) 완료: 학습 기록은 단어 id 기준으로 통합, 첫 완료 시 별·XP 소량 */
   completeWordSet: (chapterId: string, title: string, wordIds: string[], answers: Ans[]) => void;
   resolveDiscoveryQuiz: (characterId: string, correct: number, answers: Ans[]) => { success: boolean };
@@ -680,6 +683,37 @@ export const useApp = create<AppState & Actions & { hydrated: boolean }>()(
         });
         return { passed };
       },
+
+      completeBankSet: (chapterId, title, wordIds, answers) => set((s) => {
+        const before = Object.keys(s.learning.learnedWords).length;
+        const newOnes = wordIds.filter((w) => !s.learning.learnedWords[w]);
+        const after = before + newOnes.length;
+        const rewards: StudyEvent['rewards'] = [];
+        for (let k = Math.floor(before / 10) + 1; k <= Math.floor(after / 10); k++) rewards.push({ eventId: `vocab10:${k}`, xp: 5, reason: `신규 단어 ${k * 10}개 달성` });
+        // 기존 단어장 챕터와 같은 정책: 새 단어가 포함된 챕터 첫 완료 1회만 ★2
+        if (newOnes.length > 0) rewards.push({ eventId: `wordset:${chapterId}`, stars: 2, xp: 3, reason: `${title} 완료` });
+        const byId = new Map(answers.map((a) => [a.questionId.replace(/^wbq:/, ''), a]));
+        return applyStudyEvent(s, {
+          log: { kind: 'words', refId: chapterId, title: `영단어 사전 · ${title}`, correct: answers.filter((a) => a.correct).length, total: answers.length },
+          answers, rewards,
+          mutate: (l, date) => {
+            const learnedWords = { ...l.learnedWords };
+            for (const w of newOnes) learnedWords[w] = date;
+            // 학습한 단어는 나만의 단어장 SRS 로 복습 (원형 기준 중복 없이). 처음 확인 문제 결과를 첫 복습으로 반영
+            let myWords = l.myWords ?? {};
+            for (const id of wordIds) {
+              const bw = bankWordOf(id);
+              if (!bw) continue;
+              const e = { key: normKey(bw.w), word: bw.w, meaning: bw.m, pos: posName(bw.pos.join('·')), level: bw.lv };
+              const created = !myWords[e.key];
+              myWords = saveMyWord(myWords, e, 'words', id, bw.ex, date, now()).map;
+              const a = byId.get(id);
+              if (created && a) myWords = applyMyWordResults(myWords, [{ key: e.key, correct: a.correct }], date);
+            }
+            return { ...l, learnedWords, myWords };
+          },
+        });
+      }),
 
       setStudyLevel: (level, method = 'manual') => set((s) => {
         const date = today();

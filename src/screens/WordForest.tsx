@@ -1,3 +1,4 @@
+import { BankSection } from './WordBank';
 import { useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useApp } from '@/store/app';
@@ -100,6 +101,7 @@ export function WordForestHome() {
         <Link to="/review" className="rounded-2xl bg-white border border-line px-3 min-h-[48px] flex items-center gap-2 text-sm font-semibold">↻ 단어 복습</Link>
       </div>
 
+      <BankSection />
       <h2 className="font-bold mt-5 mb-2">난이도별</h2>
       <div className="grid grid-cols-2 gap-2" data-testid="level-grid">
         {LEVELS.map((l) => (

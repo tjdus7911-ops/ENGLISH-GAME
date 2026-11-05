@@ -1,0 +1,200 @@
+producer|생산자, 제작자, 프로듀서|The producer chose a small town for the new film.|그 제작자는 새 영화의 촬영지로 작은 마을을 골랐다.
+productive|생산적인, 성과가 많은|I had a very productive morning at the library.|나는 도서관에서 아주 알찬 오전을 보냈다.
+profession|직업, 전문직|Teaching is a profession that needs a lot of patience.|가르치는 일은 많은 인내심이 필요한 직업이다.
+professor|교수|Our history professor always starts class with a funny story.|우리 역사 교수님은 항상 재미있는 이야기로 수업을 시작하신다.
+progress|(명) 진전, 발전; (동) 진행되다, 나아지다|My little brother is making good progress with his piano lessons.|내 남동생은 피아노 레슨에서 꽤 많이 늘고 있다.
+prohibition|금지, 금지령|There is a prohibition on smoking inside the building.|건물 안에서는 흡연이 금지되어 있다.
+prominent|눈에 잘 띄는, 저명한|The clock tower is the most prominent building in town.|시계탑은 마을에서 가장 눈에 띄는 건물이다.
+promote|승진시키다, 홍보하다, 촉진하다|The cafe uses social media to promote its new desserts.|그 카페는 새 디저트를 홍보하려고 SNS를 활용한다.
+promotion|승진, 홍보, 판촉|She got a promotion after only two years at the company.|그녀는 회사에 들어온 지 2년 만에 승진했다.
+pronoun|대명사|In this sentence, the pronoun "it" refers to the cat.|이 문장에서 대명사 "it"은 고양이를 가리킨다.
+proof|증거, 증명|Please keep your receipt as proof of purchase.|구매 증빙으로 영수증을 꼭 보관해 주세요.
+properly|제대로, 적절하게|Make sure the lid is closed properly before you shake it.|흔들기 전에 뚜껑이 제대로 닫혔는지 확인해.
+property|재산, 소유물, 부동산|The sign says this land is private property.|표지판에 이 땅이 사유지라고 쓰여 있다.
+proportion|비율, 부분, 균형|A large proportion of the students walk to school.|학생들 중 상당수가 걸어서 등교한다.
+proposal|제안, 제안서; 청혼|The team liked my proposal for a weekend picnic.|팀원들이 주말 소풍을 가자는 내 제안을 마음에 들어 했다.
+propose|제안하다; 청혼하다|I propose that we take a short break now.|지금 잠깐 쉬었다 가는 게 어떨까요.
+prosperity|번영, 번창|The new port brought prosperity to the small fishing village.|새 항구 덕분에 작은 어촌 마을이 번영하게 되었다.
+prosperous|번영하는, 부유한|The town became prosperous after the factory opened.|공장이 문을 연 뒤 그 마을은 부유해졌다.
+protect|보호하다, 지키다|Wear a hat to protect your face from the sun.|햇볕으로부터 얼굴을 보호하려면 모자를 써.
+protection|보호, 보호 장치|This cream offers good protection against dry skin.|이 크림은 피부 건조를 잘 막아 준다.
+protective|보호하는, 보호용의|Workers must wear protective glasses in the lab.|실험실에서는 작업자들이 보호 안경을 써야 한다.
+protest|(명) 항의, 시위; (동) 항의하다|The children protested when the teacher cancelled recess.|선생님이 쉬는 시간을 없애자 아이들이 항의했다.
+proud|자랑스러운, 자부심 있는|My parents were proud when I finished my first marathon.|내가 첫 마라톤을 완주하자 부모님이 자랑스러워하셨다.
+prove|증명하다, ~임이 드러나다|Can you prove that you were at home last night?|어젯밤에 집에 있었다는 걸 증명할 수 있어?
+proverb|속담, 격언|My grandmother often quotes an old proverb about patience.|할머니는 인내에 관한 옛 속담을 자주 인용하신다.
+provided|~라면, ~을 조건으로|You can borrow my bike, provided you return it by Friday.|금요일까지 돌려준다면 내 자전거를 빌려 가도 돼.
+psychological|심리적인, 정신의|Exercise has many psychological benefits as well as physical ones.|운동은 신체적 효과뿐 아니라 심리적 효과도 많다.
+pub|술집, 펍|We watched the football match at a local pub.|우리는 동네 펍에서 축구 경기를 봤다.
+public transport|대중교통|Public transport in this city is cheap and reliable.|이 도시의 대중교통은 저렴하고 믿을 만하다.
+publicly|공개적으로, 공공연히|The company publicly thanked its volunteers on its website.|그 회사는 웹사이트에서 자원봉사자들에게 공개적으로 감사를 표했다.
+publisher|출판사, 발행인|The publisher will print the book next spring.|출판사는 내년 봄에 그 책을 인쇄할 예정이다.
+pullover|풀오버, 스웨터|I put on a warm pullover before going outside.|나는 밖에 나가기 전에 따뜻한 스웨터를 입었다.
+pump|펌프|We used a pump to fill the bicycle tires with air.|우리는 펌프로 자전거 타이어에 바람을 넣었다.
+punish|벌하다, 처벌하다|My parents never punished me for making honest mistakes.|부모님은 내가 정직한 실수를 했을 때는 절대 벌을 주지 않으셨다.
+punishment|벌, 처벌|His punishment was to clean the classroom after school.|그가 받은 벌은 방과 후 교실 청소였다.
+pupil|학생; 동공|The teacher praised every pupil who finished the project.|선생님은 과제를 끝낸 학생 모두를 칭찬하셨다.
+puppy|강아지|Our new puppy sleeps in a basket next to my bed.|우리 집 새 강아지는 내 침대 옆 바구니에서 잔다.
+pure|순수한, 깨끗한|The water from this mountain spring is very pure.|이 산의 샘물은 아주 깨끗하다.
+purify|정화하다, 깨끗하게 하다|This filter purifies tap water so it tastes better.|이 필터는 수돗물을 정화해서 맛을 더 좋게 해 준다.
+purse|지갑, 핸드백|She found some coins at the bottom of her purse.|그녀는 지갑 바닥에서 동전 몇 개를 찾았다.
+puzzle|(명) 퍼즐, 수수께끼; (동) 어리둥절하게 하다|We finished a thousand-piece puzzle over the holiday.|우리는 연휴 동안 천 조각짜리 퍼즐을 완성했다.
+quake|지진|The small quake shook the windows but nobody was hurt.|작은 지진에 창문이 흔들렸지만 다친 사람은 없었다.
+qualified|자격이 있는, 적격의|She is a qualified nurse with ten years of experience.|그녀는 10년 경력의 자격을 갖춘 간호사이다.
+qualify|자격을 얻다, 출전권을 따다|Our team qualified for the final round of the quiz.|우리 팀은 퀴즈 대회 결선에 진출했다.
+quantity|양, 수량|The bakery makes bread in large quantities every morning.|그 빵집은 매일 아침 빵을 대량으로 만든다.
+question mark|물음표|Don't forget to put a question mark at the end.|끝에 물음표 붙이는 거 잊지 마.
+questionnaire|설문지|Please fill in this short questionnaire about our service.|저희 서비스에 관한 간단한 설문지를 작성해 주세요.
+queue|(명) 줄, 대기열; (동) 줄을 서다|We queued for twenty minutes to buy concert tickets.|우리는 콘서트 표를 사려고 20분 동안 줄을 섰다.
+race|(명) 경주; 인종; (동) 경주하다, 질주하다|My sister won the swimming race at the school festival.|언니가 학교 축제 수영 경주에서 우승했다.
+racial|인종의, 인종 간의|The school teaches students to respect racial differences.|그 학교는 학생들에게 인종적 차이를 존중하도록 가르친다.
+radiation|방사선, 복사(열)|Sunscreen protects your skin from harmful radiation.|선크림은 해로운 자외선으로부터 피부를 보호한다.
+rage|격노, 분노|He was in a rage when he saw the broken window.|그는 깨진 창문을 보고 몹시 화가 났다.
+rail|철도; 난간|Hold the rail tightly when you go down the stairs.|계단을 내려갈 때는 난간을 꼭 잡아.
+railroad|철도, 철로|The old railroad runs along the river to the coast.|그 오래된 철로는 강을 따라 해안까지 이어진다.
+railway|철도|The railway station is a ten-minute walk from here.|기차역은 여기서 걸어서 10분 거리다.
+rainfall|강우량, 강수|This region gets very little rainfall in summer.|이 지역은 여름에 비가 아주 적게 내린다.
+rainforest|열대 우림|Many colorful birds live in the rainforest.|열대 우림에는 다채로운 색의 새들이 많이 산다.
+rank|지위, 계급, 순위|He reached the rank of captain at a young age.|그는 젊은 나이에 대위 계급에 올랐다.
+rapid|빠른, 급속한|The city has seen rapid growth over the past decade.|그 도시는 지난 10년 동안 빠르게 성장했다.
+rapidly|빠르게, 급속히|The ice cream melted rapidly in the hot sun.|뜨거운 햇볕에 아이스크림이 금세 녹았다.
+rare|드문, 희귀한; 덜 익힌|This flower is so rare that few people have seen it.|이 꽃은 아주 희귀해서 본 사람이 거의 없다.
+rarely|드물게, 좀처럼 ~않는|My dad rarely watches TV on weekdays.|아빠는 평일에 TV를 거의 안 보신다.
+raspberry|라즈베리, 산딸기|I put fresh raspberries on my yogurt this morning.|오늘 아침 요거트에 신선한 라즈베리를 올려 먹었다.
+ration|배급량, 할당량|Each hiker carried a daily ration of food and water.|등산객마다 하루치 식량과 물을 챙겨 갔다.
+rational|이성적인, 합리적인|Let's try to make a rational decision, not an emotional one.|감정적으로 말고 이성적으로 결정해 보자.
+razor|면도기, 면도칼|He bought a new razor at the pharmacy.|그는 약국에서 새 면도기를 샀다.
+react|반응하다|How did your mom react when you told her the news?|그 소식을 말했을 때 엄마는 어떤 반응이셨어?
+realistic|현실적인, 사실적인|Set realistic goals so you don't feel disappointed.|실망하지 않도록 현실적인 목표를 세워.
+reality|현실, 실제|Moving abroad was harder in reality than in my dreams.|해외 이주는 꿈꾸던 것보다 현실에서 더 힘들었다.
+rearrange|재배열하다, 다시 정리하다|We rearranged the furniture to make the room look bigger.|방이 더 넓어 보이게 가구 배치를 바꿨다.
+reasonable|합리적인, 적당한|The hotel was clean and the price was reasonable.|그 호텔은 깨끗했고 가격도 적당했다.
+rebuild|재건하다, 다시 짓다|The villagers worked together to rebuild the old bridge.|마을 사람들이 힘을 합쳐 오래된 다리를 다시 지었다.
+recall|(동) 기억해 내다; 리콜하다; (명) 기억(력); 회수|I can't recall the name of that little restaurant.|그 작은 식당 이름이 기억나지 않아.
+reception|접수처, 프런트; 환영회; 수신|Please leave your key at reception when you check out.|체크아웃할 때 열쇠는 프런트에 맡겨 주세요.
+recite|암송하다, 낭독하다|Each child recited a short poem in front of the class.|아이들은 각자 반 친구들 앞에서 짧은 시를 낭송했다.
+reclaim|되찾다, 반환을 요구하다; 개간하다|You can reclaim your luggage at carousel number three.|3번 수하물 벨트에서 짐을 찾으실 수 있습니다.
+recognize|알아보다, 인정하다|I didn't recognize you with your new haircut!|머리 스타일이 바뀌어서 못 알아봤어!
+recommend|추천하다, 권하다|Can you recommend a good book for a long flight?|장거리 비행 때 읽을 만한 좋은 책 추천해 줄래?
+recording|녹음, 녹화(물)|We listened to a recording of the school choir.|우리는 학교 합창단의 녹음본을 들었다.
+recover|회복하다, 되찾다|It took her a week to recover from the flu.|그녀가 독감에서 회복하는 데 일주일이 걸렸다.
+recovery|회복, 복구|The doctor said he is making a quick recovery.|의사는 그가 빠르게 회복하고 있다고 말했다.
+recycled|재활용된|This notebook is made from recycled paper.|이 공책은 재생 종이로 만들어졌다.
+recycling|재활용|Put the plastic bottles in the recycling bin, please.|플라스틱 병은 재활용 통에 넣어 주세요.
+reduce|줄이다, 감소시키다|Turning off lights can reduce your electricity bill.|불을 끄면 전기 요금을 줄일 수 있다.
+reduction|감소, 할인|The store is offering a price reduction on winter coats.|그 가게는 겨울 코트를 할인 판매하고 있다.
+reef|암초, 산호초|We went snorkeling near a beautiful coral reef.|우리는 아름다운 산호초 근처에서 스노클링을 했다.
+referee|심판|The referee blew the whistle to start the game.|심판이 휘슬을 불어 경기를 시작했다.
+reflection|(거울 등에 비친) 상; 반사; 숙고|I saw my reflection in the calm lake.|잔잔한 호수에 비친 내 모습을 보았다.
+refreshments|다과, 음료|Light refreshments will be served after the meeting.|회의가 끝난 뒤 간단한 다과가 제공됩니다.
+refund|환불(금)|I returned the shoes and asked for a refund.|나는 신발을 반품하고 환불을 요청했다.
+refusal|거절, 거부|Her polite refusal did not upset anyone.|그녀가 정중하게 거절해서 아무도 기분 상하지 않았다.
+refuse|(동) 거절하다, 거부하다; (명) 쓰레기|The cat refused to eat the new brand of food.|고양이가 새 브랜드 사료를 먹으려 하지 않았다.
+regain|되찾다, 회복하다|After a short rest, he regained his energy.|잠깐 쉬고 나서 그는 기운을 되찾았다.
+regard|(동) ~로 여기다; (명) 관심, 존경; 안부|Many people regard her as the best cook in the village.|많은 사람들이 그녀를 마을 최고의 요리사로 여긴다.
+regarding|~에 관하여|I am writing regarding my order from last week.|지난주 주문 건으로 연락드립니다.
+region|지역, 지방|This region is famous for its apples and cheese.|이 지역은 사과와 치즈로 유명하다.
+regional|지역의, 지방의|We tried some regional dishes at the night market.|우리는 야시장에서 그 지역 향토 음식을 먹어 보았다.
+register|(동) 등록하다; (명) 명부, 기록부|You need to register online before the first class.|첫 수업 전에 온라인으로 등록해야 한다.
+registration|등록, 신고|Registration for the summer camp closes on Monday.|여름 캠프 등록은 월요일에 마감된다.
+regulation|규정, 규제|School regulations say students must wear uniforms.|교칙상 학생들은 교복을 입어야 한다.
+reject|거절하다, 거부하다|The editor rejected my first story, but I kept writing.|편집자가 내 첫 소설을 거절했지만 나는 계속 글을 썼다.
+relate|관련시키다, 공감하다|I can really relate to the main character in this novel.|이 소설의 주인공에게 정말 공감이 간다.
+relation|관계, 관련|There is a close relation between sleep and mood.|수면과 기분 사이에는 밀접한 관계가 있다.
+relationship|관계, 사이|She has a great relationship with her older brother.|그녀는 오빠와 사이가 아주 좋다.
+relative|(형) 상대적인; (명) 친척|All our relatives came to my grandfather's birthday party.|할아버지 생신 잔치에 친척들이 모두 왔다.
+relatively|비교적, 상대적으로|The test was relatively easy compared to last year's.|그 시험은 작년에 비해 비교적 쉬웠다.
+relaxing|느긋하게 해 주는, 편안한|A warm bath is very relaxing after a long day.|긴 하루를 보낸 뒤 따뜻한 목욕은 정말 편안하다.
+reliable|믿을 수 있는, 신뢰할 만한|My old car is slow but very reliable.|내 낡은 차는 느리지만 아주 믿음직하다.
+religion|종교|The museum has a room about the history of religion.|그 박물관에는 종교의 역사를 다룬 전시실이 있다.
+religious|종교의, 독실한|The town holds a religious festival every spring.|그 마을은 매년 봄 종교 축제를 연다.
+rely|의지하다, 믿다|You can always rely on me when you need help.|도움이 필요할 땐 언제든 나한테 기대도 돼.
+remainder|나머지, 잔여|I ate half the pizza and saved the remainder for lunch.|피자 반을 먹고 나머지는 점심으로 남겨 두었다.
+remark|(명) 발언, 논평; (동) 말하다, 언급하다|He made a kind remark about my drawing.|그는 내 그림에 대해 다정한 말을 해 주었다.
+remarkable|놀라운, 주목할 만한|The view from the top of the hill was remarkable.|언덕 꼭대기에서 본 경치는 정말 놀라웠다.
+remedy|치료법, 해결책|Honey and lemon tea is a popular remedy for a sore throat.|꿀레몬차는 목 아플 때 흔히 쓰는 민간요법이다.
+remembrance|기억, 추모, 기념|We planted a tree in remembrance of our old teacher.|우리는 옛 선생님을 추모하며 나무를 심었다.
+remote control|리모컨, 원격 조종|I can't find the remote control under the sofa.|소파 밑에서 리모컨을 못 찾겠어.
+remove|제거하다, 치우다, 벗다|Please remove your shoes before entering the house.|집에 들어오기 전에 신발을 벗어 주세요.
+renew|갱신하다, 재개하다|I need to renew my library card this month.|이번 달에 도서관 카드를 갱신해야 한다.
+repay|갚다, 보답하다|I'll repay the money you lent me next week.|빌려준 돈은 다음 주에 갚을게.
+repeatedly|반복해서, 되풀이하여|The baby repeatedly dropped her spoon on the floor.|아기가 숟가락을 자꾸 바닥에 떨어뜨렸다.
+representative|대표자, 대리인|Each class chose a representative for the student council.|각 반은 학생회에 보낼 대표를 뽑았다.
+reproduce|복제하다, 재현하다; 번식하다|It is hard to reproduce the taste of my mom's soup.|엄마가 끓인 국 맛을 똑같이 내기는 어렵다.
+republic|공화국|The country became a republic more than a century ago.|그 나라는 100여 년 전에 공화국이 되었다.
+reputation|평판, 명성|The restaurant has a reputation for excellent noodles.|그 식당은 국수가 맛있기로 유명하다.
+require|필요로 하다, 요구하다|This recipe requires only four simple ingredients.|이 요리법에는 간단한 재료 네 가지만 있으면 된다.
+requirement|필요조건, 요건|A passport is a basic requirement for traveling abroad.|여권은 해외여행의 기본 요건이다.
+rescue|(명) 구조; (동) 구조하다|Firefighters rescued a kitten from the tall tree.|소방관들이 높은 나무에서 새끼 고양이를 구조했다.
+researcher|연구원, 연구자|The researcher spent months studying ocean plants.|그 연구원은 몇 달 동안 해양 식물을 연구했다.
+resemble|닮다, 비슷하다|She strongly resembles her mother when she smiles.|그녀는 웃을 때 엄마를 꼭 닮았다.
+reservation|예약; 의구심|I made a reservation for four people at seven o'clock.|7시에 네 명으로 예약했어.
+reserve|(동) 예약하다, 따로 남겨 두다; (명) 비축(물); 보호구역|Let's reserve two seats near the window.|창가 쪽 자리 두 개를 예약하자.
+resident|(명) 거주자, 주민; (형) 거주하는|Local residents cleaned the park together on Sunday.|동네 주민들이 일요일에 함께 공원을 청소했다.
+residential|주거의, 주택지의|We live in a quiet residential area near the school.|우리는 학교 근처 조용한 주택가에 산다.
+resist|저항하다, 참다|I couldn't resist buying a slice of chocolate cake.|초콜릿 케이크 한 조각을 안 살 수가 없었다.
+resolve|해결하다; 결심하다|The two friends talked and resolved their argument.|두 친구는 대화로 다툼을 풀었다.
+resort|(명) 휴양지, 리조트; 최후의 수단; (동) 의지하다|We spent our summer vacation at a beach resort.|우리는 해변 리조트에서 여름휴가를 보냈다.
+resource|자원, 자료|The library is a great resource for students.|도서관은 학생들에게 훌륭한 자료 공간이다.
+respect|(명) 존경, 존중; (동) 존경하다, 존중하다|I respect my coach because she works so hard.|코치님이 정말 열심히 하셔서 나는 그분을 존경한다.
+respectable|존경할 만한, 품위 있는|He wore a respectable suit to the job interview.|그는 면접에 단정한 정장을 입고 갔다.
+respond|대답하다, 반응하다|She hasn't responded to my message yet.|그녀는 아직 내 메시지에 답장하지 않았다.
+responsibility|책임, 의무|Feeding the fish is my responsibility at home.|집에서 물고기 밥 주는 건 내 담당이다.
+responsible|책임 있는, ~의 원인인|Who is responsible for locking the office at night?|밤에 사무실 문 잠그는 건 누가 맡고 있어?
+rest|(명) 휴식; 나머지; (동) 쉬다|Let's rest for a few minutes under that tree.|저 나무 아래에서 몇 분만 쉬자.
+restore|복원하다, 회복시키다|They spent a year restoring the old wooden house.|그들은 1년 동안 오래된 목조 주택을 복원했다.
+restrict|제한하다|The park restricts the number of visitors each day.|그 공원은 하루 방문객 수를 제한한다.
+retail|소매|She has worked in retail for over five years.|그녀는 5년 넘게 소매업에서 일했다.
+retain|유지하다, 보유하다|This thermos retains heat for up to twelve hours.|이 보온병은 최대 12시간 동안 온기를 유지한다.
+retell|다시 말하다, 고쳐 말하다|Can you retell the story in your own words?|그 이야기를 네 말로 다시 해 줄 수 있니?
+retrospect|회상, 회고|In retrospect, I should have brought an umbrella.|돌이켜 보니 우산을 챙겼어야 했다.
+reunification|재통일, 재결합|The family celebrated the reunification after years apart.|그 가족은 몇 년 만에 다시 모인 것을 축하했다.
+reunify|재통일하다, 다시 결합시키다|The old friends hoped to reunify their band one day.|옛 친구들은 언젠가 밴드를 다시 결성하길 바랐다.
+revise|수정하다, 복습하다|I need to revise my essay before I send it.|에세이를 제출하기 전에 수정해야 해.
+revision|수정, 개정; 복습|The second revision of my report was much clearer.|두 번째로 고친 보고서가 훨씬 명확했다.
+reward|(명) 보상, 사례금; (동) 보상하다|We rewarded the dog with a treat for sitting still.|가만히 앉아 있었던 상으로 강아지에게 간식을 주었다.
+rewrite|다시 쓰다, 고쳐 쓰다|The teacher asked me to rewrite the last paragraph.|선생님이 마지막 문단을 다시 써 오라고 하셨다.
+rid|없애다, 제거하다|I finally got rid of the old boxes in the garage.|드디어 차고에 있던 낡은 상자들을 치웠다.
+riddle|(명) 수수께끼; (동) 구멍투성이로 만들다|My uncle loves to tell riddles at dinner.|삼촌은 저녁 식사 때 수수께끼 내는 걸 좋아하신다.
+ridiculous|우스꽝스러운, 터무니없는|That hat looks ridiculous, but it keeps me warm.|그 모자는 우스꽝스러워 보이지만 따뜻하다.
+ripe|익은, 숙성한|These bananas will be ripe in a couple of days.|이 바나나들은 이틀쯤 지나면 익을 거야.
+rise|(동) 오르다, 뜨다; (명) 상승, 증가|We woke up early to watch the sun rise.|우리는 해가 뜨는 걸 보려고 일찍 일어났다.
+risk|(명) 위험; (동) ~의 위험을 무릅쓰다|Don't leave your bag there; there's a risk it could get wet.|가방을 거기 두지 마, 젖을 위험이 있어.
+roadside|길가, 노변|We bought fresh corn from a roadside stand.|우리는 길가 가판대에서 신선한 옥수수를 샀다.
+robot|로봇|The robot vacuum cleans the floor while we are out.|우리가 외출한 사이 로봇 청소기가 바닥을 청소한다.
+rolling|완만하게 기복이 있는, 굴러가는|The train passed through green rolling hills.|기차는 푸른 구릉 지대를 지나갔다.
+rotten|썩은, 부패한|Throw away that apple; it's completely rotten.|그 사과 버려, 완전히 썩었어.
+rough|거친, 대략적인, 힘든|The sea was rough, so the ferry was cancelled.|바다가 거칠어서 여객선 운항이 취소되었다.
+routine|일과, 일상, 판에 박힌 순서|My morning routine includes stretching and a cup of tea.|내 아침 일과에는 스트레칭과 차 한 잔이 들어 있다.
+rubber|고무; 지우개|These boots are made of rubber, so they're waterproof.|이 장화는 고무로 만들어져서 물이 새지 않는다.
+rubbish|쓰레기; 허튼소리|Please take the rubbish out before you go to bed.|자기 전에 쓰레기 좀 내다 놔 줘.
+rudely|무례하게|The customer spoke rudely to the waiter and later apologized.|그 손님은 종업원에게 무례하게 말했다가 나중에 사과했다.
+runaway|도망자, 가출자; 고삐 풀린 것|The runaway horse was found grazing in a nearby field.|달아났던 말이 근처 들판에서 풀을 뜯고 있는 채로 발견되었다.
+runway|활주로; 패션쇼 무대|The plane waited on the runway for twenty minutes.|비행기는 활주로에서 20분 동안 대기했다.
+sacred|신성한, 성스러운|The old tree is sacred to the people of the village.|그 오래된 나무는 마을 사람들에게 신성한 존재다.
+sadness|슬픔|She felt a deep sadness when her friend moved away.|친구가 이사 가자 그녀는 깊은 슬픔을 느꼈다.
+safari|사파리 여행|On our safari, we saw elephants drinking from a river.|사파리 여행에서 강물을 마시는 코끼리들을 보았다.
+safeguard|(명) 보호 장치; (동) 보호하다|Strong passwords safeguard your personal information online.|강력한 비밀번호는 온라인에서 개인 정보를 보호해 준다.
+safely|안전하게, 무사히|Text me when you arrive home safely.|집에 무사히 도착하면 문자 보내 줘.
+safety|안전|For your safety, please wear a helmet.|안전을 위해 헬멧을 착용해 주세요.
+salesman|판매원, 영업 사원|The salesman showed us three different washing machines.|판매원이 세 가지 다른 세탁기를 보여 주었다.
+salmon|연어|We grilled salmon with lemon for dinner.|우리는 저녁으로 레몬을 곁들인 연어구이를 만들었다.
+sand|모래|The children built a castle out of wet sand.|아이들이 젖은 모래로 성을 쌓았다.
+sandal|샌들|I lost one sandal while walking on the beach.|해변을 걷다가 샌들 한 짝을 잃어버렸다.
+satellite|위성, 인공위성|Weather satellites help us predict storms.|기상 위성은 폭풍을 예측하는 데 도움을 준다.
+satisfaction|만족(감)|Finishing the puzzle gave me a feeling of satisfaction.|퍼즐을 완성하고 나니 뿌듯함이 느껴졌다.
+satisfied|만족한|Are you satisfied with your new apartment?|새 아파트는 마음에 들어?
+saucepan|(손잡이 달린) 냄비|Heat the milk slowly in a small saucepan.|작은 냄비에 우유를 천천히 데워.
+saucer|받침 접시|She put her teacup back on the saucer.|그녀는 찻잔을 받침 접시 위에 다시 내려놓았다.
+scan|(동) 스캔하다, 훑어보다; (명) 정밀 검사, 스캔|Scan the QR code to see the menu.|메뉴를 보려면 QR 코드를 스캔하세요.
+scare|겁주다, 놀라게 하다|Don't scare me like that when I'm reading!|책 읽고 있을 때 그렇게 놀래키지 마!
+scared|겁먹은, 무서워하는|My little cousin is scared of the dark.|내 어린 사촌은 어둠을 무서워한다.
+scary|무서운, 겁나는|We watched a scary movie and couldn't sleep.|우리는 무서운 영화를 보고 잠을 못 잤다.
+scatter|흩뿌리다, 흩어지다|She scattered seeds across the garden.|그녀는 정원 곳곳에 씨앗을 뿌렸다.
+scenic|경치가 좋은|We took the scenic road along the coast.|우리는 해안을 따라 난 경치 좋은 길로 갔다.
+scholar|학자|The scholar wrote three books about ancient poetry.|그 학자는 고대 시에 관한 책을 세 권 썼다.
+scholarship|장학금; 학문|He won a scholarship to study music abroad.|그는 해외에서 음악을 공부할 장학금을 받았다.
+schoolmate|학교 친구, 동창|I met an old schoolmate at the supermarket today.|오늘 마트에서 옛 학교 친구를 만났다.
+schoolteacher|학교 선생님, 교사|My aunt has been a schoolteacher for twenty years.|우리 이모는 20년째 학교 선생님으로 일하고 계신다.
+science fiction|공상 과학 소설, SF|I love science fiction stories about life on other planets.|나는 다른 행성의 생명체를 다룬 SF 이야기를 정말 좋아한다.
+scold|꾸짖다, 야단치다|Mom scolded us for leaving mud on the carpet.|엄마는 카펫에 진흙을 묻혔다고 우리를 꾸짖으셨다.

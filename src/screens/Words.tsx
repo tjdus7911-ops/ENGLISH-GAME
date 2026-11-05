@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { useApp } from '@/store/app';
-import { GRAMMAR_BY_ID, GRAMMAR_UNITS } from '@/content/grammar';
+import { GRAMMAR_BY_ID, A1_UNITS } from '@/content/grammar';
 import { vocabForUnit, VOCAB } from '@/content/vocab';
 import { AudioButton, Button, Card, Page, Progress, Tag, Empty } from '@/components/ui';
 import { QuizRunner, ResultView, toAnswers, type QResult } from '@/components/Quiz';
@@ -22,7 +22,7 @@ export function GrammarWordsHub() {
         <div className="mt-3 flex gap-2"><Link to="/review"><Button size="sm" variant="secondary">단어 복습</Button></Link></div>
       </Card>
       <div className="grid gap-2 mt-3">
-        {GRAMMAR_UNITS.map((u) => {
+        {A1_UNITS.map((u) => {
           const words = vocabForUnit(u.id);
           const n = words.filter((w) => learned[w.id]).length;
           return (

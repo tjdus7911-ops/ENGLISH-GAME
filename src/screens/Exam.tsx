@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '@/store/app';
-import { GRAMMAR_UNITS } from '@/content/grammar';
+import { A1_UNITS } from '@/content/grammar';
 import { Button, Card, Page, SectionTitle, Tag } from '@/components/ui';
 import { QuizRunner, ResultView, toAnswers, type QResult } from '@/components/Quiz';
 import { CharacterImage } from '@/game/CharacterImage';
@@ -19,7 +19,7 @@ export function ExamHall() {
       </Card>
       <SectionTitle right={<span className="flex items-center gap-1 text-xs text-ink-soft"><CharacterImage id={RARE_ID} silhouette={!owned[RARE_ID]} size={28} />첫 통과 시 희귀 캐릭터</span>}>단원 평가</SectionTitle>
       <div className="grid gap-2">
-        {GRAMMAR_UNITS.map((u) => {
+        {A1_UNITS.map((u) => {
           const t = l.unitTests[u.id];
           return (
             <Link key={u.id} to={`/grammar/${u.id}/test`} className="rounded-2xl bg-white border border-line p-3 flex items-center gap-3 min-h-[56px]">
@@ -38,7 +38,7 @@ export function ExamHall() {
 export function A1Exam() {
   const nav = useNavigate();
   const complete = useApp((s) => s.completeA1Exam);
-  const questions = useMemo(() => GRAMMAR_UNITS.flatMap((u) => [u.unitTest[1], u.unitTest[5]]), []);
+  const questions = useMemo(() => A1_UNITS.flatMap((u) => [u.unitTest[1], u.unitTest[5]]), []);
   const [res, setRes] = useState<{ rs: QResult[]; passed: boolean } | null>(null);
   return (
     <Page title="A1 레벨 평가">

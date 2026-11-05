@@ -1,5 +1,5 @@
 import type { StepKind } from '@/domain/types';
-import { GRAMMAR_UNITS } from '@/content/grammar';
+import { A1_UNITS } from '@/content/grammar';
 import { DIALOGUES, SPEAKING } from '@/content/dialogues';
 import type { LearningState } from '@/store/app';
 
@@ -27,7 +27,7 @@ export const stepPath = (unitId: string, kind: StepKind) => {
 };
 
 export const unitDone = (l: LearningState, unitId: string) => STEPS.every((s) => l.steps[`${unitId}:${s.kind}`]);
-export const currentUnit = (l: LearningState) => GRAMMAR_UNITS.find((u) => !unitDone(l, u.id)) ?? GRAMMAR_UNITS[GRAMMAR_UNITS.length - 1];
+export const currentUnit = (l: LearningState) => A1_UNITS.find((u) => !unitDone(l, u.id)) ?? A1_UNITS[A1_UNITS.length - 1];
 export const nextStep = (l: LearningState, unitId: string) => STEPS.find((s) => !l.steps[`${unitId}:${s.kind}`]) ?? null;
 export const speakingSet = (unitId: string) => SPEAKING.filter((s) => s.grammarId === unitId);
 export const stepsDoneOn = (l: LearningState, date: string) => Object.values(l.steps).filter((d) => d === date).length;

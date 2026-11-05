@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { useApp, today, now } from '@/store/app';
 import { SPEAKING, SPEAKING_BY_ID } from '@/content/dialogues';
-import { GRAMMAR_BY_ID, GRAMMAR_UNITS } from '@/content/grammar';
+import { GRAMMAR_BY_ID, A1_UNITS } from '@/content/grammar';
 import type { SpeakingAttempt, SpeakingSentence } from '@/domain/types';
 import { compareWords, summarizeDiff, type DiffOp } from '@/domain/speech/compare';
 import { ASSESSMENT_FEATURES, UnavailableAssessor } from '@/domain/speech/assessment';
@@ -20,7 +20,7 @@ export function SpeakingHub() {
     <Page title="말하기 학습" back="/free">
       <SupportNotice />
       <div className="grid gap-2 mt-3">
-        {GRAMMAR_UNITS.map((u) => {
+        {A1_UNITS.map((u) => {
           const set = SPEAKING.filter((s) => s.grammarId === u.id);
           const n = set.filter((s) => tried.has(s.id)).length;
           return (

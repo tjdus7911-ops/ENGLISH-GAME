@@ -19,6 +19,8 @@ import { HouseScreen, ShopScreen, InventoryScreen, GardenScreen, SpacesScreen, Q
 import { useStudyTimer } from '@/lib/studyTimer';
 import { LevelCheck, LevelCheckResult, RecommendScreen, AchievementScreen } from '@/screens/LevelCheck';
 import { MyWordbook, MyWordReview } from '@/screens/MyWordbook';
+import { BankBand, BankChapter } from '@/screens/WordBank';
+import { loadAllBands } from '@/lib/wordbank';
 
 const LibraryHub = lazy(() => import('@/screens/Library').then((m) => ({ default: m.LibraryHub })));
 const BookShelf = lazy(() => import('@/screens/Library').then((m) => ({ default: m.BookShelf })));
@@ -72,6 +74,8 @@ export default function App() {
   const hydrated = useApp((s) => s.hydrated);
   const reduce = useApp((s) => s.settings.reduceMotion);
   useEffect(() => { document.documentElement.classList.toggle('reduce-motion', reduce); }, [reduce]);
+  // 단어 터치 사전에 영단어 사전(초·중·고급)을 추가: 첫 화면을 그린 뒤 여유 있을 때 불러온다
+  useEffect(() => { const t = window.setTimeout(() => { void loadAllBands().catch(() => {}); }, 1500); return () => window.clearTimeout(t); }, []);
   if (!hydrated) return <div className="min-h-[100dvh] grid place-items-center text-ink-soft" role="status">불러오는 중…</div>;
   return (
     <ErrorBoundary>
@@ -94,6 +98,8 @@ export default function App() {
             <Route path="/words/ch/:chapterId" element={<ChapterLearn />} />
             <Route path="/words/search" element={<WordSearch />} />
             <Route path="/words/saved" element={<SavedWords />} />
+            <Route path="/words/bank/:band" element={<BankBand />} />
+            <Route path="/words/bank/:band/:lv/:ch" element={<BankChapter />} />
             <Route path="/mywords" element={<MyWordbook />} />
             <Route path="/mywords/review" element={<MyWordReview />} />
             <Route path="/library" element={<LibraryHub />} />

@@ -1,0 +1,350 @@
+'m|am의 줄임말 (I'm = I am)|I'm really hungry, so let's eat now.|나 정말 배고파, 그러니까 지금 먹자.
+'re|are의 줄임말 (you're, we're, they're)|We're going to the park after lunch.|우리는 점심 먹고 공원에 갈 거야.
+'s|is 또는 has의 줄임말 (it's, she's)|It's very cold outside this morning.|오늘 아침 밖이 정말 추워.
+a|(단수 명사 앞) 하나의, 어떤|I bought a new umbrella yesterday.|어제 새 우산을 하나 샀어.
+a.m.|오전 (자정부터 정오까지)|I have an exam at 9 a.m. tomorrow.|내일 오전 9시에 시험이 있어.
+about|(부) 약, 대략; (전) ~에 대하여|The movie is about two hours long.|그 영화는 약 두 시간짜리야.
+above|(형) 위의; (부) 위에; (전) ~보다 위에|There is a small window above the door.|문 위에 작은 창문이 하나 있어.
+action|행동, 동작; 조치|We need to take action right away.|우리는 당장 조치를 취해야 해.
+activity|활동|Swimming is my favorite summer activity.|수영은 내가 가장 좋아하는 여름 활동이야.
+add|더하다, 추가하다|Please add a little sugar to my tea.|제 차에 설탕을 조금 넣어 주세요.
+after|(부) 뒤에; (접) ~한 후에; (전) ~ 후에|I usually take a walk after dinner.|나는 보통 저녁 먹고 산책을 해.
+ago|(지금부터) ~ 전에|I moved to this city three years ago.|나는 3년 전에 이 도시로 이사 왔어.
+airplane|비행기|The airplane landed safely in the rain.|비행기가 빗속에서 무사히 착륙했어.
+airport|공항|My dad picked me up at the airport.|아빠가 공항으로 나를 데리러 오셨어.
+album|앨범, 사진첩; (음악) 앨범|Grandma showed me her old photo album.|할머니가 오래된 사진 앨범을 보여 주셨어.
+all|(부) 완전히; (한) 모든; (대) 모두, 전부|All the students passed the test.|학생들 모두 시험에 통과했어.
+all right|(형) 괜찮은; (부) 잘, 괜찮게|Are you all right? You look tired.|괜찮아? 피곤해 보여.
+almost|거의|I almost missed the bus this morning.|오늘 아침에 버스를 놓칠 뻔했어.
+alone|(형) 혼자인; (부) 혼자서|My cat doesn't like being alone at home.|우리 고양이는 집에 혼자 있는 걸 싫어해.
+along|(부) 앞으로, 함께; (전) ~을 따라|We walked along the river at sunset.|우리는 해 질 녘에 강을 따라 걸었어.
+already|이미, 벌써|I've already finished my homework.|나는 벌써 숙제를 끝냈어.
+also|또한, ~도|She speaks English and also a little Spanish.|그녀는 영어를 하고 스페인어도 조금 해.
+am|~이다, ~에 있다 (be의 1인칭 단수 현재형)|I am a student at this school.|나는 이 학교 학생이야.
+an|(모음 발음 앞) 하나의, 어떤|I eat an apple every morning.|나는 매일 아침 사과 하나를 먹어.
+angry|화난|My mom was angry because I came home late.|내가 늦게 들어와서 엄마가 화나셨어.
+animal|동물|What is your favorite animal at the zoo?|동물원에서 가장 좋아하는 동물이 뭐야?
+another|(한) 또 하나의, 다른; (대) 또 하나|Can I have another cup of coffee?|커피 한 잔 더 마셔도 될까요?
+any|(한) 어떤, 조금이라도; (대) 아무것, 어느 것|Do you have any questions about the plan?|계획에 대해 질문 있으세요?
+anybody|누구, 아무나|Is anybody home? The door is open.|집에 누구 있어요? 문이 열려 있네요.
+anyone|누구, 아무나|Does anyone have a pen I can borrow?|펜 빌려줄 수 있는 사람 있어?
+anything|무엇, 아무것|Do you need anything from the store?|가게에서 뭐 필요한 거 있어?
+April|4월|My birthday is in April.|내 생일은 4월이야.
+apron|앞치마|Put on an apron before you start cooking.|요리 시작하기 전에 앞치마를 둘러.
+are|~이다, ~에 있다 (be의 현재형)|Where are my keys? I can't find them.|내 열쇠 어디 있지? 못 찾겠어.
+arm|(명) 팔; (동) 무장시키다|I hurt my arm playing tennis.|테니스를 치다가 팔을 다쳤어.
+around|(부) 주위에, 약; (전) ~의 주위에|We sat around the table and talked.|우리는 식탁에 둘러앉아 이야기를 나눴어.
+art|미술, 예술|Art is my favorite class at school.|미술은 학교에서 내가 가장 좋아하는 수업이야.
+article|(신문·잡지의) 기사, 글|I read an interesting article about sleep.|잠에 관한 흥미로운 기사를 읽었어.
+as|(접) ~할 때, ~처럼; (전) ~로서|She works as a nurse at the hospital.|그녀는 병원에서 간호사로 일해.
+August|8월|We go to the beach every August.|우리는 매년 8월에 해변에 가.
+aunt|이모, 고모, 숙모|My aunt makes the best kimchi.|우리 이모가 김치를 제일 맛있게 담가.
+autumn|가을|The leaves turn red and yellow in autumn.|가을에는 나뭇잎이 빨갛고 노랗게 물들어.
+awake|깨어 있는|The baby is still awake at midnight.|아기가 자정인데도 아직 깨어 있어.
+away|떨어져, 멀리; 다른 곳으로|The library is two blocks away from here.|도서관은 여기서 두 블록 떨어져 있어.
+back|(형) 뒤의; (부) 뒤로, 다시; (명) 등; (동) 후진하다|I'll be back in ten minutes.|10분 후에 돌아올게.
+ball|공|The kids are playing with a ball outside.|아이들이 밖에서 공을 가지고 놀고 있어.
+band|밴드, 악단; 띠|My brother plays guitar in a band.|우리 형은 밴드에서 기타를 쳐.
+bar|(명) 술집, 막대; (동) 막다|I bought a chocolate bar at the store.|가게에서 초콜릿 바를 하나 샀어.
+baseball|야구; 야구공|We watched a baseball game on Saturday.|우리는 토요일에 야구 경기를 봤어.
+basketball|농구; 농구공|He plays basketball after school every day.|그는 매일 방과 후에 농구를 해.
+bat|(명) 박쥐, 방망이; (동) 방망이로 치다|He swung the bat and hit the ball.|그는 방망이를 휘둘러 공을 맞혔어.
+bath|목욕; 욕조|I like to take a warm bath at night.|나는 밤에 따뜻한 물로 목욕하는 걸 좋아해.
+bathroom|욕실, 화장실|Excuse me, where is the bathroom?|실례지만, 화장실이 어디예요?
+be|~이다, ~이 되다, 있다|Please be quiet in the library.|도서관에서는 조용히 해 주세요.
+beach|해변, 바닷가|We built a sandcastle on the beach.|우리는 해변에서 모래성을 쌓았어.
+bean|콩|I put some beans in the soup.|수프에 콩을 좀 넣었어.
+bear|(명) 곰; (동) 참다, 견디다|We saw a brown bear in the mountains.|우리는 산에서 갈색 곰을 봤어.
+become|~이 되다|She wants to become a doctor someday.|그녀는 언젠가 의사가 되고 싶어 해.
+bed|침대|I go to bed at eleven every night.|나는 매일 밤 11시에 자러 가.
+bedroom|침실|My bedroom has a big window.|내 침실에는 큰 창문이 있어.
+bee|벌|A bee is flying around the flowers.|벌 한 마리가 꽃 주위를 날고 있어.
+beef|소고기|We had beef and rice for dinner.|우리는 저녁으로 소고기와 밥을 먹었어.
+before|(부) 전에; (접) ~하기 전에; (전) ~ 전에|Wash your hands before you eat.|먹기 전에 손을 씻어.
+begin|시작하다|The class will begin at nine o'clock.|수업은 9시에 시작할 거야.
+bell|종, 벨|The school bell rang, and everyone ran outside.|학교 종이 울리자 모두 밖으로 뛰어나갔어.
+below|(부) 아래에; (전) ~보다 아래에|Write your name below the picture.|그림 아래에 이름을 써.
+beside|~ 옆에|Come and sit beside me.|이리 와서 내 옆에 앉아.
+best|(형) 가장 좋은, 최고의; (부) 가장 잘|She is my best friend.|그녀는 나의 가장 친한 친구야.
+better|(형) 더 좋은; (부) 더 잘|I feel much better today.|오늘은 몸이 훨씬 나아.
+bicycle|자전거|I ride my bicycle to school.|나는 자전거를 타고 학교에 가.
+bird|새|A little bird is singing in the tree.|작은 새 한 마리가 나무에서 노래하고 있어.
+birth|탄생, 출생|What is your date of birth?|생년월일이 어떻게 되세요?
+biscuit|비스킷|Would you like a biscuit with your tea?|차와 함께 비스킷 드실래요?
+black|(형) 검은; (명) 검은색|I'm wearing my black shoes today.|나는 오늘 검은 신발을 신고 있어.
+blank|빈, 공백의|Write your answer in the blank space.|빈칸에 답을 써.
+block|(명) 덩어리, 구역; (동) 막다|A big truck is blocking the road.|큰 트럭이 길을 막고 있어.
+blow|(명) 강타; (동) 불다|Make a wish and blow out the candles.|소원을 빌고 촛불을 불어서 꺼.
+board|(명) 판자, 칠판; (동) 탑승하다|The teacher wrote the answer on the board.|선생님이 칠판에 답을 쓰셨어.
+boat|배, 보트|We took a boat to the small island.|우리는 배를 타고 작은 섬에 갔어.
+body|몸, 신체|Exercise is good for your body.|운동은 몸에 좋아.
+bone|뼈|The dog is chewing on a bone.|개가 뼈를 씹고 있어.
+bookstore|서점|I bought this novel at the bookstore.|이 소설은 서점에서 샀어.
+boring|지루한|The movie was so boring that I fell asleep.|영화가 너무 지루해서 잠이 들었어.
+both|(부) 둘 다; (한) 양쪽의; (대) 둘 다|Both of my parents are teachers.|우리 부모님은 두 분 다 선생님이야.
+bottle|(명) 병; (동) 병에 담다|Can you bring me a bottle of water?|물 한 병 갖다줄래?
+bottom|맨 아래, 바닥|The keys are at the bottom of my bag.|열쇠가 가방 맨 아래에 있어.
+bowl|(명) 그릇, 사발; (동) 공을 굴리다|I eat a bowl of cereal for breakfast.|나는 아침으로 시리얼 한 그릇을 먹어.
+box|상자|Put the toys back in the box.|장난감을 상자에 다시 넣어.
+boyfriend|남자 친구|Her boyfriend gave her flowers.|그녀의 남자 친구가 꽃을 줬어.
+brain|뇌, 두뇌|Sleep helps your brain rest.|잠은 뇌를 쉬게 해 줘.
+bread|빵|I bought fresh bread from the bakery.|빵집에서 갓 구운 빵을 샀어.
+break|(명) 휴식; (동) 깨다, 부수다|Let's take a short break.|잠깐 쉬자.
+breathe|숨 쉬다, 호흡하다|Breathe slowly and try to relax.|천천히 숨 쉬고 긴장을 풀어 봐.
+bridge|다리, 교량|We walked across the bridge at night.|우리는 밤에 다리를 걸어서 건넜어.
+bright|밝은, 빛나는|The sun is very bright today.|오늘은 햇빛이 아주 밝아.
+bring|가져오다, 데려오다|Don't forget to bring your umbrella.|우산 가져오는 거 잊지 마.
+broken|깨진, 고장 난|My phone screen is broken.|내 휴대폰 화면이 깨졌어.
+brown|(형) 갈색의; (명) 갈색|She has long brown hair.|그녀는 긴 갈색 머리를 가졌어.
+bucket|양동이|Fill the bucket with water, please.|양동이에 물을 좀 채워 줘.
+build|짓다, 건설하다|They are going to build a new school here.|여기에 새 학교를 지을 거래.
+building|건물|My office is in that tall building.|내 사무실은 저 높은 건물에 있어.
+burger|햄버거|I ordered a burger and fries.|나는 햄버거와 감자튀김을 주문했어.
+bus|버스|I take the bus to work every day.|나는 매일 버스를 타고 출근해.
+business|사업, 일; 회사|My uncle runs a small business.|우리 삼촌은 작은 사업을 하셔.
+butter|버터|I put butter on my toast.|토스트에 버터를 발랐어.
+butterfly|나비|A white butterfly landed on my hand.|흰 나비 한 마리가 내 손에 앉았어.
+button|단추; (기계의) 버튼|Press the red button to start the machine.|기계를 켜려면 빨간 버튼을 눌러.
+by|~ 옆에; ~에 의해; ~까지; ~을 타고|I usually go to school by subway.|나는 보통 지하철을 타고 학교에 가.
+bye|안녕 (헤어질 때 인사)|She said bye and closed the door.|그녀는 안녕이라고 말하고 문을 닫았어.
+cake|케이크|We made a chocolate cake for Mom's birthday.|우리는 엄마 생신을 위해 초콜릿 케이크를 만들었어.
+camera|카메라, 사진기|I took this photo with my new camera.|새 카메라로 이 사진을 찍었어.
+camp|(명) 캠프, 야영지; (동) 야영하다|We camped by the lake last weekend.|우리는 지난 주말에 호숫가에서 캠핑했어.
+candy|사탕|Too much candy is bad for your teeth.|사탕을 너무 많이 먹으면 이에 안 좋아.
+cap|(챙 달린) 모자; 뚜껑|He always wears a baseball cap.|그는 항상 야구 모자를 써.
+careful|조심하는, 신중한|Be careful. The floor is wet.|조심해. 바닥이 젖어 있어.
+carefully|조심스럽게, 신중하게|Please read the instructions carefully.|설명서를 주의 깊게 읽어 주세요.
+cartoon|만화, 만화 영화|My little brother watches cartoons every morning.|내 남동생은 매일 아침 만화를 봐.
+case|경우; 상자, 케이스|I need a new case for my phone.|휴대폰 케이스가 새로 필요해.
+cat|고양이|Our cat sleeps on the sofa all day.|우리 고양이는 하루 종일 소파에서 자.
+catch|(명) 잡기; (동) 잡다; (버스 등을) 타다|I have to catch the last train home.|집에 가는 막차를 타야 해.
+CD|시디, 콤팩트디스크|I still have some old music CDs at home.|나는 집에 아직 오래된 음악 CD가 좀 있어.
+CD player|시디 플레이어|My grandpa listens to music on his CD player.|할아버지는 CD 플레이어로 음악을 들으셔.
+celebrate|축하하다, 기념하다|We celebrated our team's win with pizza.|우리는 피자를 먹으며 팀의 승리를 축하했어.
+celebration|축하, 기념 행사|There was a big celebration after the wedding.|결혼식이 끝나고 성대한 축하 파티가 있었어.
+chair|의자|Please pull up a chair and join us.|의자 가져와서 같이 앉아.
+change|(명) 변화, 잔돈; (동) 바꾸다, 변하다|I need to change my clothes before dinner.|저녁 먹기 전에 옷을 갈아입어야 해.
+character|등장인물; 성격|Who is your favorite character in the book?|그 책에서 가장 좋아하는 등장인물이 누구야?
+check|(명) 확인, 수표; (동) 확인하다|Can you check the time for me?|시간 좀 확인해 줄래?
+cheese|치즈|I'd like a sandwich with extra cheese.|치즈 추가한 샌드위치로 주세요.
+chicken|닭; 닭고기|We had fried chicken for dinner.|우리는 저녁으로 프라이드치킨을 먹었어.
+chocolate|초콜릿|She gave me a box of chocolates.|그녀가 나에게 초콜릿 한 상자를 줬어.
+choose|고르다, 선택하다|It's hard to choose just one dessert.|디저트를 하나만 고르기 어렵네.
+church|교회|They go to church every Sunday.|그들은 일요일마다 교회에 가.
+cinema|영화관|Let's go to the cinema this weekend.|이번 주말에 영화관 가자.
+circle|(명) 원, 동그라미; (동) 동그라미를 치다|Circle the correct answer on your paper.|종이에 정답에 동그라미를 쳐.
+classroom|교실|Our classroom is on the second floor.|우리 교실은 2층에 있어.
+clever|영리한, 똑똑한|My dog is very clever and learns fast.|우리 개는 아주 영리해서 빨리 배워.
+climb|(명) 오르기; (동) 오르다|We climbed the hill to see the view.|우리는 경치를 보려고 언덕에 올랐어.
+clock|시계 (벽시계 등)|The clock on the wall is five minutes fast.|벽시계가 5분 빨라.
+closed|닫힌, 문을 닫은|The bank is closed on Sundays.|그 은행은 일요일에 문을 닫아.
+cloth|천, 옷감; 행주|Wipe the table with a wet cloth.|젖은 행주로 식탁을 닦아.
+clothes|옷, 의복|I need to wash my clothes today.|오늘 빨래를 해야 해.
+cloud|구름|There isn't a single cloud in the sky.|하늘에 구름 한 점 없어.
+cloudy|흐린, 구름이 낀|It's cloudy, so take an umbrella.|날이 흐리니까 우산 챙겨.
+club|동아리, 클럽|I joined the book club at school.|나는 학교 독서 동아리에 가입했어.
+coach|(명) 코치; (동) 지도하다|Our coach told us to run faster.|코치님이 우리에게 더 빨리 달리라고 하셨어.
+coat|코트, 외투|Wear your warm coat. It's freezing outside.|따뜻한 코트 입어. 밖이 엄청 추워.
+code|암호, 코드; 규칙|Enter the code to open the door.|문을 열려면 비밀번호를 입력해.
+coke|콜라|Can I get a coke with my pizza?|피자랑 콜라 하나 주시겠어요?
+collect|모으다, 수집하다|My sister collects stamps from different countries.|우리 언니는 여러 나라의 우표를 모아.
+collection|수집품, 소장품|He has a large collection of toy cars.|그는 장난감 자동차를 아주 많이 수집했어.
+college|대학|My cousin goes to college in Busan.|내 사촌은 부산에 있는 대학에 다녀.
+computer|컴퓨터|I do my homework on the computer.|나는 컴퓨터로 숙제를 해.
+concert|콘서트, 음악회|We went to a piano concert last night.|우리는 어젯밤 피아노 연주회에 갔어.
+contest|(명) 대회, 시합; (동) 다투다|She won first prize in the singing contest.|그녀는 노래 대회에서 1등을 했어.
+conversation|대화|We had a long conversation over coffee.|우리는 커피를 마시며 오랫동안 대화를 나눴어.
+cookie|쿠키|These cookies smell so good!|이 쿠키 냄새 정말 좋다!
+cool|(형) 시원한, 멋진; (동) 식히다|Let the soup cool before you eat it.|먹기 전에 수프를 식혀.
+cop|경찰관 (구어)|A cop helped the lost child find her mom.|경찰관이 길 잃은 아이가 엄마를 찾도록 도와줬어.
+copy|(명) 사본, 한 부; (동) 복사하다, 베끼다|Can you make a copy of this page?|이 페이지 한 장 복사해 줄 수 있어?
+corn|옥수수|We ate grilled corn at the festival.|우리는 축제에서 구운 옥수수를 먹었어.
+corner|모퉁이, 구석|The bakery is on the corner of this street.|빵집은 이 길 모퉁이에 있어.
+correct|(형) 맞는, 정확한; (동) 고치다|Your answer is correct. Well done!|네 답이 맞았어. 잘했어!
+couch|소파|He fell asleep on the couch watching TV.|그는 TV를 보다가 소파에서 잠들었어.
+could|~할 수 있었다; ~해도 될까요; ~일 수도 있다|Could you open the window, please?|창문 좀 열어 주시겠어요?
+course|강좌, 과정; 경로|I'm taking a cooking course this month.|이번 달에 요리 강좌를 듣고 있어.
+cousin|사촌|My cousin is visiting us this summer.|이번 여름에 사촌이 우리 집에 놀러 와.
+cover|(명) 덮개, 표지; (동) 덮다|Cover the pot so the soup stays hot.|수프가 식지 않게 냄비 뚜껑을 덮어.
+cow|소, 암소|The cows are eating grass in the field.|소들이 들판에서 풀을 먹고 있어.
+cream|(형) 크림색의; (명) 크림|Do you want cream in your coffee?|커피에 크림 넣을래?
+credit card|신용 카드|Can I pay by credit card here?|여기서 신용 카드로 계산할 수 있나요?
+cry|(명) 울음, 외침; (동) 울다, 외치다|The sad ending made me cry.|슬픈 결말 때문에 울었어.
+culture|문화|I want to learn more about Korean culture.|한국 문화에 대해 더 배우고 싶어.
+cut|(명) 상처, 자르기; (동) 자르다, 베다|Cut the bread into small pieces.|빵을 작은 조각으로 잘라.
+cute|귀여운|What a cute little puppy!|정말 귀여운 강아지네!
+dad|아빠|My dad cooks breakfast on weekends.|우리 아빠는 주말마다 아침을 해 주셔.
+daddy|아빠 (어린아이 말)|Daddy, can you read me a story?|아빠, 이야기책 읽어 줄 수 있어요?
+dancing|춤, 춤추기|Dancing is a fun way to exercise.|춤은 재미있게 운동하는 방법이야.
+dark|어두운; (색이) 짙은|It gets dark early in winter.|겨울에는 일찍 어두워져.
+date|(명) 날짜, 데이트; (동) 날짜를 적다, 사귀다|What's the date today?|오늘 며칠이야?
+dear|(형) 사랑하는, 친애하는; (명) 얘야, 여보|Thank you, my dear friend.|고마워, 나의 소중한 친구야.
+December|12월|It often snows in December.|12월에는 눈이 자주 와.
+describe|묘사하다, 설명하다|Can you describe the man you saw?|네가 본 남자의 인상착의를 설명해 줄 수 있어?
+design|(명) 디자인, 설계; (동) 디자인하다|I love the design of your new bag.|네 새 가방 디자인이 정말 마음에 들어.
+desk|책상|My desk is next to the window.|내 책상은 창문 옆에 있어.
+dictionary|사전|Look up the word in your dictionary.|사전에서 그 단어를 찾아봐.
+did|do의 과거형; (의문문·부정문을 만드는) 조동사|Did you lock the front door?|현관문 잠갔어?
+difference|차이, 다름|Can you see the difference between these two pictures?|이 두 그림의 차이점이 보여?
+different|다른, 여러 가지의|My sister and I have very different hobbies.|언니와 나는 취미가 아주 달라.
+difficult|어려운|This math problem is too difficult for me.|이 수학 문제는 나한테 너무 어려워.
+dig|(명) 파기; (동) 파다|The dog dug a hole in the garden.|개가 정원에 구멍을 팠어.
+dining room|식당 (집 안의 식사하는 방)|We eat dinner together in the dining room.|우리는 식당에서 함께 저녁을 먹어.
+discuss|논의하다, 의논하다|Let's discuss the plan at the meeting.|회의에서 그 계획을 논의하자.
+dish|접시; 요리|Please put the dishes in the sink.|접시는 싱크대에 넣어 줘.
+does|do의 3인칭 단수 현재형; (의문문·부정문 조동사)|Does your brother like soccer?|네 남동생은 축구 좋아해?
+dog|개|I walk my dog every evening.|나는 매일 저녁 개를 산책시켜.
+doing|do의 현재분사 (하고 있는)|What are you doing this weekend?|이번 주말에 뭐 해?
+doll|인형|My little sister sleeps with her doll.|내 여동생은 인형을 안고 자.
+dollar|달러|This T-shirt costs ten dollars.|이 티셔츠는 10달러야.
+down|(형) 우울한; (부) 아래로; (전) ~ 아래로|Please sit down and relax.|앉아서 편히 쉬세요.
+drama|드라마, 연극|My mom watches a Korean drama every night.|우리 엄마는 매일 밤 한국 드라마를 보셔.
+dream|(명) 꿈; (동) 꿈꾸다|I had a strange dream last night.|어젯밤에 이상한 꿈을 꿨어.
+dress|(명) 원피스, 드레스; (동) 옷을 입다|She wore a blue dress to the party.|그녀는 파티에 파란 원피스를 입고 갔어.
+driver|운전자, 기사|The bus driver said good morning to everyone.|버스 기사님이 모두에게 아침 인사를 하셨어.
+drop|(명) 방울; (동) 떨어뜨리다, 떨어지다|Be careful not to drop the eggs.|달걀 떨어뜨리지 않게 조심해.
+drum|북, 드럼|He plays the drums in the school band.|그는 학교 밴드에서 드럼을 쳐.
+dry|(형) 마른, 건조한; (동) 말리다|Dry your hair before you go out.|나가기 전에 머리 말려.
+due|~하기로 예정된; (돈을) 지불해야 하는|The homework is due on Friday.|숙제는 금요일까지 내야 해.
+DVD|디브이디|We watched an old movie on DVD.|우리는 DVD로 옛날 영화를 봤어.
+each|(한) 각각의; (대) 각자|Each student has a locker.|학생마다 각자 사물함이 있어.
+each other|서로|My brother and I help each other a lot.|형과 나는 서로 많이 도와.
+ear|귀|The music was so loud that my ears hurt.|음악이 너무 시끄러워서 귀가 아팠어.
+eight|8, 여덟|I wake up at eight on weekends.|나는 주말에 8시에 일어나.
+eighteen|18, 열여덟|My brother is eighteen years old.|우리 형은 열여덟 살이야.
+eighty|80, 여든|My grandmother is eighty and still very active.|우리 할머니는 여든이신데도 아주 활동적이셔.
+either|(부) ~도 (부정문); (접) ~이거나; (한·대) 둘 중 하나(의)|You can have either tea or coffee.|차나 커피 중 하나 드실 수 있어요.
+elementary|초급의, 기본적인; 초등의|My sister is in elementary school.|내 여동생은 초등학생이야.
+eleven|11, 열하나|The store opens at eleven in the morning.|그 가게는 오전 11시에 문을 열어.
+else|그 밖의, 다른|Do you want anything else to drink?|다른 마실 것 더 필요해?
+email|(동) 이메일을 보내다; (명) 이메일|I'll email you the photos tonight.|오늘 밤에 사진들 이메일로 보내 줄게.
+end|(명) 끝; (동) 끝나다, 끝내다|The movie ends at ten o'clock.|영화는 10시에 끝나.
+enjoy|즐기다|I really enjoyed the trip to Jeju.|제주도 여행 정말 즐거웠어.
+event|사건, 행사|The school sports event is next week.|학교 체육 대회가 다음 주에 있어.
+everybody|모두, 모든 사람|Everybody laughed at his funny joke.|그의 웃긴 농담에 모두 웃었어.
+everyday|일상의, 매일의|Wear comfortable shoes for everyday use.|평소에 신을 편한 신발을 신어.
+everything|모든 것|Thank you for everything you did for me.|나를 위해 해 준 모든 것에 고마워.
+everywhere|모든 곳에, 어디나|I looked everywhere for my glasses.|안경을 찾으려고 온 데를 다 뒤졌어.
+example|예, 보기|Can you give me an example of this word?|이 단어의 예를 하나 들어 줄 수 있어?
+excellent|훌륭한, 뛰어난|The food at this restaurant is excellent.|이 식당 음식은 정말 훌륭해.
+excited|신이 난, 들뜬|The kids are excited about the school trip.|아이들이 수학여행 때문에 신이 났어.
+exciting|흥미진진한, 신나는|The soccer game was really exciting.|축구 경기가 정말 흥미진진했어.
+excuse|(명) 변명, 핑계; (동) 용서하다|Excuse me, is this seat taken?|실례지만, 이 자리 주인 있나요?
+exercise|(명) 운동, 연습 문제; (동) 운동하다|I exercise for thirty minutes every morning.|나는 매일 아침 30분씩 운동해.
+eye|눈|She has big brown eyes.|그녀는 크고 갈색인 눈을 가졌어.
+face|(명) 얼굴; (동) ~을 향하다, 직면하다|Wash your face with warm water.|따뜻한 물로 세수해.
+factory|공장|My father works at a car factory.|우리 아버지는 자동차 공장에서 일하셔.
+fair|(형) 공평한; (명) 박람회, 축제|That's not fair! It's my turn.|그건 불공평해! 내 차례란 말이야.
+fairy|요정|The story is about a little fairy in the forest.|그 이야기는 숲속의 작은 요정에 관한 거야.
+false|틀린, 사실이 아닌; 가짜의|Is this sentence true or false?|이 문장은 참이야, 거짓이야?
+fan|선풍기, 부채; 팬|Turn on the fan. It's so hot.|선풍기 좀 켜. 너무 덥다.
+farm|농장|My grandparents live on a farm.|우리 조부모님은 농장에 사셔.
+farmer|농부|The farmer grows rice and potatoes.|그 농부는 쌀과 감자를 길러.
+fat|(형) 뚱뚱한, 살찐; (명) 지방|This milk has very little fat.|이 우유는 지방이 아주 적어.
+February|2월|February is the shortest month of the year.|2월은 1년 중 가장 짧은 달이야.
+feed|(동) 먹이를 주다; (명) 먹이|Please feed the cat before you leave.|나가기 전에 고양이 밥 좀 줘.
+feel|(동) 느끼다; (명) 느낌, 감촉|This blanket feels soft and warm.|이 담요는 부드럽고 따뜻한 느낌이야.
+feeling|느낌, 감정|I have a good feeling about this trip.|이번 여행은 왠지 느낌이 좋아.
+festival|축제|The town has a music festival every summer.|그 마을은 매년 여름 음악 축제를 열어.
+fever|열, 발열|My little brother has a high fever.|내 남동생이 열이 많이 나.
+field|들판, 경기장; 분야|The children are playing in the field.|아이들이 들판에서 놀고 있어.
+fifteen|15, 열다섯|The bus comes every fifteen minutes.|버스는 15분마다 와.
+fifty|50, 쉰|My grandfather is fifty years older than me.|할아버지는 나보다 50살 많으셔.
+fight|(동) 싸우다; (명) 싸움|My sister and I sometimes fight about the TV.|언니랑 나는 가끔 텔레비전 때문에 싸워.
+file|(명) 파일, 서류철; (동) 정리해 두다|I saved the file on my computer.|그 파일을 내 컴퓨터에 저장했어.
+fill|채우다|Can you fill this bottle with water?|이 병에 물 좀 채워 줄래?
+fire|(명) 불, 화재; (동) 해고하다|We sat around the fire and sang songs.|우리는 모닥불 주위에 앉아 노래를 불렀어.
+first|(형) 첫 번째의; (부) 먼저, 처음으로|Wash your hands first, and then eat.|먼저 손을 씻고 나서 먹어.
+fishing|낚시|My dad goes fishing on Sundays.|우리 아빠는 일요일마다 낚시하러 가셔.
+five|5, 다섯|I wake up at five every morning.|나는 매일 아침 다섯 시에 일어나.
+flag|깃발, 국기|Our school flag is blue and white.|우리 학교 깃발은 파란색과 흰색이야.
+flat|(형) 평평한; (부) 평평하게; (명) 아파트(영국)|This road is flat, so it is easy to ride a bike.|이 길은 평평해서 자전거 타기 쉬워.
+flower|꽃|She gave me a bunch of yellow flowers.|그녀가 나에게 노란 꽃 한 다발을 줬어.
+focus|(동) 집중하다; (명) 초점, 집중|I can't focus when the music is loud.|음악이 시끄러우면 집중이 안 돼.
+foggy|안개가 낀|It is too foggy to see the mountains.|안개가 너무 껴서 산이 안 보여.
+following|(형) 다음의; (전) ~ 후에|We met again the following week.|우리는 그다음 주에 다시 만났어.
+food|음식|Korean food is popular around the world.|한국 음식은 전 세계에서 인기가 많아.
+football|축구, 미식축구|The boys play football after school.|남자아이들은 방과 후에 축구를 해.
+for|(전) ~을 위해, ~ 동안; (접) 왜냐하면|I made this cake for you.|널 위해 이 케이크를 만들었어.
+foreign|외국의|Can you speak a foreign language?|외국어 할 줄 알아?
+foreigner|외국인|Many foreigners visit this market.|많은 외국인이 이 시장을 찾아와.
+form|(명) 형태, 서식; (동) 형성하다|Please fill out this form with your name.|이 서식에 이름을 써 주세요.
+forty|40, 마흔|The test has forty questions.|그 시험은 40문제야.
+four|4, 넷|There are four people in my family.|우리 가족은 네 명이야.
+fourteen|14, 열넷|My cousin is fourteen years old.|내 사촌은 열네 살이야.
+Friday|금요일|Let's watch a movie on Friday night.|금요일 밤에 영화 보자.
+frog|개구리|A frog jumped into the pond.|개구리 한 마리가 연못으로 뛰어들었어.
+front|(명) 앞, 정면; (형) 앞쪽의|Let's meet in front of the library.|도서관 앞에서 만나자.
+fruit|과일|I eat some fruit every morning.|나는 매일 아침 과일을 조금 먹어.
+full|가득 찬, 배부른|I can't eat any more. I'm full.|더는 못 먹겠어. 배불러.
+funny|웃기는, 재미있는|My uncle tells very funny stories.|우리 삼촌은 정말 웃긴 이야기를 해 줘.
+future|(명) 미래; (형) 미래의|What do you want to do in the future?|나중에 커서 뭐 하고 싶어?
+game|게임, 경기|We played a board game after dinner.|우리는 저녁 먹고 보드게임을 했어.
+garbage|쓰레기|Please take out the garbage tonight.|오늘 밤에 쓰레기 좀 내다 버려 줘.
+get|얻다, 받다; ~하게 되다; 도착하다|I get home at six every day.|나는 매일 여섯 시에 집에 도착해.
+ghost|유령|My brother is afraid of ghost stories.|우리 형은 귀신 이야기를 무서워해.
+gift|선물|Thank you for the lovely gift.|예쁜 선물 고마워.
+girlfriend|여자 친구|His girlfriend lives in Busan.|그의 여자 친구는 부산에 살아.
+give|주다|Can you give me a glass of water?|물 한 잔 줄 수 있어?
+glad|기쁜|I'm glad you came to my party.|네가 내 파티에 와 줘서 기뻐.
+glass|유리, 유리잔|She drank a glass of orange juice.|그녀는 오렌지 주스 한 잔을 마셨어.
+glasses|안경|I can't read without my glasses.|나는 안경 없이는 글을 못 읽어.
+goal|목표; 골, 득점|My goal is to read ten books this year.|올해 내 목표는 책 열 권 읽기야.
+gold|(명) 금; (형) 금으로 된|She wears a small gold ring.|그녀는 작은 금반지를 끼고 있어.
+good afternoon|안녕하세요(오후 인사)|Good afternoon, everyone. Please sit down.|여러분, 안녕하세요. 자리에 앉아 주세요.
+good morning|안녕하세요(아침 인사)|Good morning, Mom! What's for breakfast?|엄마, 좋은 아침! 아침 뭐예요?
+good night|잘 자(밤 인사)|Good night, and see you tomorrow.|잘 자, 내일 보자.
+grade|(명) 성적, 학년; (동) 채점하다|My sister is in the third grade.|내 여동생은 3학년이야.
+grammar|문법|English grammar is not so difficult.|영어 문법은 그렇게 어렵지 않아.
+grandfather|할아버지|My grandfather grows vegetables in his garden.|할아버지는 정원에서 채소를 기르셔.
+grandma|할머니|Grandma makes the best kimchi.|할머니가 만드신 김치가 최고야.
+grandpa|할아버지|Grandpa tells me old stories at night.|할아버지는 밤에 옛날이야기를 해 주셔.
+grandparent|조부모|I visit my grandparents every holiday.|나는 명절마다 조부모님 댁에 가.
+grape|포도|These grapes are sweet and juicy.|이 포도는 달고 즙이 많아.
+grass|풀, 잔디|Please don't walk on the grass.|잔디밭에 들어가지 마세요.
+gray|(형) 회색의; (명) 회색|It was a cold, gray morning.|춥고 잿빛인 아침이었어.
+green|(형) 초록색의; (명) 초록색|The leaves turn green in spring.|봄이 되면 잎이 초록색으로 변해.
+greet|인사하다, 맞이하다|The teacher greets us at the door.|선생님은 문 앞에서 우리를 맞아 주셔.
+ground|(명) 땅, 바닥; (동) 외출 금지시키다|The ground is wet after the rain.|비가 온 뒤라 땅이 젖어 있어.
+group|(명) 무리, 그룹; (동) 모으다|We studied in a small group.|우리는 작은 그룹으로 공부했어.
+grow|자라다, 기르다|These plants grow fast in summer.|이 식물들은 여름에 빨리 자라.
+guess|(동) 추측하다; (명) 추측|Can you guess how old I am?|내가 몇 살인지 맞혀 볼래?
+guest|손님|We have three guests for dinner tonight.|오늘 저녁 식사에 손님이 세 분 오셔.
+guy|남자, 녀석|He is a really nice guy.|그는 정말 괜찮은 사람이야.
+habit|습관|Reading before bed is a good habit.|자기 전에 책 읽는 건 좋은 습관이야.
+had|have의 과거형 (가졌다, 먹었다)|We had pizza for lunch yesterday.|우리는 어제 점심으로 피자를 먹었어.
+hair|머리카락|She has long black hair.|그녀는 긴 검은 머리를 가졌어.
+haircut|머리 깎기, 이발|I need a haircut this weekend.|이번 주말에 머리를 잘라야 해.
+half|(명) 절반; (부) 반쯤; (한·대) 반의|I ate half of the sandwich.|나는 샌드위치 절반을 먹었어.
+hall|복도, 강당|The concert is in the school hall.|콘서트는 학교 강당에서 열려.
+hamburger|햄버거|I'd like a hamburger and fries, please.|햄버거랑 감자튀김 주세요.
+hand|(명) 손; (동) 건네주다|Raise your hand if you know the answer.|답을 알면 손을 들어.
+handsome|잘생긴|The new actor is tall and handsome.|새로 나온 배우는 키가 크고 잘생겼어.
+happen|일어나다, 생기다|What happened to your arm?|팔이 왜 그래?
+hard|(형) 단단한, 어려운; (부) 열심히|She studies hard every day.|그녀는 매일 열심히 공부해.
+has|have의 3인칭 단수형|My brother has a new bike.|우리 형은 새 자전거가 있어.
+hat|모자|Wear a hat. The sun is strong today.|모자 써. 오늘 햇볕이 강해.
+have to|~해야 한다|I have to finish my homework first.|먼저 숙제를 끝내야 해.
+he|그, 그는|He is my best friend.|그는 내 가장 친한 친구야.
+head|(명) 머리; (동) 향하다|We are heading to the beach now.|우리는 지금 해변으로 가는 중이야.
+headache|두통|I have a headache, so I'll go to bed early.|머리가 아파서 일찍 잘게.
+health|건강|Exercise is good for your health.|운동은 건강에 좋아.
+healthy|건강한, 건강에 좋은|Eating vegetables keeps you healthy.|채소를 먹으면 건강해져.
+heart|심장, 마음|My heart was beating fast before the test.|시험 전에 심장이 빨리 뛰었어.
+hello|안녕, 여보세요|Say hello to your parents for me.|부모님께 안부 전해 줘.
+her|(대) 그녀를, 그녀에게; (한) 그녀의|I called her, but she didn't answer.|그녀에게 전화했는데 안 받았어.
+hers|그녀의 것|This bag isn't mine. It's hers.|이 가방은 내 것이 아니야. 그녀 거야.
+hi|안녕|Hi, how was your weekend?|안녕, 주말 어땠어?
+hide|숨다, 숨기다|The cat likes to hide under the bed.|고양이는 침대 밑에 숨는 걸 좋아해.
+high|(형) 높은; (부) 높이|The mountain is very high.|그 산은 아주 높아.
+hill|언덕|Our school is on top of a hill.|우리 학교는 언덕 꼭대기에 있어.
+him|그를, 그에게|I gave him a birthday card.|나는 그에게 생일 카드를 줬어.
+his|(한) 그의; (대) 그의 것|His room is always clean.|그의 방은 항상 깨끗해.
+history|역사|I love learning about Korean history.|나는 한국 역사 공부하는 걸 좋아해.
+hold|(동) 잡다, 들다; (명) 잡기|Hold my hand when we cross the street.|길 건널 때 내 손 잡아.
+hole|구멍|There is a hole in my sock.|내 양말에 구멍이 났어.
+holiday|휴일, 방학|We went to Jeju during the summer holiday.|우리는 여름 방학에 제주도에 갔어.
+hometown|고향|My hometown is a small city by the sea.|내 고향은 바닷가의 작은 도시야.
+hope|(동) 바라다; (명) 희망|I hope you feel better soon.|빨리 낫길 바라.
+horse|말|She rides a horse on weekends.|그녀는 주말마다 말을 타.
+hotel|호텔|Our hotel is near the train station.|우리 호텔은 기차역 근처에 있어.

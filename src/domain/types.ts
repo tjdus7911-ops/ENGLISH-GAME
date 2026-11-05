@@ -52,6 +52,8 @@ export interface Vocabulary {
   pattern?: string;
   audio: string;
   exampleAudio: string;
+  /** 영단어 사전(초·중·고급) 단어의 CEFR 레벨 */
+  level?: string;
 }
 
 export interface GrammarUnit {

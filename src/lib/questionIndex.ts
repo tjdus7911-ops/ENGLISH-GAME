@@ -7,7 +7,8 @@ import { VOCAB } from '@/content/vocab';
 import { orderFromSentence, wordBlankQ, wordInContextQ, wordListenQ, wordMeaningQ, wordReverseQ } from './questions';
 import { SPEAKING } from '@/content/dialogues';
 import { LEVEL_BANK } from '@/content/level-bank';
-import { allBookQuestions, myWordQuestion } from './libraryQuiz';
+import { allBookQuestions, bankQuestion, myWordQuestion } from './libraryQuiz';
+import { bankWord } from './wordbank';
 import { lookup } from './lexicon';
 
 let idx: Record<string, Question> | null = null;
@@ -24,6 +25,7 @@ export function questionById(id: string): Question | undefined {
     ];
     idx = Object.fromEntries(all.map((q) => [q.id, q]));
   }
+  if (!idx[id] && id.startsWith('wbq:')) { const w = bankWord(id.slice(4)); if (w) return bankQuestion(w); }
   if (!idx[id] && id.startsWith('mw:')) { const e = lookup(id.slice(3)); if (e) return myWordQuestion(e); }
   return idx[id];
 }

@@ -1,19 +1,24 @@
 import type { CurriculumUnitOutline, GrammarUnit } from '@/domain/types';
 import { u01, u02, u03, u04, u05 } from './units1to5';
 import { u06, u07, u08, u09, u10 } from './units6to10';
+import { a2u01, a2u02, a2u03, a2u04 } from './levels/a2-1';
+import { a2u05, a2u06, a2u07, a2u08 } from './levels/a2-2';
 
-export const GRAMMAR_UNITS: GrammarUnit[] = [u01, u02, u03, u04, u05, u06, u07, u08, u09, u10];
+export const A1_UNITS: GrammarUnit[] = [u01, u02, u03, u04, u05, u06, u07, u08, u09, u10];
+export const GRAMMAR_UNITS: GrammarUnit[] = [...A1_UNITS, a2u01, a2u02, a2u03, a2u04, a2u05, a2u06, a2u07, a2u08];
 export const GRAMMAR_BY_ID: Record<string, GrammarUnit> = Object.fromEntries(GRAMMAR_UNITS.map((u) => [u.id, u]));
 
 const outline = (level: CurriculumUnitOutline['level'], titles: string[]): CurriculumUnitOutline[] =>
   titles.map((title, i) => ({ id: `${level.toLowerCase()}-u${String(i + 1).padStart(2, '0')}`, level, title, available: false }));
 
-/** 전체 A1~B2 커리큘럼. A1 만 실제 콘텐츠가 있고, 나머지는 '준비 중'. */
+/** 전체 A1~B2 커리큘럼. 작성이 끝난 단원은 available, 아직 쓰는 중인 단원은 '준비 중'. */
+const PLANNED: Record<'B1' | 'B2', string[]> = {
+  B1: ['현재완료', '수동태', '관계대명사', '조건문', '가정법 기초', '복합 문장: 간접의문문과 명사절', '경험과 의견 표현'],
+  B2: ['가정법 심화', '분사구문', '복잡한 관계절', '조동사 + have p.p.', '논리 연결어', '간접화법과 의견문 영작'],
+};
 export const CURRICULUM: CurriculumUnitOutline[] = [
   ...GRAMMAR_UNITS.map((u) => ({ id: u.id, level: u.level, title: u.title, available: true })),
-  ...outline('A2', ['과거시제', '미래 표현', '비교급과 최상급', '조동사', 'to부정사', '동명사', '접속사', '일상생활 표현']),
-  ...outline('B1', ['현재완료', '수동태', '관계대명사', '조건문', '가정법 기초', '복합 문장', '경험과 의견 표현']),
-  ...outline('B2', ['가정법 심화', '분사구문', '복잡한 관계절', '고급 어휘', '논리적 독해', '의견문 및 영작']),
+  ...(['B1', 'B2'] as const).flatMap((lv) => outline(lv, PLANNED[lv]).filter((o) => !GRAMMAR_BY_ID[o.id])),
 ];
 
 export const conceptLabel = (id: string): string => GRAMMAR_BY_ID[id]?.title ?? EXTRA_CONCEPTS[id] ?? id;

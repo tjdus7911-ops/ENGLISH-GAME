@@ -72,9 +72,10 @@ export function recommend(s: AppState, date: string): Recommendation {
   const words = pick(wMain.items, 4, rnd).map((e) => ({ entry: e, level: wMain.used, stretch: false }));
   if (nxt) { const p = wpool(nxt); words.push(...pick(p, 1, rnd).map((e) => ({ entry: e, level: nxt, stretch: true }))); }
 
-  // 문법: 현재 앱 문법 강의는 A1 10강만 있음 → 다음 미완료 강의
-  const nextUnit = GRAMMAR_UNITS.find((u) => !l.steps[`${u.id}:practice`]) ?? null;
-  const grammar = nextUnit ? { unit: nextUnit, note: level !== 'A1' ? `${level} 문법 강의는 준비 중이라, A1 강의 중 아직 끝내지 않은 강의를 추천해요.` : null } : null;
+  // 문법: 내 레벨의 아직 끝내지 않은 강의 (없으면 아래 레벨, C1 은 B2 까지)
+  const gpool = (lv: RecLevel) => GRAMMAR_UNITS.filter((u) => u.level === lv && !l.steps[`${u.id}:practice`]);
+  const gMain = withFallback(level, gpool);
+  const grammar = gMain.items[0] ? { unit: gMain.items[0], note: gMain.used !== level ? `${level} 문법 강의가 아직 없거나 모두 끝내서 ${gMain.used} 강의를 추천해요.` : null } : null;
 
   // 표현: 내 레벨 2 + 다음 레벨 1 (C1 표현은 아직 없음 → B2)
   const epool = (lv: RecLevel) => EXPRESSIONS.filter((e) => e.level === lv && !l.expressionsDone[e.id]);

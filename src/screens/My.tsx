@@ -74,7 +74,7 @@ export function MyScreen() {
 
       <SectionTitle>콘텐츠 정보 · 출처</SectionTitle>
       <Card className="text-sm grid gap-1.5">
-        <p>A1 문법 {GRAMMAR_UNITS.length}단원 · 단어 {VOCAB.length} · 듣기 {DIALOGUES.length} · 말하기 {SPEAKING.length} · 표현 {EXPRESSIONS.length} · 상황 대화 {SITUATIONS.length} · 미니 드라마 {DRAMAS.length}편({DRAMAS.filter((d) => d.video).length}편 영상 제작)</p>
+        <p>문법 {GRAMMAR_UNITS.length}단원 · 단어 {VOCAB.length} · 듣기 {DIALOGUES.length} · 말하기 {SPEAKING.length} · 표현 {EXPRESSIONS.length} · 상황 대화 {SITUATIONS.length} · 미니 드라마 {DRAMAS.length}편({DRAMAS.filter((d) => d.video).length}편 영상 제작)</p>
         <p>검수 상태: 모든 콘텐츠 <Tag tone="warn">교육 전문가 검수 필요</Tag> (자동 검증만 완료)</p>
         <p>음성: Piper TTS + LibriTTS 모델 합성 음성 · LibriTTS 데이터셋 © Zen et al., <a className="underline" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a> (openslr.org/60). 원어민 녹음이 아닙니다.</p>
         <p>발음기호: CMU Pronouncing Dictionary(BSD) 기반 자동 변환.</p>

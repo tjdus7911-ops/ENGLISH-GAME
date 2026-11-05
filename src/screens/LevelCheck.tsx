@@ -9,6 +9,7 @@ import { LEVEL_KO, recommend, REC_LEVELS, type RecLevel } from '@/lib/recommend'
 import { myWordStatus } from '@/domain/learning/mywords';
 import { normKey } from '@/lib/lexicon';
 import { VOCAB_BY_ID } from '@/content/vocab';
+import { bankWord } from '@/lib/wordbank';
 import { addDays } from '@/domain/date';
 import { useLeaveGuard } from '@/lib/leaveGuard';
 import { cx } from '@/lib/cx';
@@ -211,7 +212,7 @@ export function AchievementScreen() {
   const stats = useMemo(() => {
     const my = Object.values(l.myWords ?? {});
     const keys = new Set(my.map((w) => w.key));
-    for (const id of Object.keys(l.learnedWords)) { const v = VOCAB_BY_ID[id]; if (v) keys.add(normKey(v.word)); }
+    for (const id of Object.keys(l.learnedWords)) { const v = VOCAB_BY_ID[id]; if (v) keys.add(normKey(v.word)); else if (id.startsWith('wb-')) keys.add(normKey(bankWord(id)?.w ?? id.slice(3))); }
     const days = Array.from({ length: 7 }, (_, i) => addDays(d, i - 6));
     const week = days.map((day) => ({ day, sessions: l.log.filter((e) => e.date === day && e.kind !== 'level-test').length, minutes: Math.round((l.studySeconds[day] ?? 0) / 60) }));
     const area = (kinds: string[]) => { const es = l.log.filter((e) => kinds.includes(e.kind) && e.total > 0); const c = es.reduce((a, e) => a + e.correct, 0), t = es.reduce((a, e) => a + e.total, 0); return { c, t }; };
