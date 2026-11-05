@@ -1,12 +1,12 @@
 import { Component, lazy, Suspense, useEffect, type ReactNode } from 'react';
-import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom';
 import { useApp } from '@/store/app';
 import { CelebrationLayer } from '@/components/Partner';
 import { Onboarding, Goal } from '@/screens/Onboarding';
 import { Home } from '@/screens/Home';
 import { Today } from '@/screens/Today';
 import { GrammarWordsHub, WordLearn } from '@/screens/Words';
-import { WordForestHome, WordLevelPage, WordTopicPage, ChapterLearn, WordSearch, SavedWords } from '@/screens/WordForest';
+import { WordTopicPage, ChapterLearn, SavedWords } from '@/screens/WordForest';
 import { GrammarHub, Lecture, GrammarPractice, GrammarWriting, UnitTest } from '@/screens/Grammar';
 import { ListeningHub, ListeningPlayer } from '@/screens/Listening';
 import { SpeakingHub, SpeakingPractice } from '@/screens/Speaking';
@@ -19,7 +19,7 @@ import { HouseScreen, ShopScreen, InventoryScreen, GardenScreen, SpacesScreen, Q
 import { useStudyTimer } from '@/lib/studyTimer';
 import { LevelCheck, LevelCheckResult, RecommendScreen, AchievementScreen } from '@/screens/LevelCheck';
 import { MyWordbook, MyWordReview } from '@/screens/MyWordbook';
-import { BankBand, BankChapter } from '@/screens/WordBank';
+import { ForestHome, LevelHub, StudySession, SearchAll } from '@/screens/WordLevels';
 import { loadAllBands } from '@/lib/wordbank';
 
 const LibraryHub = lazy(() => import('@/screens/Library').then((m) => ({ default: m.LibraryHub })));
@@ -51,6 +51,12 @@ class ErrorBoundary extends Component<{ children: ReactNode }, { err: Error | nu
     }
     return this.props.children;
   }
+}
+
+/** 예전 '영단어 사전' 주소 → 난이도별 학습 */
+function BankRedirect() {
+  const { band } = useParams();
+  return <Navigate to={`/words/level/${band === 'advanced' ? 'c1' : band === 'intermediate' ? 'b1' : 'a1'}`} replace />;
 }
 
 function Gate({ children }: { children: ReactNode }) {
@@ -91,15 +97,15 @@ export default function App() {
             <Route path="/level-result" element={<LevelCheckResult />} />
             <Route path="/home" element={<Home />} />
             <Route path="/today" element={<Today />} />
-            <Route path="/words" element={<WordForestHome />} />
+            <Route path="/words" element={<ForestHome />} />
             <Route path="/words/grammar" element={<GrammarWordsHub />} />
-            <Route path="/words/level/:lv" element={<WordLevelPage />} />
+            <Route path="/words/level/:lv" element={<LevelHub />} />
+            <Route path="/words/session" element={<StudySession />} />
             <Route path="/words/topic/:topic" element={<WordTopicPage />} />
             <Route path="/words/ch/:chapterId" element={<ChapterLearn />} />
-            <Route path="/words/search" element={<WordSearch />} />
+            <Route path="/words/search" element={<SearchAll />} />
             <Route path="/words/saved" element={<SavedWords />} />
-            <Route path="/words/bank/:band" element={<BankBand />} />
-            <Route path="/words/bank/:band/:lv/:ch" element={<BankChapter />} />
+            <Route path="/words/bank/:band/*" element={<BankRedirect />} />
             <Route path="/mywords" element={<MyWordbook />} />
             <Route path="/mywords/review" element={<MyWordReview />} />
             <Route path="/library" element={<LibraryHub />} />

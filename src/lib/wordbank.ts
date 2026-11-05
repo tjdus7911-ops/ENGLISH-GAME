@@ -15,8 +15,8 @@ export const BANDS: { id: Band; label: string; levels: string[]; desc: string; t
 ];
 export const BAND_BY_ID = Object.fromEntries(BANDS.map((b) => [b.id, b])) as Record<Band, (typeof BANDS)[number]>;
 
-export interface BankWord { id: string; w: string; pos: string[]; lv: string; m: string; ipa: string; ko: string; ex: string; exKo: string }
-export interface BankMeta { byLevel: Record<string, number>; byBand: Record<Band, number>; total: number; listTotal: Record<string, number>; source: string }
+export interface BankWord { id: string; w: string; pos: string[]; lv: string; m: string; ipa: string; ko: string; ex: string; exKo: string; tp?: string }
+export interface BankMeta { byTopic?: Record<string, number>; byLevel: Record<string, number>; byBand: Record<Band, number>; total: number; listTotal: Record<string, number>; source: string }
 
 const base = () => `${import.meta.env.BASE_URL}wordbank/`;
 const cache: Partial<Record<Band, Promise<BankWord[]>>> = {};

@@ -28,6 +28,8 @@ export interface MyWord {
   savedAt: number;
   memorizedOn: string | null;
   srs: ReviewItem;
+  /** false = 단어 숲에서 학습해 복습용으로 자동 추가된 단어 (직접 저장한 단어는 true 또는 없음) */
+  pinned?: boolean;
 }
 
 export interface SaveInput { key: string; word: string; meaning: string; pos: string; level: string; vocabId?: string }

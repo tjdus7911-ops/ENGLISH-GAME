@@ -5,6 +5,7 @@ import { BOOKS, BOOK_BY_ID, bookSentences } from '@/content/library';
 import { GRAMMAR_UNITS } from '@/content/grammar';
 import { EXPRESSIONS } from '@/content/expressions';
 import { VOCAB } from '@/content/vocab';
+import { PRE_A1 } from '@/content/vocab-topics';
 import { lookup, tokenize, lexiconSize, registerLexicon } from '@/lib/lexicon';
 import { readFileSync } from 'node:fs';
 import { saveMyWord, myWordStatus, reviewQueue, applyMyWordResults } from '@/domain/learning/mywords';
@@ -242,5 +243,25 @@ describe('난이도별 추천', () => {
     expect(lt.level).toBe('A2');
     expect(lt.method).toBe('test');
     expect(lt.history!.map((h) => `${h.level}:${h.method}`)).toEqual(['B1:manual', 'A2:test']);
+  });
+});
+
+describe('단어 숲 통합 DB (기존 300 + 영단어 사전)', () => {
+  it('누락·중복 없음 · 7단계 분류 합계 = 전체 고유 단어 수 · 필수 필드', () => {
+    const bankRows = ['beginner', 'intermediate', 'advanced'].flatMap((b) => JSON.parse(readFileSync(`public/wordbank/${b}.json`, 'utf8')) as { id: string; w: string; lv: string; m: string; ex: string; exKo: string; ipa: string; tp: string; pos: string[] }[]);
+    const meta = JSON.parse(readFileSync('public/wordbank/meta.json', 'utf8'));
+    expect(bankRows).toHaveLength(meta.total);
+    const keys = [...VOCAB.map((v) => v.word.toLowerCase()), ...bankRows.map((w) => w.w.toLowerCase())];
+    // 표제어 중복 없음 — 단, 기존 DB 의 품사별 카드 3쌍(open 동/형, clean 동/형, park 명/동)은 의미가 다른 별도 카드로 유지
+    expect(keys.length - new Set(keys).size).toBe(3);
+    expect(new Set([...VOCAB.map((v) => v.id), ...bankRows.map((w) => w.id)]).size).toBe(keys.length);
+    expect(new Set(bankRows.map((w) => w.id)).size).toBe(bankRows.length);
+    const by: Record<string, number> = { 'Pre-A1': 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0 };
+    for (const v of VOCAB) by[PRE_A1.has(v.id) ? 'Pre-A1' : 'A1']++;
+    for (const w of bankRows) { by[w.lv]++; expect(w.m && w.ex && w.exKo && w.pos.length && w.tp, w.id).toBeTruthy(); }
+    console.log('level counts', by, 'total', keys.length, 'no ipa', bankRows.filter((w) => !w.ipa).length);
+    expect(Object.values(by).reduce((a, b) => a + b, 0)).toBe(keys.length);
+    for (const n of Object.values(by)) expect(n).toBeGreaterThan(0);
+    expect(keys.length).toBe(VOCAB.length + meta.total);
   });
 });

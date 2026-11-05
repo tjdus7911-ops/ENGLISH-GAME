@@ -383,6 +383,8 @@ export interface Actions {
   /** 문장 속 단어 저장 (중복이면 출처만 추가). 고유명사·사전에 없는 단어는 저장하지 않음 */
   saveWord: (raw: string, source: WordSource, ref?: string, context?: string) => { ok: boolean; created: boolean; key?: string };
   removeMyWord: (key: string) => void;
+  /** 저장(별표) 해제: 단어 숲에서 학습한 단어면 복습 기록은 남기고 즐겨찾기만 해제 */
+  unsaveWord: (key: string) => void;
   setMemorized: (key: string, on: boolean) => void;
   completeMyWordReview: (results: { key: string; correct: boolean; given: string }[]) => void;
   setBookPage: (bookId: string, page: number) => void;
@@ -390,6 +392,8 @@ export interface Actions {
   setStudyLevel: (level: string, method?: 'manual' | 'skip') => void;
   /** 영단어 사전(초·중·고급) 챕터 학습 완료 */
   completeBankSet: (chapterId: string, title: string, wordIds: string[], answers: Ans[]) => void;
+  /** 단어 숲 난이도별 학습 (기존 DB·영단어 사전 단어 모두). 별: 새로 학습한 단어 누적 10개마다 ★2 (같은 단어 반복으로는 지급 안 됨) */
+  completeStudySession: (sessionId: string, title: string, wordIds: string[], answers: Ans[]) => void;
   /** 주제·난이도 단어장 챕터(5단어) 완료: 학습 기록은 단어 id 기준으로 통합, 첫 완료 시 별·XP 소량 */
   completeWordSet: (chapterId: string, title: string, wordIds: string[], answers: Ans[]) => void;
   resolveDiscoveryQuiz: (characterId: string, correct: number, answers: Ans[]) => { success: boolean };
@@ -615,7 +619,8 @@ export const useApp = create<AppState & Actions & { hydrated: boolean }>()(
         if (!e || e.proper) return { ok: false, created: false };
         let created = false;
         set((s) => {
-          const r = saveMyWord(s.learning.myWords ?? {}, e, source, ref, context, today(), now());
+          const r0 = saveMyWord(s.learning.myWords ?? {}, e, source, ref, context, today(), now());
+          const r = r0.map[e.key].pinned === false ? { ...r0, map: { ...r0.map, [e.key]: { ...r0.map[e.key], pinned: true } } } : r0;
           created = r.created;
           const savedWords = e.vocabId && !(s.learning.savedWords ?? []).includes(e.vocabId) ? [...(s.learning.savedWords ?? []), e.vocabId] : s.learning.savedWords;
           return r.map === s.learning.myWords && savedWords === s.learning.savedWords ? s : { learning: { ...s.learning, myWords: r.map, savedWords } };
@@ -628,6 +633,14 @@ export const useApp = create<AppState & Actions & { hydrated: boolean }>()(
         if (!w) return s;
         const { [key]: _drop, ...rest } = s.learning.myWords;
         return { learning: { ...s.learning, myWords: rest, savedWords: w.vocabId ? (s.learning.savedWords ?? []).filter((x) => x !== w.vocabId) : s.learning.savedWords } };
+      }),
+
+      unsaveWord: (key) => set((s) => {
+        const w = s.learning.myWords?.[key];
+        if (!w) return s;
+        const learnedBank = w.refs.some((r) => r.startsWith('wb-') && s.learning.learnedWords[r]);
+        if (!learnedBank) { const { [key]: _drop, ...rest } = s.learning.myWords; return { learning: { ...s.learning, myWords: rest, savedWords: w.vocabId ? (s.learning.savedWords ?? []).filter((x) => x !== w.vocabId) : s.learning.savedWords } }; }
+        return { learning: { ...s.learning, myWords: { ...s.learning.myWords, [key]: { ...w, pinned: false } } } };
       }),
 
       setMemorized: (key, on) => set((s) => {
@@ -707,6 +720,41 @@ export const useApp = create<AppState & Actions & { hydrated: boolean }>()(
               const e = { key: normKey(bw.w), word: bw.w, meaning: bw.m, pos: posName(bw.pos.join('·')), level: bw.lv };
               const created = !myWords[e.key];
               myWords = saveMyWord(myWords, e, 'words', id, bw.ex, date, now()).map;
+              if (created) myWords = { ...myWords, [e.key]: { ...myWords[e.key], pinned: false } };
+              const a = byId.get(id);
+              if (created && a) myWords = applyMyWordResults(myWords, [{ key: e.key, correct: a.correct }], date);
+            }
+            return { ...l, learnedWords, myWords };
+          },
+        });
+      }),
+
+      completeStudySession: (sessionId, title, wordIds, answers) => set((s) => {
+        const before = Object.keys(s.learning.learnedWords).length;
+        const newOnes = wordIds.filter((w) => !s.learning.learnedWords[w]);
+        const after = before + newOnes.length;
+        const rewards: StudyEvent['rewards'] = [];
+        for (let k = Math.floor(before / 10) + 1; k <= Math.floor(after / 10); k++) {
+          rewards.push({ eventId: `vocab10:${k}`, xp: 5, reason: `신규 단어 ${k * 10}개 달성` });
+          rewards.push({ eventId: `wordstars10:${k}`, stars: 2, reason: `새 단어 ${k * 10}개 학습` });
+        }
+        const coreIds = wordIds.filter((w) => VOCAB_BY_ID[w]);
+        const byId = new Map(answers.map((a) => [a.questionId.replace(/^wbq:|^wq-/, ''), a]));
+        return applyStudyEvent(s, {
+          log: { kind: 'words', refId: sessionId, title: `단어 숲 · ${title}`, correct: answers.filter((a) => a.correct).length, total: answers.length },
+          answers, rewards,
+          reviewsToCreate: coreIds.map((w) => ({ kind: 'word' as const, refId: w, conceptId: VOCAB_BY_ID[w]?.grammarId || 'a1-u01' })),
+          mutate: (l, date) => {
+            const learnedWords = { ...l.learnedWords };
+            for (const w of newOnes) learnedWords[w] = date;
+            let myWords = l.myWords ?? {};
+            for (const id of wordIds) {
+              const bw = bankWordOf(id);
+              if (!bw) continue; // 기존 DB 단어는 기존 복습(오늘의 복습)으로 관리
+              const e = { key: normKey(bw.w), word: bw.w, meaning: bw.m, pos: posName(bw.pos.join('·')), level: bw.lv };
+              const created = !myWords[e.key];
+              myWords = saveMyWord(myWords, e, 'words', id, bw.ex, date, now()).map;
+              if (created) myWords = { ...myWords, [e.key]: { ...myWords[e.key], pinned: false } };
               const a = byId.get(id);
               if (created && a) myWords = applyMyWordResults(myWords, [{ key: e.key, correct: a.correct }], date);
             }

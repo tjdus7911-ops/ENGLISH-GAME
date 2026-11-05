@@ -48,10 +48,10 @@ export function wordTip(v: Vocabulary): string {
 /** 상단: 영어 단어 카드 (항상 앞면, 뒤집히지 않음) */
 export function WordTopCard({ v }: { v: Vocabulary }) {
   const bank = v.id.startsWith('wb-');
-  const saved = useApp((s) => (bank ? !!s.learning.myWords?.[v.word.toLowerCase()] : (s.learning.savedWords ?? []).includes(v.id)));
+  const saved = useApp((s) => (bank ? (!!s.learning.myWords?.[v.word.toLowerCase()] && s.learning.myWords[v.word.toLowerCase()].pinned !== false) : (s.learning.savedWords ?? []).includes(v.id)));
   const toggleVocab = useApp((s) => s.toggleSaveWord);
   const saveWord = useApp((s) => s.saveWord);
-  const removeMy = useApp((s) => s.removeMyWord);
+  const removeMy = useApp((s) => s.unsaveWord);
   const toggle = (id: string) => { if (!bank) toggleVocab(id); else if (saved) removeMy(v.word.toLowerCase()); else saveWord(v.word, 'words', v.id, v.example); };
   const lv = v.level ? { label: v.level.startsWith('A') ? '초급' : v.level.startsWith('B') ? '중급' : '고급', cefr: v.level } : LEVEL_LABEL[wordLevel(v)];
   return (

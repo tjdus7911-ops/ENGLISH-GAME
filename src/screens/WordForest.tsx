@@ -1,15 +1,13 @@
-import { BankSection } from './WordBank';
 import { useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useApp } from '@/store/app';
-import { VOCAB, VOCAB_BY_ID } from '@/content/vocab';
-import { LEVELS, TOPIC_WORDS, type TopicId, type WordLevel } from '@/content/vocab-topics';
+import { VOCAB_BY_ID } from '@/content/vocab';
+import { LEVELS, TOPIC_WORDS, type TopicId } from '@/content/vocab-topics';
 import { AudioButton, Button, Card, Empty, Page, Progress, Tag } from '@/components/ui';
 import { QuizRunner, ResultView, toAnswers, type QResult } from '@/components/Quiz';
 import { WordStudy } from '@/components/WordStudyCard';
 import { wordMeaningQ, wordListenQ } from '@/lib/questions';
-import { ALL_TOPICS, LEVEL_LABEL, TOPIC_BY_ID, allChapters, chapterById, chaptersOf, levelWords, nextChapter, progressOf, topicWords, wordLevel, type Chapter, type Progress as P } from '@/lib/wordbook';
-import { TOPICS, CORE_TOPIC } from '@/content/vocab-topics';
+import { LEVEL_LABEL, TOPIC_BY_ID, allChapters, chapterById, chaptersOf, progressOf, topicWords, wordLevel, type Chapter } from '@/lib/wordbook';
 import { cx } from '@/lib/cx';
 import type { Vocabulary } from '@/domain/types';
 
@@ -18,111 +16,10 @@ const POS_KEY = (id: string) => `wordset-pos:${id}`;
 function readPos(id: string): number { try { const v = JSON.parse(localStorage.getItem(POS_KEY(id)) ?? 'null'); return typeof v?.i === 'number' ? v.i : 0; } catch { return 0; } }
 function writePos(id: string, i: number) { try { localStorage.setItem(POS_KEY(id), JSON.stringify({ i, at: Date.now() })); } catch { /* 무시 */ } }
 function clearPos(id: string) { try { localStorage.removeItem(POS_KEY(id)); } catch { /* 무시 */ } }
-function lastOpenChapter(): { ch: Chapter; i: number } | null {
-  try {
-    let best: { ch: Chapter; i: number; at: number } | null = null;
-    for (let k = 0; k < localStorage.length; k++) {
-      const key = localStorage.key(k)!;
-      if (!key.startsWith('wordset-pos:')) continue;
-      const ch = chapterById(key.slice(12)); const v = JSON.parse(localStorage.getItem(key) ?? 'null');
-      if (ch && v && (!best || v.at > best.at)) best = { ch, i: v.i, at: v.at };
-    }
-    return best;
-  } catch { return null; }
-}
 
-function StateTag({ p }: { p: P }) {
-  if (p.state === 'done') return <Tag tone="ok">✓ 완료</Tag>;
-  if (p.state === 'progress') return <Tag tone="accent">진행 중</Tag>;
-  if (p.state === 'empty') return <Tag>준비 중</Tag>;
-  return null;
-}
 
-function CategoryCard({ to, emoji, label, desc, p, tint, wide, testId }: { to: string; emoji: string; label: string; desc: string; p: P; tint: string; wide?: boolean; testId: string }) {
-  const body = (
-    <>
-      <div className="flex items-start justify-between gap-2">
-        <span className="text-2xl" aria-hidden>{emoji}</span>
-        <StateTag p={p} />
-      </div>
-      <p className="font-bold mt-1 leading-tight">{label}</p>
-      <p className="text-[11px] text-ink-soft">{desc}</p>
-      {p.total > 0 ? (
-        <>
-          <div className="mt-2 h-1.5 bg-white/70 rounded-full overflow-hidden"><div className={cx('h-full', p.state === 'done' ? 'bg-ok' : 'bg-accent')} style={{ width: `${p.pct}%` }} /></div>
-          <p className="text-[11px] text-ink-soft mt-1" data-testid={`${testId}-count`}>{p.learned}/{p.total}단어 · {p.pct}%</p>
-        </>
-      ) : <p className="text-[11px] text-ink-faint mt-2">아직 단어가 없어요</p>}
-    </>
-  );
-  const cls = cx('rounded-card border p-3 block', tint, wide && 'col-span-2', p.state === 'done' ? 'border-[#9FD8BF]' : 'border-transparent');
-  if (p.total === 0) return <div className={cx(cls, 'opacity-60 cursor-not-allowed')} aria-disabled="true" data-testid={testId} data-state="empty">{body}</div>;
-  return <Link to={to} className={cls} data-testid={testId} data-state={p.state}>{body}</Link>;
-}
 
 // ───────── 메인 ─────────
-export function WordForestHome() {
-  const learned = useApp((s) => s.learning.learnedWords);
-  const savedN = useApp((s) => (s.learning.savedWords ?? []).length);
-  const nav = useNavigate();
-  const total = VOCAB.length;
-  const done = VOCAB.filter((v) => learned[v.id]).length;
-  const open = lastOpenChapter();
-  const cont = open && progressOf(open.ch.words, learned).state !== 'done' ? open : null;
-  const next = cont?.ch ?? nextChapter(learned);
-  const [q, setQ] = useState('');
-  return (
-    <Page title="단어 숲" back="/home">
-      <Card data-testid="forest-progress">
-        <div className="flex items-end justify-between">
-          <div><p className="text-sm text-ink-soft">전체 학습 진도</p><p className="text-2xl font-extrabold">{done} <span className="text-ink-faint text-base">/ {total}단어</span></p></div>
-          <span className="text-sm font-bold text-accent">{Math.round((done / total) * 100)}%</span>
-        </div>
-        <div className="mt-2"><Progress value={done} max={total} label="전체 단어 진도" /></div>
-        {next ? (
-          <button type="button" onClick={() => nav(`/words/ch/${next.id}`)} data-testid="continue-words"
-            className="mt-3 w-full rounded-2xl bg-accent text-white px-4 min-h-[56px] flex items-center gap-3 text-left">
-            <span className="flex-1 min-w-0">
-              <span className="block text-xs opacity-90">{cont ? '이어서 학습하기' : '다음 학습'}</span>
-              <span className="block font-bold truncate">{TOPIC_BY_ID[next.topic].label} · {LEVEL_LABEL[next.level].label} {next.index}{cont ? ` · ${cont.i + 1}/${next.words.length}단어` : ''}</span>
-            </span>
-            <span aria-hidden>›</span>
-          </button>
-        ) : <p className="mt-3 text-sm text-ok font-bold">모든 단어를 학습했어요! 복습으로 기억을 다져요.</p>}
-      </Card>
-
-      <form className="mt-3 flex gap-2" role="search" onSubmit={(e) => { e.preventDefault(); nav(`/words/search?q=${encodeURIComponent(q.trim())}`); }}>
-        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="단어·뜻 검색 (예: apple, 사과)" aria-label="단어 검색" data-testid="word-search-input"
-          className="flex-1 min-w-0 rounded-2xl border border-line bg-white px-4 min-h-[48px]" />
-        <Button type="submit" variant="secondary">검색</Button>
-      </form>
-      <div className="mt-2 grid grid-cols-2 gap-2">
-        <Link to="/words/saved" className="rounded-2xl bg-white border border-line px-3 min-h-[48px] flex items-center gap-2 text-sm font-semibold" data-testid="go-saved-words">★ 저장한 단어 <span className="ml-auto text-ink-soft">{savedN}</span></Link>
-        <Link to="/review" className="rounded-2xl bg-white border border-line px-3 min-h-[48px] flex items-center gap-2 text-sm font-semibold">↻ 단어 복습</Link>
-      </div>
-
-      <BankSection />
-      <h2 className="font-bold mt-5 mb-2">난이도별</h2>
-      <div className="grid grid-cols-2 gap-2" data-testid="level-grid">
-        {LEVELS.map((l) => (
-          <CategoryCard key={l.id} to={`/words/level/${l.id}`} emoji={['🌱', '🌿', '🌳', '🏔', '⭐'][LEVELS.indexOf(l)]} label={`${l.label} (${l.cefr})`} desc={l.desc}
-            p={progressOf(levelWords(l.id), learned)} tint="bg-white" testId={`level-${l.id}`} wide={l.id === 'b2'} />
-        ))}
-      </div>
-
-      <h2 className="font-bold mt-5 mb-2">주제별</h2>
-      <div className="grid grid-cols-2 gap-2" data-testid="topic-grid">
-        {TOPICS.map((t) => <CategoryCard key={t.id} to={`/words/topic/${t.id}`} emoji={t.emoji} label={t.label} desc={t.desc} p={progressOf(topicWords(t.id), learned)} tint={t.tint} testId={`topic-${t.id}`} />)}
-        <CategoryCard to={`/words/topic/${CORE_TOPIC.id}`} emoji={CORE_TOPIC.emoji} label={CORE_TOPIC.label} desc={CORE_TOPIC.desc} p={progressOf(topicWords('core'), learned)} tint={CORE_TOPIC.tint} wide testId="topic-core" />
-      </div>
-
-      <Link to="/words/grammar" className="mt-5 rounded-2xl bg-white border border-line px-4 min-h-[52px] flex items-center text-sm font-semibold" data-testid="go-grammar-words">
-        📘 문법 단원별 단어장 (기존 10단원) <span className="ml-auto text-ink-soft">›</span>
-      </Link>
-      <p className="text-[11px] text-ink-faint mt-3">현재 단어 DB 는 A1 범위 300단어예요. 초급(A2) 이상은 준비 중이라 학습할 수 없어요.</p>
-    </Page>
-  );
-}
 
 function ChapterRow({ c, learned }: { c: Chapter; learned: Record<string, string> }) {
   const p = progressOf(c.words, learned);
@@ -138,33 +35,6 @@ function ChapterRow({ c, learned }: { c: Chapter; learned: Record<string, string
   );
 }
 
-export function WordLevelPage() {
-  const { lv = 'a1' } = useParams();
-  const learned = useApp((s) => s.learning.learnedWords);
-  const meta = LEVEL_LABEL[lv as WordLevel];
-  if (!meta) return <Page title="단어장" back="/words"><Empty title="난이도를 찾을 수 없어요" /></Page>;
-  const chs = chaptersOf({ level: lv as WordLevel });
-  const p = progressOf(levelWords(lv as WordLevel), learned);
-  return (
-    <Page title={`${meta.label} (${meta.cefr})`} back="/words">
-      {chs.length === 0 ? <Empty icon="🌱" title="준비 중인 난이도예요" desc="이 난이도의 단어는 아직 없어요. 지금은 왕초보·기초 단어로 학습할 수 있어요." action={<Link to="/words"><Button>단어 숲으로</Button></Link>} /> : (
-        <>
-          <Card><p className="text-sm text-ink-soft">{meta.desc}</p><p className="font-bold mt-1">{p.learned}/{p.total}단어 · {p.pct}%</p><div className="mt-2"><Progress value={p.learned} max={p.total} /></div></Card>
-          {ALL_TOPICS.map((t) => {
-            const list = chs.filter((c) => c.topic === t.id);
-            if (!list.length) return null;
-            return (
-              <section key={t.id} className="mt-4">
-                <h2 className="font-bold mb-2">{t.emoji} {t.label}</h2>
-                <div className="grid gap-2">{list.map((c) => <ChapterRow key={c.id} c={c} learned={learned} />)}</div>
-              </section>
-            );
-          })}
-        </>
-      )}
-    </Page>
-  );
-}
 
 export function WordTopicPage() {
   const { topic = '' } = useParams();
@@ -279,21 +149,6 @@ function WordRow({ v }: { v: Vocabulary }) {
   );
 }
 
-export function WordSearch() {
-  const init = new URLSearchParams(window.location.hash.split('?')[1] ?? '').get('q') ?? '';
-  const [q, setQ] = useState(init);
-  const term = q.trim().toLowerCase();
-  const list = term ? VOCAB.filter((v) => v.word.toLowerCase().includes(term) || v.meaning.includes(q.trim())) : [];
-  return (
-    <Page title="단어 검색" back="/words">
-      <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="영어 또는 뜻으로 검색" aria-label="단어 검색" autoFocus data-testid="search-q"
-        className="w-full rounded-2xl border border-line bg-white px-4 min-h-[48px]" />
-      <p className="text-xs text-ink-soft mt-2" data-testid="search-count">{term ? `${list.length}개 결과` : `전체 ${VOCAB.length}단어에서 검색해요`}</p>
-      <div className="grid gap-2 mt-2">{list.slice(0, 60).map((v) => <WordRow key={v.id} v={v} />)}</div>
-      {term && list.length === 0 && <Empty icon="🔍" title="검색 결과가 없어요" desc="철자나 다른 뜻으로 다시 찾아보세요." />}
-    </Page>
-  );
-}
 
 export function SavedWords() {
   const ids = useApp((s) => s.learning.savedWords ?? []);

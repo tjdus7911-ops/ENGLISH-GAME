@@ -1,108 +1,117 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync } from 'node:fs';
 import { quickStart } from './setup';
 import { dismissModals, runQuiz } from './helpers';
+import { VOCAB } from '../src/content/vocab';
+import { PRE_A1 } from '../src/content/vocab-topics';
 
-test('단어 숲: 난이도·주제 단어장 · 2단 카드 · 이어하기 · 저장 · 검색 · 보상 · 기록 유지', async ({ page }) => {
+test.use({ timezoneId: 'Asia/Seoul', locale: 'ko-KR' });
+
+/** 기대값: 기존 DB(VOCAB) + 영단어 사전 JSON 을 직접 세어 계산 */
+const bank = ['beginner', 'intermediate', 'advanced'].flatMap((b) => JSON.parse(readFileSync(`public/wordbank/${b}.json`, 'utf8')) as { lv: string }[]);
+const EXPECT: Record<string, number> = {
+  'pre-a1': VOCAB.filter((v) => PRE_A1.has(v.id)).length,
+  a1: VOCAB.filter((v) => !PRE_A1.has(v.id)).length + bank.filter((w) => w.lv === 'A1').length,
+  a2: bank.filter((w) => w.lv === 'A2').length, b1: bank.filter((w) => w.lv === 'B1').length, b2: bank.filter((w) => w.lv === 'B2').length,
+  c1: bank.filter((w) => w.lv === 'C1').length, c2: bank.filter((w) => w.lv === 'C2').length,
+};
+const TOTAL = Object.values(EXPECT).reduce((a, b) => a + b, 0);
+const fmt = (n: number) => n.toLocaleString('ko-KR');
+const stars = async (page: import('@playwright/test').Page) => { await page.goto('/#/shop'); await dismissModals(page); return Number((await page.getByTestId('star-balance').innerText()).replace(/\D/g, '')); };
+
+test('단어 숲: 7단계 난이도 전체 DB 연결 · 진도 · 학습 단위 · 학습 방법 · 검색 · 보상 · 기록 유지', async ({ page }) => {
+  test.setTimeout(240_000);
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await quickStart(page);
+  const star0 = await stars(page);
   await page.goto('/#/words');
   await dismissModals(page);
-  // 메인: 전체 진도, 난이도(데이터 없는 단계는 비활성), 주제 9개 실제 단어 수
-  await expect(page.getByTestId('forest-progress')).toContainText('0 / 300단어');
-  for (const lv of ['a2', 'b1', 'b2']) { await expect(page.getByTestId(`level-${lv}`)).toHaveAttribute('data-state', 'empty'); await expect(page.getByTestId(`level-${lv}`)).toHaveAttribute('aria-disabled', 'true'); }
-  await expect(page.getByTestId('level-pre-a1-count')).toHaveText('0/97단어 · 0%');
-  await expect(page.getByTestId('level-a1-count')).toHaveText('0/203단어 · 0%');
-  const expected: Record<string, number> = { people: 42, food: 27, home: 78, feelings: 38, travel: 40, talk: 44, shopping: 28, nature: 22, core: 49 };
-  for (const [t, n] of Object.entries(expected)) await expect(page.getByTestId(`topic-${t}-count`)).toHaveText(`0/${n}단어 · 0%`);
+  // ① 전체 진도: 전체 DB 기준 (300 고정값 없음)
+  await expect(page.getByTestId('forest-total')).toHaveText(`0 / ${fmt(TOTAL)}단어`);
+  await expect(page.getByTestId('forest-progress')).not.toContainText('/ 300단어');
+  // 영단어 사전 카드 영역 제거
+  await expect(page.getByTestId('bank-section')).toHaveCount(0);
+  // ④ 7개 난이도 카드 · 실제 단어 수 · 잠금 없음
+  for (const [lv, n] of Object.entries(EXPECT)) {
+    await expect(page.getByTestId(`level-${lv}-count`)).toHaveText(`전체 ${fmt(n)}단어`);
+    await expect(page.getByTestId(`level-${lv}`)).not.toHaveAttribute('aria-disabled', 'true');
+  }
+  await expect(page.getByText('준비 중')).toHaveCount(0);
 
-  // 주제 → 챕터
-  await page.getByTestId('topic-food').click();
-  await page.getByTestId('chapter-food-pre-a1-1').click();
-  await expect(page.getByTestId('study-progress')).toContainText('1 / 5');
-  // 상단 영어 카드 고정, 하단 해석 카드만 뒤집기
-  const top = page.getByTestId('word-card');
+  // 기초(A1): 20개 단위 학습
+  await page.getByTestId('level-a1').click();
+  await expect(page.getByTestId('lv-list-count')).toHaveText(`${fmt(EXPECT.a1)}개`);
+  await expect(page.getByTestId('lv-list').getByTestId('word-line')).toHaveCount(40); // 한 번에 다 그리지 않음
+  await page.getByTestId('size-20').click();
+  await page.getByTestId('lv-start').click();
+  await expect(page.getByTestId('session-pos')).toHaveText('1 / 20');
+  // 기존 2단 카드: 영어 카드 고정, 해석 카드만 뒤집기
   const word1 = await page.getByTestId('word-en').innerText();
-  await expect(top).not.toHaveClass(/flip/);
-  const meaning = page.getByTestId('meaning-card');
-  await expect(meaning).toHaveAttribute('data-open', 'false');
-  await expect(page.getByTestId('word-meaning')).not.toBeInViewport({ ratio: 1 }).catch(() => {}); // 뒷면(숨김)
-  expect(await page.getByTestId('word-meaning').evaluate((e) => getComputedStyle(e.closest('.flip-front')!).backfaceVisibility)).toBe('hidden');
+  await expect(page.getByTestId('meaning-card')).toHaveAttribute('data-open', 'false');
   await page.getByTestId('reveal-meaning').click();
-  await expect(meaning).toHaveAttribute('data-open', 'true');
-  await expect(page.getByTestId('word-tip')).toContainText('더 알아보기');
-  // 단어·예문 음성 요청 정상
-  const [r1] = await Promise.all([page.waitForResponse((r) => r.url().includes('/audio/')), page.getByRole('button', { name: /단어 발음 듣기/ }).click()]);
-  expect([200, 206]).toContain(r1.status());
-  const [r2] = await Promise.all([page.waitForResponse((r) => r.url().includes('/audio/')), page.getByRole('button', { name: /예문 듣기/ }).click()]);
-  expect([200, 206]).toContain(r2.status());
-  await page.getByTestId('hide-meaning').click();
-  await expect(meaning).toHaveAttribute('data-open', 'false'); // 다시 누르면 가림
-  await page.getByTestId('reveal-meaning').click();
-  await page.getByTestId('save-word').click(); // 저장
+  await expect(page.getByTestId('meaning-card')).toHaveAttribute('data-open', 'true');
+  await page.getByTestId('save-word').click();
   await expect(page.getByTestId('save-word')).toHaveAttribute('aria-pressed', 'true');
-  // 다음 단어 → 해석 숨김 초기화 · 영어 단어 변경 · 이전으로 와도 숨김
-  await page.getByTestId('next-word').click();
-  await expect(page.getByTestId('meaning-card')).toHaveAttribute('data-open', 'false');
-  await expect(page.getByTestId('word-en')).not.toHaveText(word1);
-  await page.getByTestId('reveal-meaning').click();
-  await page.getByTestId('prev-word').click();
-  await expect(page.getByTestId('word-en')).toHaveText(word1);
-  await expect(page.getByTestId('meaning-card')).toHaveAttribute('data-open', 'false');
-  // 모바일: 두 카드 + 이전/다음 버튼이 한 화면 안에 보임, 두 카드 너비 동일
-  const tb = (await top.boundingBox())!; const mb = (await page.getByTestId('meaning-card').boundingBox())!;
-  expect(Math.abs(tb.width - mb.width)).toBeLessThan(1);
-  await page.evaluate(() => window.scrollTo(0, 0));
-  await expect(page.getByTestId('next-word')).toBeInViewport();
+  for (let i = 0; i < 19; i++) await page.getByTestId('next-word').click();
+  await page.getByTestId('start-word-quiz').click();
+  await runQuiz(page, (i) => i !== 1); // 2번째 단어는 일부러 틀림
+  await dismissModals(page);
+  expect(await stars(page)).toBe(star0 + 4); // 새 단어 20개 → 10개마다 ★2
 
-  // 중단 후 이어하기: 3번째 단어에서 나갔다가 메인 '이어서 학습하기'
-  await page.getByTestId('next-word').click(); await page.getByTestId('next-word').click();
-  await expect(page.getByTestId('study-progress')).toContainText('3 / 5');
-  await page.goto('/#/words');
-  await expect(page.getByTestId('continue-words')).toContainText('이어서 학습하기');
-  await expect(page.getByTestId('continue-words')).toContainText('3/5단어');
-  await page.reload(); await dismissModals(page);
-  await page.getByTestId('continue-words').click();
-  await expect(page.getByTestId('study-progress')).toContainText('3 / 5');
-  await page.getByTestId('next-word').click(); await page.getByTestId('next-word').click();
-  // 확인 퀴즈 1~2개 → 완료 보상
-  await page.getByTestId('start-chapter-quiz').click();
-  await runQuiz(page);
-  await expect(page.getByTestId('chapter-reward')).toContainText('★ 2');
-  await expect(page.getByTestId('session-stars')).toContainText('★ 2');
-  await dismissModals(page);
-  // 진행률: 주제·난이도·전체 반영 (have=음식+필수, hungry=음식+감정 → 다른 주제 진도도 함께 오름: 기록 통합)
-  await page.goto('/#/words');
-  await dismissModals(page);
-  await expect(page.getByTestId('forest-progress')).toContainText('5 / 300단어');
-  await expect(page.getByTestId('topic-food-count')).toHaveText('5/27단어 · 19%');
-  await expect(page.getByTestId('topic-food')).toHaveAttribute('data-state', 'progress');
-  await expect(page.getByTestId('topic-core-count')).toHaveText('1/49단어 · 2%');
-  await expect(page.getByTestId('topic-feelings-count')).toHaveText('1/38단어 · 3%');
-  await expect(page.getByTestId('level-pre-a1-count')).toHaveText('5/97단어 · 5%');
-  // 같은 챕터 다시 완료해도 보상 중복 없음
-  await page.goto('/#/words/ch/food-pre-a1-1');
-  await expect(page.getByText('이미 학습한 챕터예요')).toBeVisible();
-  // 저장한 단어 · 검색 → 챕터 진입
-  await page.goto('/#/words/saved');
-  await expect(page.getByTestId('saved-list')).toContainText(word1);
-  await page.goto('/#/words/search?q=사과');
-  await expect(page.getByTestId('word-row-apple')).toBeVisible();
-  await page.getByTestId('word-row-apple').getByText('이 단어가 있는 챕터 학습하기').click();
-  await expect(page.getByTestId('word-en')).toHaveText('apple');
-  // 복습 등록 · 퀘스트 연동 · 새로고침 후 유지
-  await page.goto('/#/quests'); await dismissModals(page);
-  await expect(page.getByTestId('quest-d-words')).toContainText('5/10');
-  await page.reload(); await dismissModals(page);
+  // 진도: 전체·난이도별 반영
   await page.goto('/#/words'); await dismissModals(page);
-  await expect(page.getByTestId('forest-progress')).toContainText('5 / 300단어');
-  await page.goto('/#/words/saved');
-  await expect(page.getByTestId('saved-list')).toContainText(word1);
+  await expect(page.getByTestId('forest-total')).toHaveText(`20 / ${fmt(TOTAL)}단어`);
+  await expect(page.getByTestId('level-a1-done')).toContainText(`학습 완료 20 / ${fmt(EXPECT.a1)}`);
+  await expect(page.getByTestId('level-b1-done')).toContainText('학습 완료 0 /');
+  await expect(page.getByTestId('continue-words')).toContainText('이어서 학습하기');
+
+  // 학습 방법: 학습 완료 · 틀린 단어 · 즐겨찾기 · 랜덤 · 주제별
+  await page.getByTestId('level-a1').click();
+  await expect(page.getByTestId('mode-learned')).toContainText('20단어');
+  await expect(page.getByTestId('mode-wrong')).toContainText('1단어');
+  await expect(page.getByTestId('mode-fav')).toContainText('1단어');
+  await page.getByTestId('filter-fav').click();
+  await expect(page.getByTestId('lv-list').getByTestId('word-line')).toHaveCount(1);
+  await expect(page.getByTestId('lv-list')).toContainText(word1);
+  // 이미 학습한 단어 다시 학습 → 별 추가 없음
+  await page.getByTestId('size-10').click();
+  await page.getByTestId('mode-learned').click();
+  for (let i = 0; i < 9; i++) await page.getByTestId('next-word').click();
+  await page.getByTestId('start-word-quiz').click();
+  await runQuiz(page, true);
+  expect(await stars(page)).toBe(star0 + 4);
+  // 최상급(C2) 랜덤 · 주제별 열기
+  await page.goto('/#/words/level/c2');
+  await expect(page.getByTestId('lv-list-count')).toHaveText(`${fmt(EXPECT.c2)}개`);
+  await page.getByTestId('mode-random').click();
+  await expect(page.getByTestId('session-pos')).toHaveText('1 / 10');
+  await page.goto('/#/words/level/b2');
+  await page.getByTestId('lv-topics').locator('button').first().click();
+  await expect(page.getByTestId('session-pos')).toContainText('1 /');
+
+  // 검색: 전체 DB · 레벨 표시 · 해당 난이도로 이동
+  await page.goto('/#/words/search?q=volcano');
+  const hit = page.getByTestId('search-results').getByTestId('word-line').first();
+  await expect(hit).toBeVisible();
+  const lv = await hit.getAttribute('data-level');
+  expect(['B1', 'B2', 'C1', 'C2', 'A2']).toContain(lv);
+  await hit.getByTestId('line-level-link').click();
+  await expect(page).toHaveURL(new RegExp(`#/words/level/${lv!.toLowerCase()}`));
+  await page.goto('/#/words/search?q=사과');
+  await expect(page.locator('[data-testid="word-line"][data-id="apple"]')).toBeVisible();
+
+  // 예전 영단어 사전 주소 → 난이도 학습으로
+  await page.goto('/#/words/bank/advanced');
+  await expect(page).toHaveURL(/#\/words\/level\/c1/);
+
+  // 새로고침 후 유지 · 저장 단어 · 복습
+  await page.reload(); await page.goto('/#/words'); await dismissModals(page);
+  await expect(page.getByTestId('forest-total')).toHaveText(`20 / ${fmt(TOTAL)}단어`);
+  await page.goto('/#/mywords');
+  await expect(page.getByTestId('mw-list')).toContainText(word1);
   await page.goto('/#/home'); await dismissModals(page);
-  await expect(page.getByTestId('due-count')).not.toHaveText('0개'); // 학습 단어가 복습 일정에 등록
-  // 준비 중 난이도 직접 진입해도 학습 불가
-  await page.goto('/#/words/level/b1');
-  await expect(page.getByText('준비 중인 난이도예요')).toBeVisible();
+  await expect(page.getByTestId('due-count')).not.toHaveText('0개');
   // 기존 문법 단원 단어장(보조 메뉴)
   await page.goto('/#/words/grammar');
   await expect(page.getByText('인칭대명사 단어')).toBeVisible();

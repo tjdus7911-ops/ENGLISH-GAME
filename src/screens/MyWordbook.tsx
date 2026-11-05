@@ -104,7 +104,7 @@ export function MyWordbook() {
                 <div key={w.key} className="rounded-2xl bg-white border border-line p-3" data-testid="mw-item" data-key={w.key} data-status={st}>
                   <div className="flex items-start gap-2">
                     <button className="flex-1 min-w-0 text-left min-h-[56px]" onClick={() => setFlipped({ ...flipped, [w.key]: !open })} aria-expanded={open} data-testid="mw-flip">
-                      <span className="flex items-center gap-1.5 flex-wrap"><Tag tone={STATUS_TONE[st]}>{STATUS_LABEL[st]}</Tag><Tag>{w.level}</Tag>{w.srs.difficult && <Tag tone="warn">자주 틀림</Tag>}</span>
+                      <span className="flex items-center gap-1.5 flex-wrap"><Tag tone={STATUS_TONE[st]}>{STATUS_LABEL[st]}</Tag><Tag>{w.level}</Tag>{w.srs.difficult && <Tag tone="warn">자주 틀림</Tag>}{w.pinned === false && <Tag>단어 숲 학습</Tag>}</span>
                       <span className="block text-xl font-extrabold mt-1 break-words">{w.word}</span>
                       <span className={cx('block mt-0.5 break-words', open ? 'font-semibold' : 'text-ink-faint text-sm')} data-testid="mw-meaning">{open ? `${w.meaning} · ${w.pos}` : '눌러서 뜻 확인'}</span>
                       {open && w.context && <span className="block text-xs text-ink-soft mt-1 break-words">“{w.context}”</span>}
