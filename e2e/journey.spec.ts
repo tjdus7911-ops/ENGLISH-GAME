@@ -269,7 +269,7 @@ test('시나리오 A~D: 첫 학습 → 캐릭터 획득 → 다음 날 복습·�
   // ── D. 마을 ──
   await page.goto('/#/home');
   await dismissModals(page);
-  const routes: [string, RegExp][] = [['library', /#\/grammar$/], ['forest', /#\/words$/], ['exam', /#\/exam$/], ['home', /#\/house$/]];
+  const routes: [string, RegExp][] = [['library', /#\/library$/], ['forest', /#\/words$/], ['exam', /#\/exam$/], ['home', /#\/house$/]];
   for (const [b, re] of routes) {
     await page.getByTestId(`bld-${b}`).click();
     await expect(page).toHaveURL(re);
