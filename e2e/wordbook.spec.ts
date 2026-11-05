@@ -66,28 +66,33 @@ test('단어 숲: 7단계 난이도 전체 DB 연결 · 진도 · 학습 단위 
   await expect(page.getByTestId('level-b1-done')).toContainText('학습 완료 0 /');
   await expect(page.getByTestId('continue-words')).toContainText('이어서 학습하기');
 
-  // 학습 방법: 학습 완료 · 틀린 단어 · 즐겨찾기 · 랜덤 · 주제별
+  // 단어 목록 탭: 학습 완료 · 틀린 단어 · 즐겨찾기 · 주제 (학습 방법·주제별 학습 섹션은 없음)
   await page.getByTestId('level-a1').click();
-  await expect(page.getByTestId('mode-learned')).toContainText('20단어');
-  await expect(page.getByTestId('mode-wrong')).toContainText('1단어');
-  await expect(page.getByTestId('mode-fav')).toContainText('1단어');
+  await expect(page.getByText('학습 방법')).toHaveCount(0);
+  await expect(page.getByText('주제별 학습')).toHaveCount(0);
+  await page.getByTestId('filter-learned').click();
+  await expect(page.getByTestId('lv-list-count')).toHaveText('20개');
+  await page.getByTestId('filter-wrong').click();
+  await expect(page.getByTestId('lv-list-count')).toHaveText('1개');
   await page.getByTestId('filter-fav').click();
   await expect(page.getByTestId('lv-list').getByTestId('word-line')).toHaveCount(1);
   await expect(page.getByTestId('lv-list')).toContainText(word1);
-  // 이미 학습한 단어 다시 학습 → 별 추가 없음
+  // 학습 완료 목록으로 다시 학습 → 별 추가 없음
+  await page.getByTestId('filter-learned').click();
   await page.getByTestId('size-10').click();
-  await page.getByTestId('mode-learned').click();
+  await page.getByTestId('lv-list-study').click();
+  await expect(page.getByTestId('session-pos')).toHaveText('1 / 10');
   for (let i = 0; i < 9; i++) await page.getByTestId('next-word').click();
   await page.getByTestId('start-word-quiz').click();
   await runQuiz(page, true);
   expect(await stars(page)).toBe(star0 + 4);
-  // 최상급(C2) 랜덤 · 주제별 열기
+  // 최상급(C2) 열기 · 주제 탭으로 목록 학습
   await page.goto('/#/words/level/c2');
   await expect(page.getByTestId('lv-list-count')).toHaveText(`${fmt(EXPECT.c2)}개`);
-  await page.getByTestId('mode-random').click();
-  await expect(page.getByTestId('session-pos')).toHaveText('1 / 10');
   await page.goto('/#/words/level/b2');
-  await page.getByTestId('lv-topics').locator('button').first().click();
+  await page.getByRole('button', { name: '감정과 성격', exact: true }).click();
+  await expect(page.getByTestId('lv-list').getByTestId('word-line').first()).toBeVisible();
+  await page.getByTestId('lv-list-study').click();
   await expect(page.getByTestId('session-pos')).toContainText('1 /');
 
   // 검색: 전체 DB · 레벨 표시 · 해당 난이도로 이동

@@ -18,7 +18,7 @@ import type { Question } from '@/domain/types';
 import { cx } from '@/lib/cx';
 
 type Mode = 'all' | 'unlearned' | 'learned' | 'random' | 'wrong' | 'fav' | 'topic';
-const MODE_LABEL: Record<Mode, string> = { all: '전체 단어 학습', unlearned: '미학습 단어만', learned: '학습 완료 단어', random: '랜덤 학습', wrong: '틀린 단어 복습', fav: '즐겨찾기 단어', topic: '주제별 학습' };
+const MODE_LABEL: Record<Mode, string> = { all: '전체', unlearned: '미학습', learned: '학습 완료', random: '랜덤', wrong: '틀린 단어', fav: '즐겨찾기', topic: '주제별' };
 const SIZES = [10, 20, 30, 50] as const;
 const PAGE = 40;
 const ls = { get: (k: string) => { try { return localStorage.getItem(k); } catch { return null; } }, set: (k: string, v: string) => { try { localStorage.setItem(k, v); } catch { /* noop */ } } };
@@ -152,24 +152,6 @@ export function LevelHub() {
             <Button size="lg" className="w-full mt-3" onClick={() => go(count('unlearned') ? 'unlearned' : 'all')} data-testid="lv-start">{done ? '이어서 학습하기' : '학습 시작'} · {n}개</Button>
           </Card>
 
-          <SectionTitle>학습 방법</SectionTitle>
-          <div className="grid grid-cols-2 gap-2" data-testid="lv-modes">
-            {(['all', 'unlearned', 'learned', 'random', 'wrong', 'fav'] as Mode[]).map((m) => {
-              const c = m === 'random' ? rows.length : count(m);
-              return (
-                <button key={m} disabled={!c} onClick={() => go(m)} data-testid={`mode-${m}`}
-                  className="rounded-2xl bg-white border border-line p-3 text-left min-h-[64px] disabled:opacity-40">
-                  <span className="block font-bold text-sm">{MODE_LABEL[m]}</span><span className="text-xs text-ink-soft">{fmt(c)}단어</span>
-                </button>
-              );
-            })}
-          </div>
-          <SectionTitle>주제별 학습</SectionTitle>
-          <div className="flex flex-wrap gap-1.5" data-testid="lv-topics">
-            {topics.map((t) => <button key={t.id} onClick={() => go('topic', t.id)} data-testid={`topic-${t.id}`} className="rounded-full bg-white border border-line px-3 min-h-[44px] text-[13px] font-semibold">{t.emoji} {t.label} <span className="text-ink-soft font-normal">{fmt(t.n)}</span></button>)}
-          </div>
-          <p className="text-[11px] text-ink-faint mt-1">사전 단어의 주제는 뜻을 기준으로 자동 분류했어요 (검수 대상). 뚜렷한 주제가 없는 단어는 ‘일반 어휘’로 모았어요.</p>
-
           <SectionTitle>단어 목록</SectionTitle>
           <div className="flex gap-1.5 overflow-x-auto pb-1" aria-label="목록 필터">
             {([['all', '전체'], ['unlearned', '미학습'], ['learned', '학습 완료'], ['fav', '즐겨찾기'], ['wrong', '틀린 단어']] as const).map(([k, t]) => <button key={k} className={chip(filter === k)} onClick={() => { setFilter(k); setLimit(PAGE); }} data-testid={`filter-${k}`}>{t}</button>)}
@@ -178,7 +160,10 @@ export function LevelHub() {
             <button className={chip(topic === 'all')} onClick={() => { setTopic('all'); setLimit(PAGE); }}>모든 주제</button>
             {topics.map((t) => <button key={t.id} className={chip(topic === t.id)} onClick={() => { setTopic(t.id); setLimit(PAGE); }}>{t.label}</button>)}
           </div>
-          <p className="text-xs text-ink-soft mt-1" data-testid="lv-list-count">{fmt(list.length)}개</p>
+          <div className="flex items-center justify-between gap-2 mt-1">
+            <p className="text-xs text-ink-soft" data-testid="lv-list-count">{fmt(list.length)}개</p>
+            <Button size="sm" variant="secondary" disabled={!list.length} onClick={() => go(filter === 'all' ? 'all' : filter, topic === 'all' ? undefined : topic)} data-testid="lv-list-study">이 목록 학습하기 · {Math.min(n, list.length)}개</Button>
+          </div>
           <div className="grid gap-2 mt-1" data-testid="lv-list">{list.slice(0, limit).map((w) => <WordLine key={w.id} w={w} />)}</div>
           {list.length > limit && <Button variant="secondary" className="w-full mt-2" onClick={() => setLimit(limit + PAGE)} data-testid="lv-more">더 보기 ({fmt(list.length - limit)}개 남음)</Button>}
         </>
@@ -219,12 +204,11 @@ function WordLine({ w, showLevelLink }: { w: W; showLevelLink?: boolean }) {
 // ───────────────────────── 학습 세션 ─────────────────────────
 function pickWords(rows: W[], mode: Mode, n: number, l: ReturnType<typeof useApp.getState>['learning'], topic: string | null, seed: number): W[] {
   const wrong = wrongWordIds(l);
-  let pool = rows;
-  if (mode === 'topic' && topic) pool = rows.filter((w) => w.topic === topic);
-  if (mode === 'unlearned') pool = rows.filter((w) => !l.learnedWords[w.id]);
-  if (mode === 'learned') pool = rows.filter((w) => l.learnedWords[w.id]);
-  if (mode === 'wrong') pool = rows.filter((w) => wrong.has(w.id));
-  if (mode === 'fav') pool = rows.filter((w) => isFavorite(l, w));
+  let pool = topic ? rows.filter((w) => w.topic === topic) : rows;
+  if (mode === 'unlearned') pool = pool.filter((w) => !l.learnedWords[w.id]);
+  if (mode === 'learned') pool = pool.filter((w) => l.learnedWords[w.id]);
+  if (mode === 'wrong') pool = pool.filter((w) => wrong.has(w.id));
+  if (mode === 'fav') pool = pool.filter((w) => isFavorite(l, w));
   if (mode === 'random') {
     const a = pool.slice(); let h = seed;
     for (let i = a.length - 1; i > 0; i--) { h = (Math.imul(h ^ (h >>> 15), 2246822519) + 1) >>> 0; const j = h % (i + 1); [a[i], a[j]] = [a[j], a[i]]; }
@@ -261,10 +245,10 @@ export function StudySession() {
   const [rs, setRs] = useState<QResult[]>([]);
   const qs = useMemo(() => words.map(questionOf), [words]);
   const L = LV_BY_ID[lv];
-  const title = `${L.label}(${L.cefr}) · ${mode === 'topic' && topic ? TOPIC_LABEL[topic as WTopic]?.label ?? topic : MODE_LABEL[mode]}`;
+  const title = `${L.label}(${L.cefr}) · ${MODE_LABEL[mode]}${topic ? ` · ${TOPIC_LABEL[topic as WTopic]?.label ?? topic}` : ''}`;
   const finish = () => { try { sessionStorage.removeItem(key); } catch { /* noop */ } };
   if (!rows || !ids) return <Page title={title} back={`/words/level/${lv}`}><p className="text-sm text-ink-soft" role="status">단어를 불러오는 중…</p></Page>;
-  if (!words.length) return <Page title={title} back={`/words/level/${lv}`}><Empty icon="🌿" title="이 방법으로 학습할 단어가 없어요" desc="다른 학습 방법을 골라 보세요." action={<Link to={`/words/level/${lv}`}><Button>난이도 화면으로</Button></Link>} /></Page>;
+  if (!words.length) return <Page title={title} back={`/words/level/${lv}`}><Empty icon="🌿" title="이 방법으로 학습할 단어가 없어요" desc="단어 목록에서 다른 탭을 골라 보세요." action={<Link to={`/words/level/${lv}`}><Button>난이도 화면으로</Button></Link>} /></Page>;
   const v = words[i];
   return (
     <Page title={title} back={`/words/level/${lv}`}>
