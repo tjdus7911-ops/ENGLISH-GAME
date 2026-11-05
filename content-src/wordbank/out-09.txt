@@ -1,0 +1,350 @@
+logic|논리, 타당성|I can't follow the logic of his argument.|그의 주장은 논리를 따라가기가 어렵다.
+logo|로고, 상징 마크|The company logo is a small green leaf.|그 회사 로고는 작은 초록 잎사귀다.
+lorry|트럭, 화물차|A big lorry was blocking the narrow street.|커다란 트럭이 좁은 길을 막고 있었다.
+loss|손실, 분실; 패배|The loss of my wallet ruined my day.|지갑을 잃어버려서 하루를 망쳤다.
+lottery|복권, 추첨|He dreams of winning the lottery and buying a farm.|그는 복권에 당첨돼 농장을 사는 꿈을 꾼다.
+loud|(형) 시끄러운, 큰 소리의; (부) 크게|The music next door is too loud tonight.|오늘 밤 옆집 음악 소리가 너무 크다.
+loudspeaker|확성기, 스피커|The train driver spoke through the loudspeaker.|기관사가 스피커로 안내 방송을 했다.
+lovingly|애정을 담아, 다정하게|She lovingly wrapped the gift for her son.|그녀는 아들에게 줄 선물을 정성껏 포장했다.
+loyal|충실한, 충성스러운|Dogs are known to be loyal to their owners.|개는 주인에게 충성스러운 것으로 알려져 있다.
+loyalty|충성, 의리|The café gives a free coffee for customer loyalty.|그 카페는 단골손님에게 무료 커피를 준다.
+luggage|짐, 수하물|How many pieces of luggage are you checking in?|짐을 몇 개 부치실 건가요?
+lung|폐, 허파|Swimming is good exercise for your heart and lungs.|수영은 심장과 폐에 좋은 운동이다.
+luxury|(형) 고급의, 호화로운; (명) 사치(품)|They stayed in a luxury hotel for their anniversary.|그들은 결혼기념일에 고급 호텔에 묵었다.
+magical|마법의, 황홀한|The snowy village looked magical at night.|눈 덮인 마을은 밤에 마법처럼 아름다웠다.
+magician|마술사, 마법사|The magician pulled a rabbit out of his hat.|마술사가 모자에서 토끼를 꺼냈다.
+magnificent|웅장한, 훌륭한|The palace has a magnificent garden.|그 궁전에는 웅장한 정원이 있다.
+mailbox|우편함|I checked the mailbox, but there was no letter.|우편함을 확인했지만 편지는 없었다.
+main|주된, 가장 중요한|The main entrance is on the other side.|정문은 반대편에 있다.
+maintain|유지하다; 주장하다|It's hard to maintain a healthy diet when you travel.|여행 중에는 건강한 식단을 유지하기 어렵다.
+maintenance|유지 보수, 관리|The pool is closed today for maintenance.|수영장은 오늘 보수 공사로 문을 닫는다.
+majority|대다수, 과반수|The majority of students voted for a longer break.|대다수 학생들이 쉬는 시간을 늘리는 데 찬성했다.
+management|경영, 관리; 경영진|She studied hotel management in Switzerland.|그녀는 스위스에서 호텔 경영을 공부했다.
+mankind|인류, 인간|The first moon landing was a big step for mankind.|최초의 달 착륙은 인류에게 큰 걸음이었다.
+maple|단풍나무|The maple leaves turn bright red in autumn.|가을이 되면 단풍잎이 새빨갛게 물든다.
+marble|대리석; 구슬|The hotel lobby had a shiny marble floor.|호텔 로비 바닥은 반짝이는 대리석이었다.
+marine|바다의, 해양의|We learned about marine animals at the aquarium.|우리는 수족관에서 해양 동물에 대해 배웠다.
+marked|뚜렷한, 두드러진|There has been a marked improvement in his grades.|그의 성적이 눈에 띄게 올랐다.
+marriage|결혼, 결혼 생활|My grandparents have had a happy marriage for fifty years.|조부모님은 50년 동안 행복한 결혼 생활을 해 오셨다.
+mash|으깨다|Mash the potatoes with a little butter and milk.|감자를 버터와 우유를 조금 넣고 으깨라.
+mass|(형) 대량의, 대중의; (명) 덩어리, 다수|A mass of clouds covered the mountain.|구름 덩어리가 산을 뒤덮었다.
+massive|거대한, 막대한|A massive wave hit the side of the boat.|거대한 파도가 배 옆을 덮쳤다.
+mathematician|수학자|She became a mathematician because she loved puzzles.|그녀는 퍼즐을 좋아해서 수학자가 되었다.
+mathematics|수학|Mathematics was my favourite subject at school.|학교 다닐 때 수학이 가장 좋아하는 과목이었다.
+maximum|(형) 최대의; (명) 최대, 최대치|The maximum number of people in the lift is eight.|엘리베이터 최대 정원은 8명이다.
+mayor|시장|The mayor visited our school to plant a tree.|시장이 나무를 심으러 우리 학교에 왔다.
+meaningful|의미 있는, 중요한|Volunteering at the shelter was a meaningful experience.|보호소에서 봉사한 것은 의미 있는 경험이었다.
+meanwhile|그동안에, 한편|I'll cook dinner. Meanwhile, you can set the table.|내가 저녁을 할게. 그동안 너는 상을 차려 줘.
+measure|(명) 조치, 척도; (동) 재다, 측정하다|The nurse measured my height and weight.|간호사가 내 키와 몸무게를 쟀다.
+measurement|측정, 치수|Write down the measurements of the window first.|먼저 창문 치수를 적어 둬라.
+mechanic|정비사|The mechanic said my car needs new brakes.|정비사가 내 차 브레이크를 새로 갈아야 한다고 했다.
+mechanical|기계의, 기계적인|The flight was delayed because of a mechanical problem.|기계 결함 때문에 비행기가 지연되었다.
+meditate|명상하다|I meditate for ten minutes before going to bed.|나는 자기 전에 10분 동안 명상을 한다.
+meditation|명상|Meditation helps me feel calm before exams.|명상은 시험 전에 마음을 차분하게 해 준다.
+Mediterranean|지중해 (지역)|We sailed across the Mediterranean last summer.|우리는 지난여름 지중해를 항해했다.
+medium|(형) 중간의; (명) 매체, 수단|I'd like a medium coffee with milk, please.|우유 넣은 중간 사이즈 커피 주세요.
+melt|녹다, 녹이다|The snowman melted quickly in the sun.|눈사람이 햇볕에 금방 녹았다.
+membership|회원 자격, 회원권|My gym membership ends next month.|내 헬스장 회원권은 다음 달에 끝난다.
+memorable|기억할 만한, 인상적인|Our trip to Jeju was really memorable.|제주도 여행은 정말 기억에 남는다.
+memorize|암기하다, 외우다|I have to memorize twenty new words by tomorrow.|내일까지 새 단어 스무 개를 외워야 한다.
+mend|고치다, 수선하다|Can you mend the hole in my jeans?|내 청바지 구멍 좀 꿰매 줄 수 있어?
+mental|정신의, 마음의|Sleep is important for your mental health.|잠은 정신 건강에 중요하다.
+mentally|정신적으로|After the long exam, I was mentally tired.|긴 시험을 마치고 나니 정신적으로 지쳤다.
+merchant|상인, 무역상|The old merchant sold silk and spices at the market.|늙은 상인은 시장에서 비단과 향신료를 팔았다.
+mere|겨우 ~의, 단지 ~에 불과한|The shop is a mere five minutes from here.|그 가게는 여기서 겨우 5분 거리다.
+merely|단지, 그저|I was merely asking a question.|나는 그저 질문을 했을 뿐이야.
+mess|(명) 엉망, 어수선함; (동) 엉망으로 만들다|Your room is a mess! Please clean it.|네 방 엉망이야! 좀 치워.
+message board|게시판|I posted a question on the school message board.|학교 게시판에 질문을 올렸다.
+messy|지저분한, 엉망인|My desk gets messy when I'm busy.|바쁠 때는 내 책상이 지저분해진다.
+middle-aged|중년의|A middle-aged woman was selling fruit by the road.|길가에서 한 중년 여성이 과일을 팔고 있었다.
+mild|온화한, 순한, 가벼운|I'd like a mild curry, not a spicy one.|매운 거 말고 순한 카레로 주세요.
+mile|마일(약 1.6km)|We walked about three miles along the beach.|우리는 해변을 따라 3마일쯤 걸었다.
+mineral|광물; 미네랄|Fresh vegetables are full of vitamins and minerals.|신선한 채소에는 비타민과 미네랄이 풍부하다.
+minimize|최소화하다|Turn off lights to minimize energy use.|에너지 사용을 줄이려면 불을 꺼라.
+minimum|(형) 최소의; (명) 최소, 최저|You need a minimum of five people to play this game.|이 게임을 하려면 최소 다섯 명이 필요하다.
+minor|사소한, 작은; 미성년의|It was only a minor problem, so don't worry.|사소한 문제였으니 걱정하지 마.
+minority|소수, 소수 집단|Only a minority of people wanted to change the plan.|계획을 바꾸고 싶어 한 사람은 소수에 불과했다.
+minus|~을 뺀; 영하의|Ten minus four is six.|10 빼기 4는 6이다.
+miracle|기적|It's a miracle that nobody got hurt.|아무도 다치지 않은 건 기적이다.
+mischief|장난, 짓궂음|The puppy is always getting into mischief.|강아지는 늘 말썽을 피운다.
+miserable|비참한, 우울한|I felt miserable with a cold all weekend.|주말 내내 감기에 걸려 너무 괴로웠다.
+misery|고통, 비참함|The broken heater added to our misery in winter.|고장 난 히터 때문에 겨울이 더 괴로웠다.
+mislead|오해하게 하다, 속이다|The advert misled customers about the price.|그 광고는 가격에 대해 고객들을 오해하게 만들었다.
+mission|임무, 사명|The team's mission is to clean up the beach.|그 팀의 임무는 해변을 청소하는 것이다.
+misty|안개 낀|It was a misty morning by the lake.|호숫가에 안개가 낀 아침이었다.
+misunderstanding|오해|Sorry, there was a misunderstanding about the time.|죄송해요, 시간에 대해 오해가 있었어요.
+mixing bowl|믹싱볼, 반죽 그릇|Put the flour and sugar in a large mixing bowl.|밀가루와 설탕을 큰 볼에 넣어라.
+modal verb|조동사|"Can" and "must" are common modal verbs.|"can"과 "must"는 흔히 쓰이는 조동사다.
+modem|모뎀|Try restarting the modem if the internet is slow.|인터넷이 느리면 모뎀을 다시 켜 봐.
+moderate|적당한, 보통의, 온건한|Moderate exercise is good for older people.|적당한 운동은 노인들에게 좋다.
+modify|수정하다, 변경하다|We modified the recipe to use less sugar.|우리는 설탕을 덜 쓰도록 요리법을 바꿨다.
+moisture|수분, 습기|This cream keeps moisture in your skin.|이 크림은 피부에 수분을 유지시켜 준다.
+molecule|분자|A water molecule has two hydrogen atoms.|물 분자에는 수소 원자가 두 개 있다.
+monitor|(명) 모니터, 화면; (동) 감시하다, 관찰하다|The doctor will monitor your heart rate tonight.|의사가 오늘 밤 당신의 심박수를 지켜볼 것이다.
+monk|수도승, 스님|The monk lived quietly in a temple on the hill.|그 스님은 언덕 위 절에서 조용히 살았다.
+monster|괴물|My son thinks there is a monster under his bed.|우리 아들은 침대 밑에 괴물이 있다고 생각한다.
+monthly|(형) 매월의; (부) 매달|I pay my phone bill monthly.|나는 휴대폰 요금을 매달 낸다.
+monument|기념비, 기념물|They built a monument to remember the old bridge.|그들은 옛 다리를 기리기 위해 기념비를 세웠다.
+moral|(형) 도덕적인; (명) 교훈|The moral of the story is to be kind to others.|그 이야기의 교훈은 남에게 친절하라는 것이다.
+moreover|게다가, 더욱이|The flat is small; moreover, it's very noisy.|그 집은 좁은 데다가 아주 시끄럽다.
+mosquito|모기|A mosquito kept buzzing around my ear all night.|모기 한 마리가 밤새 귀 주위에서 앵앵거렸다.
+moss|이끼|The old stone wall was covered in green moss.|오래된 돌담은 초록 이끼로 덮여 있었다.
+motherland|모국, 조국|He returned to his motherland after twenty years abroad.|그는 해외에서 20년을 보낸 뒤 조국으로 돌아왔다.
+motionless|움직이지 않는, 가만히 있는|The cat sat motionless, watching the bird.|고양이가 꼼짝 않고 앉아 새를 지켜보았다.
+motivate|동기를 부여하다|Good teachers motivate students to try harder.|좋은 선생님은 학생들이 더 노력하도록 동기를 준다.
+motivation|동기 부여, 의욕|I lost my motivation to study after the holiday.|방학이 끝나고 공부할 의욕을 잃었다.
+motive|동기, 이유|What was his motive for leaving the job?|그가 일을 그만둔 이유가 뭐였을까?
+motor|모터, 전동기|The boat has a small electric motor.|그 보트에는 작은 전기 모터가 달려 있다.
+motorcycle|오토바이|He rides his motorcycle to work every day.|그는 매일 오토바이를 타고 출근한다.
+motto|좌우명, 표어|My motto is "Never give up."|내 좌우명은 "절대 포기하지 마라"이다.
+mount|(명) 산; (동) 오르다, 올라타다; 증가하다|She mounted her horse and rode away.|그녀는 말에 올라타고 떠났다.
+mountaintop|산꼭대기|We watched the sunrise from the mountaintop.|우리는 산꼭대기에서 해돋이를 보았다.
+mourn|애도하다, 슬퍼하다|The whole village mourned the loss of their old doctor.|온 마을이 오랜 의사 선생님의 죽음을 애도했다.
+movement|움직임; (사회) 운동|The camera can detect any movement in the garden.|그 카메라는 정원의 어떤 움직임도 감지할 수 있다.
+mud|진흙|My boots were covered in mud after the walk.|산책 후 내 장화는 진흙투성이였다.
+mule|노새|The farmer used a mule to carry the bags uphill.|농부는 노새를 이용해 짐을 언덕 위로 날랐다.
+murderer|살인자|In the mystery novel, the murderer is the gardener.|그 추리 소설에서 범인은 정원사다.
+muscle|근육|I pulled a muscle in my leg playing football.|축구하다가 다리 근육이 결렸다.
+mustard|겨자, 머스터드|Would you like mustard on your hot dog?|핫도그에 머스터드 뿌려 드릴까요?
+mutual|서로의, 상호 간의|We met through a mutual friend.|우리는 서로 아는 친구를 통해 만났다.
+myth|신화; 잘못된 통념|It's a myth that goldfish only remember three seconds.|금붕어가 3초만 기억한다는 건 잘못된 속설이다.
+nail|손톱, 발톱; 못|I cut my nails every Sunday night.|나는 일요일 밤마다 손톱을 깎는다.
+naked|벌거벗은, 맨-|You can't see these stars with the naked eye.|이 별들은 맨눈으로는 볼 수 없다.
+nap|낮잠|I usually take a short nap after lunch.|나는 보통 점심 후에 잠깐 낮잠을 잔다.
+narrate|이야기하다, 내레이션을 하다|An old man narrates the story at the start of the film.|영화 시작 부분에서 한 노인이 이야기를 들려준다.
+narrative|이야기의, 서술의|The book is written in a simple narrative style.|그 책은 간단한 서술체로 쓰여 있다.
+narrow|좁은|The street is too narrow for two cars.|그 길은 차 두 대가 다니기엔 너무 좁다.
+nasty|불쾌한, 고약한, 심한|I have a nasty cough that won't go away.|고약한 기침이 계속 낫지 않는다.
+nationalist|민족주의자|In the history book, he is described as a nationalist.|역사책에서 그는 민족주의자로 묘사된다.
+naturally|자연스럽게; 당연히; 선천적으로|Her hair is naturally curly.|그녀의 머리는 원래 곱슬이다.
+navy blue|남색의, 짙은 감색의|The school uniform has a navy blue jacket.|교복에는 남색 재킷이 있다.
+nearby|(형) 근처의; (부) 근처에|Is there a pharmacy nearby?|근처에 약국 있나요?
+necklace|목걸이|She wore a silver necklace to the party.|그녀는 파티에 은목걸이를 하고 갔다.
+nectar|(꽃의) 꿀, 과즙|Bees collect nectar from flowers.|벌은 꽃에서 꿀을 모은다.
+needle|바늘, 주삿바늘|I need a needle and thread to sew this button.|이 단추를 달려면 바늘과 실이 필요하다.
+negotiate|협상하다|We negotiated a lower price for the used car.|우리는 중고차 가격을 협상해서 깎았다.
+negotiation|협상, 교섭|After long negotiations, they agreed on a new contract.|오랜 협상 끝에 그들은 새 계약에 합의했다.
+neighborhood|동네, 이웃|There are many good restaurants in my neighborhood.|우리 동네에는 좋은 식당이 많다.
+nephew|조카(남자)|My nephew turns five next week.|내 조카가 다음 주에 다섯 살이 된다.
+nervousness|긴장, 초조함|He hid his nervousness with a big smile.|그는 활짝 웃으며 긴장을 감췄다.
+ness|(접미사) ~함, ~성(형용사를 명사로 만듦)|Adding ness to "kind" makes the word "kindness".|"kind"에 ness를 붙이면 "kindness"가 된다.
+network|네트워크, 연결망|The city has a good network of bike paths.|그 도시는 자전거 도로망이 잘 갖춰져 있다.
+neutral|중립의; 무채색의|She painted the walls a neutral colour like beige.|그녀는 벽을 베이지 같은 무난한 색으로 칠했다.
+nevertheless|그럼에도 불구하고|It was raining; nevertheless, we went for a walk.|비가 왔지만 그래도 우리는 산책을 나갔다.
+newborn|갓 태어난|The newborn baby slept for most of the day.|갓 태어난 아기는 하루 대부분을 잤다.
+newcomer|새로 온 사람, 신입|The club always welcomes newcomers.|그 동아리는 언제나 새로 온 사람을 환영한다.
+newly|새로, 최근에|We had dinner at a newly opened Thai restaurant.|우리는 새로 문을 연 태국 식당에서 저녁을 먹었다.
+next door|옆집에|A young couple lives next door.|옆집에는 젊은 부부가 산다.
+next-door|옆집의, 이웃의|Our next-door neighbour has three cats.|우리 옆집 이웃은 고양이를 세 마리 키운다.
+nickname|별명|My friends gave me the nickname "Sunny".|친구들이 내게 "써니"라는 별명을 붙여 줬다.
+niece|조카딸|My niece loves drawing pictures of horses.|내 조카딸은 말 그림 그리는 걸 좋아한다.
+nightlife|밤 문화, 밤의 유흥|The city is famous for its busy nightlife.|그 도시는 활기찬 밤 문화로 유명하다.
+nod|(명) 끄덕임; (동) 고개를 끄덕이다|She nodded to show that she understood.|그녀는 이해했다는 뜻으로 고개를 끄덕였다.
+noisily|시끄럽게|The children ate their lunch noisily.|아이들은 시끄럽게 점심을 먹었다.
+none|아무도 ~않다, 아무것도 ~않다|I wanted some cake, but there was none left.|케이크를 먹고 싶었는데 하나도 남지 않았다.
+nonetheless|그럼에도 불구하고|The test was hard; nonetheless, most students passed.|시험은 어려웠지만 그래도 학생 대부분이 통과했다.
+nonsense|허튼소리, 말도 안 되는 것|Don't talk nonsense; you're a great cook!|말도 안 되는 소리 하지 마, 너 요리 진짜 잘해!
+nor|~도 또한 아니다|I don't eat meat, nor do I eat fish.|나는 고기를 먹지 않고, 생선도 먹지 않는다.
+normally|보통, 대개|I normally take the bus, but today I walked.|평소에는 버스를 타는데 오늘은 걸었다.
+northeast|(형) 북동쪽의; (명) 북동쪽|The wind is blowing from the northeast.|바람이 북동쪽에서 불어오고 있다.
+northeastern|북동쪽의, 북동부의|We drove to a small northeastern town by the sea.|우리는 바닷가에 있는 북동부의 작은 마을로 차를 몰았다.
+northern|북쪽의, 북부의|It snows a lot in the northern part of the country.|그 나라 북부 지역에는 눈이 많이 온다.
+northwest|(형) 북서쪽의; (명) 북서쪽|The lake is to the northwest of the city.|그 호수는 도시 북서쪽에 있다.
+northwestern|북서쪽의, 북서부의|They hiked through the northwestern hills for three days.|그들은 3일 동안 북서부 언덕을 하이킹했다.
+noticeable|눈에 띄는, 뚜렷한|There's a noticeable change in the weather today.|오늘은 날씨가 눈에 띄게 달라졌다.
+noticeboard|게시판|The exam results are on the noticeboard.|시험 결과가 게시판에 붙어 있다.
+notion|개념, 생각|I had no notion of how big the city really was.|그 도시가 실제로 얼마나 큰지 전혀 몰랐다.
+notorious|악명 높은|This road is notorious for traffic jams.|이 도로는 교통 체증으로 악명이 높다.
+novelist|소설가|The novelist writes for three hours every morning.|그 소설가는 매일 아침 세 시간씩 글을 쓴다.
+nowhere|아무 데도 ~않다|There was nowhere to park near the stadium.|경기장 근처에는 주차할 곳이 전혀 없었다.
+nuclear|원자력의, 핵의|The country gets some of its power from nuclear energy.|그 나라는 전력 일부를 원자력에서 얻는다.
+nucleus|핵, 중심|The nucleus is the centre of a cell.|핵은 세포의 중심이다.
+numerous|많은, 수많은|I've visited that museum numerous times.|나는 그 박물관에 여러 번 가 봤다.
+nutrient|영양소, 영양분|Plants take nutrients from the soil.|식물은 흙에서 영양분을 얻는다.
+nutrition|영양, 영양 섭취|Good nutrition is important for growing children.|성장기 아이들에게는 좋은 영양 섭취가 중요하다.
+nutritious|영양가 높은|Oatmeal is a cheap and nutritious breakfast.|오트밀은 저렴하고 영양가 높은 아침 식사다.
+object|(명) 물건, 목적; (동) 반대하다|There is a strange object on the roof.|지붕 위에 이상한 물체가 있다.
+objection|반대, 이의|Does anyone have an objection to the new schedule?|새 일정에 이의 있는 사람 있나요?
+objective|(형) 객관적인; (명) 목표|Our main objective is to finish by June.|우리의 주된 목표는 6월까지 끝내는 것이다.
+observation|관찰, 관측; 소견|The students wrote down their observations of the plant.|학생들은 식물을 관찰한 내용을 적었다.
+observe|관찰하다, 목격하다; 준수하다|We observed the birds through a pair of binoculars.|우리는 쌍안경으로 새들을 관찰했다.
+obstacle|장애물|Fear is the biggest obstacle to learning to swim.|두려움은 수영을 배우는 데 가장 큰 장애물이다.
+obtain|얻다, 획득하다|You must obtain a visa before you travel.|여행 전에 비자를 받아야 한다.
+obvious|분명한, 명백한|It was obvious that she was tired.|그녀가 피곤하다는 게 분명히 보였다.
+obviously|분명히, 확실히|Obviously, you can't swim in the lake in winter.|당연히 겨울에는 호수에서 수영할 수 없다.
+occasion|(명) 때, 경우, 행사; (동) 야기하다|A birthday is a special occasion for the whole family.|생일은 온 가족에게 특별한 날이다.
+occasional|가끔의, 때때로의|We get occasional visits from my old roommate.|예전 룸메이트가 가끔 우리 집에 들른다.
+occasionally|가끔, 때때로|I occasionally eat out with my coworkers.|나는 가끔 직장 동료들과 외식을 한다.
+occupy|차지하다, 사용하다; 점령하다|The big sofa occupies half of the living room.|큰 소파가 거실의 절반을 차지한다.
+occur|일어나다, 발생하다; 생각이 떠오르다|It never occurred to me to ask for help.|도움을 청할 생각은 전혀 떠오르지 않았다.
+ocean|대양, 바다|We could hear the ocean from our hotel room.|호텔 방에서 바다 소리가 들렸다.
+offensive|불쾌한, 모욕적인|Some of his jokes were offensive to the guests.|그의 농담 중 몇 개는 손님들에게 불쾌했다.
+officially|공식적으로, 정식으로|Summer officially begins next week.|다음 주에 공식적으로 여름이 시작된다.
+oily|기름기 많은, 기름진|I don't like oily food for breakfast.|나는 아침으로 기름진 음식을 좋아하지 않는다.
+old-fashioned|구식의, 유행이 지난|My grandmother still uses an old-fashioned sewing machine.|할머니는 아직도 구식 재봉틀을 쓰신다.
+oneself|자기 자신|It's important to take care of oneself.|자기 자신을 돌보는 것은 중요하다.
+onstage|무대 위의|Her onstage energy made the whole crowd dance.|무대 위 그녀의 에너지가 관객 모두를 춤추게 했다.
+onto|~ 위로|The kitten jumped onto the sofa.|새끼 고양이가 소파 위로 뛰어올랐다.
+opening|개장, 개막; 틈, 구멍; 빈자리|We went to the opening of the new art gallery.|우리는 새 미술관 개관식에 갔다.
+operation|수술; 작동, 운영|My father had an operation on his knee.|아버지는 무릎 수술을 받으셨다.
+opposition|반대, 저항; 상대편|There was strong opposition to closing the library.|도서관 폐쇄에 대한 반대가 거셌다.
+oppress|억압하다; 짓누르다|In the fairy tale, a cruel king oppresses the villagers.|그 동화에서 잔인한 왕이 마을 사람들을 억압한다.
+oppression|억압, 압박감|The hero of the old legend freed people from oppression.|옛 전설의 영웅은 사람들을 억압에서 해방시켰다.
+option|선택(권), 옵션|You have the option of paying by card or cash.|카드나 현금 중 선택해서 결제하실 수 있습니다.
+oral|(형) 구두의, 입의; (명) 구술시험|We have an oral exam in English next week.|다음 주에 영어 말하기 시험이 있다.
+orbit|궤도|The moon takes about a month to complete its orbit.|달은 궤도를 한 바퀴 도는 데 약 한 달이 걸린다.
+orchestra|오케스트라, 관현악단|My sister plays the violin in the school orchestra.|언니는 학교 오케스트라에서 바이올린을 연주한다.
+orderly|질서 정연한, 정돈된|The students left the hall in an orderly line.|학생들은 질서 있게 줄을 서서 강당을 나갔다.
+ordinary|평범한, 보통의|It was just an ordinary day at the office.|사무실에서의 그저 평범한 하루였다.
+organ|(신체) 기관, 장기; 오르간|The heart is one of the most important organs.|심장은 가장 중요한 장기 중 하나다.
+organic|유기농의; 유기체의|We buy organic vegetables at the farmers' market.|우리는 농산물 시장에서 유기농 채소를 산다.
+organism|유기체, 생물|Tiny organisms live in every drop of pond water.|연못물 한 방울마다 작은 생물들이 산다.
+organization|조직, 단체; 구성|She works for an organization that helps animals.|그녀는 동물을 돕는 단체에서 일한다.
+origin|기원, 출신|What is the origin of this word?|이 단어의 기원은 무엇인가요?
+otherwise|그렇지 않으면; 그 외에는|Hurry up, otherwise we'll miss the train.|서둘러, 안 그러면 기차 놓쳐.
+ought to|~해야 한다|You ought to call your mother more often.|엄마한테 좀 더 자주 전화해야지.
+out-of-date|구식의, 시대에 뒤떨어진; 기한이 지난|This map is out-of-date, so some roads are missing.|이 지도는 오래돼서 없는 도로가 몇 개 있다.
+outdoor|야외의|The hotel has a large outdoor swimming pool.|그 호텔에는 큰 야외 수영장이 있다.
+outdoors|야외에서, 밖에서|The kids played outdoors until it got dark.|아이들은 어두워질 때까지 밖에서 놀았다.
+outer|바깥쪽의, 외부의|Remove the outer leaves of the cabbage first.|먼저 양배추 겉잎을 떼어 내라.
+outlaw|무법자, 범법자|The movie is about an outlaw who becomes a hero.|그 영화는 영웅이 되는 무법자에 관한 이야기다.
+outline|(명) 개요, 윤곽; (동) 개요를 말하다|Write a short outline before you start your essay.|에세이를 쓰기 전에 짧은 개요를 작성해라.
+outstanding|뛰어난, 두드러진; 미해결의|She received an award for outstanding work.|그녀는 뛰어난 업적으로 상을 받았다.
+outward|외부로 향하는, 겉보기의|Our outward flight leaves early in the morning.|가는 비행기는 아침 일찍 출발한다.
+outweigh|~보다 더 크다, 능가하다|The benefits of exercise outweigh the effort.|운동의 이점은 들이는 노력보다 크다.
+overcome|극복하다, 이겨 내다|She overcame her fear of flying.|그녀는 비행 공포증을 극복했다.
+overjoyed|매우 기쁜|We were overjoyed to hear the good news.|좋은 소식을 듣고 우리는 무척 기뻤다.
+overnight|(형) 하룻밤의; (부) 밤사이에, 하룻밤 동안|We stayed overnight at a small inn.|우리는 작은 여관에서 하룻밤 묵었다.
+overwhelm|압도하다, 당황하게 하다|The amount of homework overwhelmed me this week.|이번 주에는 숙제 양에 완전히 압도당했다.
+overwhelming|압도적인, 엄청난|The response to our bake sale was overwhelming.|우리 빵 바자회에 대한 반응은 엄청났다.
+overwork|과로|Overwork made him sick last winter.|그는 지난겨울 과로로 병이 났다.
+owe|빚지다, 신세 지다|I owe you ten dollars for the movie ticket.|영화표 값으로 너한테 10달러 빚졌어.
+owing|(~ 때문에) 지불해야 할; owing to ~ 때문에|The game was cancelled owing to heavy rain.|폭우 때문에 경기가 취소되었다.
+oxygen|산소|Plants produce oxygen during the day.|식물은 낮 동안 산소를 만든다.
+pace|(명) 속도, 걸음; (동) 서성거리다|He walked at a slow pace to enjoy the view.|그는 경치를 즐기려고 천천히 걸었다.
+package|소포, 꾸러미; 패키지|A package arrived for you this afternoon.|오늘 오후에 너한테 소포가 왔어.
+packing|짐 싸기; 포장|I always leave my packing until the last minute.|나는 항상 짐 싸기를 마지막 순간까지 미룬다.
+paddle|(명) 노; (동) 노를 젓다, 물장구치다|We paddled the canoe across the calm lake.|우리는 잔잔한 호수를 가로질러 카누를 저었다.
+paid|유급의, 보수를 받는|She gets twenty days of paid holiday a year.|그녀는 1년에 20일의 유급 휴가를 받는다.
+pain|고통, 통증|I have a sharp pain in my back.|등에 찌르는 듯한 통증이 있다.
+painful|고통스러운, 아픈|My sunburn is still painful.|햇볕에 탄 곳이 아직도 아프다.
+pale|창백한; (색이) 연한|You look pale. Are you feeling okay?|얼굴이 창백해 보여. 괜찮아?
+palm|손바닥; 야자수|The fortune teller looked at the lines on my palm.|점쟁이가 내 손금을 봤다.
+parachute|낙하산|The parachute opened just above the field.|들판 바로 위에서 낙하산이 펼쳐졌다.
+paradise|낙원, 천국|This quiet beach is a paradise for surfers.|이 조용한 해변은 서퍼들에게 낙원이다.
+paralyze|마비시키다|The heavy snow paralyzed traffic in the city.|폭설로 도시의 교통이 마비되었다.
+parcel|소포, 꾸러미|I sent a parcel to my brother in Australia.|호주에 있는 형에게 소포를 보냈다.
+parental|부모의|The game needs parental permission for young players.|그 게임은 어린 이용자의 경우 부모 동의가 필요하다.
+parking|주차; 주차 공간|Parking is free at the shopping mall on weekends.|그 쇼핑몰은 주말에 주차가 무료다.
+parrot|앵무새|Our parrot can say "hello" and "goodbye".|우리 앵무새는 "안녕"과 "잘 가"를 말할 수 있다.
+part-time|(형) 시간제의, 파트타임의; (부) 시간제로|I have a part-time job at a café.|나는 카페에서 아르바이트를 한다.
+partial|부분적인; 편파적인|The project was only a partial success.|그 프로젝트는 부분적인 성공에 그쳤다.
+participant|참가자|Each participant will receive a free T-shirt.|참가자 모두에게 무료 티셔츠가 제공된다.
+participate|참가하다, 참여하다|All students should participate in the class discussion.|모든 학생은 수업 토론에 참여해야 한다.
+participle|(문법) 분사|"Broken" is the past participle of "break".|"broken"은 "break"의 과거분사다.
+particularly|특히, 특별히|I particularly enjoyed the chocolate dessert.|나는 특히 초콜릿 디저트가 맛있었다.
+passion|열정, 열망|He has a real passion for cooking.|그는 요리에 대한 열정이 대단하다.
+passive|수동적인, 소극적인; (문법) 수동태의|Don't be passive in meetings; share your ideas.|회의에서 소극적으로 있지 말고 생각을 말해.
+passport|여권|Make sure your passport is valid before you travel.|여행 전에 여권이 유효한지 꼭 확인해라.
+password|비밀번호, 암호|I forgot my password again.|비밀번호를 또 잊어버렸다.
+patience|인내, 참을성|Teaching small children takes a lot of patience.|어린아이들을 가르치려면 인내심이 많이 필요하다.
+patrol|순찰, 순찰대|A security guard does a patrol of the building every hour.|경비원이 매시간 건물을 순찰한다.
+pattern|무늬; 패턴, 양식|I love the flower pattern on your dress.|네 원피스의 꽃무늬가 정말 예쁘다.
+pause|(명) 멈춤; (동) 잠시 멈추다|She paused for a moment before answering.|그녀는 대답하기 전에 잠시 멈췄다.
+peanut|땅콩|My friend is allergic to peanuts.|내 친구는 땅콩 알레르기가 있다.
+peculiar|이상한, 독특한; 특유의|There's a peculiar smell coming from the fridge.|냉장고에서 이상한 냄새가 난다.
+penniless|무일푼의, 몹시 가난한|He arrived in the city penniless but full of hope.|그는 무일푼으로 그 도시에 왔지만 희망에 차 있었다.
+penny|페니(영국 화폐 단위), 1센트|I found a penny on the pavement.|인도에서 1페니짜리 동전을 주웠다.
+per|~당, ~마다|The tickets cost ten pounds per person.|표는 1인당 10파운드다.
+percent|퍼센트|About seventy percent of the Earth is covered by water.|지구의 약 70퍼센트가 물로 덮여 있다.
+performer|공연자, 연주자|The street performer juggled five balls at once.|길거리 공연자가 공 다섯 개로 동시에 저글링을 했다.
+permanent|영구적인, 정규의|She finally got a permanent job at the hospital.|그녀는 마침내 병원에 정규직으로 취직했다.
+permanently|영구적으로, 영원히|The shop on the corner has closed permanently.|모퉁이 가게는 영업을 완전히 종료했다.
+permit|허락하다, 허용하다|Photography is not permitted inside the museum.|박물관 안에서는 사진 촬영이 허용되지 않는다.
+personally|개인적으로, 직접|Personally, I prefer tea to coffee.|개인적으로 나는 커피보다 차가 더 좋다.
+persuade|설득하다|I persuaded my brother to come to the concert.|나는 동생을 설득해서 콘서트에 같이 가게 했다.
+persuasive|설득력 있는|She gave a very persuasive talk about recycling.|그녀는 재활용에 대해 아주 설득력 있는 강연을 했다.
+phantom|(형) 환영의, 유령 같은; (명) 유령, 환영|The old sailors told stories about a phantom ship.|늙은 선원들은 유령선 이야기를 들려주었다.
+pharmacy|약국|The pharmacy closes at nine on weekdays.|그 약국은 평일 9시에 문을 닫는다.
+phenomenon|현상|The northern lights are an amazing natural phenomenon.|오로라는 놀라운 자연 현상이다.
+philosopher|철학자|The ancient philosopher asked many questions about happiness.|그 고대 철학자는 행복에 관해 많은 질문을 던졌다.
+philosophy|철학; 인생관|My philosophy is to enjoy every small moment.|내 인생관은 모든 작은 순간을 즐기는 것이다.
+phoenix|불사조|In the legend, the phoenix rises from its own ashes.|전설에서 불사조는 자신의 재 속에서 다시 살아난다.
+photocopy|복사(본)|Please make a photocopy of your passport.|여권 사본을 한 부 만들어 주세요.
+phrasal verb|구동사|"Give up" is a common phrasal verb.|"give up"은 흔히 쓰이는 구동사다.
+phrase|구, 어구, 표현|Learn a few useful phrases before your trip.|여행 전에 유용한 표현 몇 개를 익혀 둬라.
+physics|물리학|We did an experiment with magnets in physics class.|물리 시간에 자석으로 실험을 했다.
+pie|파이|My mother baked an apple pie for dessert.|엄마가 후식으로 사과 파이를 구우셨다.
+piety|경건함, 신앙심|The old temple reflects the piety of the villagers.|그 오래된 사원에는 마을 사람들의 경건한 신앙심이 담겨 있다.
+pillow|베개|I can't sleep well without my own pillow.|나는 내 베개가 없으면 잠을 잘 못 잔다.
+pin|(명) 핀, 압정; (동) 핀으로 꽂다|She pinned the photo to the wall.|그녀는 사진을 벽에 핀으로 꽂았다.
+pineapple|파인애플|We had fresh pineapple on the beach in Thailand.|우리는 태국 해변에서 신선한 파인애플을 먹었다.
+pipe|관, 파이프|A water pipe burst in the kitchen last night.|어젯밤 부엌 수도관이 터졌다.
+pit|구덩이; (과일의) 씨|Be careful not to eat the cherry pit.|체리 씨를 먹지 않게 조심해.
+plain|평범한, 무늬 없는; 분명한|I prefer plain white T-shirts.|나는 무늬 없는 흰 티셔츠를 더 좋아한다.
+platform|승강장, 플랫폼; 단|The train to Busan leaves from platform three.|부산행 기차는 3번 승강장에서 출발한다.
+pleasantly|기분 좋게, 상냥하게|I was pleasantly surprised by the cheap prices.|가격이 싸서 기분 좋게 놀랐다.
+plug|(명) 플러그, 마개; (동) 막다, 꽂다|Plug in the charger before you go to sleep.|자기 전에 충전기를 꽂아 둬.
+pocket money|용돈|I save half of my pocket money every week.|나는 매주 용돈의 절반을 저축한다.
+poet|시인|The poet read her new poems at the bookstore.|그 시인은 서점에서 신작 시를 낭독했다.
+poetry|시, 시가|I started writing poetry in high school.|나는 고등학교 때 시를 쓰기 시작했다.
+poison|(명) 독, 독약; (동) 독을 넣다, 오염시키다|Some mushrooms contain a deadly poison.|어떤 버섯에는 치명적인 독이 들어 있다.
+poisonous|독이 있는, 유독한|Keep poisonous cleaning products away from children.|유독한 세제는 아이들 손에 닿지 않게 둬라.
+pole|막대기, 기둥; (지구의) 극|They tied the tent to a wooden pole.|그들은 텐트를 나무 기둥에 묶었다.
+policy|정책, 방침|The store has a no-refund policy on sale items.|그 가게는 세일 상품은 환불이 안 되는 방침이다.
+politely|공손하게, 예의 바르게|She politely asked the man to move his bag.|그녀는 그 남자에게 가방을 치워 달라고 공손하게 부탁했다.
+politician|정치인|The local politician visited the new hospital.|지역 정치인이 새 병원을 방문했다.
+politics|정치; 정치학|My cousin studies politics at university.|내 사촌은 대학에서 정치학을 공부한다.
+pollutant|오염 물질|Cars release pollutants into the air.|자동차는 대기 중으로 오염 물질을 내보낸다.
+pond|연못|There are goldfish in the pond behind our house.|우리 집 뒤 연못에는 금붕어가 있다.
+popcorn|팝콘|Let's get some popcorn before the movie starts.|영화 시작하기 전에 팝콘 사자.
+pork|돼지고기|We grilled pork and vegetables for dinner.|우리는 저녁으로 돼지고기와 채소를 구웠다.
+port|항구, 항구 도시|The ship stopped at a small port for fuel.|배는 연료를 채우려고 작은 항구에 들렀다.
+positive|긍정적인; 확신하는; 양성의|Try to stay positive, even on bad days.|힘든 날에도 긍정적인 태도를 유지하려고 해 봐.
+positively|긍정적으로; 확실히, 정말로|The customers reacted positively to the new menu.|손님들은 새 메뉴에 긍정적으로 반응했다.
+possess|소유하다, 지니다|She possesses a great talent for music.|그녀는 뛰어난 음악적 재능을 지니고 있다.
+possession|소유; 소유물, 재산|Please keep all your possessions with you on the bus.|버스에서는 소지품을 모두 몸에 지니세요.
+possessive|소유욕이 강한; (문법) 소유격의|My little brother is very possessive about his toys.|남동생은 자기 장난감에 대한 소유욕이 아주 강하다.
+possibility|가능성|Is there any possibility of rain this afternoon?|오늘 오후에 비 올 가능성이 있나요?
+postcard|엽서|I sent my grandparents a postcard from Paris.|파리에서 조부모님께 엽서를 보냈다.
+postman|우편집배원|The postman comes to our street at about noon.|우체부는 정오쯤 우리 동네에 온다.
+pot|냄비, 솥; 화분|Boil the pasta in a large pot of water.|큰 냄비에 물을 담아 파스타를 삶아라.
+potential|(형) 잠재적인; (명) 잠재력|The coach saw great potential in the young player.|코치는 그 어린 선수에게서 큰 잠재력을 보았다.
+pottery|도자기; 도예|I'm taking a pottery class on Saturday mornings.|나는 토요일 아침마다 도예 수업을 듣는다.
+pound|(명) 파운드; (동) 세게 두드리다|My heart was pounding before the speech.|발표 전에 심장이 쿵쾅거렸다.
+poverty|가난, 빈곤|The charity helps families living in poverty.|그 자선 단체는 가난하게 사는 가정들을 돕는다.
+powder|(명) 가루, 분말; (동) 가루를 뿌리다|Mix the cocoa powder with hot milk.|코코아 가루를 뜨거운 우유에 섞어라.
+practical|실용적인, 현실적인|These shoes are not pretty, but they are practical.|이 신발은 예쁘지는 않지만 실용적이다.
+praise|(명) 칭찬; (동) 칭찬하다|The teacher praised her for her clear handwriting.|선생님은 그녀의 깔끔한 글씨를 칭찬하셨다.
+prayer|기도|She said a quiet prayer before the meal.|그녀는 식사 전에 조용히 기도했다.
+precious|귀중한, 소중한|Time with my family is precious to me.|가족과 보내는 시간은 내게 소중하다.
+preference|선호, 더 좋아함|Do you have a preference for window or aisle seats?|창가 자리와 통로 자리 중 선호하는 쪽이 있나요?
+prefix|접두사|The prefix "un" means "not".|접두사 "un"은 "~아닌"이라는 뜻이다.
+pregnant|임신한|My sister is pregnant with her second child.|언니는 둘째를 임신했다.
+prejudice|편견|We should judge people by their actions, not by prejudice.|사람은 편견이 아니라 행동으로 판단해야 한다.
+preparation|준비, 대비|The preparation for the school festival took weeks.|학교 축제 준비에 몇 주가 걸렸다.
+prepared|준비된, 각오가 된|Are you prepared for tomorrow's presentation?|내일 발표 준비 됐어?
+preposition|전치사|"In", "on" and "at" are prepositions of place.|"in", "on", "at"은 장소를 나타내는 전치사다.
+preschool|취학 전의, 유치원의|Preschool children learn through play.|취학 전 아이들은 놀이를 통해 배운다.
+prescription|처방전, 처방약|The doctor gave me a prescription for the cough.|의사가 기침 때문에 처방전을 써 주었다.
+presence|존재, 있음; 참석|Thank you for your presence at our wedding.|저희 결혼식에 와 주셔서 감사합니다.
+presentation|발표, 프레젠테이션; 제시|I'm nervous about my presentation on Friday.|금요일 발표 때문에 긴장된다.
+preservation|보존, 보호|The group works for the preservation of old buildings.|그 단체는 오래된 건물 보존을 위해 일한다.
+preserve|보존하다, 지키다|Salt was used to preserve fish in the past.|옛날에는 생선을 보존하는 데 소금을 썼다.
+president|대통령; 회장, 사장|She was elected president of the student club.|그녀는 학생 동아리 회장으로 뽑혔다.
+press|(명) 언론, 인쇄; (동) 누르다|Press the green button to start the machine.|기계를 켜려면 초록 버튼을 누르세요.
+previous|이전의, 앞의|I met him at my previous job.|나는 그를 이전 직장에서 만났다.
+priest|신부, 사제|The priest welcomed everyone at the church door.|신부님이 성당 문 앞에서 모두를 반겼다.
+primarily|주로, 첫째로|This app is primarily for language learners.|이 앱은 주로 언어 학습자를 위한 것이다.
+primary school|초등학교|My son started primary school this year.|우리 아들은 올해 초등학교에 입학했다.
+primitive|원시적인, 초기의|They found primitive tools inside the cave.|그들은 동굴 안에서 원시적인 도구를 발견했다.
+principle|원칙, 원리|It's against my principles to cheat in a game.|게임에서 속임수를 쓰는 건 내 원칙에 어긋난다.
+prison|교도소, 감옥|The old prison on the island is now a tourist spot.|그 섬의 옛 교도소는 이제 관광지다.
+prisoner|죄수, 포로|In the story, the prisoner escapes through a tunnel.|이야기 속에서 죄수는 터널을 통해 탈출한다.
+privacy|사생활, 프라이버시|Please respect my privacy and knock before entering.|내 사생활을 존중해서 들어오기 전에 노크해 줘.
+prize|상, 상품|She won first prize in the drawing contest.|그녀는 그림 대회에서 1등 상을 받았다.
+probability|확률, 가능성|The probability of rain tomorrow is eighty percent.|내일 비 올 확률은 80퍼센트다.
+proceed|진행하다, 계속하다; 나아가다|Please proceed to gate twelve for boarding.|탑승을 위해 12번 게이트로 이동해 주십시오.
+process|(명) 과정, 절차; (동) 처리하다|Learning a language is a slow process.|언어를 배우는 것은 느린 과정이다.
+proclaim|선언하다, 공표하다|The sign proudly proclaimed "Best Pizza in Town".|간판에는 "동네 최고의 피자"라고 자랑스럽게 적혀 있었다.
+procrastination|미루는 버릇, 늑장|Procrastination is my biggest problem during exams.|미루는 버릇이 시험 기간 내 가장 큰 문제다.

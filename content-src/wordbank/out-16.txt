@@ -98,3 +98,253 @@ permeate|스며들다, 퍼지다|The smell of fresh bread permeated the whole ho
 perseverance|인내, 끈기|Learning a language takes time and perseverance.|언어를 배우는 데는 시간과 끈기가 필요하다.
 persist|집요하게 계속하다; 지속되다|If your cough persists, you should see a doctor.|기침이 계속되면 병원에 가 봐야 한다.
 persistence|끈기, 고집; 지속|Her persistence finally paid off when she got the job.|그녀가 그 일자리를 얻으면서 끈기가 마침내 결실을 맺었다.
+persistent|끈질긴, 집요한; 계속되는|The persistent rain kept us indoors all weekend.|계속 내리는 비 때문에 우리는 주말 내내 집 안에 있었다.
+personification|의인화; 화신, 전형|My grandmother is the personification of kindness.|우리 할머니는 친절 그 자체이시다.
+personify|의인화하다; 구현하다, 전형이 되다|In this poem, the poet personifies the moon as a lonely friend.|이 시에서 시인은 달을 외로운 친구로 의인화한다.
+personnel|(조직의) 인원, 직원; 인사과|Only authorized personnel may enter this room.|허가받은 직원만 이 방에 들어갈 수 있다.
+perspective|관점, 시각; 원근법|Living abroad gave me a new perspective on life.|해외 생활은 내게 삶에 대한 새로운 시각을 주었다.
+perspiration|땀, 발한|After the long hike, his shirt was wet with perspiration.|긴 등산 후 그의 셔츠는 땀으로 젖어 있었다.
+persuasion|설득; 신념|After some persuasion, my dad agreed to get a puppy.|약간의 설득 끝에 아빠는 강아지를 키우는 데 동의하셨다.
+pessimist|비관주의자|A pessimist always expects the worst to happen.|비관주의자는 늘 최악의 일이 일어날 거라고 예상한다.
+pessimistic|비관적인|Don't be so pessimistic; you might pass the test.|너무 비관적으로 생각하지 마. 시험에 붙을 수도 있잖아.
+petrified|겁에 질린, 몸이 굳은; 석화된|My sister is petrified of spiders.|내 여동생은 거미를 무척 무서워한다.
+petty|사소한, 하찮은; 옹졸한|Let's not argue over such a petty problem.|그런 사소한 문제로 다투지 말자.
+pH|페하, 수소 이온 농도 지수|We tested the pH of the pool water in science class.|우리는 과학 시간에 수영장 물의 pH를 측정했다.
+pharmacist|약사|Ask the pharmacist how often you should take this medicine.|이 약을 얼마나 자주 먹어야 하는지 약사에게 물어보세요.
+phase|단계, 시기; (달의) 위상|The project is now in its final phase.|그 프로젝트는 이제 마지막 단계에 있다.
+philosophical|철학의, 철학적인; 달관한|We had a long philosophical talk about happiness.|우리는 행복에 대해 오랫동안 철학적인 대화를 나눴다.
+physician|의사, 내과 의사|Our family physician has known me since I was a baby.|우리 가정의는 내가 아기였을 때부터 나를 알고 계신다.
+pi|파이, 원주율|In math class, we used pi to find the area of a circle.|수학 시간에 우리는 원주율을 이용해 원의 넓이를 구했다.
+pickle|피클, 절임 (식품)|He always adds a pickle to his sandwich.|그는 샌드위치에 항상 피클을 넣는다.
+picky|까다로운, 별스러운|My little brother is a very picky eater.|내 남동생은 음식을 아주 가린다.
+picturesque|그림 같은, 경치가 아름다운|We stayed in a picturesque village by the lake.|우리는 호숫가의 그림 같은 마을에 머물렀다.
+pillowcase|베갯잇|I changed the pillowcases and washed the sheets today.|나는 오늘 베갯잇을 갈고 침대 시트를 빨았다.
+pine|소나무|The air in the forest smelled of pine.|숲속 공기에서 솔 향기가 났다.
+pint|파인트 (약 0.47~0.57리터의 단위)|She bought a pint of milk at the corner shop.|그녀는 동네 가게에서 우유 1파인트를 샀다.
+piracy|해적 행위; 불법 복제|Downloading movies illegally is a form of piracy.|영화를 불법으로 내려받는 것은 일종의 불법 복제다.
+pirate|해적|The kids dressed up as pirates for the costume party.|아이들은 분장 파티를 위해 해적 옷을 입었다.
+pitch|(명) 경기장; 음높이; 투구; (동) 던지다; (텐트를) 치다|We pitched our tent near the river before dark.|우리는 어두워지기 전에 강 근처에 텐트를 쳤다.
+plague|(명) 전염병; 골칫거리; (동) 괴롭히다|The old house was plagued by mice every winter.|그 오래된 집은 겨울마다 쥐 때문에 골치를 앓았다.
+planning|계획, 기획|Good planning made our holiday stress-free.|계획을 잘 세운 덕분에 휴가가 스트레스 없이 지나갔다.
+playmate|놀이 친구|My daughter met a new playmate at the park.|내 딸은 공원에서 새 놀이 친구를 만났다.
+playwright|극작가|The playwright watched the first show from the back row.|극작가는 뒷줄에서 첫 공연을 지켜보았다.
+plead|간청하다, 애원하다; (법정에서) 답변하다|The kids pleaded with their mom for five more minutes of play.|아이들은 5분만 더 놀게 해 달라고 엄마에게 졸랐다.
+plot|줄거리, 구성; 음모; 작은 땅|The plot of the movie was hard to follow.|그 영화의 줄거리는 따라가기 어려웠다.
+pluck|(동) 뽑다, 따다; (현을) 뜯다; (명) 용기, 담력|She plucked a ripe apple from the tree.|그녀는 나무에서 잘 익은 사과를 하나 땄다.
+plum|(명) 자두; (형) 아주 좋은, 탐나는|These plums are perfect for making jam.|이 자두들은 잼을 만들기에 딱 좋다.
+plumber|배관공|We called a plumber to fix the leaking pipe.|우리는 새는 파이프를 고치려고 배관공을 불렀다.
+pneumonia|폐렴|My grandfather was in the hospital with pneumonia last winter.|우리 할아버지는 지난겨울 폐렴으로 입원하셨다.
+point of view|관점, 견해|Try to see the problem from her point of view.|그녀의 관점에서 문제를 보려고 해 봐.
+pointless|무의미한, 쓸데없는|It's pointless to argue with him when he's tired.|그가 피곤할 때 말다툼하는 건 소용없다.
+polar bear|북극곰|A polar bear has thick fur to keep it warm.|북극곰은 몸을 따뜻하게 유지해 주는 두꺼운 털이 있다.
+polio|소아마비|Thanks to vaccines, polio is now very rare.|백신 덕분에 소아마비는 이제 매우 드물다.
+polish|광택제; 윤내기; 세련됨|He used shoe polish to make his boots shine.|그는 구두약으로 부츠에 광을 냈다.
+politeness|공손함, 예의 바름|She thanked the waiter with great politeness.|그녀는 아주 공손하게 웨이터에게 감사 인사를 했다.
+politically|정치적으로|Some jokes are not politically correct.|어떤 농담은 정치적으로 올바르지 않다.
+polity|정치 체제, 정치 조직체; 국가|Our history class studied how an ancient Greek polity was organized.|우리 역사 수업에서는 고대 그리스의 정치 체제가 어떻게 구성되었는지 공부했다.
+polo|폴로 (말을 타고 하는 공 경기)|We watched a polo match on our trip to Argentina.|우리는 아르헨티나 여행 중에 폴로 경기를 관람했다.
+ponder|곰곰이 생각하다, 숙고하다|She sat by the window, pondering her next move.|그녀는 창가에 앉아 다음 행동을 곰곰이 생각했다.
+popularity|인기, 대중성|The café's popularity grew quickly after it opened.|그 카페는 문을 연 뒤 인기가 빠르게 높아졌다.
+popularize|대중화하다, 널리 알리다|Cooking shows helped popularize Korean food abroad.|요리 프로그램은 한국 음식을 해외에 널리 알리는 데 도움이 되었다.
+porch|현관, 베란다|We sat on the porch and watched the sunset.|우리는 현관 앞에 앉아 해 지는 것을 바라보았다.
+portion|부분, 일부; (음식의) 1인분|The portions at that restaurant are huge.|그 식당은 음식 양이 엄청 많다.
+pose|(명) 자세, 포즈; (동) 자세를 취하다; (문제 등을) 제기하다|Everyone posed for a group photo in front of the castle.|모두가 성 앞에서 단체 사진을 위해 포즈를 취했다.
+posh|고급의, 호화로운; 상류층의|They had dinner at a posh hotel downtown.|그들은 시내의 고급 호텔에서 저녁을 먹었다.
+possessed|(귀신 등에) 홀린, 사로잡힌|He worked like a man possessed to finish on time.|그는 제시간에 끝내려고 무언가에 홀린 사람처럼 일했다.
+postal|우편의|Please write your postal code on the form.|양식에 우편번호를 적어 주세요.
+postpone|연기하다, 미루다|We postponed the picnic until next Saturday.|우리는 소풍을 다음 주 토요일로 미뤘다.
+potent|강력한, 효능이 강한|This medicine is very potent, so take only one pill.|이 약은 효과가 아주 강하니 한 알만 드세요.
+potentially|잠재적으로, 어쩌면|Leaving the stove on is potentially dangerous.|가스레인지를 켜 두는 것은 위험할 수 있다.
+powerfully|강력하게, 힘차게|The speaker spoke powerfully about the value of education.|연사는 교육의 가치에 대해 힘 있게 연설했다.
+practicality|실용성, 현실성|I chose these shoes for their practicality, not their style.|나는 스타일이 아니라 실용성 때문에 이 신발을 골랐다.
+practically|거의, 사실상; 실제로|The bakery was practically empty by noon.|그 빵집은 정오쯤 거의 텅 비어 있었다.
+prance|껑충거리며 걷기; 뽐내며 걷기|The pony moved across the field with a happy prance.|조랑말이 신나게 껑충거리며 들판을 가로질렀다.
+prawn|(큰) 새우|We ordered grilled prawns with garlic butter.|우리는 마늘 버터를 곁들인 새우구이를 주문했다.
+precede|~에 앞서다, 선행하다|A short speech preceded the dinner.|저녁 식사에 앞서 짧은 연설이 있었다.
+precisely|정확히, 바로; 정밀하게|The train left at precisely nine o'clock.|기차는 정확히 9시에 출발했다.
+predicament|곤경, 궁지|I was in a predicament when I lost my wallet abroad.|해외에서 지갑을 잃어버렸을 때 나는 곤경에 처했다.
+predicate|단정하다; (~에) 근거를 두다|The plan is predicated on good weather.|그 계획은 날씨가 좋다는 것을 전제로 한다.
+predicative|(문법) 서술적인, 서술 용법의|In "the sky is blue," blue is a predicative adjective.|"the sky is blue"에서 blue는 서술 형용사이다.
+predictable|예측할 수 있는, 뻔한|The ending of the film was too predictable.|그 영화의 결말은 너무 뻔했다.
+predictive|예측의, 예언하는|My phone has predictive text that guesses the next word.|내 휴대폰에는 다음 단어를 추측해 주는 자동 완성 기능이 있다.
+predictor|예측 변수, 예측 지표|Good sleep is a strong predictor of good grades.|충분한 수면은 좋은 성적을 예측하는 강력한 지표다.
+prefect|(영국 학교의) 반장, 감독생|The school prefect helped younger students find their classrooms.|학생 감독생이 저학년 학생들이 교실을 찾도록 도와주었다.
+preferable|더 나은, 바람직한|A quiet room is preferable for studying.|공부하기에는 조용한 방이 더 낫다.
+preferably|가급적, 되도록이면|Please reply by Friday, preferably by email.|금요일까지, 가급적 이메일로 답장해 주세요.
+prehistoric|선사 시대의|The museum has a large collection of prehistoric tools.|그 박물관에는 선사 시대 도구가 많이 소장되어 있다.
+prehuman|원인(原人), 인류 이전의 존재|Scientists found the bones of a prehuman in the cave.|과학자들이 동굴에서 원인의 뼈를 발견했다.
+preindustrial|산업화 이전의|In preindustrial times, most people worked on farms.|산업화 이전 시대에는 대부분의 사람이 농장에서 일했다.
+prejudge|미리 판단하다, 속단하다|Don't prejudge the new teacher before her first class.|첫 수업 전에 새 선생님을 미리 판단하지 마.
+preliminary|예비의, 준비의|The preliminary results of the survey look promising.|설문 조사의 예비 결과가 유망해 보인다.
+preoccupy|(생각을) 사로잡다, 몰두하게 하다|Worries about the move preoccupied her all week.|이사에 대한 걱정이 일주일 내내 그녀의 머릿속을 차지했다.
+prescribe|(약을) 처방하다; 규정하다|The doctor prescribed some cream for my rash.|의사는 내 발진에 바를 연고를 처방했다.
+presenter|(방송) 진행자, 발표자|The TV presenter smiled and introduced the next guest.|TV 진행자가 웃으며 다음 게스트를 소개했다.
+presidency|대통령직, 회장직; 임기|She was elected to the presidency of the student council.|그녀는 학생회장으로 선출되었다.
+presidential|대통령의, 회장의|The hotel's presidential suite has an amazing view.|그 호텔의 프레지덴셜 스위트룸은 전망이 끝내준다.
+prestige|위신, 명성|Working at that company brings a lot of prestige.|그 회사에서 일하면 큰 명성이 따른다.
+prestigious|명망 있는, 일류의|He was accepted to a prestigious art school.|그는 명문 미술 학교에 합격했다.
+presumably|아마, 짐작건대|The store is closed, presumably for the holiday.|가게가 문을 닫았는데, 아마 휴일이라 그런가 보다.
+prevail|우세하다, 이기다; 만연하다|In the end, common sense prevailed.|결국 상식이 이겼다.
+prevention|예방, 방지|Prevention is better than cure.|예방이 치료보다 낫다.
+preventive|예방의, 예방적인|Regular checkups are a form of preventive care.|정기 검진은 예방 의료의 한 형태다.
+previously|이전에, 미리|I had previously visited Paris twice.|나는 이전에 파리에 두 번 가 본 적이 있었다.
+priceless|값을 매길 수 없는, 매우 귀중한|These old family photos are priceless to me.|이 오래된 가족사진들은 내게 무엇과도 바꿀 수 없이 소중하다.
+prick|찔림, 따끔함; 찔린 자국|I felt a sharp prick when the nurse gave me a shot.|간호사가 주사를 놓을 때 따끔한 느낌이 들었다.
+primary|주요한, 제1의; 초등의|Our primary goal is to keep customers happy.|우리의 주된 목표는 고객을 만족시키는 것이다.
+prime|주요한, 최고의, 가장 좋은|This café is in a prime location near the station.|이 카페는 역 근처의 최고 입지에 있다.
+prime minister|수상, 총리|The prime minister visited a local school this morning.|총리가 오늘 아침 한 지역 학교를 방문했다.
+prior|이전의, 사전의; 우선하는|No prior experience is needed for this job.|이 일에는 사전 경험이 필요 없다.
+priority|우선 사항, 우선순위|My family is my top priority.|우리 가족이 내게 최우선이다.
+privately|개인적으로, 은밀히; 사적으로|Can we talk privately for a minute?|잠깐 둘이서 따로 이야기할 수 있을까?
+privilege|특권, 특혜; 영광|It was a privilege to meet such a talented artist.|그렇게 재능 있는 예술가를 만난 것은 영광이었다.
+probable|있을 법한, 개연성 있는|Rain is probable later this afternoon.|오늘 오후 늦게 비가 올 가능성이 높다.
+probe|(철저한) 조사; 탐사선; 탐침|The space probe sent back photos of a distant planet.|우주 탐사선이 먼 행성의 사진을 보내왔다.
+procedure|절차, 순서; 수술|What is the procedure for renewing a passport?|여권 갱신 절차는 어떻게 되나요?
+profile|프로필, 개요; 옆얼굴, 윤곽|I updated my profile picture on the website.|나는 웹사이트에서 프로필 사진을 바꿨다.
+profit|이익, 이윤|The bakery made a small profit in its first year.|그 빵집은 첫해에 약간의 이익을 냈다.
+profitable|수익성 있는, 이익이 되는|Selling handmade candles turned out to be quite profitable.|수제 양초 판매는 꽤 수익성이 있는 것으로 드러났다.
+programmer|프로그래머|My cousin works as a programmer for a game company.|내 사촌은 게임 회사에서 프로그래머로 일한다.
+programming|프로그래밍; (방송) 프로그램 편성|She learned programming in her free time.|그녀는 여가 시간에 프로그래밍을 배웠다.
+prohibit|금지하다|Smoking is prohibited inside the building.|건물 안에서는 흡연이 금지되어 있다.
+project|(명) 프로젝트, 계획; (동) 예상하다; 투사하다|The teacher projected the photos onto the wall.|선생님이 사진들을 벽에 비추었다.
+projection|예상, 추정; 투사, 영사|Sales projections for next year are very high.|내년 매출 예상치가 매우 높다.
+prom|(고교) 졸업 무도회|She bought a blue dress for the prom.|그녀는 졸업 무도회에 입을 파란 드레스를 샀다.
+prominence|명성, 두드러짐; 돌출부|The young chef rose to prominence after winning a cooking show.|그 젊은 요리사는 요리 경연 프로그램에서 우승한 뒤 이름을 알렸다.
+prompt|(형) 즉각적인; (명) 신호, 자극; (동) 촉발하다|Thank you for your prompt reply to my email.|제 이메일에 신속하게 답해 주셔서 감사합니다.
+promptly|즉시, 지체 없이; 정각에|The meeting started promptly at ten.|회의는 10시 정각에 시작했다.
+proponent|지지자, 옹호자|She is a strong proponent of walking to school.|그녀는 걸어서 등교하기를 적극 지지한다.
+proposed|제안된, 계획된|The proposed bridge would cut travel time in half.|제안된 다리가 생기면 이동 시간이 절반으로 줄어들 것이다.
+prose|산문|He writes poetry as well as prose.|그는 산문뿐 아니라 시도 쓴다.
+prosecute|기소하다; (일을) 수행하다|Shoplifters will be prosecuted.|상점 물건을 훔치는 사람은 기소됩니다.
+prospect|가능성, 전망; 기대|The prospect of a long holiday made everyone smile.|긴 휴가를 기대하며 모두가 미소 지었다.
+prosper|번영하다, 번창하다|The small town prospered after the new factory opened.|새 공장이 문을 연 뒤 그 작은 마을은 번창했다.
+proudly|자랑스럽게, 당당하게|She proudly showed us her science prize.|그녀는 자랑스럽게 과학상을 우리에게 보여 주었다.
+proven|입증된, 증명된|This is a proven way to improve your memory.|이것은 기억력을 높이는 검증된 방법이다.
+province|(행정 구역) 주, 도; 지방|Jeju is a beautiful island province of Korea.|제주는 한국의 아름다운 섬 지역이다.
+provision|공급, 제공; 대비; (pl.) 식량|The school makes provision for students with special needs.|그 학교는 특별한 도움이 필요한 학생들을 위한 지원을 마련한다.
+proximity|가까움, 근접|The apartment's proximity to the subway is a big plus.|그 아파트는 지하철과 가깝다는 것이 큰 장점이다.
+psychologically|심리적으로|Moving to a new country can be psychologically difficult.|새 나라로 이주하는 것은 심리적으로 힘들 수 있다.
+psychology|심리학; 심리|She is studying psychology at university.|그녀는 대학에서 심리학을 공부하고 있다.
+publication|출판, 발행; 출판물|The book's publication date is next month.|그 책의 출간일은 다음 달이다.
+publicity|홍보, 광고; 대중의 관심|The new museum got a lot of publicity before it opened.|새 박물관은 개관 전에 많은 주목을 받았다.
+publicize|홍보하다, 알리다|We used posters to publicize the school concert.|우리는 학교 음악회를 알리려고 포스터를 붙였다.
+pudding|푸딩; (영) 디저트|For dessert, we had warm chocolate pudding.|후식으로 우리는 따뜻한 초콜릿 푸딩을 먹었다.
+pulse|맥박; 파동; (pl.) 콩류|The nurse checked my pulse and blood pressure.|간호사가 내 맥박과 혈압을 쟀다.
+pumpkin|호박|We carved a funny face into a pumpkin for Halloween.|우리는 핼러윈을 위해 호박에 웃긴 얼굴을 조각했다.
+punch|(명) 주먹질; 펀치(음료); (동) 주먹으로 치다; 구멍을 뚫다|Punch two holes in the paper and put it in the binder.|종이에 구멍 두 개를 뚫어 바인더에 끼워라.
+punctual|시간을 지키는|Our English teacher is always punctual.|우리 영어 선생님은 항상 시간을 잘 지키신다.
+punctuality|시간 엄수|Punctuality is very important in a new job.|새 직장에서는 시간 엄수가 매우 중요하다.
+purchase|(명) 구매, 구입품; (동) 구매하다|You can purchase tickets at the front desk.|표는 안내 데스크에서 구매하실 수 있습니다.
+purposeful|목적이 있는, 결의에 찬|She walked into the office with purposeful steps.|그녀는 단호한 걸음으로 사무실에 들어갔다.
+pursuit|추구; 추적; 취미 활동|Hiking is his favorite outdoor pursuit.|등산은 그가 가장 좋아하는 야외 활동이다.
+puzzled|어리둥절한, 당혹한|He looked puzzled when he read the strange message.|그는 이상한 메시지를 읽고 어리둥절한 표정을 지었다.
+qualification|자격, 자격증; 조건|What qualifications do you need to become a nurse?|간호사가 되려면 어떤 자격이 필요한가요?
+quantify|수량화하다, 양을 나타내다|It is hard to quantify how much joy a pet brings.|반려동물이 주는 기쁨이 얼마나 큰지 수치로 나타내기는 어렵다.
+quarantine|격리, 검역|The new puppy had to stay in quarantine for a week.|새 강아지는 일주일 동안 격리되어 있어야 했다.
+quarrel|(명) 말다툼, 언쟁; (동) 다투다|The twins quarreled over who would sit by the window.|쌍둥이는 누가 창가에 앉을지를 두고 다퉜다.
+quarrelsome|다투기 좋아하는, 시비조의|The quarrelsome neighbor complained about everything.|그 싸우기 좋아하는 이웃은 모든 일에 불평했다.
+queer|이상한, 기묘한 (옛 용법)|There was a queer smell coming from the old attic.|오래된 다락방에서 이상한 냄새가 났다.
+query|(명) 질문, 문의; (동) 문의하다, 의문을 제기하다|If you have any queries, please call our help desk.|문의 사항이 있으시면 고객 지원 센터로 전화해 주세요.
+quotable|인용할 만한|Her speech was full of quotable lines.|그녀의 연설은 인용할 만한 구절로 가득했다.
+quotation|인용구, 인용; 견적|I wrote a famous quotation about friendship in her card.|나는 그녀의 카드에 우정에 관한 유명한 명언을 적었다.
+quote|(명) 인용구; 견적; (동) 인용하다; 견적을 내다|The painter quoted us a fair price for the kitchen.|페인트공은 주방 작업에 적정한 견적을 내 주었다.
+racism|인종 차별(주의)|The book helps children understand why racism is wrong.|그 책은 아이들이 인종 차별이 왜 잘못인지 이해하도록 돕는다.
+racist|인종 차별주의자|Our coach said there is no place for a racist on this team.|코치는 이 팀에 인종 차별주의자가 설 자리는 없다고 말했다.
+rack|선반, 걸이|Put your wet umbrella in the rack by the door.|젖은 우산은 문 옆 우산꽂이에 넣으세요.
+radar|레이더, 전파 탐지기|The ship used radar to find its way through the fog.|배는 안개 속에서 길을 찾기 위해 레이더를 사용했다.
+radiate|(빛·열을) 방출하다; (감정을) 내뿜다|The stove radiated warmth throughout the small cabin.|난로가 작은 오두막 전체에 온기를 내뿜었다.
+radical|급진주의자, 과격론자|As a young student, he was considered a bit of a radical.|젊은 학생 시절 그는 다소 급진적인 사람으로 여겨졌다.
+radically|근본적으로, 완전히|The internet radically changed the way we shop.|인터넷은 우리가 쇼핑하는 방식을 근본적으로 바꾸었다.
+radium|라듐|Marie learned that radium glows in the dark.|마리는 라듐이 어둠 속에서 빛난다는 것을 알게 되었다.
+rafter|서까래|Old lanterns hung from the rafters of the barn.|헛간 서까래에 오래된 등불들이 매달려 있었다.
+rag|넝마, 헝겊 조각, 걸레|He wiped the oil off his hands with an old rag.|그는 낡은 헝겊으로 손에 묻은 기름을 닦았다.
+rainbow|무지개|A bright rainbow appeared after the rain stopped.|비가 그친 뒤 선명한 무지개가 떴다.
+rainstorm|폭풍우|We got caught in a rainstorm on the way home.|우리는 집에 오는 길에 폭풍우를 만났다.
+rally|(명) 집회, 대회; 반등; (동) 결집하다; 회복하다|The team rallied in the second half and won the game.|그 팀은 후반전에 반격에 나서 경기에서 이겼다.
+ram|숫양; 충돌용 기구|The ram on the farm had big curly horns.|농장의 숫양은 크고 구불구불한 뿔이 있었다.
+ramp|경사로, 램프|The library built a ramp for wheelchair users.|도서관은 휠체어 이용자를 위해 경사로를 만들었다.
+ranger|공원 관리인, 산림 경비원|The park ranger told us where to see the deer.|공원 관리인이 사슴을 볼 수 있는 곳을 알려 주었다.
+rape|(명) 강간; 유채(평지); (동) 강간하다|In spring, fields of yellow rape cover the hills.|봄이면 노란 유채밭이 언덕을 뒤덮는다.
+rash|성급한, 경솔한|Don't make a rash decision when you're angry.|화가 났을 때 성급한 결정을 내리지 마라.
+rattle|덜거덕거리는 소리; (아기용) 딸랑이|The baby laughed every time she shook her rattle.|아기는 딸랑이를 흔들 때마다 웃었다.
+ravage|(pl.) 파괴, 황폐; 참화|The old castle survived the ravages of time.|그 오래된 성은 세월의 풍파를 견뎌 냈다.
+reaction|반응; 반작용; (화학) 반응|His reaction to the surprise party was priceless.|깜짝 파티에 대한 그의 반응은 정말 볼 만했다.
+readily|선뜻, 기꺼이; 쉽게|She readily agreed to help me move.|그녀는 내 이사를 돕겠다고 선뜻 승낙했다.
+real estate|부동산|My aunt works in real estate and sells houses.|우리 이모는 부동산 업계에서 일하며 집을 판다.
+realization|깨달음, 인식; 실현|I came to the realization that I needed more sleep.|나는 잠이 더 필요하다는 것을 깨달았다.
+rear|뒤쪽의, 후방의|Please exit through the rear door of the bus.|버스 뒷문으로 내려 주세요.
+reasonably|상당히, 꽤; 합리적으로|The hotel was clean and reasonably priced.|그 호텔은 깨끗했고 가격도 적당했다.
+rebel|(명) 반역자, 반항아; (동) 반항하다, 반란을 일으키다|Many teenagers rebel against strict rules.|많은 십 대들이 엄격한 규칙에 반항한다.
+rebellious|반항적인; 반란을 일으킨|He went through a rebellious phase in high school.|그는 고등학교 때 반항기를 겪었다.
+recession|경기 후퇴, 불황|Many small shops closed during the recession.|불황기에 많은 작은 가게들이 문을 닫았다.
+recipe|조리법, 요리법; 비결|Could you share your recipe for this soup?|이 수프 요리법 좀 알려 줄래?
+reckon|생각하다, 여기다; 계산하다|I reckon it will take about an hour to get there.|거기 가는 데 한 시간쯤 걸릴 것 같아.
+recognition|인정; 알아봄, 인식|She received recognition for her years of volunteer work.|그녀는 수년간의 봉사 활동을 인정받았다.
+recollect|기억해 내다, 회상하다|I can't recollect where I put my keys.|열쇠를 어디에 뒀는지 기억이 안 나.
+recollection|기억, 회상|I have a clear recollection of my first day at school.|나는 학교에 처음 간 날을 또렷이 기억한다.
+recommendable|추천할 만한|This little hotel is highly recommendable for families.|이 작은 호텔은 가족 여행객에게 적극 추천할 만하다.
+recommendation|추천, 권고; 추천서|My professor wrote a letter of recommendation for me.|교수님이 나를 위해 추천서를 써 주셨다.
+reconsider|재고하다, 다시 생각하다|Please reconsider your decision to quit the club.|동아리를 그만두겠다는 결정을 다시 생각해 봐.
+recreation|오락, 레크리에이션, 휴양|The town built a new recreation center with a pool.|그 마을은 수영장이 있는 새 레크리에이션 센터를 지었다.
+recruit|모집하다, 채용하다|The café is recruiting part-time staff for the summer.|그 카페는 여름 동안 일할 시간제 직원을 모집하고 있다.
+rectangular|직사각형의|We need a rectangular box to ship the painting.|그 그림을 부치려면 직사각형 상자가 필요하다.
+redo|다시 하다; 고치다|I had to redo my homework because I spilled juice on it.|숙제에 주스를 쏟아서 다시 해야 했다.
+redundant|불필요한, 남아도는; (영) 정리 해고된|Delete any redundant words in your essay.|에세이에서 불필요한 단어는 모두 지워라.
+reed|갈대|Tall reeds grew along the edge of the pond.|연못 가장자리를 따라 키 큰 갈대가 자라 있었다.
+reference|참고, 참조; 언급; 추천서|Keep this guide for future reference.|나중에 참고할 수 있도록 이 안내서를 보관하세요.
+referent|지시 대상의, 지시하는|The teacher asked us to find the referent noun for each pronoun.|선생님은 각 대명사가 가리키는 명사를 찾아보라고 하셨다.
+refinery|정제 공장, 정유소|The sugar refinery near the port employs hundreds of people.|항구 근처 제당 공장은 수백 명을 고용하고 있다.
+reflective|반사하는; 사색적인|Cyclists should wear reflective vests at night.|자전거 타는 사람은 밤에 반사 조끼를 입어야 한다.
+reform|개혁, 개선|The school announced a reform of its grading system.|학교는 성적 평가 제도의 개편을 발표했다.
+refrain|(노래의) 후렴; 자주 반복되는 말|Everyone joined in when we reached the refrain.|후렴 부분이 되자 모두가 따라 불렀다.
+refresh|(명) 새로 고침; (동) 상쾌하게 하다; 새로 고치다|A cold shower refreshed me after the long run.|오래 달린 뒤 찬물 샤워를 하니 상쾌해졌다.
+refuge|피난(처), 보호 구역|We took refuge in a small café when it started to rain.|비가 내리기 시작하자 우리는 작은 카페로 피했다.
+refugee|난민, 피난민|The charity provides warm clothes for refugee families.|그 자선 단체는 난민 가족들에게 따뜻한 옷을 제공한다.
+refute|반박하다, 논박하다|The scientist refuted the old theory with new data.|그 과학자는 새로운 자료로 옛 이론을 반박했다.
+regardless|그럼에도 불구하고, 개의치 않고|It was raining, but we went hiking regardless.|비가 오고 있었지만 우리는 개의치 않고 등산을 갔다.
+reggae|레게 (음악)|They played reggae music at the beach party.|그들은 해변 파티에서 레게 음악을 틀었다.
+regime|제도, 체제; (식이·운동 등의) 요법|My doctor put me on a strict exercise regime.|의사 선생님이 내게 엄격한 운동 요법을 처방했다.
+regrettably|유감스럽게도|Regrettably, the museum is closed for repairs.|유감스럽게도 박물관이 보수 공사로 문을 닫았다.
+regulate|규제하다, 조절하다|This switch regulates the temperature in the room.|이 스위치로 방 안 온도를 조절한다.
+rehearsal|리허설, 예행연습|The band had one last rehearsal before the show.|밴드는 공연 전에 마지막 리허설을 했다.
+reinforce|강화하다, 보강하다|They reinforced the old bridge with steel.|그들은 오래된 다리를 강철로 보강했다.
+reinforcement|강화, 보강; (pl.) 증원 인력|Positive reinforcement helps children learn good habits.|긍정적 강화는 아이들이 좋은 습관을 익히도록 돕는다.
+rejection|거절, 거부|He didn't give up after his first rejection letter.|그는 첫 불합격 통지서를 받고도 포기하지 않았다.
+rejoin|다시 합류하다, 복귀하다|After her injury healed, she rejoined the swim team.|부상이 나은 뒤 그녀는 수영팀에 복귀했다.
+related|관련된; 친척 관계인|Are you related to the girl with the same last name?|성이 같은 그 여자애랑 친척이야?
+relativity|상대성; 상대성 이론|We learned the basics of the theory of relativity in physics.|우리는 물리 시간에 상대성 이론의 기초를 배웠다.
+relaxation|휴식, 긴장 완화|Yoga is my favorite form of relaxation.|요가는 내가 가장 좋아하는 휴식 방법이다.
+relay|계주, 릴레이; 교대(조)|Our class won the relay race on sports day.|우리 반이 체육대회 계주에서 우승했다.
+relevant|관련 있는, 적절한|Please include only relevant information in your report.|보고서에는 관련 있는 정보만 넣어 주세요.
+relic|유물, 유적; 잔재|The museum displays relics from an ancient kingdom.|그 박물관은 고대 왕국의 유물을 전시한다.
+relief|안도, 안심; 완화; 구호|What a relief to find my phone in the taxi!|택시에서 휴대폰을 찾아서 정말 다행이야!
+relieve|덜어 주다, 완화하다; 안도하게 하다|A cup of ginger tea can relieve a sore throat.|생강차 한 잔이 목 아픔을 덜어 줄 수 있다.
+relieved|안도하는, 다행으로 여기는|I was relieved when the plane landed safely.|비행기가 무사히 착륙하자 나는 안도했다.
+reluctant|꺼리는, 마지못한|He was reluctant to try the spicy soup.|그는 매운 수프를 먹어 보길 꺼렸다.
+remaining|남은, 나머지의|We ate the remaining cake the next morning.|우리는 다음 날 아침에 남은 케이크를 먹었다.
+remains|남은 것, 잔해; 유적|We visited the remains of an old Roman wall.|우리는 고대 로마 성벽의 유적을 방문했다.
+remarkably|현저하게, 놀라울 만큼|The twins look remarkably similar.|그 쌍둥이는 놀라울 정도로 닮았다.
+reminder|상기시키는 것, 독촉장, 알림|I set a reminder on my phone for the dentist appointment.|나는 휴대폰에 치과 예약 알림을 설정했다.
+rental|임대, 대여; 임대료|We picked up our rental car at the airport.|우리는 공항에서 렌터카를 받았다.
+reorganize|재편성하다, 다시 정리하다|I spent the afternoon reorganizing my bookshelves.|나는 오후 내내 책장을 다시 정리했다.
+repaint|다시 칠하기, 재도장|The old fence really needs a repaint.|오래된 울타리는 정말 다시 칠해야 한다.
+repertoire|레퍼토리, 공연 목록|The singer added three new songs to her repertoire.|그 가수는 레퍼토리에 신곡 세 곡을 추가했다.
+repetition|반복, 되풀이|Repetition is a good way to learn new vocabulary.|반복은 새 어휘를 익히는 좋은 방법이다.
+replacement|교체, 대체; 후임자|My phone broke, so I need a replacement.|휴대폰이 고장 나서 새것이 필요하다.
+replica|복제품, 모형|The museum shop sells a small replica of the famous ship.|박물관 기념품점은 그 유명한 배의 작은 모형을 판다.
+repress|(감정을) 억누르다; 억압하다|She tried to repress a laugh during the serious meeting.|그녀는 진지한 회의 중에 웃음을 참으려고 애썼다.
+repression|억압, 진압; (감정의) 억제|Constant repression of your feelings can cause stress.|감정을 계속 억누르면 스트레스가 생길 수 있다.
+reprint|재판, 증쇄; 복제본|The bookstore had a reprint of my favorite old novel.|그 서점에는 내가 좋아하는 옛 소설의 재판본이 있었다.
+reprove|꾸짖다, 나무라다|The librarian gently reproved the boys for talking loudly.|사서는 큰 소리로 떠드는 소년들을 부드럽게 나무랐다.
+residence|주택, 거주지; 거주|The old residence has been turned into a small hotel.|그 오래된 저택은 작은 호텔로 바뀌었다.
+resign|사직하다, 물러나다|She resigned from her job to start her own bakery.|그녀는 자기 빵집을 차리려고 직장을 그만두었다.
+resignation|사직, 사임; 사직서; 체념|He handed in his resignation on Monday morning.|그는 월요일 아침에 사직서를 제출했다.
+resistance|저항, 반대; 저항력|Regular exercise can build your resistance to colds.|규칙적인 운동은 감기에 대한 저항력을 길러 줄 수 있다.
+resolution|결심, 다짐; 해결; 해상도|My New Year's resolution is to read more books.|내 새해 결심은 책을 더 많이 읽는 것이다.
+resonant|(소리가) 울려 퍼지는, 낭랑한|The singer has a deep, resonant voice.|그 가수는 깊고 울림 있는 목소리를 지녔다.
+respectably|훌륭하게, 남부끄럽지 않게, 꽤|Our team played respectably against the champions.|우리 팀은 챔피언을 상대로 꽤 선전했다.
+respected|존경받는, 높이 평가되는|Dr. Han is a highly respected doctor in our town.|한 박사님은 우리 동네에서 매우 존경받는 의사이시다.
+respiration|호흡|Plants also carry out respiration day and night.|식물도 밤낮으로 호흡을 한다.
+respiratory|호흡의, 호흡기의|Dust can cause respiratory problems for some people.|먼지는 어떤 사람들에게 호흡기 문제를 일으킬 수 있다.
+restriction|제한, 규제|There is a weight restriction on carry-on bags.|기내 수하물에는 무게 제한이 있다.
+resume|재개하다, 다시 시작하다|Classes will resume after the holiday.|수업은 방학이 끝난 뒤 다시 시작된다.

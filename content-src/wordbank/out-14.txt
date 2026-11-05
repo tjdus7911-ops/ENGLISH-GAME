@@ -75,7 +75,7 @@ flap|펄럭이다, (날개를) 퍼덕이다|The flag flapped in the strong wind.
 flaw|결함, 결점|There is a small flaw in this glass vase.|이 유리 꽃병에는 작은 흠이 있다.
 flawless|흠 없는, 완벽한|Her English pronunciation is almost flawless.|그녀의 영어 발음은 거의 완벽하다.
 flax|아마(식물), 아마 섬유|Linen cloth is made from flax.|리넨 천은 아마로 만든다.
-flee|달아나다, 도망치다|The birds fled when the cat appeared.|고양이가 나타나자 새들이 달아났다.
+flee|달아나다, 도망치다|Deer flee quickly when they hear a loud noise.|사슴은 큰 소리를 들으면 재빨리 달아난다.
 fleet|함대, 선단; (차량 등의) 무리|The taxi company owns a fleet of electric cars.|그 택시 회사는 전기차를 대거 보유하고 있다.
 flesh|살, 육체; 과육|The flesh of this peach is sweet and juicy.|이 복숭아의 과육은 달고 즙이 많다.
 flexibility|유연성, 융통성|Yoga improves the flexibility of your body.|요가는 몸의 유연성을 높여 준다.
@@ -118,3 +118,233 @@ fundamental|근본적인, 기본적인|Reading is a fundamental skill for every 
 funk|펑크(음악); 우울, 의기소침|I've been in a funk since my vacation ended.|휴가가 끝난 뒤로 나는 기분이 처져 있다.
 funky|펑키한, 멋지고 개성 있는|He wore funky yellow sneakers to the party.|그는 파티에 개성 있는 노란 운동화를 신고 왔다.
 furious|몹시 화가 난, 격렬한|Dad was furious when he saw the broken window.|아빠는 깨진 창문을 보고 몹시 화가 나셨다.
+furiously|맹렬히, 미친 듯이; 몹시 화가 나서|The students wrote furiously to finish the test on time.|학생들은 제시간에 시험을 끝내려고 맹렬히 답을 써 내려갔다.
+furor|격노; 소동, 열광|The new school uniform caused a furor among students.|새 교복은 학생들 사이에 큰 소동을 일으켰다.
+gaiety|흥겨움, 유쾌함|The festival filled the streets with music and gaiety.|축제는 거리를 음악과 흥겨움으로 가득 채웠다.
+gambling|도박|My parents warned me that gambling can ruin lives.|부모님은 도박이 인생을 망칠 수 있다고 경고하셨다.
+gang|패거리, 무리; 갱단|The whole gang came over to watch the game.|친구 무리가 모두 경기를 보러 우리 집에 왔다.
+gangster|폭력배, 갱단원|The old movie is about a gangster who becomes a chef.|그 옛날 영화는 요리사가 된 폭력배에 관한 이야기다.
+gardener|정원사|The gardener planted tulips along the path.|정원사가 길을 따라 튤립을 심었다.
+gasp|헉 하는 소리, 숨이 막힘|There was a gasp from the crowd when the magician vanished.|마술사가 사라지자 관중 속에서 헉 하는 소리가 났다.
+gateway|관문, 입구; 길|Incheon is the main gateway to Korea for travelers.|인천은 여행객이 한국으로 들어오는 주요 관문이다.
+gaudy|야한, 지나치게 화려한|The hotel lobby was decorated in gaudy gold colors.|호텔 로비는 지나치게 화려한 금색으로 장식되어 있었다.
+gaze|응시, 시선|She held his gaze for a long moment.|그녀는 한참 동안 그의 시선을 피하지 않았다.
+gear|장비, 도구; (자동차) 기어|Bring your camping gear for the weekend trip.|주말 여행에 캠핑 장비를 챙겨 오세요.
+generalization|일반화|It's a generalization to say all teenagers are lazy.|십 대가 모두 게으르다고 말하는 것은 일반화다.
+generalize|일반화하다|You shouldn't generalize about people from one country.|한 나라 사람들에 대해 일반화해서는 안 된다.
+generosity|관대함, 너그러움|We were touched by the generosity of our neighbors.|우리는 이웃들의 너그러움에 감동받았다.
+generously|후하게, 관대하게|He generously paid for everyone's lunch.|그는 후하게 모두의 점심값을 냈다.
+genius|천재; 천재성|My little brother is a genius at math puzzles.|내 남동생은 수학 퍼즐의 천재다.
+genre|장르|Science fiction is my favorite genre of books.|공상 과학은 내가 가장 좋아하는 책 장르다.
+gently|부드럽게, 살며시|She gently placed the sleeping baby in the crib.|그녀는 잠든 아기를 아기 침대에 살며시 눕혔다.
+genuine|진짜의, 진품의; 진심의|Is this bag made of genuine leather?|이 가방은 진짜 가죽으로 만든 건가요?
+genuinely|진정으로, 정말로|I was genuinely surprised by the birthday party.|나는 생일 파티에 정말로 놀랐다.
+geographic|지리적인, 지리학의|The museum shows the geographic features of the region.|그 박물관은 그 지역의 지리적 특징을 보여 준다.
+germ|세균, 병균; 싹|Wash your hands to get rid of germs.|세균을 없애려면 손을 씻으세요.
+getaway|휴가(지), 짧은 휴양; 도주|We planned a weekend getaway to the beach.|우리는 해변으로 주말 휴가를 계획했다.
+ghetto|빈민가, 소수 민족 거주 지역|The book describes life in a crowded city ghetto.|그 책은 붐비는 도시 빈민가의 삶을 묘사한다.
+giveaway|경품, 무료 증정품; 비밀을 드러내는 것|The store had a giveaway of free tote bags.|그 가게는 에코백을 무료로 나눠 주는 행사를 했다.
+glacis|(요새 앞의) 경사지, 비탈|Tourists walked up the grassy glacis to the old fort.|관광객들은 풀로 덮인 비탈을 올라 옛 요새로 갔다.
+glamorous|화려한, 매력이 넘치는|Working as a flight attendant sounds glamorous to me.|승무원으로 일하는 것이 나에게는 화려하게 들린다.
+glare|노려봄; 눈부신 빛|The glare from the snow hurt my eyes.|눈에 반사된 눈부신 빛 때문에 눈이 아팠다.
+gleam|어렴풋한 빛, 반짝임|There was a gleam of hope in her eyes.|그녀의 눈에 희망의 빛이 반짝였다.
+glee|큰 기쁨, 신이 남|The children shouted with glee at the first snow.|아이들은 첫눈을 보고 신이 나서 소리쳤다.
+global warming|지구 온난화|Global warming is melting the ice in the Arctic.|지구 온난화로 북극의 얼음이 녹고 있다.
+globally|세계적으로, 전 세계에서|The app is now used globally by millions.|그 앱은 이제 전 세계 수백만 명이 사용한다.
+glocal|글로컬한(세계적이면서 지역적인)|The café takes a glocal approach, serving lattes with local rice cakes.|그 카페는 라테에 지역 떡을 함께 내는 글로컬한 방식을 택한다.
+gloomy|우울한, 어둑어둑한|It was a gloomy, gray morning in November.|11월의 우중충하고 잿빛인 아침이었다.
+glorify|미화하다, 찬양하다|Some ads glorify unhealthy fast food.|어떤 광고들은 건강에 나쁜 패스트푸드를 미화한다.
+glow|(은은한) 빛, 불빛; 홍조|We read stories by the warm glow of the lamp.|우리는 따스한 램프 불빛 아래서 이야기책을 읽었다.
+goat|염소|The goat on the farm ate my sandwich!|농장의 염소가 내 샌드위치를 먹어 버렸어!
+god|신, 하느님|In the myth, the sea god controlled the waves.|그 신화에서 바다의 신은 파도를 다스렸다.
+godly|경건한, 신앙심이 깊은|My grandmother was a kind and godly woman.|우리 할머니는 친절하고 신앙심이 깊은 분이셨다.
+goodwill|호의, 친선|The two schools exchanged gifts as a sign of goodwill.|두 학교는 친선의 표시로 선물을 교환했다.
+gook|(비속어) 동양인을 비하하는 모욕적 표현|The teacher explained that gook is a racist insult.|선생님은 그 단어가 인종 차별적인 모욕어라고 설명하셨다.
+gorge|협곡|We hiked along the river at the bottom of the gorge.|우리는 협곡 바닥의 강을 따라 하이킹했다.
+governmental|정부의, 정치상의|The project received governmental support.|그 프로젝트는 정부 지원을 받았다.
+gracefulness|우아함, 품위|Everyone admired the gracefulness of the swans.|모두가 백조들의 우아함에 감탄했다.
+gradual|점진적인, 서서히 일어나는|There has been a gradual improvement in his health.|그의 건강이 서서히 나아지고 있다.
+grain|곡물, 낟알; 알갱이|Rice is the main grain eaten in Asia.|쌀은 아시아에서 주로 먹는 곡물이다.
+grand|웅장한, 성대한; 위대한|They held a grand opening for the new library.|그들은 새 도서관의 성대한 개관식을 열었다.
+graphically|생생하게; 도표로|The report shows the results graphically.|그 보고서는 결과를 도표로 보여 준다.
+grasp|움켜잡기; 이해, 파악|She has a good grasp of English grammar.|그녀는 영어 문법을 잘 이해하고 있다.
+gravestone|묘비|We cleaned my great-grandfather's gravestone on the holiday.|우리는 명절에 증조할아버지의 묘비를 닦았다.
+gravitation|중력, 인력|Gravitation keeps the moon in orbit around the earth.|인력은 달이 지구 주위의 궤도를 돌게 한다.
+greatness|위대함, 탁월함|The coach saw signs of greatness in the young player.|코치는 그 어린 선수에게서 위대함의 징후를 보았다.
+grief|큰 슬픔, 비탄|She felt deep grief when her old dog passed away.|그녀는 늙은 개가 세상을 떠났을 때 깊은 슬픔을 느꼈다.
+grieve|몹시 슬퍼하다, 애도하다|The whole family grieved for their beloved grandfather.|온 가족이 사랑하는 할아버지를 애도했다.
+grim|암울한, 엄숙한, 단호한|The weather forecast for the weekend looks grim.|주말 일기 예보가 암울해 보인다.
+grin|활짝 웃음|He came home with a big grin on his face.|그는 얼굴에 함박웃음을 띠고 집에 왔다.
+grip|(명) 꽉 쥐기, 손잡이; (동) 꽉 잡다|Grip the handlebars tightly on the steep hill.|가파른 언덕에서는 핸들을 꽉 잡으세요.
+gross|역겨운; 총계의|Eww, this old milk smells gross!|으, 이 오래된 우유 냄새가 역겨워!
+growing|커지는, 증가하는|There is growing interest in electric bikes.|전기 자전거에 대한 관심이 커지고 있다.
+grown-up|(형) 어른스러운, 성인의; (명) 어른|Ask a grown-up to help you cut the paper.|어른에게 종이 자르는 것을 도와 달라고 하렴.
+guerrilla|게릴라(병)|The company used guerrilla marketing on the subway.|그 회사는 지하철에서 게릴라 마케팅을 펼쳤다.
+guideline|지침, 가이드라인|Please follow the guidelines when writing your report.|보고서를 쓸 때 지침을 따라 주세요.
+gulp|꿀꺽 삼키기, 한 모금|He drank the water in one gulp.|그는 물을 한 모금에 꿀꺽 마셨다.
+gum|껌; 잇몸|Please don't chew gum in class.|수업 중에는 껌을 씹지 마세요.
+gunshot|총소리; 발사|The race began with the sound of a starting gunshot.|출발 신호 총소리와 함께 경주가 시작되었다.
+guts|용기, 배짱; 내장|It took guts to sing alone on stage.|무대에서 혼자 노래하는 데는 용기가 필요했다.
+gymnastic|체조의|She practices gymnastic routines every afternoon.|그녀는 매일 오후 체조 동작을 연습한다.
+habitant|거주자, 주민|Each habitant of the village knows everyone else.|그 마을의 주민들은 서로를 모두 안다.
+hail|(동) 부르다, 환호하다; 우박이 내리다|She hailed a taxi outside the station.|그녀는 역 밖에서 손을 들어 택시를 잡았다.
+hairy|털이 많은; 아슬아슬한|The hairy dog left fur all over the sofa.|털이 많은 개가 소파 여기저기에 털을 남겼다.
+handicap|장애; 불리한 조건, 핸디캡|Not speaking the language was a big handicap at first.|처음에는 그 언어를 못하는 것이 큰 불리한 조건이었다.
+handicraft|수공예(품)|The market sells beautiful handicrafts made by locals.|그 시장에서는 현지인이 만든 아름다운 수공예품을 판다.
+handout|유인물; 보조금, 지원품|The teacher passed out a handout before the lecture.|선생님은 강의 전에 유인물을 나눠 주셨다.
+handrail|난간|Hold the handrail when you go down the stairs.|계단을 내려갈 때는 난간을 잡으세요.
+hard drive|하드 드라이브|I saved all my photos on an external hard drive.|나는 모든 사진을 외장 하드 드라이브에 저장했다.
+hardware|하드웨어; 철물|The computer has good hardware but slow software.|그 컴퓨터는 하드웨어는 좋지만 소프트웨어가 느리다.
+harmless|해가 없는, 무해한|Don't worry, that little spider is harmless.|걱정 마, 그 작은 거미는 해롭지 않아.
+harrow|써레(땅을 고르는 농기구)|The farmer pulled a harrow across the field.|농부가 써레를 끌며 밭을 골랐다.
+haste|서두름, 급함|In her haste, she forgot her keys.|그녀는 서두르다가 열쇠를 잊어버렸다.
+hastily|서둘러, 급히|He hastily wrote a note and ran out the door.|그는 급히 쪽지를 써 놓고 문밖으로 뛰어나갔다.
+hatching|부화|We watched the hatching of the chicks at the farm.|우리는 농장에서 병아리가 부화하는 것을 지켜봤다.
+haunting|잊히지 않는, 뇌리를 떠나지 않는|The song has a sad, haunting melody.|그 노래는 슬프고 잊히지 않는 선율을 지녔다.
+hay|건초|The horses ate fresh hay in the barn.|말들이 헛간에서 신선한 건초를 먹었다.
+hazardous|위험한, 유해한|Hazardous chemicals must be stored safely.|유해 화학 물질은 안전하게 보관해야 한다.
+headquarters|본사, 본부|The company's headquarters is in Seoul.|그 회사의 본사는 서울에 있다.
+health care|의료 서비스, 건강 관리|Everyone should have access to good health care.|모든 사람이 좋은 의료 서비스를 받을 수 있어야 한다.
+heap|(명) 더미, 무더기; (동) 쌓아 올리다|She heaped rice onto my plate.|그녀는 내 접시에 밥을 수북이 담았다.
+heartbreaking|가슴 아픈, 비통한|The ending of the novel was heartbreaking.|그 소설의 결말은 가슴 아팠다.
+heartwarming|마음이 따뜻해지는, 훈훈한|It was a heartwarming story about a lost puppy.|그것은 길 잃은 강아지에 관한 훈훈한 이야기였다.
+hedge|산울타리; (손실에 대한) 대비책|A tall hedge separates our garden from the road.|높은 산울타리가 우리 정원과 도로를 나눈다.
+helicopter|헬리콥터|We took a helicopter tour over the island.|우리는 헬리콥터를 타고 섬 위를 둘러보았다.
+hell|지옥; 지옥 같은 상황|The traffic jam this morning was hell.|오늘 아침 교통 체증은 지옥 같았다.
+helper|도우미, 조력자|My son is a great helper in the kitchen.|우리 아들은 부엌에서 훌륭한 도우미다.
+hemp|대마, 삼(섬유)|This bag is made of strong hemp fabric.|이 가방은 튼튼한 삼베 천으로 만들어졌다.
+herb|허브, 약초, 향초|Add some fresh herbs to the soup for flavor.|풍미를 위해 수프에 신선한 허브를 조금 넣으세요.
+heritage|유산, 전통|Gyeongju is full of Korea's cultural heritage.|경주는 한국의 문화유산으로 가득하다.
+hesitation|주저, 망설임|She accepted the job offer without hesitation.|그녀는 망설임 없이 일자리 제안을 받아들였다.
+high-tech|첨단 기술의|The new school has high-tech classrooms.|새 학교에는 첨단 기술을 갖춘 교실이 있다.
+hijack|(명) 납치; (동) (차량·비행기를) 납치하다; 가로채다|Spam messages can hijack your social media account.|스팸 메시지가 소셜 미디어 계정을 탈취할 수 있다.
+hilarious|아주 우스운, 배꼽 잡는|The comedy show last night was hilarious.|어젯밤 코미디 쇼는 배꼽 잡게 웃겼다.
+hint|힌트, 암시; 약간|Can you give me a hint about the answer?|정답에 대한 힌트 좀 줄 수 있어?
+holder|소유자, 보유자; 받침, 꽂이|Put your pens in the pencil holder on the desk.|펜은 책상 위 연필꽂이에 꽂아 두세요.
+hollow|속이 빈, 움푹 꺼진; 공허한|The owl lives in a hollow tree.|그 부엉이는 속이 빈 나무에 산다.
+holocaust|대참사, 대학살; (the H-) 유대인 대학살|We visited a holocaust museum on our school trip to Berlin.|우리는 베를린 수학여행에서 홀로코스트 박물관을 방문했다.
+homeward|집으로 향하는, 귀로의|We were tired on the homeward journey.|우리는 집으로 돌아오는 길에 피곤했다.
+hone|숫돌|The chef sharpened his knife on a hone.|요리사는 숫돌에 칼을 갈았다.
+honorable|명예로운, 존경할 만한, 훌륭한|Returning the lost wallet was an honorable thing to do.|잃어버린 지갑을 돌려준 것은 훌륭한 행동이었다.
+hood|(옷의) 모자, 후드; (자동차) 보닛|Put your hood up; it's starting to rain.|후드를 써, 비가 오기 시작해.
+hook|(명) 갈고리, 고리; (동) 걸다, 낚다|Hang your coat on the hook by the door.|문 옆 고리에 코트를 걸어 두세요.
+hospice|호스피스(말기 환자 요양 시설)|My aunt volunteers at a hospice every Saturday.|우리 이모는 매주 토요일 호스피스에서 봉사하신다.
+hospitable|환대하는, 친절한|The villagers were very hospitable to the travelers.|마을 사람들은 여행객들을 매우 친절하게 맞아 주었다.
+hospitality|환대, 접대|Thank you for your warm hospitality during our stay.|머무는 동안 따뜻하게 환대해 주셔서 감사합니다.
+hospitalize|입원시키다|He was hospitalized for a week with a bad cold.|그는 독감으로 일주일 동안 입원했다.
+hourly|매시간의, 시간당의|My hourly pay at the café is quite low.|카페에서 받는 내 시급은 꽤 낮다.
+housekeeper|가정부, 시설 관리인|The hotel housekeeper cleaned our room every morning.|호텔 객실 관리 직원이 매일 아침 우리 방을 청소했다.
+housemaster|(기숙학교의) 사감|The housemaster checked that all students were in bed.|사감 선생님은 학생들이 모두 잠자리에 들었는지 확인했다.
+housewife|주부, 가정주부|She was a housewife before starting her own business.|그녀는 사업을 시작하기 전에 가정주부였다.
+hover|(공중에) 맴돌다, 떠 있다|A hummingbird hovered near the red flowers.|벌새 한 마리가 빨간 꽃 근처에서 맴돌았다.
+hugely|엄청나게, 대단히|The new café has been hugely popular.|새 카페는 엄청나게 인기를 끌고 있다.
+human rights|인권|Every child has basic human rights, including education.|모든 아이에게는 교육을 포함한 기본적인 인권이 있다.
+humane|인도적인, 자비로운|The shelter treats every animal in a humane way.|그 보호소는 모든 동물을 인도적으로 대한다.
+humanist|인문주의자, 인본주의자|The humanist believed people could solve problems with reason.|그 인문주의자는 사람들이 이성으로 문제를 해결할 수 있다고 믿었다.
+humanize|인간적으로 만들다, 인간미를 더하다|Friendly robots are designed to humanize technology.|친근한 로봇은 기술에 인간미를 더하도록 설계된다.
+humble|(형) 겸손한, 소박한; (동) 겸손하게 만들다|Despite his success, he remained humble.|성공했는데도 그는 겸손함을 잃지 않았다.
+humbug|허튼소리, 사기; 박하사탕|He called the strange advertisement pure humbug.|그는 그 이상한 광고를 순 엉터리라고 했다.
+humiliate|창피를 주다, 굴욕감을 주다|A good coach never humiliates players in public.|좋은 코치는 절대 사람들 앞에서 선수에게 창피를 주지 않는다.
+humiliating|굴욕적인, 창피한|Falling on stage was a humiliating moment for me.|무대에서 넘어진 것은 내게 굴욕적인 순간이었다.
+humiliation|굴욕, 창피|She turned red with humiliation after the mistake.|그녀는 실수 후 창피해서 얼굴이 빨개졌다.
+hunting|사냥|Hunting is not allowed in this national park.|이 국립공원에서는 사냥이 금지되어 있다.
+hush|조용히 시키다, 쉿 하다|The mother hushed the crying baby with a song.|엄마는 노래로 우는 아기를 달래 조용히 시켰다.
+hybrid|혼합의, 잡종의, 하이브리드의|My uncle drives a hybrid car to save fuel.|우리 삼촌은 연료를 아끼려고 하이브리드 차를 몬다.
+hygiene|위생|Good hygiene helps prevent the spread of colds.|위생 관리를 잘하면 감기 확산을 막는 데 도움이 된다.
+hyperbole|과장(법)|Saying "I've told you a million times" is hyperbole.|"백만 번은 말했잖아"라고 하는 것은 과장법이다.
+hyphen|하이픈, 붙임표(-)|Use a hyphen in words like "well-known."|"well-known" 같은 단어에는 하이픈을 쓰세요.
+iceman|얼음 장수; 얼음 위 작업자|Long ago, the iceman delivered ice blocks to homes.|오래전에는 얼음 장수가 집집마다 얼음덩이를 배달했다.
+icon|아이콘; 우상, 상징|Tap the camera icon to take a photo.|사진을 찍으려면 카메라 아이콘을 누르세요.
+icy|얼음같이 찬, 얼어붙은; 쌀쌀맞은|Be careful, the sidewalk is icy this morning.|조심해, 오늘 아침 인도가 얼어 있어.
+ideally|이상적으로는|Ideally, you should sleep eight hours a night.|이상적으로는 밤에 여덟 시간을 자야 한다.
+identical|똑같은, 동일한|The twins wore identical jackets to school.|쌍둥이는 똑같은 재킷을 입고 학교에 갔다.
+identification|신분증; 신원 확인, 식별|Please show some identification at the front desk.|안내 데스크에서 신분증을 보여 주세요.
+identify|확인하다, 식별하다, 알아보다|Can you identify the bird in this picture?|이 사진 속 새가 무엇인지 알아볼 수 있니?
+ideology|이념, 사상|The book explains the ideology behind modern art.|그 책은 현대 미술 뒤에 있는 사상을 설명한다.
+idiot|바보, 멍청이|I felt like an idiot when I locked myself out.|문을 잠그고 밖에 갇혔을 때 나는 바보가 된 기분이었다.
+idle|(형) 한가한, 놀고 있는; (동) 빈둥거리다|The machines sat idle during the holiday.|휴일 동안 기계들은 가동되지 않고 멈춰 있었다.
+idolize|우상화하다, 숭배하다|Many young players idolize their football coach.|많은 어린 선수들이 축구 코치를 우상처럼 여긴다.
+ignorance|무지, 무식|His ignorance of the rules caused the mistake.|규칙을 몰랐던 것이 그 실수의 원인이었다.
+ignorant|무지한, 모르는|I was ignorant of the local customs at first.|나는 처음에 현지 관습을 잘 몰랐다.
+illustrate|설명하다, 보여 주다; 삽화를 넣다|She illustrated her point with a simple chart.|그녀는 간단한 도표로 자신의 요점을 설명했다.
+illustration|삽화, 도해; 실례|The book has a colorful illustration on every page.|그 책은 모든 페이지에 다채로운 삽화가 있다.
+imagery|(문학의) 이미지, 심상; 영상|The poem uses beautiful imagery of the sea.|그 시는 바다에 대한 아름다운 심상을 사용한다.
+imitation|모방, 모조품|This necklace is an imitation, not real gold.|이 목걸이는 진짜 금이 아니라 모조품이다.
+immerse|담그다; 몰두하게 하다|She immersed herself in her studies before the exam.|그녀는 시험 전에 공부에 몰두했다.
+immigrant|(외국에서 온) 이민자|My neighbor is an immigrant from Vietnam.|우리 이웃은 베트남에서 온 이민자다.
+immoral|부도덕한|Lying to your friends for money is immoral.|돈 때문에 친구에게 거짓말하는 것은 부도덕하다.
+immortal|죽지 않는, 불멸의|In the legend, the dragon was immortal.|전설에서 그 용은 죽지 않는 존재였다.
+immortality|불멸, 불사|The king searched for a fruit that gave immortality.|왕은 영원한 생명을 주는 열매를 찾아다녔다.
+impartial|공정한, 치우치지 않은|A referee must stay impartial during the game.|심판은 경기 중에 공정함을 유지해야 한다.
+impatiently|조바심 내며, 초조하게|The kids waited impatiently for the ice cream truck.|아이들은 아이스크림 트럭을 초조하게 기다렸다.
+imperative|(명) 꼭 해야 할 일, 명령법; (형) 필수적인|It is imperative that we leave before the storm.|폭풍이 오기 전에 반드시 떠나야 한다.
+impermanent|영구적이지 않은, 일시적인|Sandcastles are impermanent, but they are fun to build.|모래성은 오래가지 않지만 만드는 재미가 있다.
+implement|(명) 도구, 기구; (동) 시행하다|The school will implement the new rules next month.|학교는 다음 달에 새 규칙을 시행할 것이다.
+implication|함축, 암시; 영향, 결과|Think about the implications before you decide.|결정하기 전에 그것이 가져올 영향을 생각해 보세요.
+imply|암시하다, 넌지시 나타내다|Are you implying that I'm always late?|내가 항상 늦는다는 말을 하려는 거야?
+impolite|무례한, 실례되는|It's impolite to talk with your mouth full.|입에 음식을 넣은 채 말하는 것은 무례하다.
+impolitely|무례하게|The customer spoke impolitely to the waiter.|그 손님은 종업원에게 무례하게 말했다.
+import|수입하다|This shop imports cheese from France.|이 가게는 프랑스에서 치즈를 수입한다.
+impose|(규칙·세금 등을) 부과하다, 강요하다|The library imposes a fine for late books.|그 도서관은 연체된 책에 벌금을 부과한다.
+impossibility|불가능(한 일)|Finishing all this work today is an impossibility.|오늘 이 일을 다 끝내는 것은 불가능하다.
+impractical|비실용적인, 현실성 없는|White sofas are impractical for families with pets.|흰 소파는 반려동물을 키우는 가정에 실용적이지 않다.
+impressed|감명받은, 깊은 인상을 받은|I was impressed by her excellent presentation.|나는 그녀의 훌륭한 발표에 감명받았다.
+impressionism|인상주의, 인상파|Impressionism focuses on light and color.|인상주의는 빛과 색에 초점을 맞춘다.
+impressionist|인상파 화가; 성대모사하는 사람|The museum has a room full of impressionist paintings.|그 미술관에는 인상파 그림으로 가득한 전시실이 있다.
+imprison|투옥하다, 가두다|In the fairy tale, the witch imprisoned the princess in a tower.|동화에서 마녀는 공주를 탑에 가두었다.
+imprisonment|투옥, 감금|The thief was sentenced to two years of imprisonment.|그 도둑은 징역 2년을 선고받았다.
+improbable|있을 것 같지 않은|It seems improbable that it will snow in May.|5월에 눈이 올 것 같지는 않다.
+improperly|부적절하게, 잘못|The machine broke because it was used improperly.|그 기계는 잘못 사용되어 고장 났다.
+improved|개선된, 향상된|The improved version of the app runs much faster.|개선된 버전의 앱은 훨씬 빠르게 작동한다.
+impulse|충동; 자극|On impulse, I bought a cute hat at the market.|충동적으로 나는 시장에서 귀여운 모자를 샀다.
+impulsive|충동적인|He is impulsive and often spends money without thinking.|그는 충동적이어서 생각 없이 돈을 쓸 때가 많다.
+inaccurate|부정확한|The old map was inaccurate and we got lost.|옛 지도가 부정확해서 우리는 길을 잃었다.
+inadequate|불충분한, 부적당한|The room had inadequate heating in winter.|그 방은 겨울에 난방이 충분하지 않았다.
+inanimate|무생물의, 생명 없는|A rock is an inanimate object.|돌은 무생물이다.
+inborn|타고난, 선천적인|She has an inborn talent for music.|그녀는 음악에 타고난 재능이 있다.
+incense|향|The temple smelled of burning incense.|절에서는 향 타는 냄새가 났다.
+incentive|동기, 장려책, 인센티브|The bonus is an incentive to work harder.|보너스는 더 열심히 일하게 하는 동기가 된다.
+incur|(비용·손실 등을) 초래하다, 입다|You will incur a fee if you cancel late.|늦게 취소하면 수수료가 부과될 것이다.
+incurable|불치의, 고칠 수 없는|My dad is an incurable optimist.|우리 아빠는 못 말리는 낙천주의자이시다.
+indebted|빚진, 은혜를 입은|I am deeply indebted to my teachers for their help.|나는 선생님들의 도움에 깊은 은혜를 입었다.
+indent|(문단 첫 줄을) 들여 쓰다|Indent the first line of each paragraph.|각 문단의 첫 줄은 들여 쓰세요.
+independently|독립적으로, 혼자서|The students worked independently on their projects.|학생들은 각자 독립적으로 과제를 수행했다.
+indescribable|형언할 수 없는, 이루 말할 수 없는|The sunrise over the ocean was indescribable.|바다 위로 떠오르는 해는 이루 말할 수 없이 아름다웠다.
+index|색인; 지수, 지표|Look up the topic in the index at the back of the book.|책 뒤쪽 색인에서 그 주제를 찾아보세요.
+indifferent|무관심한|He seemed indifferent to the result of the game.|그는 경기 결과에 무관심해 보였다.
+indignity|모욕, 수모|He suffered the indignity of losing to a beginner.|그는 초보자에게 지는 수모를 겪었다.
+indispensable|없어서는 안 될, 필수적인|A good dictionary is indispensable for language learners.|좋은 사전은 언어 학습자에게 없어서는 안 될 것이다.
+indulge|(욕구를) 마음껏 채우다, 탐닉하다; 응석을 받아 주다|On my birthday, I indulged in a big chocolate cake.|생일에 나는 커다란 초콜릿 케이크를 마음껏 먹었다.
+indulgent|관대한, 응석을 받아 주는|My grandparents are very indulgent with their grandchildren.|우리 조부모님은 손주들에게 매우 관대하시다.
+industrialize|산업화하다|Korea industrialized quickly in the twentieth century.|한국은 20세기에 빠르게 산업화되었다.
+ineffective|효과 없는, 무능한|The cheap umbrella was ineffective against the wind.|싸구려 우산은 바람 앞에서 쓸모가 없었다.
+inert|움직이지 않는, 활발하지 못한; 불활성의|The lizard lay inert on the warm rock.|도마뱀이 따뜻한 바위 위에 꼼짝 않고 누워 있었다.
+inexperienced|경험이 부족한, 미숙한|The inexperienced driver was nervous on the highway.|경험이 부족한 운전자는 고속도로에서 긴장했다.
+infant|유아, 젖먹이|The infant slept peacefully in her mother's arms.|아기는 엄마 품에서 평화롭게 잠들었다.
+infect|감염시키다; (기분 등을) 옮기다|A virus infected my computer last week.|지난주 바이러스가 내 컴퓨터를 감염시켰다.
+infected|감염된|Clean the cut so it doesn't get infected.|상처가 감염되지 않도록 깨끗이 닦으세요.
+infectious|전염성의; 전염되는|Her laughter was so infectious that we all laughed too.|그녀의 웃음은 전염성이 강해서 우리 모두 따라 웃었다.
+infer|추론하다, 추측하다|From her smile, I inferred that she passed the test.|그녀의 미소를 보고 나는 그녀가 시험에 합격했다고 추측했다.
+inference|추론, 추리|Reading tests often include inference questions.|읽기 시험에는 종종 추론 문제가 포함된다.
+inflammation|염증|Ice can reduce the inflammation in your knee.|얼음은 무릎의 염증을 줄여 줄 수 있다.
+inflammatory|염증성의; 선동적인|The doctor gave me an anti-inflammatory cream.|의사가 나에게 소염 크림을 처방해 주었다.
+inflate|부풀리다, 팽창시키다|We inflated twenty balloons for the party.|우리는 파티를 위해 풍선 스무 개를 불었다.
+inflation|인플레이션, 물가 상승; 팽창|Inflation has made groceries more expensive this year.|올해 물가 상승으로 장보기 비용이 더 비싸졌다.
+influential|영향력 있는|She is an influential writer in the fashion world.|그녀는 패션계에서 영향력 있는 작가다.
+influenza|독감, 인플루엔자|Many students were absent because of influenza.|많은 학생들이 독감 때문에 결석했다.
+informal|격식을 차리지 않는, 비공식의|The party is informal, so wear whatever you like.|파티는 격식 없는 자리니 편하게 입고 오세요.
+infringe|(법·권리를) 침해하다, 위반하다|Copying the movie would infringe copyright laws.|그 영화를 복제하는 것은 저작권법 위반이다.
+infringement|침해, 위반|Using that logo without permission is an infringement.|그 로고를 허락 없이 쓰는 것은 침해 행위다.
+inhabit|살다, 거주하다, 서식하다|Penguins inhabit the cold areas of the south.|펭귄은 남쪽의 추운 지역에 서식한다.
+inherit|상속받다, 물려받다|She inherited her mother's curly hair.|그녀는 엄마의 곱슬머리를 물려받았다.
+initiative|주도권, 진취성; 새로운 계획|Mina took the initiative and organized the class trip.|미나가 앞장서서 반 여행을 준비했다.
+injection|주사|The nurse gave me a flu injection.|간호사가 나에게 독감 주사를 놓아 주었다.
+injured|다친, 부상당한|The injured player had to leave the field.|부상당한 선수는 경기장을 떠나야 했다.
+innate|타고난, 선천적인|Children have an innate curiosity about the world.|아이들은 세상에 대한 타고난 호기심이 있다.
+innocently|순진하게, 천진난만하게|The puppy looked up at me innocently.|강아지가 천진난만하게 나를 올려다보았다.
+innovation|혁신, 쇄신|Smartphones were a major innovation in communication.|스마트폰은 통신 분야의 큰 혁신이었다.
+innovative|혁신적인|The company is known for its innovative designs.|그 회사는 혁신적인 디자인으로 유명하다.
+input|투입, 입력; 의견|We'd love your input on the new menu.|새 메뉴에 대한 의견을 주시면 좋겠습니다.
+inquire|묻다, 문의하다|I called to inquire about the opening hours.|나는 영업시간을 문의하려고 전화했다.
+inseparable|분리할 수 없는, 떼려야 뗄 수 없는|The two best friends are inseparable.|그 두 단짝은 떼려야 뗄 수 없는 사이다.
+inspect|검사하다, 점검하다|The mechanic inspected the brakes carefully.|정비사가 브레이크를 꼼꼼히 점검했다.

@@ -238,3 +238,113 @@ inscription|새겨진 글, 비문|The inscription on the old bench was hard to r
 insight|통찰력, 이해|The book gives a useful insight into Japanese culture.|그 책은 일본 문화에 대한 유용한 통찰을 준다.
 insist|주장하다, 고집하다|My mother insisted on driving me to the airport.|엄마는 나를 공항까지 태워 주겠다고 고집하셨다.
 inspection|점검, 검사|The car must pass a safety inspection every year.|그 차는 매년 안전 검사를 통과해야 한다.
+inspire|영감을 주다, 고무하다|Her story inspired me to start running.|그녀의 이야기에 자극받아 나는 달리기를 시작했다.
+install|설치하다|We need to install the new app on every computer.|모든 컴퓨터에 새 앱을 설치해야 한다.
+instance|사례, 경우|For instance, you can practise English by watching cartoons.|예를 들어 만화를 보면서 영어를 연습할 수 있다.
+instead of|~ 대신에|Let's walk instead of taking a taxi.|택시 타는 대신 걸어가자.
+institute|(명) 연구소, 협회; (동) 도입하다, 시작하다|He works at a science institute in Daejeon.|그는 대전의 한 과학 연구소에서 일한다.
+instruction|지시, 설명(서)|Read the instructions before you build the shelf.|선반을 조립하기 전에 설명서를 읽어라.
+instructor|강사, 교관|Our swimming instructor is very patient.|우리 수영 강사님은 아주 인내심이 많으시다.
+insurance|보험|Don't forget to buy travel insurance before the trip.|여행 전에 여행자 보험 드는 것 잊지 마.
+intend|~할 작정이다, 의도하다|I intend to finish this book by Friday.|나는 금요일까지 이 책을 다 읽을 생각이다.
+intense|강렬한, 극심한|The heat in the desert was intense.|사막의 더위는 극심했다.
+intensive|집중적인, 집약적인|She took an intensive Spanish course last summer.|그녀는 지난여름 스페인어 집중 과정을 들었다.
+intention|의도, 의향|I had no intention of hurting your feelings.|네 기분을 상하게 할 생각은 전혀 없었어.
+intentionally|고의로, 일부러|He didn't break the vase intentionally.|그가 일부러 꽃병을 깬 건 아니었다.
+interact|상호 작용하다, 교류하다|Children learn by interacting with each other.|아이들은 서로 어울리며 배운다.
+interaction|상호 작용, 교류|The app allows interaction between teachers and parents.|그 앱으로 교사와 학부모가 소통할 수 있다.
+intermediate|중급의, 중간의|I'm taking an intermediate English class this term.|나는 이번 학기에 중급 영어 수업을 듣는다.
+intermission|(공연의) 중간 휴식 시간|We bought drinks during the intermission.|우리는 중간 휴식 시간에 음료를 샀다.
+internal|내부의, 국내의|The company is having an internal meeting today.|회사는 오늘 내부 회의를 연다.
+internationally|국제적으로|Her paintings are now known internationally.|그녀의 그림은 이제 국제적으로 알려져 있다.
+interrupt|방해하다, 끼어들다|Sorry to interrupt, but your taxi is here.|말씀 중에 죄송하지만 택시가 왔어요.
+interval|간격; (공연) 휴식 시간|The buses leave at ten-minute intervals.|버스는 10분 간격으로 출발한다.
+interviewee|면접 대상자, 인터뷰 받는 사람|Each interviewee will have twenty minutes to speak.|면접자마다 20분씩 말할 시간이 주어진다.
+introduction|소개; 도입, 서론|The introduction of the essay should be short.|에세이의 서론은 짧아야 한다.
+invasion|침입, 침략|The garden suffered an invasion of snails after the rain.|비가 온 뒤 정원에 달팽이 떼가 몰려들었다.
+invest|투자하다|She invested her savings in a small bakery.|그녀는 저축한 돈을 작은 빵집에 투자했다.
+investigation|조사, 수사|The airline started an investigation into the lost bags.|항공사는 분실된 가방에 대한 조사를 시작했다.
+invitation|초대, 초대장|Thank you for the invitation to your birthday party.|생일 파티에 초대해 줘서 고마워.
+involuntarily|무의식적으로, 자기도 모르게|I laughed involuntarily at his funny face.|그의 웃긴 표정에 나도 모르게 웃음이 터졌다.
+involve|포함하다, 수반하다; 관여시키다|The job involves a lot of travel.|그 일은 출장이 많다.
+involved|관여한, 연루된; 복잡한|Parents should be involved in their children's education.|부모는 자녀 교육에 참여해야 한다.
+iron|(명) 철, 다리미; (동) 다림질하다|I need to iron my shirt before the meeting.|회의 전에 셔츠를 다려야 한다.
+ironing|다림질; 다림질할 옷|I usually do the ironing on Sunday evening.|나는 보통 일요일 저녁에 다림질을 한다.
+irregular|불규칙한, 고르지 않은|"Go" is an irregular verb in English.|"go"는 영어의 불규칙 동사다.
+irritate|짜증 나게 하다; 자극하다|The noise from upstairs really irritates me.|위층에서 나는 소음이 정말 짜증 난다.
+isle|섬|They spent their holiday on a quiet isle in Scotland.|그들은 스코틀랜드의 조용한 섬에서 휴가를 보냈다.
+isolation|고립, 격리|Living alone in the mountains can bring feelings of isolation.|산속에 혼자 살면 고립감을 느낄 수 있다.
+ivory|상아; 상아색|The piano keys were once made of ivory.|예전에는 피아노 건반을 상아로 만들었다.
+jade|옥, 비취|My grandmother gave me a green jade bracelet.|할머니께서 초록색 옥팔찌를 주셨다.
+jail|교도소, 감옥|The old jail is now a popular museum.|그 옛 교도소는 지금 인기 있는 박물관이다.
+jar|(유리) 병, 단지|Can you open this jar of honey for me?|이 꿀단지 좀 열어 줄래?
+jazz|재즈|We listened to live jazz at a small bar.|우리는 작은 바에서 라이브 재즈를 들었다.
+jealous|질투하는, 시기하는|My little brother gets jealous when I play with the dog.|내가 강아지랑 놀면 남동생이 질투한다.
+jewel|보석|The crown was covered with shining jewels.|왕관은 빛나는 보석으로 뒤덮여 있었다.
+jog|(명) 조깅; (동) 조깅하다|I jog along the river every morning.|나는 매일 아침 강변을 따라 조깅한다.
+jogging|조깅|Jogging is a cheap way to stay healthy.|조깅은 건강을 유지하는 돈 안 드는 방법이다.
+joint|(형) 공동의; (명) 관절|We opened a joint bank account for the trip.|우리는 여행을 위해 공동 계좌를 만들었다.
+journal|일지, 일기; 학술지|I keep a travel journal whenever I go abroad.|나는 해외에 갈 때마다 여행 일지를 쓴다.
+journalist|기자, 언론인|The journalist asked the mayor about the new park.|기자가 시장에게 새 공원에 대해 질문했다.
+judgment|판단, 판단력|I trust your judgment on which phone to buy.|어떤 휴대폰을 살지는 네 판단을 믿을게.
+jug|주전자, 물병|Put a jug of water on the table, please.|식탁에 물 한 주전자 놓아 주세요.
+juicy|즙이 많은|These peaches are sweet and juicy.|이 복숭아들은 달고 즙이 많다.
+jumper|스웨터|Take a jumper in case it gets cold tonight.|밤에 추워질지 모르니 스웨터를 챙겨 가.
+jungle|정글, 밀림|Monkeys were swinging through the jungle trees.|원숭이들이 정글 나무 사이를 건너다니고 있었다.
+justice|정의, 공정|The children's book is about fairness and justice.|그 동화책은 공정함과 정의에 관한 이야기다.
+kettle|주전자|I'll put the kettle on for some tea.|차 마시게 물 끓일게.
+keyboard|키보드, 건반|My laptop keyboard stopped working this morning.|오늘 아침 노트북 키보드가 고장 났다.
+killing|살해; (사냥) 죽이기|The film shows no killing, so it is fine for kids.|그 영화에는 살생 장면이 없어서 아이들이 봐도 괜찮다.
+kindness|친절, 다정함|Thank you for your kindness during my stay.|머무는 동안 친절하게 대해 주셔서 감사합니다.
+kitten|새끼 고양이|The kitten fell asleep in my lap.|새끼 고양이가 내 무릎에서 잠들었다.
+knit|뜨개질하다, 뜨다|My aunt knitted a scarf for my birthday.|이모가 내 생일에 목도리를 떠 주셨다.
+lab|실험실, 연구실|We have science in the lab after lunch.|점심 후에 실험실에서 과학 수업이 있다.
+laboratory|실험실, 연구소|The new medicine was tested in a laboratory.|그 신약은 연구소에서 시험되었다.
+ladder|사다리|Hold the ladder while I change the light bulb.|내가 전구 갈 동안 사다리 좀 잡아 줘.
+lamb|어린 양; 양고기|We saw baby lambs on the farm in spring.|우리는 봄에 농장에서 새끼 양들을 보았다.
+landlord|집주인, 임대인|Our landlord fixed the broken window quickly.|집주인이 깨진 창문을 빨리 고쳐 주었다.
+largely|주로, 대체로|The success of the event was largely due to volunteers.|행사의 성공은 주로 자원봉사자들 덕분이었다.
+lasting|지속적인, 오래가는|The trip left a lasting memory for all of us.|그 여행은 우리 모두에게 오래 남는 추억이 되었다.
+latecomer|지각자, 늦게 온 사람|Latecomers must wait outside until the break.|늦게 온 사람은 휴식 시간까지 밖에서 기다려야 한다.
+lately|최근에|Have you seen any good films lately?|최근에 좋은 영화 본 거 있어?
+laughter|웃음, 웃음소리|The room was full of laughter during the party.|파티 내내 방 안이 웃음소리로 가득했다.
+launch|(동) 출시하다, 발사하다; (명) 출시, 발사|The company will launch its new phone in March.|그 회사는 3월에 새 휴대폰을 출시한다.
+lawful|합법적인, 적법한|Is it lawful to fly a drone in this park?|이 공원에서 드론을 날리는 게 합법인가요?
+lay|놓다, 눕히다; (알을) 낳다|Please lay the map on the table.|지도를 탁자 위에 펼쳐 놓아 주세요.
+layer|층, 겹|Wear several layers of clothing when you go skiing.|스키 타러 갈 때는 옷을 여러 겹 입어라.
+leadership|지도력, 리더십|She showed great leadership during the school project.|그녀는 학교 프로젝트에서 뛰어난 리더십을 보였다.
+leading|선두의, 주요한|He is a leading expert in children's health.|그는 아동 건강 분야의 손꼽히는 전문가다.
+league|리그, 연맹|Our team finished second in the local league.|우리 팀은 지역 리그에서 2위를 했다.
+lean|(형) 마른, 기름기 없는; (동) 기대다, 기울다|Don't lean on the door; it might open.|문에 기대지 마, 열릴 수도 있어.
+leap|(명) 도약; (동) 뛰어오르다|The cat leapt onto the kitchen table.|고양이가 부엌 식탁 위로 뛰어올랐다.
+lecture|강의, 강연|The history lecture starts at ten o'clock.|역사 강의는 10시에 시작한다.
+legal|법률의, 합법적인|You need legal advice before signing that contract.|그 계약서에 서명하기 전에 법률 자문을 받아야 한다.
+legally|법적으로, 합법적으로|You can legally drive at eighteen in this country.|이 나라에서는 18세부터 합법적으로 운전할 수 있다.
+length|길이; 기간|The length of the bridge is about two kilometres.|그 다리의 길이는 약 2킬로미터다.
+lessen|줄이다, 줄다|A warm bath can lessen muscle pain.|따뜻한 목욕은 근육통을 덜어 줄 수 있다.
+lettuce|양상추|I put lettuce and tomato in my sandwich.|나는 샌드위치에 양상추와 토마토를 넣었다.
+liar|거짓말쟁이|Nobody believed him because he was a liar.|그는 거짓말쟁이라서 아무도 그를 믿지 않았다.
+liberate|해방시키다, 자유롭게 하다|Moving to the countryside liberated her from stress.|시골로 이사하면서 그녀는 스트레스에서 벗어났다.
+liberation|해방|The town celebrates its liberation day every August.|그 도시는 매년 8월에 해방 기념일을 기념한다.
+librarian|사서|The librarian helped me find a book about birds.|사서가 새에 관한 책을 찾는 걸 도와주었다.
+lifeguard|인명 구조원|The lifeguard told us not to swim too far.|안전 요원이 너무 멀리 헤엄치지 말라고 했다.
+lifelong|평생의, 일생의|They have been lifelong friends since primary school.|그들은 초등학교 때부터 평생 친구로 지내 왔다.
+lift|(명) 엘리베이터, 태워 줌; (동) 들어 올리다|Can you give me a lift to the station?|역까지 좀 태워 줄 수 있어?
+lighter|라이터|He used a lighter to light the candles on the cake.|그는 라이터로 케이크의 초에 불을 붙였다.
+lightly|가볍게, 살짝|Brush the bread lightly with butter.|빵에 버터를 살짝 발라라.
+lightning|번개|We saw lightning over the hills last night.|어젯밤 언덕 위로 번개가 치는 것을 보았다.
+likeness|닮음, 유사성|There is a strong likeness between the two sisters.|두 자매는 많이 닮았다.
+limit|(명) 한계, 제한; (동) 제한하다|The speed limit here is fifty kilometres an hour.|이곳의 제한 속도는 시속 50킬로미터다.
+limitation|제한, 한계|Every plan has its limitations.|모든 계획에는 한계가 있다.
+limited|제한된, 한정된|We have limited time, so let's start now.|시간이 한정되어 있으니 지금 시작하자.
+limp|절뚝거리다|He limped off the field after hurting his ankle.|그는 발목을 다친 뒤 절뚝거리며 경기장을 나갔다.
+link|(명) 연결, 링크; (동) 연결하다|I'll send you the link to the online form.|온라인 신청서 링크를 보내 줄게.
+liquid|(형) 액체의; (명) 액체|You can't take liquids over 100 ml on the plane.|100ml가 넘는 액체는 비행기에 가지고 탈 수 없다.
+literary|문학의, 문학적인|She won a literary prize for her first novel.|그녀는 첫 소설로 문학상을 받았다.
+literature|문학|I'm reading English literature at university.|나는 대학에서 영문학을 전공하고 있다.
+liver|간|Alcohol can damage your liver.|술은 간을 손상시킬 수 있다.
+loaf|(빵) 한 덩어리|Could you buy a loaf of bread on your way home?|집에 오는 길에 빵 한 덩어리 사 올래?
+locate|위치를 찾아내다; 위치시키다|I couldn't locate the hotel on the map.|지도에서 호텔 위치를 찾을 수 없었다.
+location|위치, 장소|The new office is in a great location near the subway.|새 사무실은 지하철 근처 좋은 위치에 있다.
+lodge|(명) 오두막, 산장; (동) 묵다, 하숙하다|We stayed in a ski lodge in the mountains.|우리는 산속의 스키 산장에 묵었다.
+log|통나무; 기록, 일지|We sat on a log and watched the sunset.|우리는 통나무에 앉아 노을을 바라보았다.

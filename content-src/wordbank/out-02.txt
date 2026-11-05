@@ -198,3 +198,153 @@ base|(명) 기초, 바닥, 기지; (동) ~에 근거를 두다|The movie is base
 basic|기본적인, 기초의|I can speak basic Spanish.|나는 기초적인 스페인어를 할 수 있다.
 basically|기본적으로, 근본적으로|Basically, I just need a quiet place to study.|기본적으로 나는 공부할 조용한 곳만 있으면 돼.
 basket|바구니|She carried a basket full of apples.|그녀는 사과가 가득 든 바구니를 들고 있었다.
+batch|한 묶음, 한 회분|I baked a batch of chocolate cookies for my friends.|나는 친구들을 위해 초콜릿 쿠키를 한 판 구웠다.
+battery|배터리, 건전지|My phone battery is almost dead.|내 휴대폰 배터리가 거의 다 됐다.
+bay|만(灣)|We watched the boats sail across the bay.|우리는 배들이 만을 가로질러 항해하는 것을 지켜봤다.
+beauty|아름다움, 미인|The beauty of the sunset made us stop and stare.|노을이 너무 아름다워 우리는 멈춰 서서 바라보았다.
+been|be의 과거분사|Have you ever been to Japan?|일본에 가 본 적 있어?
+beer|맥주|My dad likes a cold beer after work.|아빠는 퇴근 후 시원한 맥주를 좋아하신다.
+beg|간청하다, 구걸하다|Our dog always begs for food at dinner.|우리 개는 저녁 시간마다 음식을 달라고 조른다.
+beginner|초보자|This yoga class is perfect for beginners.|이 요가 수업은 초보자에게 딱 맞다.
+beginning|시작, 처음|The beginning of the movie was a bit slow.|영화 초반부는 조금 지루했다.
+behavior|행동, 태도|The teacher praised the students for their good behavior.|선생님은 학생들의 바른 행동을 칭찬하셨다.
+being|존재, 생명체|Every living being needs water to survive.|모든 생명체는 살기 위해 물이 필요하다.
+belly|배, 복부|The puppy rolled over to show its belly.|강아지가 몸을 뒤집어 배를 보였다.
+belong|~에 속하다, ~의 것이다|Does this notebook belong to you?|이 공책 네 거야?
+belt|벨트, 허리띠|These jeans are loose, so I need a belt.|이 청바지가 헐렁해서 벨트가 필요해.
+bench|벤치, 긴 의자|Let's sit on the bench and eat our sandwiches.|벤치에 앉아서 샌드위치 먹자.
+bend|(명) 굽은 곳, 커브; (동) 구부리다, 숙이다|Bend your knees when you lift heavy boxes.|무거운 상자를 들 때는 무릎을 굽혀.
+besides|(부) 게다가; (전) ~외에도|Besides English, she also speaks French.|그녀는 영어 외에 프랑스어도 한다.
+beyond|~너머, ~을 넘어서|There is a small village beyond the hills.|언덕 너머에 작은 마을이 있다.
+bill|(명) 계산서, 청구서, 지폐; (동) 청구하다|Could we have the bill, please?|계산서 좀 주시겠어요?
+bit|조금, 약간, 조각|I'm a bit tired today.|오늘은 좀 피곤하다.
+bite|(명) 한 입, 물린 상처; (동) 물다|Can I have a bite of your sandwich?|네 샌드위치 한 입 먹어도 돼?
+blackboard|칠판|The teacher wrote the date on the blackboard.|선생님이 칠판에 날짜를 쓰셨다.
+blame|(명) 책임, 탓; (동) ~을 탓하다|Don't blame your brother for your mistake.|네 실수를 동생 탓으로 돌리지 마.
+blanket|담요|It's cold, so take an extra blanket.|추우니까 담요 하나 더 가져가.
+blonde|금발의|The girl with blonde hair is my cousin.|금발 머리 여자아이가 내 사촌이야.
+blood|피, 혈액|The nurse took a blood sample from my arm.|간호사가 내 팔에서 혈액 샘플을 채취했다.
+bloom|(명) 꽃, 개화; (동) 꽃이 피다|The cherry trees bloom in early April.|벚나무는 4월 초에 꽃을 피운다.
+board game|보드게임|We played a board game after dinner.|우리는 저녁 식사 후에 보드게임을 했다.
+boil|끓다, 끓이다, 삶다|Boil the water before you add the noodles.|면을 넣기 전에 물을 끓이세요.
+boiled|삶은, 끓인|I had two boiled eggs for breakfast.|나는 아침으로 삶은 달걀 두 개를 먹었다.
+bonus|보너스, 덤|Everyone at the company got a bonus this year.|올해 회사의 모든 직원이 보너스를 받았다.
+bookcase|책장|The bookcase in my room is full of comics.|내 방 책장은 만화책으로 가득하다.
+bookshelf|책꽂이, 서가|Please put the dictionary back on the bookshelf.|사전을 책꽂이에 다시 꽂아 주세요.
+bookshop|서점|There's a cozy bookshop next to the café.|카페 옆에 아늑한 서점이 있다.
+bored|지루한, 따분해하는|I was so bored during the long flight.|긴 비행 동안 너무 지루했다.
+boss|상사, 사장|My boss let me leave early today.|오늘 상사가 일찍 퇴근하게 해 주었다.
+bother|(명) 성가심; (동) 귀찮게 하다, 신경 쓰이게 하다|Sorry to bother you, but can I ask a question?|귀찮게 해서 죄송하지만 질문 하나 해도 될까요?
+bra|브래지어|She bought a new sports bra for running.|그녀는 달리기용 새 스포츠 브라를 샀다.
+brainstorm|브레인스토밍, 아이디어 회의|Let's have a quick brainstorm before we start the project.|프로젝트를 시작하기 전에 간단히 아이디어 회의를 하자.
+brake|(명) 브레이크; (동) 브레이크를 밟다|The driver braked suddenly when a cat ran out.|고양이가 뛰어나오자 운전자가 급브레이크를 밟았다.
+branch|(명) 나뭇가지, 지점; (동) 갈라지다|A bird is sitting on the branch outside my window.|창밖 나뭇가지에 새 한 마리가 앉아 있다.
+brand|상표, 브랜드|Which brand of shampoo do you use?|너는 어떤 브랜드 샴푸를 써?
+brave|용감한|The brave little boy wasn't scared of the dark.|그 용감한 꼬마는 어둠을 무서워하지 않았다.
+breeze|산들바람, 미풍|A cool breeze came in through the window.|시원한 산들바람이 창문으로 들어왔다.
+bride|신부|The bride looked beautiful in her white dress.|신부는 흰 드레스를 입고 아름다워 보였다.
+brilliant|훌륭한, 뛰어난, 눈부신|That's a brilliant idea!|그거 정말 훌륭한 생각이다!
+budget|(형) 저렴한; (명) 예산|We're traveling on a small budget this year.|올해는 적은 예산으로 여행하고 있다.
+bug|벌레, (컴퓨터) 오류|There's a bug crawling on the kitchen wall.|부엌 벽에 벌레가 기어가고 있다.
+bulb|전구, 구근|The light bulb in the bathroom needs changing.|욕실 전구를 갈아야 한다.
+burn|(명) 화상; (동) 타다, 태우다, 데다|I burned my finger on the hot pan.|뜨거운 프라이팬에 손가락을 데었다.
+bury|묻다, 매장하다|The dog likes to bury its bones in the garden.|그 개는 정원에 뼈다귀를 묻는 걸 좋아한다.
+bus station|버스 터미널, 버스 정류장|The bus station is a ten-minute walk from here.|버스 터미널은 여기서 걸어서 10분 거리이다.
+bush|덤불, 관목|The cat is hiding behind the bush.|고양이가 덤불 뒤에 숨어 있다.
+businessman|사업가, 회사원(남성)|The businessman checked his email on the train.|그 사업가는 기차에서 이메일을 확인했다.
+businesswoman|사업가, 회사원(여성)|My aunt is a successful businesswoman.|우리 이모는 성공한 사업가이다.
+cab|택시|It's late, so let's take a cab home.|늦었으니 택시 타고 집에 가자.
+cafeteria|구내식당, 카페테리아|We eat lunch in the school cafeteria.|우리는 학교 구내식당에서 점심을 먹는다.
+calendar|달력, 일정표|I marked your birthday on my calendar.|달력에 네 생일을 표시해 두었어.
+camping|캠핑, 야영|We're going camping by the lake this weekend.|우리는 이번 주말에 호숫가로 캠핑을 간다.
+campus|(대학) 캠퍼스, 교정|The university campus is very green and quiet.|그 대학 캠퍼스는 녹지가 많고 조용하다.
+capital|수도, 대문자, 자본|Seoul is the capital of Korea.|서울은 한국의 수도이다.
+capital letter|대문자|Always start a sentence with a capital letter.|문장은 항상 대문자로 시작하세요.
+captain|선장, 주장, 기장|He is the captain of our soccer team.|그는 우리 축구팀의 주장이다.
+car park|주차장|The car park was full, so we parked on the street.|주차장이 꽉 차서 길가에 차를 댔다.
+carrot|당근|Rabbits love to eat carrots.|토끼는 당근 먹는 걸 정말 좋아한다.
+cash|현금|Do you take cash or only cards?|현금도 받나요, 아니면 카드만 되나요?
+cassette|카세트테이프|My dad still keeps his old cassette tapes.|아빠는 아직도 옛날 카세트테이프를 갖고 계신다.
+castle|성|We visited an old castle on a hill.|우리는 언덕 위의 오래된 성을 방문했다.
+cause|(명) 원인, 이유; (동) 일으키다, 초래하다|Heavy snow caused delays at the airport.|폭설로 공항에서 지연이 발생했다.
+cent|센트|This candy costs fifty cents.|이 사탕은 50센트이다.
+center|중심, 중앙, 센터|Our hotel is in the center of the city.|우리 호텔은 시내 중심에 있다.
+centimeter|센티미터|My little brother grew five centimeters this year.|남동생이 올해 5센티미터 컸다.
+century|세기, 100년|This bridge was built in the 19th century.|이 다리는 19세기에 지어졌다.
+cereal|시리얼, 곡물|I usually have cereal with milk for breakfast.|나는 보통 아침으로 우유에 시리얼을 먹는다.
+certain|확실한, 특정한|Are you certain that the shop is open today?|그 가게가 오늘 문 연 거 확실해?
+certainly|확실히, 물론|"Can you help me?" "Certainly!"|"도와줄 수 있어?" "물론이지!"
+chain|사슬, 체인, 연쇄점|She wears a gold chain around her neck.|그녀는 목에 금목걸이를 하고 있다.
+chairman|의장, 회장|The chairman opened the meeting at nine.|의장이 9시에 회의를 시작했다.
+challenge|(명) 도전, 어려운 일; (동) 도전하다|Learning to swim was a big challenge for me.|수영을 배우는 건 나에게 큰 도전이었다.
+champagne|샴페인|They opened a bottle of champagne to celebrate.|그들은 축하하려고 샴페인 한 병을 땄다.
+championship|선수권 대회, 우승|Our school won the basketball championship.|우리 학교가 농구 선수권 대회에서 우승했다.
+chance|기회, 가능성|This is a great chance to practice your English.|이건 영어를 연습할 좋은 기회야.
+chapter|(책의) 장|I read two chapters before bed.|나는 자기 전에 두 장을 읽었다.
+chart|(명) 도표, 차트; (동) 기록하다|The chart shows how much water we use each day.|그 도표는 우리가 매일 물을 얼마나 쓰는지 보여 준다.
+chat|(명) 잡담; (동) 수다를 떨다, 채팅하다|We chatted for hours at the coffee shop.|우리는 커피숍에서 몇 시간 동안 수다를 떨었다.
+cheek|볼, 뺨|The baby has round, pink cheeks.|아기 볼이 동그랗고 분홍빛이다.
+cheer|환호하다, 응원하다, 기운을 북돋우다|The fans cheered when the team scored.|팀이 득점하자 팬들이 환호했다.
+chef|요리사, 주방장|The chef made a special pasta for us.|주방장이 우리를 위해 특별한 파스타를 만들어 주었다.
+chemical|(형) 화학의; (명) 화학 물질|Keep these cleaning chemicals away from children.|이 세척용 화학 물질을 아이들 손에 닿지 않게 하세요.
+cheque|수표|She paid the rent by cheque.|그녀는 집세를 수표로 냈다.
+chess|체스|My grandpa taught me how to play chess.|할아버지께서 나에게 체스 두는 법을 가르쳐 주셨다.
+chest|가슴, 흉부, 큰 상자|I felt a little pain in my chest after running.|달리기 후에 가슴이 조금 아팠다.
+childhood|어린 시절|I have happy memories of my childhood.|나는 어린 시절의 행복한 기억이 있다.
+chili|고추, 칠리|This soup has too much chili in it.|이 수프에는 고추가 너무 많이 들어갔다.
+chimpanzee|침팬지|The chimpanzee used a stick to get the fruit.|침팬지가 막대기를 사용해 과일을 땄다.
+chin|턱|He has a small scar on his chin.|그는 턱에 작은 흉터가 있다.
+chirp|짹짹 소리, 지저귐|We woke up to the chirp of birds outside.|우리는 바깥에서 새들이 지저귀는 소리에 잠이 깼다.
+choice|선택, 선택권|You have a choice between soup and salad.|수프와 샐러드 중에서 고를 수 있어요.
+cigarette|담배|Cigarettes are not allowed inside the building.|건물 안에서는 담배를 피울 수 없다.
+citizen|시민, 국민|Every citizen has the right to clean air.|모든 시민은 깨끗한 공기를 누릴 권리가 있다.
+claim|(명) 주장, 청구; (동) 주장하다, 요구하다|He claims that he saw a UFO last night.|그는 어젯밤 UFO를 봤다고 주장한다.
+classic|(형) 고전적인, 대표적인; (명) 고전, 명작|This film is a classic that everyone should see.|이 영화는 누구나 봐야 할 명작이다.
+classical music|클래식 음악|I listen to classical music when I study.|나는 공부할 때 클래식 음악을 듣는다.
+cleaner|청소부, 세제, 청소기|The cleaner comes to our office every evening.|청소부가 매일 저녁 우리 사무실에 온다.
+clear|(형) 맑은, 분명한; (동) 치우다, 개다|Can you clear the table after dinner?|저녁 먹고 나서 식탁 좀 치워 줄래?
+clearly|분명히, 또렷하게|Please speak clearly so everyone can hear you.|모두가 들을 수 있게 또박또박 말해 주세요.
+clerk|점원, 사무원|The clerk at the hotel gave us our room key.|호텔 직원이 우리에게 방 열쇠를 주었다.
+click|(명) 딸깍 소리, 클릭; (동) 클릭하다|Click the blue button to start the game.|게임을 시작하려면 파란 버튼을 클릭하세요.
+climbing|등산, 암벽 등반|Rock climbing is my favorite weekend activity.|암벽 등반은 내가 가장 좋아하는 주말 활동이다.
+clone|복제하다|Scientists have cloned a sheep before.|과학자들은 전에 양을 복제한 적이 있다.
+clown|광대|The clown made all the children laugh.|광대가 아이들을 모두 웃게 했다.
+clue|단서, 실마리|I have no clue where I left my keys.|열쇠를 어디에 뒀는지 전혀 모르겠어.
+coast|(명) 해안; (동) 미끄러져 나아가다|We drove along the coast to the next town.|우리는 해안을 따라 다음 마을까지 운전했다.
+coin|동전|I found an old coin under the sofa.|소파 밑에서 오래된 동전을 하나 찾았다.
+cola|콜라|Can I get a cola with my burger?|버거랑 콜라 하나 주시겠어요?
+colorful|화려한, 다채로운|The market was full of colorful fruit.|시장은 알록달록한 과일로 가득했다.
+column|기둥, 세로 단, 칼럼|Write your answers in the left column.|답을 왼쪽 칸에 쓰세요.
+comb|(명) 빗; (동) 빗질하다|She combs her hair every morning.|그녀는 매일 아침 머리를 빗는다.
+comfortable|편안한, 쾌적한|This sofa is really comfortable.|이 소파 정말 편하다.
+comic|(형) 웃기는, 희극의; (명) 만화책, 코미디언|My son reads comics before bed.|내 아들은 자기 전에 만화책을 읽는다.
+commitment|헌신, 약속, 책임|Learning a language takes time and commitment.|언어를 배우는 데는 시간과 꾸준한 노력이 필요하다.
+committee|위원회|She is on the school festival committee.|그녀는 학교 축제 위원회 소속이다.
+common|흔한, 공통의, 보통의|Kim is a very common family name in Korea.|김씨는 한국에서 아주 흔한 성이다.
+communicate|의사소통하다, 전달하다|We communicate by text message most of the time.|우리는 대부분 문자 메시지로 연락한다.
+communication|의사소통, 통신|Good communication is important in a team.|팀에서는 원활한 의사소통이 중요하다.
+company|회사, 함께 있음, 일행|My mom works for a small design company.|엄마는 작은 디자인 회사에서 일하신다.
+comparative|비교급|The comparative of "big" is "bigger."|"big"의 비교급은 "bigger"이다.
+compare|비교하다, 비유하다|Let's compare the prices before we buy.|사기 전에 가격을 비교해 보자.
+competition|경쟁, 대회, 시합|She entered a singing competition at school.|그녀는 학교 노래 대회에 참가했다.
+complain|불평하다, 항의하다|He always complains about the cold weather.|그는 항상 추운 날씨에 대해 불평한다.
+complaint|불평, 항의, 민원|We made a complaint about the noisy room.|우리는 시끄러운 방에 대해 항의했다.
+complete|(형) 완전한, 완성된; (동) 완성하다, 끝마치다|Please complete the form and return it to me.|양식을 작성해서 저에게 다시 주세요.
+composer|작곡가|The composer wrote this song for his daughter.|그 작곡가는 딸을 위해 이 노래를 썼다.
+concentrate|집중하다|I can't concentrate with the TV on.|텔레비전이 켜져 있으면 집중이 안 돼.
+concern|(명) 걱정, 관심사; (동) 걱정시키다, 관련되다|Thank you for your concern, but I'm fine.|걱정해 줘서 고마운데 난 괜찮아.
+condition|(명) 상태, 조건; (동) 길들이다|The used car is in good condition.|그 중고차는 상태가 좋다.
+confident|자신감 있는, 확신하는|She felt confident before her speech.|그녀는 발표 전에 자신감이 있었다.
+confuse|혼란스럽게 하다, 혼동하다|I always confuse the twins' names.|나는 항상 쌍둥이 이름을 헷갈린다.
+confused|혼란스러운, 당황한|I was confused by the map at the station.|역에 있는 지도를 보고 헷갈렸다.
+consequence|결과, 영향|Being late every day will have consequences.|매일 지각하면 대가가 따를 거야.
+consider|고려하다, 여기다|We are considering moving to a bigger apartment.|우리는 더 큰 아파트로 이사하는 것을 고려하고 있다.
+consist|~으로 이루어지다|The meal consists of rice, soup, and three side dishes.|그 식사는 밥, 국, 반찬 세 가지로 이루어져 있다.
+contact|(명) 연락, 접촉; (동) 연락하다|Please contact me if you have any questions.|질문이 있으면 저에게 연락 주세요.
+container|용기, 그릇, 컨테이너|Put the leftover rice in a plastic container.|남은 밥을 플라스틱 용기에 담아.
+context|문맥, 맥락, 상황|Try to guess the word's meaning from the context.|문맥을 통해 단어의 뜻을 추측해 보세요.
+continent|대륙|Africa is a huge continent.|아프리카는 거대한 대륙이다.
+continue|계속하다|Let's continue the lesson after the break.|쉬는 시간 후에 수업을 계속하자.
+contrast|대조, 차이|There's a big contrast between summer and winter here.|이곳은 여름과 겨울의 차이가 크다.
+control|(명) 통제, 조종; (동) 통제하다, 조절하다|You can control the lights with your phone.|휴대폰으로 조명을 조절할 수 있다.
+convenience|편리, 편의|For your convenience, we offer free parking.|고객님의 편의를 위해 무료 주차를 제공합니다.

@@ -118,3 +118,233 @@ overseer|감독관, 관리자|The overseer checked the workers' progress every m
 panorama|전경, 파노라마; 개관|From the tower, we enjoyed a panorama of the whole city.|탑에서 우리는 도시 전체의 전경을 즐겼다.
 panoramic|전경이 보이는, 파노라마의|The hotel restaurant offers panoramic views of the bay.|그 호텔 레스토랑에서는 만의 전경을 볼 수 있다.
 parasite|기생충, 기생 생물; 남에게 빌붙는 사람|The vet found a parasite in the dog's stomach.|수의사가 개의 위에서 기생충을 발견했다.
+paternal|아버지의, 부성의; 친가 쪽의|My paternal grandfather was a fisherman on the east coast.|친할아버지는 동해안의 어부셨다.
+paternalistic|온정주의적인, 간섭주의적인|Many employees disliked the boss's paternalistic style of management.|많은 직원들이 사장의 간섭주의적인 경영 방식을 싫어했다.
+pathos|비애감, 페이소스|The film's final scene is full of quiet pathos.|그 영화의 마지막 장면은 잔잔한 비애감으로 가득하다.
+paywall|페이월, 유료 열람 장벽|Most of the newspaper's articles are now behind a paywall.|그 신문의 기사 대부분은 이제 유료로만 볼 수 있다.
+peacock|공작 (수컷)|The peacock spread its colorful tail in front of the visitors.|공작이 방문객들 앞에서 화려한 꼬리를 활짝 펼쳤다.
+peasant|소작농, 농민|The novel describes the hard life of a medieval peasant.|그 소설은 중세 농민의 고된 삶을 묘사한다.
+pedicure|발 관리, 페디큐어|She booked a pedicure for the day before her beach holiday.|그녀는 해변 휴가 전날로 발 관리를 예약했다.
+pendulous|축 늘어진, 매달려 흔들리는|Pendulous branches hung low over the river.|축 늘어진 나뭇가지들이 강 위로 낮게 드리워져 있었다.
+pendulum|진자, 추; (여론 등의) 흐름|The old clock's pendulum swung slowly back and forth.|오래된 시계의 추가 천천히 앞뒤로 흔들렸다.
+peninsula|반도|Korea is located on a peninsula in East Asia.|한국은 동아시아의 한 반도에 위치해 있다.
+perceptive|지각력 있는, 통찰력 있는, 예리한|It was very perceptive of you to notice her mood.|그녀의 기분을 알아차리다니 당신은 정말 예리하군요.
+perceptively|예리하게, 통찰력 있게|The reviewer perceptively pointed out the plot's weaknesses.|그 평론가는 줄거리의 약점을 예리하게 지적했다.
+perpetuate|영속시키다, 지속시키다|Some advertisements perpetuate unrealistic ideas about beauty.|일부 광고는 아름다움에 대한 비현실적인 관념을 지속시킨다.
+persecute|박해하다; 괴롭히다|The group was persecuted for its religious beliefs.|그 집단은 종교적 신념 때문에 박해를 받았다.
+persecution|박해, 학대|Many families fled their homeland to escape persecution.|많은 가족이 박해를 피해 고국을 떠났다.
+personalization|개인화, 맞춤화|The website uses personalization to recommend products you might like.|그 웹사이트는 개인화 기능으로 좋아할 만한 상품을 추천한다.
+personalize|개인화하다, 개인 맞춤으로 하다|You can personalize the mug with your own name.|머그잔에 자기 이름을 새겨 개인 맞춤으로 만들 수 있다.
+persuasively|설득력 있게|She argued persuasively for a longer lunch break.|그녀는 점심시간 연장을 설득력 있게 주장했다.
+pertain to|~와 관련되다, ~에 해당하다|These rules pertain to all students living on campus.|이 규칙은 기숙사에 사는 모든 학생에게 해당된다.
+pertinent|적절한, 관련 있는|Please keep your questions pertinent to today's topic.|질문은 오늘 주제와 관련된 것으로 해 주세요.
+phenomenal|경이적인, 굉장한|The new restaurant has had phenomenal success.|새 식당은 경이적인 성공을 거두었다.
+phenomenally|경이적으로, 엄청나게|The app became phenomenally popular among teenagers.|그 앱은 십대들 사이에서 엄청난 인기를 끌었다.
+physicality|신체성, 육체적 특성|The dancer's physicality brought the character to life.|그 무용수의 신체 표현이 캐릭터에 생명을 불어넣었다.
+physique|체격, 몸매|Years of rowing gave him a powerful physique.|수년간의 조정으로 그는 탄탄한 체격을 갖게 되었다.
+pigeon|비둘기|A pigeon landed on the windowsill looking for crumbs.|비둘기 한 마리가 부스러기를 찾아 창턱에 내려앉았다.
+pinnacle|정점, 절정; 뾰족한 산봉우리|Winning the award was the pinnacle of her career.|그 상을 받은 것은 그녀 경력의 정점이었다.
+pioneer|(동) 개척하다, 선구자가 되다; (명) 개척자, 선구자|The clinic pioneered a new treatment for back injuries.|그 병원은 허리 부상의 새로운 치료법을 개척했다.
+placid|차분한, 잔잔한, 온화한|The lake was placid in the early morning light.|이른 아침 햇살 속에서 호수는 잔잔했다.
+placidly|차분하게, 평온하게|The cows grazed placidly in the green field.|소들이 푸른 들판에서 평온하게 풀을 뜯었다.
+plaque|명판, 기념패; 치석|A bronze plaque marks the house where the poet was born.|청동 명판이 그 시인이 태어난 집을 표시하고 있다.
+plaster|(명) 회반죽, 반창고, 깁스; (동) 회반죽을 바르다, 덕지덕지 붙이다|The old plaster on the ceiling had started to crack.|천장의 오래된 회반죽에 금이 가기 시작했다.
+plausibility|그럴듯함, 타당성|The jury questioned the plausibility of his story.|배심원단은 그의 이야기가 그럴듯한지 의문을 제기했다.
+plausible|그럴듯한, 타당해 보이는|She gave a plausible explanation for being late.|그녀는 늦은 이유에 대해 그럴듯한 설명을 했다.
+plausibly|그럴듯하게, 타당하게|The theory could plausibly explain the strange results.|그 이론은 이상한 결과를 그럴듯하게 설명할 수 있었다.
+pleasurable|즐거운, 기분 좋은|Reading in the garden is a pleasurable way to spend Sunday.|정원에서 책을 읽는 것은 일요일을 즐겁게 보내는 방법이다.
+ploy|계략, 책략|The free gift was just a ploy to collect our email addresses.|무료 선물은 우리 이메일 주소를 모으려는 계략일 뿐이었다.
+plumbing|배관; 배관 공사|The old house needed new plumbing before we could move in.|그 오래된 집은 이사 들어가기 전에 배관을 새로 해야 했다.
+plummet|급락하다, 곤두박질치다|Temperatures plummeted overnight, and the roads froze.|밤사이 기온이 곤두박질쳐 도로가 얼었다.
+plunge|(동) 뛰어들다, 급락하다; (명) 급락, 뛰어듦|He plunged into the cold lake without hesitation.|그는 망설임 없이 차가운 호수로 뛰어들었다.
+poetess|여류 시인|The young poetess read her work at the library event.|그 젊은 여류 시인은 도서관 행사에서 자작시를 낭독했다.
+poise|(명) 침착함, 균형 잡힌 자세; (동) 균형을 잡다, 태세를 갖추다|She answered the difficult questions with remarkable poise.|그녀는 어려운 질문에 놀라울 만큼 침착하게 답했다.
+popularization|대중화, 보급|The popularization of smartphones changed how we shop.|스마트폰의 대중화는 우리의 쇼핑 방식을 바꾸었다.
+portable|(형) 휴대용의; (명) 휴대용 기기|I bought a portable charger for my camping trip.|나는 캠핑 여행을 위해 휴대용 충전기를 샀다.
+portray|묘사하다, 그리다; 연기하다|The film portrays the town as a peaceful place.|그 영화는 그 마을을 평화로운 곳으로 그린다.
+portrayal|묘사, 표현; 연기|Her portrayal of a struggling nurse won critical praise.|힘겹게 일하는 간호사를 연기한 그녀는 비평가들의 찬사를 받았다.
+possessor|소유자, 보유자|He is the proud possessor of a rare stamp collection.|그는 희귀한 우표 수집품을 자랑스럽게 소유하고 있다.
+posture|(명) 자세; 태도, 입장; (동) 자세를 취하다, 젠체하다|Sitting at a desk all day can ruin your posture.|하루 종일 책상에 앉아 있으면 자세가 망가질 수 있다.
+pounce|덮치다, 달려들다; 기회를 낚아채다|The kitten pounced on the ball of yarn.|새끼 고양이가 털실 뭉치에 달려들었다.
+preach|설교하다; 전도하다; 훈계하다|My aunt loves to preach about healthy eating.|이모는 건강한 식습관에 대해 훈계하는 것을 좋아한다.
+preacher|설교자, 목사, 전도사|The preacher spoke to a small crowd in the square.|그 설교자는 광장에 모인 소수의 사람들에게 이야기했다.
+precision|정확, 정밀(성)|The surgeon worked with great precision.|그 외과의는 매우 정밀하게 수술했다.
+predecessor|전임자; 이전 것|The new phone is lighter than its predecessor.|새 휴대폰은 이전 모델보다 가볍다.
+premier|(형) 최고의, 제1의; (명) 수상, 총리|The city is home to the country's premier art school.|그 도시에는 국내 최고의 미술 학교가 있다.
+premise|전제, 가정|The movie's premise is simple but very clever.|그 영화의 전제는 단순하지만 아주 영리하다.
+premises|(건물이 딸린) 부지, 구내|Smoking is not allowed anywhere on the premises.|구내 어디에서도 흡연은 허용되지 않는다.
+primitively|원시적으로, 초보적으로|The hut was primitively built from mud and branches.|그 오두막은 진흙과 나뭇가지로 원시적으로 지어졌다.
+principally|주로, 대개|The charity is funded principally by private donations.|그 자선단체는 주로 개인 기부로 운영된다.
+privileged|특권을 가진, 혜택받은; 영광스러운|I feel privileged to work with such talented people.|이렇게 재능 있는 사람들과 일하게 되어 영광이다.
+profess|공언하다, 주장하다; (신앙을) 고백하다|He professed to know nothing about the missing money.|그는 사라진 돈에 대해 아무것도 모른다고 주장했다.
+professionalism|전문성, 프로 정신|The staff handled the crisis with calm professionalism.|직원들은 침착한 프로 정신으로 위기를 처리했다.
+profound|심오한, 깊은; 엄청난|The trip had a profound effect on her worldview.|그 여행은 그녀의 세계관에 깊은 영향을 미쳤다.
+profoundly|깊이, 심오하게; 극심하게|We were profoundly moved by the old man's story.|우리는 그 노인의 이야기에 깊이 감동했다.
+prohibitive|(가격이) 엄두도 못 낼 정도의; 금지하는|The cost of housing in the capital is prohibitive for many.|수도의 주거비는 많은 사람에게 엄두도 못 낼 만큼 비싸다.
+prohibitively|엄두도 못 낼 만큼, 터무니없이|Flights during the holidays are prohibitively expensive.|연휴 기간의 항공권은 엄두도 못 낼 만큼 비싸다.
+proliferate|급증하다, 확산되다|Coffee shops have proliferated across the neighborhood.|동네 곳곳에 커피숍이 급증했다.
+prolific|다작의, 많이 생산하는; 다산의|She is a prolific writer with over fifty novels.|그녀는 소설을 50편 넘게 쓴 다작 작가이다.
+prolifically|많이, 다작으로|The composer wrote prolifically throughout his long life.|그 작곡가는 긴 생애 내내 많은 곡을 썼다.
+prop|(동) 받치다, 괴다; (명) 지지대, 버팀목; 소품|He propped the door open with a heavy book.|그는 두꺼운 책으로 문을 괴어 열어 두었다.
+prophet|예언자, 선지자|The old man was seen as a prophet in his village.|그 노인은 마을에서 예언자로 여겨졌다.
+prophetic|예언적인, 예언하는|Her warning about the storm turned out to be prophetic.|폭풍에 대한 그녀의 경고는 예언처럼 들어맞았다.
+prospective|장래의, 유망한, 예비의|We showed the apartment to several prospective tenants.|우리는 몇몇 예비 세입자에게 아파트를 보여 주었다.
+protagonist|주인공; 주창자|The protagonist of the novel is a lonely lighthouse keeper.|그 소설의 주인공은 외로운 등대지기이다.
+provisions|식량, 양식; (법률) 조항|The hikers packed enough provisions for a week.|등산객들은 일주일 치 식량을 챙겼다.
+provocative|도발적인, 자극적인|The speaker asked a provocative question to start the debate.|연사는 토론을 시작하려고 도발적인 질문을 던졌다.
+provocatively|도발적으로, 자극적으로|The article was provocatively titled to attract readers.|그 기사는 독자를 끌기 위해 자극적인 제목을 달았다.
+provoke|유발하다; 화나게 하다, 도발하다|The new policy provoked strong reactions from parents.|새 정책은 학부모들에게서 강한 반발을 불러일으켰다.
+prowl|(먹이를 찾아) 배회하다, 어슬렁거리다|A fox was prowling around the chicken coop at night.|밤에 여우 한 마리가 닭장 주변을 어슬렁거리고 있었다.
+psyche|정신, 마음, 영혼|Childhood experiences shape the human psyche.|어린 시절의 경험은 인간의 정신을 형성한다.
+psychiatric|정신 의학의, 정신과의|She works as a nurse in the psychiatric ward.|그녀는 정신과 병동에서 간호사로 일한다.
+psychiatrist|정신과 의사|The psychiatrist recommended weekly therapy sessions.|정신과 의사는 매주 상담 치료를 권했다.
+purity|순수성, 순도; 청결|The company tests the purity of its water every day.|그 회사는 매일 물의 순도를 검사한다.
+quarry|채석장; 사냥감|The old stone quarry is now a popular swimming spot.|그 오래된 채석장은 이제 인기 있는 수영 장소가 되었다.
+quest|탐색, 탐구, 추구|Their quest for the perfect pizza took them to Naples.|완벽한 피자를 찾아 나선 그들은 나폴리까지 갔다.
+quip|(명) 재담, 재치 있는 말; (동) 재치 있게 말하다|"At least the rain is free," she quipped.|"그래도 비는 공짜잖아." 그녀가 재치 있게 말했다.
+quirk|(명) 별난 버릇, 기벽; 기이한 우연; (동) (입가를) 씰룩이다|Talking to his plants is one of Grandpa's little quirks.|화초에게 말을 거는 것은 할아버지의 작은 별난 버릇 중 하나이다.
+quirky|(형) 별난, 기이한; (명) 별난 사람|The café is known for its quirky decorations.|그 카페는 독특한 장식으로 유명하다.
+radiator|라디에이터, 방열기; (차의) 냉각기|We dried our wet socks on the radiator.|우리는 젖은 양말을 라디에이터 위에 말렸다.
+rapport|(친밀한) 관계, 유대감|The teacher quickly built a good rapport with her students.|그 교사는 학생들과 금세 좋은 유대감을 쌓았다.
+rarity|희귀함; 진귀한 것|Snow is a rarity in this part of the country.|이 지역에서 눈은 보기 드문 일이다.
+raunchily|외설스럽게, 야하게|The comedian joked raunchily, so the show was for adults only.|그 코미디언이 야한 농담을 해서 그 쇼는 성인 전용이었다.
+raunchy|외설적인, 야한; 지저분한|The movie was too raunchy for a family audience.|그 영화는 가족 관객이 보기에 너무 야했다.
+readable|읽기 쉬운, 재미있게 읽히는; 판독 가능한|The textbook is clear and surprisingly readable.|그 교과서는 명확하고 의외로 읽기 쉽다.
+realism|현실주의; 사실주의|The video game is praised for its stunning realism.|그 비디오 게임은 놀라운 사실성으로 호평받는다.
+realist|현실주의자; 사실주의 작가|I'm a realist, so I always have a backup plan.|나는 현실주의자라서 항상 대비책을 세워 둔다.
+reap|(작물을) 거두다; (성과를) 얻다|If you study now, you'll reap the rewards later.|지금 공부하면 나중에 그 보상을 거둘 것이다.
+reassurance|안심시키는 말, 확신; 안심|The nervous patient needed reassurance from the doctor.|불안해하는 환자에게는 의사의 안심시키는 말이 필요했다.
+reassure|안심시키다|The pilot reassured passengers that the bumps were normal.|조종사는 흔들림이 정상이라며 승객들을 안심시켰다.
+recess|휴회, 휴식 시간; 쉬는 시간; 움푹 들어간 곳|The children played football during recess.|아이들은 쉬는 시간에 축구를 했다.
+recessive|열성의; 퇴행의|Blue eyes are often caused by a recessive gene.|파란 눈은 흔히 열성 유전자 때문에 나타난다.
+recharge|재충전하다|I need a quiet weekend to recharge my energy.|나는 에너지를 재충전할 조용한 주말이 필요하다.
+recognizable|알아볼 수 있는, 인식 가능한|The tower is the city's most recognizable landmark.|그 탑은 그 도시에서 가장 잘 알려진 랜드마크이다.
+recognizably|알아볼 수 있을 정도로, 분명히|The town had changed but was still recognizably the same.|그 마을은 변했지만 여전히 알아볼 수 있을 만큼 그대로였다.
+rediscover|재발견하다|During the lockdown, many people rediscovered baking.|봉쇄 기간 동안 많은 사람이 빵 굽기의 즐거움을 다시 발견했다.
+reenact|재연하다, 재현하다|Volunteers reenact the historic battle every summer.|자원봉사자들이 매년 여름 그 역사적 전투를 재연한다.
+refreshing|상쾌한, 신선한; 참신한|A cold glass of lemonade is refreshing on a hot day.|더운 날에는 차가운 레모네이드 한 잔이 상쾌하다.
+refreshingly|신선하게, 참신하게|The new manager was refreshingly honest about the problems.|새 매니저는 문제에 대해 신선할 만큼 솔직했다.
+refurbish|새로 꾸미다, 개조하다, 보수하다|The hotel was completely refurbished last year.|그 호텔은 작년에 전면 보수되었다.
+refurbishment|재단장, 개보수|The museum is closed for refurbishment until spring.|그 박물관은 개보수 공사로 봄까지 문을 닫는다.
+relapse|(동) (병이) 재발하다, 다시 나빠지다; (명) 재발, 퇴보|He relapsed after leaving the hospital too early.|그는 너무 일찍 퇴원한 후 병이 재발했다.
+relinquish|포기하다, 내주다, 양도하다|The founder finally relinquished control of the company.|창업자는 마침내 회사 경영권을 내놓았다.
+reluctantly|마지못해, 꺼리며|She reluctantly agreed to work over the weekend.|그녀는 마지못해 주말에 일하는 데 동의했다.
+remedial|보충의, 보습의; 치료의, 개선하는|The school offers remedial classes in reading and math.|그 학교는 읽기와 수학 보충 수업을 제공한다.
+reminisce|추억에 잠기다, 회상하다|My parents love to reminisce about their college days.|부모님은 대학 시절을 회상하는 것을 좋아하신다.
+reminiscent|연상시키는, 생각나게 하는|The smell of the soup was reminiscent of my mother's cooking.|그 수프 냄새는 어머니의 요리를 떠올리게 했다.
+remorse|후회, 자책, 양심의 가책|He showed no remorse for breaking his friend's trust.|그는 친구의 신뢰를 저버린 데 대해 아무런 가책도 보이지 않았다.
+remorsefully|뉘우치며, 후회하며|The boy remorsefully apologized for the broken window.|소년은 깨진 창문에 대해 뉘우치며 사과했다.
+remorseless|가차 없는, 무자비한; 끊임없는|The remorseless heat made outdoor work impossible.|가차 없는 더위 때문에 야외 작업을 할 수 없었다.
+remorselessly|가차 없이, 끈질기게|The rain fell remorselessly for three days straight.|비가 사흘 내내 그치지 않고 쏟아졌다.
+remotely|원격으로; 멀리서; (부정문) 조금도|Many of our employees now work remotely.|현재 우리 직원 중 상당수가 원격으로 근무한다.
+removed|떨어진, 동떨어진; (사촌 관계가) ~대 떨어진|Their luxurious lifestyle is far removed from reality.|그들의 호화로운 생활 방식은 현실과 동떨어져 있다.
+render|(어떤 상태로) 만들다; 제공하다; 표현하다, 번역하다|The heavy snow rendered the roads impassable.|폭설로 도로가 통행 불가능해졌다.
+rendering|연주, 표현, 해석; 렌더링; 번역|The choir gave a beautiful rendering of the old folk song.|합창단은 그 옛 민요를 아름답게 불렀다.
+renown|명성, 유명|The chef gained international renown for her desserts.|그 셰프는 디저트로 국제적인 명성을 얻었다.
+repel|쫓아내다, 물리치다; 불쾌감을 주다; 밀어내다|This spray helps repel mosquitoes on summer evenings.|이 스프레이는 여름 저녁에 모기를 쫓는 데 도움이 된다.
+repellant|(명) 방충제, 퇴치제; (형) 쫓아 버리는, 혐오감을 주는|Don't forget to pack insect repellant for the jungle trip.|정글 여행에 방충제 챙기는 것 잊지 마.
+repertory|레퍼토리 (극단); 상연 목록; 저장소|She spent five years acting in a small repertory theater.|그녀는 작은 레퍼토리 극단에서 5년 동안 연기했다.
+repute|(동) ~라고 평하다; (명) 평판, 명성|The restaurant is of good repute among local families.|그 식당은 지역 가족들 사이에서 평판이 좋다.
+resent|분개하다, 원망하다|She resented being treated like a child by her coworkers.|그녀는 동료들이 자신을 어린애 취급하는 것에 분개했다.
+resilience|회복력, 탄력성|The community showed great resilience after the flood.|그 지역 사회는 홍수 후 뛰어난 회복력을 보여 주었다.
+resilient|회복력 있는, 탄력 있는|Children are often more resilient than adults expect.|아이들은 흔히 어른들이 생각하는 것보다 회복력이 강하다.
+resin|수지, 송진, 레진|The artist coated the wooden table with clear resin.|그 예술가는 나무 탁자에 투명한 레진을 칠했다.
+resonate|울려 퍼지다; 공감을 불러일으키다|Her speech about hard work resonated with young listeners.|노력에 관한 그녀의 연설은 젊은 청중의 공감을 얻었다.
+respite|일시적 중단, 휴식, 유예|The cool breeze offered a brief respite from the heat.|시원한 바람이 더위를 잠시 식혀 주었다.
+restoration|복원, 복구; 회복|The restoration of the old church took ten years.|그 오래된 교회의 복원에는 10년이 걸렸다.
+restorative|회복시키는, 원기를 돋우는|A walk in the forest can have a restorative effect.|숲속 산책은 원기를 회복시키는 효과가 있을 수 있다.
+retention|보유, 유지; 기억(력)|The company improved staff retention by offering flexible hours.|그 회사는 유연 근무를 제공해 직원 이직을 줄였다.
+retrace|(왔던 길을) 되짚어 가다; 회상하다|I retraced my steps to find my lost keys.|나는 잃어버린 열쇠를 찾으려고 왔던 길을 되짚어 갔다.
+revealing|드러내는, 시사하는 바가 많은; 노출이 심한|The survey results were very revealing about customer habits.|설문 결과는 고객의 습관에 대해 많은 것을 드러냈다.
+revere|숭배하다, 존경하다|The villagers revere the old tree as a symbol of luck.|마을 사람들은 그 고목을 행운의 상징으로 숭배한다.
+riveting|매혹적인, 눈을 뗄 수 없는|The detective series was so riveting that I watched it all night.|그 탐정 시리즈는 너무 흥미진진해서 밤새 봤다.
+robust|튼튼한, 강건한; 확고한|We need a robust system that can handle heavy traffic.|많은 접속량을 감당할 수 있는 튼튼한 시스템이 필요하다.
+robustly|튼튼하게, 강력하게|The minister robustly defended the new budget plan.|장관은 새 예산안을 강력하게 옹호했다.
+rotate|회전하다; 교대하다, 순환시키다|Farmers rotate their crops to keep the soil healthy.|농부들은 토양을 건강하게 유지하려고 작물을 돌려짓기한다.
+roundup|(뉴스 등의) 요약, 총정리; 일제 검거; 몰이|Here's a quick roundup of today's top stories.|오늘의 주요 뉴스를 간단히 정리해 드립니다.
+rudimentary|기초적인, 초보적인; 원시적인|I have only a rudimentary knowledge of French.|나는 프랑스어를 기초적인 수준으로만 안다.
+rudiments|기본, 기초 (원리)|The camp teaches children the rudiments of sailing.|그 캠프는 아이들에게 요트 타기의 기초를 가르친다.
+rumble|(동) 우르릉거리다; (명) 우르릉 소리|My stomach rumbled loudly during the quiet exam.|조용한 시험 중에 내 배에서 꼬르륵 소리가 크게 났다.
+rustle|(동) 바스락거리다; (명) 바스락 소리|Leaves rustled in the wind as we walked through the park.|공원을 걷는 동안 바람에 나뭇잎이 바스락거렸다.
+ruthless|무자비한, 인정사정없는|The company has a reputation for ruthless cost-cutting.|그 회사는 인정사정없는 비용 절감으로 유명하다.
+ruthlessness|무자비함, 냉혹함|The champion played with a quiet ruthlessness that scared opponents.|그 챔피언은 상대를 겁먹게 하는 조용한 냉혹함으로 경기했다.
+sacrifice|(명) 희생, 제물; (동) 희생하다, 바치다|Her parents made many sacrifices to pay for her education.|그녀의 부모님은 교육비를 대기 위해 많은 희생을 하셨다.
+salivate|침을 흘리다; 몹시 탐내다|The smell of grilled meat made the dog salivate.|고기 굽는 냄새에 개가 침을 흘렸다.
+saloon|술집, 바; 세단형 승용차; 대합실|The old western town still has a wooden saloon.|그 옛 서부 마을에는 아직도 나무로 된 술집이 있다.
+salvage|(난파선·재난에서) 구조하다, 회수하다; 지키다|Divers managed to salvage some cargo from the sunken ship.|잠수부들은 침몰선에서 화물 일부를 건져 냈다.
+salvation|구원; 구제 수단|For the struggling farm, the new road was its salvation.|어려움을 겪던 그 농장에게 새 도로는 구세주였다.
+salve|연고; 위안|Apply this salve to your dry, cracked hands.|건조하고 갈라진 손에 이 연고를 바르세요.
+sanctity|신성함, 존엄성|The poem celebrates the sanctity of family life.|그 시는 가정생활의 신성함을 기린다.
+sap|수액; 활력; 바보|Maple syrup is made from the sap of maple trees.|메이플 시럽은 단풍나무 수액으로 만든다.
+sarcasm|빈정댐, 비꼼, 풍자|"Great job," he said with obvious sarcasm.|"아주 잘했네." 그가 노골적으로 비꼬며 말했다.
+sarcastic|빈정대는, 비꼬는|My brother makes sarcastic comments about my cooking.|형은 내 요리에 대해 빈정대는 말을 한다.
+sarcastically|빈정대며, 비꼬아서|"Oh, I just love waiting in line," she said sarcastically.|"아, 난 줄 서는 게 정말 좋아." 그녀가 비꼬듯 말했다.
+sauna|사우나|After skiing, we relaxed in the hotel sauna.|스키를 탄 후 우리는 호텔 사우나에서 휴식을 취했다.
+scathing|신랄한, 혹독한|The critic wrote a scathing review of the new musical.|그 비평가는 새 뮤지컬에 대해 신랄한 평을 썼다.
+scenario|시나리오; 각본, 예상되는 상황|In the worst-case scenario, we'll have to cancel the trip.|최악의 경우에는 여행을 취소해야 할 것이다.
+scoff|비웃다, 조롱하다; 게걸스럽게 먹다|People scoffed at the idea of electric cars decades ago.|수십 년 전 사람들은 전기차라는 발상을 비웃었다.
+scorn|경멸, 멸시|She treated his excuses with open scorn.|그녀는 그의 변명을 대놓고 경멸했다.
+scornful|경멸하는, 냉소적인|He gave a scornful laugh when I mentioned my plan.|내가 계획을 이야기하자 그는 경멸하듯 웃었다.
+scornfully|경멸하여, 냉소적으로|The chef looked scornfully at the frozen pizza.|그 셰프는 냉동 피자를 경멸하듯 바라보았다.
+screenplay|영화 대본, 시나리오|She spent two years writing the screenplay for her first film.|그녀는 첫 영화의 시나리오를 쓰는 데 2년을 보냈다.
+screenwriter|시나리오 작가, 각본가|The screenwriter changed the ending at the last minute.|각본가가 막판에 결말을 바꾸었다.
+scrutinize|면밀히 조사하다, 자세히 살피다|The auditors scrutinized every receipt from the trip.|감사관들은 출장 영수증을 하나하나 면밀히 조사했다.
+scrutiny|면밀한 조사, 정밀 검사; 감시|The new safety rules came under close scrutiny.|새 안전 규정은 면밀한 검토를 받게 되었다.
+sedate|(동) 진정제를 투여하다; (형) 차분한, 조용한|The vet had to sedate the horse before treating it.|수의사는 치료 전에 말에게 진정제를 놓아야 했다.
+sedately|차분하게, 침착하게, 점잖게|The old couple walked sedately along the seaside path.|노부부는 해변 길을 따라 차분히 걸었다.
+sedentary|주로 앉아서 하는; 정착하여 사는|A sedentary lifestyle can lead to health problems.|주로 앉아서 지내는 생활 방식은 건강 문제를 일으킬 수 있다.
+seedling|묘목, 모종|We planted tomato seedlings in the garden this morning.|우리는 오늘 아침 정원에 토마토 모종을 심었다.
+self-conscious|남의 시선을 의식하는, 자의식이 강한|He felt self-conscious about singing in front of the class.|그는 반 친구들 앞에서 노래하는 것이 쑥스러웠다.
+self-worth|자존감, 자기 가치감|Volunteering gave her a stronger sense of self-worth.|자원봉사는 그녀에게 더 강한 자존감을 심어 주었다.
+sentient|지각 있는, 감각이 있는|The film imagines a world run by sentient robots.|그 영화는 지각을 가진 로봇이 지배하는 세상을 상상한다.
+sentiment|감정, 정서; 의견, 생각|I share your sentiment about the new office layout.|새 사무실 배치에 대한 당신의 생각에 공감합니다.
+sentimental|감상적인, 정서적인|This old watch has great sentimental value to me.|이 오래된 시계는 나에게 큰 정서적 가치가 있다.
+sentimentally|감상적으로, 정서적으로|She is sentimentally attached to her childhood home.|그녀는 어린 시절 살던 집에 정서적으로 애착을 갖고 있다.
+sequel|속편, 후속작; 뒤이은 사건|The sequel was even more exciting than the first book.|속편은 첫 번째 책보다 훨씬 더 흥미진진했다.
+settee|(등받이가 있는) 긴 의자, 소파|Grandma fell asleep on the settee after lunch.|할머니는 점심 식사 후 소파에서 잠이 드셨다.
+shambles|난장판, 엉망진창|After the party, the kitchen was a complete shambles.|파티가 끝난 후 부엌은 완전히 난장판이었다.
+shortlist|(동) 최종 후보에 올리다; (명) 최종 후보자 명단|Three candidates were shortlisted for the design job.|디자인 직무에 세 명의 후보가 최종 명단에 올랐다.
+showy|화려한, 눈에 띄는, 과시적인|He drives a showy red sports car.|그는 눈에 띄는 빨간 스포츠카를 몬다.
+silhouette|실루엣, 윤곽|We saw the silhouette of a deer against the sunset.|우리는 노을을 배경으로 한 사슴의 실루엣을 보았다.
+simplicity|단순함, 간단함; 소박함|The beauty of the recipe lies in its simplicity.|그 요리법의 매력은 단순함에 있다.
+sketchbook|스케치북|She always carries a sketchbook when she travels.|그녀는 여행할 때 항상 스케치북을 가지고 다닌다.
+slack|(동) 게으름 피우다; (명) 느슨한 부분; (형) 느슨한, 한산한|Business is usually slack in the weeks after the holidays.|연휴 후 몇 주 동안은 보통 장사가 한산하다.
+slackly|느슨하게, 축 늘어지게|The flag hung slackly on the pole on the windless day.|바람 없는 날 깃발이 깃대에 축 늘어져 있었다.
+slob|게으름뱅이, 지저분한 사람|My roommate is a slob who never washes the dishes.|내 룸메이트는 설거지를 절대 안 하는 게으름뱅이다.
+smug|우쭐대는, 잘난 체하는|He had a smug look after winning the argument.|그는 논쟁에서 이긴 뒤 우쭐한 표정을 지었다.
+smugly|우쭐대며, 잘난 체하며|She smiled smugly as she showed us her perfect test score.|그녀는 만점 시험지를 보여 주며 우쭐하게 웃었다.
+snail|달팽이|A snail left a shiny trail across the garden path.|달팽이 한 마리가 정원 길에 반짝이는 자국을 남겼다.
+snooze|잠깐 자다, 졸다; (알람을) 다시 울리게 하다|I snoozed my alarm three times this morning.|나는 오늘 아침 알람을 세 번이나 미뤘다.
+socialization|사회화|School plays an important role in the socialization of children.|학교는 아이들의 사회화에 중요한 역할을 한다.
+somber|어두운, 침울한, 엄숙한|The mood at the meeting was somber after the bad news.|나쁜 소식 이후 회의 분위기는 침울했다.
+somberly|침울하게, 엄숙하게|The team somberly packed up after losing the final.|팀은 결승에서 진 뒤 침울하게 짐을 쌌다.
+somersault|(명) 공중제비; (동) 공중제비를 넘다|The gymnast did a perfect somersault on the beam.|그 체조 선수는 평균대 위에서 완벽한 공중제비를 했다.
+spacious|넓은, 널찍한|The new apartment has a bright and spacious living room.|새 아파트에는 밝고 넓은 거실이 있다.
+spartan|검소한, 간소한, 엄격한|The mountain hut offered only spartan accommodation.|그 산장은 아주 간소한 숙박 시설만 제공했다.
+specification|설명서, 사양, 명세(서)|The engineers built the bridge according to strict specifications.|기술자들은 엄격한 설계 사양에 따라 다리를 건설했다.
+specimen|견본, 표본; 시료|The scientist collected a specimen of the rare plant.|그 과학자는 희귀 식물의 표본을 채집했다.
+speculate|추측하다; 투기하다|Fans speculated about who would join the band next.|팬들은 다음에 누가 밴드에 합류할지 추측했다.
+speculation|추측, 짐작; 투기|There is a lot of speculation about the company's future.|그 회사의 미래에 대한 추측이 무성하다.
+speculative|추측에 근거한; 투기적인|The article was largely speculative and offered little evidence.|그 기사는 대부분 추측에 근거했고 증거는 거의 없었다.
+sponsorship|후원, 협찬; 보증|The festival relies on sponsorship from local businesses.|그 축제는 지역 기업들의 후원에 의존한다.
+spontaneous|자발적인, 즉흥적인; 자연스러운|We took a spontaneous trip to the beach on Saturday.|우리는 토요일에 즉흥적으로 해변 여행을 떠났다.
+spontaneously|자발적으로, 즉흥적으로, 저절로|The audience spontaneously began clapping along to the music.|관객들은 자발적으로 음악에 맞춰 박수를 치기 시작했다.
+sprawl|(명) (도시의) 무질서한 확장; (동) 팔다리를 뻗다, 제멋대로 뻗어 나가다|Urban sprawl has swallowed up much of the farmland.|도시의 무분별한 확장이 농지의 상당 부분을 집어삼켰다.
+sprout|(동) 싹이 나다, 생기다; (명) 새싹|Tiny green leaves sprouted from the seeds after a week.|일주일 후 씨앗에서 작은 초록 잎이 돋아났다.
+squander|낭비하다, 허비하다|He squandered his savings on expensive gadgets.|그는 저축한 돈을 비싼 전자기기에 탕진했다.
+staccato|(형) 스타카토의, 끊어지는; (부) 스타카토로, 짧게 끊어서|The drummer played a sharp staccato rhythm.|드러머가 날카롭게 끊어지는 리듬을 연주했다.
+staggering|믿기 어려운, 충격적인, 엄청난|The final bill for the repairs was a staggering amount.|수리비 최종 청구액은 믿기 어려울 만큼 큰 금액이었다.
+stamina|체력, 지구력, 스태미나|Running a marathon requires a lot of stamina.|마라톤을 뛰려면 지구력이 많이 필요하다.
+staple|주식, 주요 산물; 기본 요소; 스테이플러 심|Rice is a staple food in many Asian countries.|쌀은 많은 아시아 국가의 주식이다.
+startling|놀라운, 깜짝 놀라게 하는|The study revealed some startling facts about sleep.|그 연구는 수면에 관한 몇 가지 놀라운 사실을 밝혀냈다.
+startlingly|놀랍게도, 깜짝 놀랄 만큼|The twins look startlingly alike.|그 쌍둥이는 깜짝 놀랄 만큼 닮았다.
+stately|위엄 있는, 웅장한, 당당한|A stately old mansion stood at the end of the road.|길 끝에 위엄 있는 오래된 저택이 서 있었다.
+stiffen|뻣뻣해지다, 경직되다; 강화하다|Her shoulders stiffened when she heard the news.|그 소식을 듣자 그녀의 어깨가 굳어졌다.
+stimuli|자극 (stimulus의 복수형)|Babies respond strongly to visual stimuli like bright colors.|아기들은 밝은 색 같은 시각적 자극에 강하게 반응한다.
+stoke|(불을) 지피다; (감정 등을) 부추기다|He stoked the fire to keep the cabin warm.|그는 오두막을 따뜻하게 유지하려고 불을 지폈다.
+strap|(명) 끈, 줄, 띠; (동) 끈으로 묶다|The strap on my backpack broke during the hike.|하이킹 도중 배낭 끈이 끊어졌다.
+strapping|건장한, 체격이 좋은|Their son has grown into a strapping young man.|그들의 아들은 건장한 청년으로 자랐다.
+stray|(동) 길을 잃다, 벗어나다; (형) 길 잃은, 빗나간; (명) 길 잃은 동물|We adopted a stray cat that kept visiting our porch.|우리는 현관에 자꾸 찾아오던 길고양이를 입양했다.
+stressfully|스트레스를 받으며, 긴장되게|The week ended stressfully with three deadlines on Friday.|금요일에 마감이 세 개나 겹쳐 한 주가 스트레스 속에 끝났다.
+stretching|스트레칭, 늘이기|Ten minutes of stretching every morning keeps my back healthy.|매일 아침 10분간의 스트레칭이 내 허리를 건강하게 지켜 준다.
+structural|구조(상)의, 구조적인|Engineers found structural damage in the old bridge.|기술자들이 오래된 다리에서 구조적 손상을 발견했다.

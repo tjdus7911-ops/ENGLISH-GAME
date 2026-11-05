@@ -98,3 +98,253 @@ availability|이용 가능성, 재고|Please check the availability of rooms for
 await|기다리다|A warm dinner awaited us when we got home.|집에 도착하니 따뜻한 저녁이 우리를 기다리고 있었다.
 awe|(명) 경외감; (동) 경외심을 갖게 하다|We stood in awe of the giant waterfall.|우리는 거대한 폭포 앞에서 경외감에 휩싸여 서 있었다.
 ax|도끼|Dad used an ax to split logs for the campfire.|아빠는 모닥불에 쓸 장작을 도끼로 쪼개셨다.
+axis|축, 축선|The Earth spins on its axis once every day.|지구는 하루에 한 번 자전축을 중심으로 돈다.
+backup|예비, 백업|Always keep a backup of your photos on another drive.|사진은 항상 다른 드라이브에 백업해 두세요.
+backward|뒤로, 거꾸로|The puppy walked backward when it saw the vacuum cleaner.|강아지는 청소기를 보더니 뒷걸음질 쳤다.
+backyard|뒷마당|We planted tomatoes and peppers in our backyard.|우리는 뒷마당에 토마토와 고추를 심었다.
+bad-tempered|성미가 고약한, 짜증을 잘 내는|Our neighbor's cat is bad-tempered and hisses at everyone.|이웃집 고양이는 성질이 고약해서 모두에게 하악질한다.
+badge|배지, 명찰|Visitors must wear a badge while they are in the building.|방문객은 건물 안에 있는 동안 명찰을 달아야 한다.
+balanced|균형 잡힌|A balanced diet includes fruit, vegetables, and protein.|균형 잡힌 식단에는 과일, 채소, 단백질이 포함된다.
+balky|말을 안 듣는, 고집 센|The balky old printer refused to work again this morning.|말 안 듣는 낡은 프린터가 오늘 아침에도 작동하지 않았다.
+ballad|발라드, 민요조의 노래|She sang a slow ballad about her hometown.|그녀는 고향에 관한 느린 발라드를 불렀다.
+ballet|발레|My niece has been taking ballet lessons since she was five.|내 조카는 다섯 살 때부터 발레를 배우고 있다.
+ballot|투표 (용지), 무기명 투표|The club members chose their new leader by secret ballot.|동아리 회원들은 비밀 투표로 새 회장을 뽑았다.
+ban|(명) 금지; (동) 금지하다|The park banned dogs from the children's play area.|공원은 어린이 놀이 구역에 개 출입을 금지했다.
+banker|은행가, 은행원|The banker explained the different savings accounts to us.|은행원이 여러 가지 예금 계좌를 설명해 주었다.
+bankrupt|파산시키다|The expensive lawsuit nearly bankrupted the small shop.|비싼 소송 때문에 그 작은 가게는 거의 파산할 뻔했다.
+bankruptcy|파산|The travel agency filed for bankruptcy after losing customers.|그 여행사는 고객을 잃은 뒤 파산 신청을 했다.
+barbershop|이발소|Dad gets his hair cut at the same barbershop every month.|아빠는 매달 같은 이발소에서 머리를 자르신다.
+barley|보리|Barley tea is a popular drink in Korean homes.|보리차는 한국 가정에서 인기 있는 음료다.
+barn|헛간, 외양간|The farmer keeps hay and tools in the old red barn.|농부는 오래된 빨간 헛간에 건초와 도구를 보관한다.
+barometer|기압계, 지표|Sales of ice cream are a good barometer of summer heat.|아이스크림 판매량은 여름 더위를 보여 주는 좋은 지표다.
+barren|척박한, 불모의|Nothing grows on this barren, rocky land.|이 척박하고 바위투성이인 땅에서는 아무것도 자라지 않는다.
+barrier|장벽, 장애물|Language can be a barrier when you move abroad.|해외로 이주하면 언어가 장벽이 될 수 있다.
+bartender|바텐더|The bartender made me a fruity drink without alcohol.|바텐더가 알코올 없는 과일 음료를 만들어 주었다.
+bathhouse|대중목욕탕|After hiking, we relaxed at a traditional bathhouse.|등산 후에 우리는 전통 목욕탕에서 쉬었다.
+battlefield|전쟁터, 싸움터|The museum stands on an old battlefield from centuries ago.|그 박물관은 수백 년 전의 옛 전쟁터 위에 서 있다.
+beagle|비글(개 품종)|Our beagle loves to sniff every tree on our walks.|우리 비글은 산책할 때 모든 나무 냄새를 맡는 걸 좋아한다.
+beak|부리|The bird picked up a seed with its sharp beak.|새가 날카로운 부리로 씨앗을 집었다.
+beam|광선, 들보|A beam of sunlight came through the kitchen window.|부엌 창문으로 한 줄기 햇살이 들어왔다.
+bearing|관련, 영향, 방향 감각|The weather had no bearing on our decision to stay home.|날씨는 집에 있기로 한 우리 결정과 아무 관련이 없었다.
+beautify|아름답게 하다, 미화하다|Volunteers planted flowers to beautify the empty lot.|자원봉사자들이 빈터를 아름답게 꾸미려고 꽃을 심었다.
+bellow|고함치다, 울부짖다|The coach bellowed instructions from the side of the field.|코치가 경기장 옆에서 지시를 큰 소리로 외쳤다.
+belongings|소지품, 소유물|Please take all your belongings when you leave the train.|기차에서 내릴 때 소지품을 모두 챙기세요.
+beneficial|유익한, 이로운|Regular walking is beneficial for both body and mind.|규칙적인 걷기는 몸과 마음 모두에 이롭다.
+benevolence|자비심, 선행|The old man was known for his benevolence toward stray animals.|그 노인은 길 잃은 동물들에게 베푸는 자비로 유명했다.
+benevolent|자비로운, 인정 많은|A benevolent neighbor offered to babysit for free.|인정 많은 이웃이 무료로 아이를 봐 주겠다고 했다.
+berry|베리, 장과|We picked wild berries along the forest path.|우리는 숲길을 따라 야생 베리를 땄다.
+bestow|(명예 등을) 수여하다, 주다|The school bestowed an award on the hardworking janitor.|학교는 성실한 관리인에게 상을 수여했다.
+bestseller|베스트셀러|Her first novel quickly became a bestseller.|그녀의 첫 소설은 금세 베스트셀러가 되었다.
+betray|배신하다, 누설하다|I felt betrayed when my friend told everyone my secret.|친구가 내 비밀을 모두에게 말했을 때 배신감을 느꼈다.
+bewilder|어리둥절하게 하다|The complicated subway map bewildered the tourists.|복잡한 지하철 노선도가 관광객들을 어리둥절하게 했다.
+bewilderment|당혹, 어리둥절함|He looked at the strange menu in complete bewilderment.|그는 이상한 메뉴판을 완전히 어리둥절한 표정으로 보았다.
+bid|입찰하다, 값을 부르다|Two people bid for the antique clock at the auction.|경매에서 두 사람이 골동품 시계에 입찰했다.
+bidding|입찰, 경매, 명령|The bidding for the painting started at one hundred dollars.|그 그림의 경매는 100달러부터 시작했다.
+bikini|비키니|She packed a bikini and sunscreen for the beach trip.|그녀는 해변 여행을 위해 비키니와 선크림을 챙겼다.
+billion|10억|The city welcomes about a billion visitors every decade.|그 도시는 10년마다 약 10억 명의 방문객을 맞이한다.
+bind|묶다, 결속시키다|Shared hobbies bind the two friends together.|같은 취미가 두 친구를 끈끈하게 이어 준다.
+bio|약력, 자기소개|Write a short bio for your profile page.|프로필 페이지에 짧은 자기소개를 써 주세요.
+biological|생물학의, 생물학적인|She met her biological brother for the first time last summer.|그녀는 지난여름 친오빠를 처음 만났다.
+biotechnology|생명 공학|Biotechnology helps farmers grow crops that resist disease.|생명 공학은 농부들이 병에 강한 작물을 기르도록 돕는다.
+birdcage|새장|A yellow canary sang inside the birdcage.|노란 카나리아가 새장 안에서 노래했다.
+birthplace|출생지, 발상지|This small village is the birthplace of a famous kimchi recipe.|이 작은 마을은 유명한 김치 조리법의 발상지다.
+bitterly|몹시, 비통하게|It was bitterly cold on the morning of the field trip.|현장 학습 날 아침은 몹시 추웠다.
+bizarre|기이한, 특이한|I had a bizarre dream about talking vegetables.|나는 말하는 채소들이 나오는 기이한 꿈을 꾸었다.
+blade|칼날, (풀) 잎|Be careful, the blade of this knife is very sharp.|조심해, 이 칼날은 아주 날카로워.
+blast|(명) 폭발, 강한 바람; (동) 폭파하다, 크게 울리다|A blast of cold air came in when I opened the door.|문을 열자 차가운 바람이 확 들어왔다.
+blaze|(명) 불길, 화염; (동) 활활 타다|The campfire blazed brightly under the stars.|모닥불이 별빛 아래에서 활활 타올랐다.
+blindly|맹목적으로, 무턱대고|Don't blindly follow advice you read online.|인터넷에서 읽은 조언을 무턱대고 따르지 마세요.
+blindness|실명, 맹목|Some eye diseases can lead to blindness if untreated.|어떤 눈병은 치료하지 않으면 실명으로 이어질 수 있다.
+blink|눈을 깜박이다|The baby blinked in the bright morning light.|아기가 밝은 아침 햇살에 눈을 깜박였다.
+bloodstream|혈류|The medicine enters the bloodstream within thirty minutes.|그 약은 30분 안에 혈류로 들어간다.
+bloody|(형) 피투성이의, 지독한; (부) 지독히|I got a bloody nose during basketball practice.|농구 연습 중에 코피가 났다.
+blooming|꽃이 핀, 한창인|The blooming cherry trees made the street look pink.|만개한 벚나무들이 거리를 분홍빛으로 물들였다.
+blossom|꽃, 개화|Apple blossoms cover the hills every April.|매년 4월이면 사과꽃이 언덕을 뒤덮는다.
+blur|흐릿해지다, 흐리게 하다|Tears blurred my vision as I read the letter.|편지를 읽는 동안 눈물로 앞이 흐려졌다.
+blurt|불쑥 말함|His sudden blurt of the answer surprised the quiz host.|그가 불쑥 답을 내뱉자 퀴즈 진행자가 놀랐다.
+boiling|끓는, 몹시 더운|Carefully pour the boiling water over the tea leaves.|끓는 물을 찻잎 위에 조심스럽게 부으세요.
+bolt|(명) 볼트, 빗장, 번개; (동) 빗장을 지르다, 달아나다|Remember to bolt the gate before you go to bed.|자기 전에 대문에 빗장 지르는 걸 잊지 마세요.
+bombard|포격, 공세|The bombard of questions from reporters lasted an hour.|기자들의 질문 공세가 한 시간 동안 이어졌다.
+bomber|폭격기, 폭파범|An old bomber from the war is displayed at the air museum.|전쟁 때의 낡은 폭격기가 항공 박물관에 전시되어 있다.
+bombing|폭격, 폭탄 투하|The old church was rebuilt after the wartime bombing.|그 오래된 교회는 전쟁 중 폭격 이후 재건되었다.
+bony|뼈가 앙상한, 가시가 많은|This fish is tasty but very bony.|이 생선은 맛있지만 가시가 아주 많다.
+bookish|책을 좋아하는, 학구적인|The bookish girl spent every lunch break in the library.|책을 좋아하는 그 소녀는 점심시간마다 도서관에서 보냈다.
+booklet|소책자|The museum gives every visitor a free booklet.|박물관은 모든 방문객에게 무료 소책자를 준다.
+bookmark|(명) 책갈피, 즐겨찾기; (동) 즐겨찾기에 추가하다|I bookmarked the recipe website so I could find it later.|나중에 찾으려고 그 요리 사이트를 즐겨찾기에 추가했다.
+boost|(명) 증가, 격려; (동) 높이다, 북돋우다|A good night's sleep can boost your mood.|밤에 푹 자면 기분이 좋아질 수 있다.
+booth|부스, 칸막이 공간|We sat in a cozy booth at the back of the diner.|우리는 식당 뒤쪽의 아늑한 칸막이 자리에 앉았다.
+bossy|으스대는, 남을 부리려 드는|My older sister gets bossy when we clean the house.|언니는 집 청소할 때 대장 노릇을 한다.
+botany|식물학|She studied botany because she loves rare plants.|그녀는 희귀 식물을 좋아해서 식물학을 공부했다.
+bothered|신경 쓰는, 귀찮아하는|I'm not bothered about the rain; I brought an umbrella.|비가 와도 상관없어요, 우산을 가져왔거든요.
+bothersome|성가신, 귀찮은|Filling out these long forms is really bothersome.|이 긴 서류들을 작성하는 건 정말 성가시다.
+bourbon|버번 위스키|The cake recipe uses a little bourbon for flavor.|그 케이크 조리법은 풍미를 위해 버번을 조금 넣는다.
+boxer|권투 선수, 복서(개 품종)|The young boxer trains at the gym every morning.|그 젊은 권투 선수는 매일 아침 체육관에서 훈련한다.
+bracket|괄호, 계층, 받침대|Write the plural form in brackets after each noun.|각 명사 뒤 괄호 안에 복수형을 쓰세요.
+brag|자랑, 허풍|His constant brag about his new car annoyed everyone.|새 차에 대한 그의 끝없는 자랑에 모두가 짜증이 났다.
+bravery|용기, 용감함|The firefighter received a medal for her bravery.|그 소방관은 용감한 행동으로 메달을 받았다.
+breakable|깨지기 쉬운|Pack the breakable dishes in plenty of paper.|깨지기 쉬운 접시는 종이로 충분히 싸서 포장하세요.
+breakdown|고장, 붕괴, 분석|We had a car breakdown on the way to the beach.|해변 가는 길에 차가 고장 났다.
+breakup|이별, 해체|She listened to sad songs after her breakup.|그녀는 이별 후에 슬픈 노래를 들었다.
+breathtaking|숨이 멎을 만큼 아름다운|The sunrise over the ocean was absolutely breathtaking.|바다 위로 떠오르는 해돋이는 숨 막힐 만큼 아름다웠다.
+breezy|산들바람이 부는, 쾌활한|It was a breezy afternoon, perfect for flying kites.|연날리기에 딱 좋은 산들바람 부는 오후였다.
+brewery|맥주 공장, 양조장|We took a tour of a small brewery in the countryside.|우리는 시골의 작은 양조장을 견학했다.
+brilliantly|훌륭하게, 눈부시게|The students performed brilliantly in the school play.|학생들은 학교 연극에서 훌륭하게 연기했다.
+broadband|광대역 (인터넷)|Our new apartment comes with fast broadband.|우리 새 아파트에는 빠른 초고속 인터넷이 설치되어 있다.
+broadcaster|방송인, 방송사|The local broadcaster covered the town's food festival.|지역 방송사가 마을 음식 축제를 보도했다.
+broaden|넓히다|Traveling abroad can broaden your view of the world.|해외여행은 세상을 보는 시야를 넓혀 줄 수 있다.
+broadly|대체로, 넓게|Broadly speaking, the students enjoyed the new textbook.|대체로 학생들은 새 교과서를 마음에 들어 했다.
+brochure|안내 책자|I picked up a travel brochure about Jeju Island.|나는 제주도 여행 안내 책자를 하나 집어 들었다.
+brother-in-law|매형, 처남, 시아주버니 등 (남자 인척)|My brother-in-law makes the best barbecue in the family.|우리 매형이 집안에서 바비큐를 제일 잘한다.
+browse|둘러보다, 검색하다|I like to browse in secondhand bookstores on weekends.|나는 주말에 헌책방을 둘러보는 걸 좋아한다.
+browser|(웹) 브라우저|Try clearing your browser history if the page won't load.|페이지가 안 열리면 브라우저 기록을 지워 보세요.
+bruise|멍, 타박상|I have a big bruise on my knee from soccer.|축구하다가 무릎에 커다란 멍이 들었다.
+bud|싹, 꽃봉오리|Tiny green buds appeared on the branches in early spring.|이른 봄 나뭇가지에 작은 초록 싹이 돋았다.
+bulimia|폭식증|The school counselor gave a talk about bulimia and healthy eating.|학교 상담 선생님이 폭식증과 건강한 식습관에 대해 강연했다.
+bully|괴롭히다, 협박하다|Older kids should never bully the younger students.|나이 많은 아이들이 어린 학생들을 괴롭혀서는 절대 안 된다.
+bum|엉덩이, 부랑자|The baby fell on his bum but laughed right away.|아기가 엉덩방아를 찧었지만 곧바로 웃었다.
+bumper|범퍼|Someone scratched the back bumper of my car in the parking lot.|누군가 주차장에서 내 차 뒤 범퍼를 긁었다.
+bun|번(둥근 빵), 쪽진 머리|I had a warm cinnamon bun with my coffee.|나는 커피와 함께 따뜻한 시나몬 번을 먹었다.
+burdensome|부담스러운, 짐이 되는|The extra paperwork became burdensome for the small team.|추가 서류 작업이 작은 팀에게 부담이 되었다.
+bureaucracy|관료주의, 관료 체제|Getting a visa involved a lot of bureaucracy.|비자를 받는 데 복잡한 행정 절차가 많았다.
+burglary|절도, 빈집털이|After the burglary, the family installed a new alarm.|도난 사건 이후 그 가족은 새 경보기를 설치했다.
+burgle|(집에) 침입해 도둑질하다|Our neighbor's house was burgled while they were on vacation.|이웃집이 휴가 간 사이에 도둑이 들었다.
+burial|매장, 장례|The burial took place in a quiet village cemetery.|매장은 조용한 마을 묘지에서 치러졌다.
+bustle|부산하게 움직이다|Waiters bustled around the busy restaurant at lunchtime.|점심시간에 웨이터들이 붐비는 식당을 분주히 오갔다.
+bustling|북적거리는, 활기찬|We explored the bustling night market in Taipei.|우리는 타이베이의 북적이는 야시장을 구경했다.
+buzz|(명) 윙윙거림, 활기; (동) 윙윙거리다|A bee buzzed around the flowers on the balcony.|벌 한 마리가 발코니의 꽃 주위를 윙윙거렸다.
+cabinet|수납장, 내각|The plates are in the cabinet above the sink.|접시는 싱크대 위 수납장에 있어요.
+cable|케이블, 전선|I need a longer cable to charge my phone in bed.|침대에서 휴대폰을 충전하려면 더 긴 케이블이 필요하다.
+calmly|침착하게|She calmly explained the problem to the angry customer.|그녀는 화난 고객에게 침착하게 문제를 설명했다.
+campaign|(명) 캠페인, 운동; (동) 캠페인을 벌이다|Students campaigned for more trash cans in the park.|학생들은 공원에 쓰레기통을 더 놓자는 캠페인을 벌였다.
+candidate|후보자, 지원자|Three candidates were invited for a second interview.|세 명의 지원자가 2차 면접에 초대되었다.
+cane|지팡이, 줄기|My grandmother walks with a wooden cane.|우리 할머니는 나무 지팡이를 짚고 걸으신다.
+cannonball|포탄|The castle wall still has a hole from an old cannonball.|성벽에는 아직도 옛 포탄 자국이 남아 있다.
+canon|규범, 정전(正典), 고전 목록|This novel is now part of the literary canon.|이 소설은 이제 문학 고전의 반열에 올랐다.
+capability|능력, 역량|The new phone has the capability to translate speech instantly.|새 휴대폰에는 말을 즉시 번역하는 기능이 있다.
+caption|(사진) 설명문, 자막|Turn on the captions if you can't hear the video clearly.|영상 소리가 잘 안 들리면 자막을 켜세요.
+captive|포로, 사로잡힌 사람·동물|The zoo released the captive birds into a large forest reserve.|동물원은 갇혀 있던 새들을 넓은 숲 보호구역에 풀어 주었다.
+caravan|캠핑카, 대상(隊商)|We spent a week traveling around the coast in a caravan.|우리는 캠핑카로 일주일 동안 해안을 여행했다.
+carbon|탄소|Trees absorb carbon from the air as they grow.|나무는 자라면서 공기 중의 탄소를 흡수한다.
+carbon dioxide|이산화탄소|Plants take in carbon dioxide and release oxygen.|식물은 이산화탄소를 흡수하고 산소를 내보낸다.
+carbon footprint|탄소 발자국|Riding a bike to work reduces your carbon footprint.|자전거로 출근하면 탄소 발자국이 줄어든다.
+carbon monoxide|일산화탄소|Every home should have a carbon monoxide detector.|모든 가정에는 일산화탄소 감지기가 있어야 한다.
+cardboard|판지, 마분지|The kids built a rocket out of cardboard boxes.|아이들은 종이 상자로 로켓을 만들었다.
+cardigan|카디건|Bring a cardigan because the restaurant can be chilly.|식당이 쌀쌀할 수 있으니 카디건을 챙기세요.
+carefree|근심 걱정 없는|We spent a carefree summer swimming in the lake.|우리는 호수에서 수영하며 근심 없는 여름을 보냈다.
+caring|배려하는, 보살피는|Our caring nurse checked on us every hour.|다정한 간호사님이 매시간 우리를 살펴 주셨다.
+carnival|카니발, 축제|The whole town dressed up for the spring carnival.|온 마을 사람들이 봄 축제를 위해 차려입었다.
+carpool|카풀, 승용차 함께 타기|Four parents share a carpool to take the kids to school.|부모 네 명이 카풀로 아이들을 학교에 데려다준다.
+carve|조각하다, (고기를) 썰다|Grandpa carved a small wooden bird for my birthday.|할아버지가 내 생일에 작은 나무 새를 조각해 주셨다.
+cascade|(명) 작은 폭포, 연속; (동) 폭포처럼 쏟아지다|Her long hair cascaded down her back.|그녀의 긴 머리가 등 뒤로 폭포처럼 흘러내렸다.
+cast|(명) 출연진, 깁스; (동) 던지다, 배역을 정하다|The whole cast took a bow at the end of the show.|공연이 끝나자 출연진 전원이 인사를 했다.
+casually|무심코, 편하게|He casually mentioned that he speaks four languages.|그는 자신이 4개 국어를 한다고 무심하게 말했다.
+catalog|카탈로그, 목록|I ordered a sofa from the furniture catalog.|나는 가구 카탈로그를 보고 소파를 주문했다.
+catalyst|촉매, 기폭제|Her trip to India was a catalyst for her cooking career.|인도 여행은 그녀의 요리 경력에 기폭제가 되었다.
+catastrophe|대참사, 재앙|Forgetting the wedding rings would have been a catastrophe.|결혼반지를 잊었다면 대참사였을 것이다.
+catastrophic|재앙적인, 파멸적인|The flood caused catastrophic damage to the farms.|홍수는 농장에 재앙적인 피해를 입혔다.
+catchy|기억하기 쉬운, 귀에 쏙 들어오는|That song is so catchy that I hum it all day.|그 노래가 너무 중독성 있어서 하루 종일 흥얼거린다.
+categorization|분류, 범주화|The categorization of library books makes them easy to find.|도서관 책을 분류해 두면 찾기가 쉽다.
+catering|출장 요리, 음식 공급|A local company handled the catering for our wedding.|지역 업체가 우리 결혼식의 출장 요리를 맡았다.
+cathedral|대성당|The cathedral's stained glass windows glowed in the sunlight.|대성당의 스테인드글라스 창이 햇빛에 빛났다.
+cease|중단하다, 그치다|The rain finally ceased just before the picnic.|소풍 직전에 마침내 비가 그쳤다.
+ceiling|천장, 상한|A beautiful lamp hung from the living room ceiling.|거실 천장에 아름다운 등이 매달려 있었다.
+cellar|지하 저장실|We store potatoes and jam in the cellar.|우리는 감자와 잼을 지하 저장실에 보관한다.
+cellist|첼로 연주자|The cellist played a gentle melody at the café.|첼리스트가 카페에서 잔잔한 선율을 연주했다.
+cello|첼로|He has practiced the cello every day for ten years.|그는 10년 동안 매일 첼로를 연습했다.
+cemetery|묘지|We visit Grandpa's grave at the cemetery every autumn.|우리는 매년 가을 묘지에 있는 할아버지 산소를 찾는다.
+centigrade|섭씨|Water boils at one hundred degrees centigrade.|물은 섭씨 100도에서 끓는다.
+certificate|증명서, 자격증|She received a certificate after finishing the cooking course.|그녀는 요리 과정을 마치고 수료증을 받았다.
+certification|증명, 자격 인증|This coffee has organic certification from an official agency.|이 커피는 공식 기관의 유기농 인증을 받았다.
+certify|증명하다, 자격을 인정하다|The doctor certified that I was fit to travel.|의사는 내가 여행해도 될 만큼 건강하다고 증명해 주었다.
+chancellor|(대학) 총장, 수상|The university chancellor handed out diplomas at graduation.|대학 총장이 졸업식에서 학위증을 수여했다.
+chaotic|혼돈의, 무질서한|The kitchen was chaotic during the dinner rush.|저녁 손님이 몰릴 때 주방은 엉망진창이었다.
+charming|매력적인, 멋진|We stayed in a charming little inn near the river.|우리는 강가의 아기자기하고 멋진 여관에 묵었다.
+cheat|속이다, 부정행위를 하다|He was caught trying to cheat on the math test.|그는 수학 시험에서 부정행위를 하다 걸렸다.
+checkpoint|검문소, 확인 지점|Runners drank water at every checkpoint during the marathon.|주자들은 마라톤 도중 모든 확인 지점에서 물을 마셨다.
+cheeky|건방진, 뻔뻔한|The cheeky boy asked for a third slice of cake.|그 넉살 좋은 소년은 케이크 세 번째 조각을 달라고 했다.
+cheerfully|쾌활하게, 기분 좋게|The mail carrier waved cheerfully to the children.|집배원이 아이들에게 반갑게 손을 흔들었다.
+cheerfulness|쾌활함, 명랑함|Her cheerfulness made the long meeting feel shorter.|그녀의 명랑함 덕분에 긴 회의가 짧게 느껴졌다.
+chemotherapy|화학 요법, 항암 치료|My aunt finished her chemotherapy and is feeling stronger.|이모는 항암 치료를 마치고 기운을 되찾고 있다.
+cherished|소중히 여기는|This old photo album is my most cherished possession.|이 오래된 사진첩은 내가 가장 아끼는 물건이다.
+cherry|체리, 벚나무|She put a bright red cherry on top of the sundae.|그녀는 선데이 위에 새빨간 체리를 올렸다.
+chew|씹다|Chew your food slowly so you can enjoy it.|음식을 천천히 씹어야 맛을 즐길 수 있어요.
+childish|유치한|It was childish of him to sulk after losing the game.|게임에 졌다고 삐친 건 그가 유치했다.
+chimney|굴뚝|Smoke rose from the chimney of the mountain cabin.|산속 오두막 굴뚝에서 연기가 피어올랐다.
+chip|조각, 칩, 감자칩|There's a small chip on the rim of this mug.|이 머그잔 테두리에 작은 이가 빠져 있다.
+chop|썰다, 자르다|Chop the onions finely before adding them to the pan.|양파를 잘게 썬 다음 팬에 넣으세요.
+chunk|덩어리, 상당한 양|Add a few chunks of pineapple to the fried rice.|볶음밥에 파인애플 몇 덩어리를 넣으세요.
+circuit|회로, 순회, 경주로|The cyclists rode three laps around the circuit.|자전거 선수들이 경주로를 세 바퀴 돌았다.
+circuitry|회로 (장치)|Water damaged the circuitry inside my old laptop.|물 때문에 내 낡은 노트북 안의 회로가 망가졌다.
+circumstance|상황, 사정|Under no circumstances should you share your password.|어떤 상황에서도 비밀번호를 남에게 알려 주면 안 된다.
+citywide|시 전체의|The library is holding a citywide reading challenge this summer.|도서관이 이번 여름 시 전체 독서 챌린지를 연다.
+clam|조개|We dug for clams on the beach at low tide.|우리는 썰물 때 해변에서 조개를 캤다.
+clap|박수를 치다|The audience clapped loudly when the dancers finished.|무용수들이 공연을 마치자 관객들이 크게 박수를 쳤다.
+clarify|명확히 하다, 설명하다|Could you clarify what time the meeting starts?|회의가 몇 시에 시작하는지 정확히 말씀해 주시겠어요?
+classification|분류|The classification of animals into groups helps scientists study them.|동물을 무리별로 분류하면 과학자들이 연구하기 쉬워진다.
+clause|절(문법), (계약) 조항|Read every clause of the rental contract before signing.|서명하기 전에 임대 계약서의 모든 조항을 읽으세요.
+clearness|명확함, 맑음|I was impressed by the clearness of the lake water.|호수 물이 맑은 것에 감탄했다.
+clerical|사무직의, 사무의|She took a clerical job at the hospital office.|그녀는 병원 사무실의 사무직 일을 맡았다.
+client|고객, 의뢰인|The designer met her client to discuss the new logo.|디자이너는 새 로고를 논의하려고 고객을 만났다.
+climate change|기후 변화|Climate change is making summers hotter every year.|기후 변화로 여름이 해마다 더 더워지고 있다.
+clog|막다, 막히다|Hair often clogs the bathroom drain.|머리카락 때문에 욕실 배수구가 자주 막힌다.
+closure|폐쇄, 종결|The road closure made us late for the concert.|도로 폐쇄 때문에 우리는 콘서트에 늦었다.
+clothing|의류, 옷|Bring warm clothing because the mountains get cold at night.|산은 밤에 추워지니 따뜻한 옷을 챙기세요.
+clumsy|서투른, 어설픈|I'm so clumsy that I spilled coffee on my shirt again.|나는 너무 덤벙대서 또 셔츠에 커피를 쏟았다.
+coaching|코칭, 지도|With good coaching, the team improved quickly.|좋은 지도 덕분에 팀 실력이 빠르게 늘었다.
+coalition|연합, 연립|A coalition of parents asked for healthier school lunches.|학부모 연합이 더 건강한 학교 급식을 요청했다.
+coarse|거친, 굵은|Sprinkle some coarse salt on the steak before grilling.|굽기 전에 스테이크에 굵은소금을 조금 뿌리세요.
+coastline|해안선|We drove along the beautiful coastline at sunset.|우리는 해 질 녘 아름다운 해안선을 따라 드라이브했다.
+cocktail|칵테일|The hotel bar serves a fruity cocktail with mango juice.|호텔 바에서 망고 주스를 넣은 과일 칵테일을 판다.
+cocoa|코코아|A cup of hot cocoa warms me up on winter nights.|겨울밤에는 따뜻한 코코아 한 잔이 몸을 녹여 준다.
+coconut|코코넛|We drank fresh coconut water on the beach in Bali.|우리는 발리 해변에서 신선한 코코넛 워터를 마셨다.
+coherence|일관성, 논리적 연결|Your essay needs more coherence between paragraphs.|네 에세이는 문단 사이에 일관성이 더 필요해.
+coherent|일관성 있는, 조리 있는|He was too tired to give a coherent answer.|그는 너무 피곤해서 조리 있게 대답하지 못했다.
+coincide|동시에 일어나다, 일치하다|My birthday coincides with the first day of school this year.|올해는 내 생일이 개학 첫날과 겹친다.
+coincidence|우연의 일치|What a coincidence to meet you at this tiny café!|이 작은 카페에서 너를 만나다니 정말 우연이다!
+colleague|동료|My colleague brought homemade cookies to the office.|동료가 집에서 만든 쿠키를 사무실에 가져왔다.
+collector|수집가, 징수원|The stamp collector showed us a rare stamp from 1900.|우표 수집가가 1900년의 희귀 우표를 보여 주었다.
+collocation|연어(자주 함께 쓰이는 단어 조합)|"Make a decision" is a common collocation in English.|"make a decision"은 영어에서 흔한 연어이다.
+colon|쌍점(:), 결장|Use a colon before you list the items.|항목을 나열하기 전에 쌍점을 쓰세요.
+colonial|식민지의, 식민지 시대의|The town is famous for its colonial buildings.|그 마을은 식민지 시대 건물들로 유명하다.
+coma|혼수상태|After the accident, he was in a coma for two days.|사고 후 그는 이틀 동안 혼수상태였다.
+comfortably|편안하게, 넉넉하게|The new sofa can seat four people comfortably.|새 소파에는 네 명이 편하게 앉을 수 있다.
+commander|지휘관, 사령관|The ship's commander welcomed the visitors on deck.|함장이 갑판에서 방문객들을 맞이했다.
+commemorate|기념하다|The town built a statue to commemorate its founder.|그 마을은 설립자를 기념하기 위해 동상을 세웠다.
+commerce|상업, 무역|Online commerce has changed how people buy groceries.|온라인 상거래는 사람들이 장 보는 방식을 바꿔 놓았다.
+commission|(명) 수수료, 위원회, 의뢰; (동) 의뢰하다|The café commissioned a local artist to paint a mural.|카페는 지역 화가에게 벽화를 의뢰했다.
+commonwealth|연방, 공동체|Many countries in the Commonwealth share similar traditions.|영연방의 많은 국가들은 비슷한 전통을 공유한다.
+communicative|의사소통의, 말하기 좋아하는|Our new teacher uses a communicative approach to English.|새 선생님은 의사소통 중심 방식으로 영어를 가르치신다.
+community|공동체, 지역 사회|The community garden brings neighbors together every weekend.|공동 텃밭은 주말마다 이웃들을 한데 모은다.
+commute|통근하다|I commute to work by subway every day.|나는 매일 지하철로 출퇴근한다.
+compassion|연민, 동정심|The vet treated the injured cat with great compassion.|수의사는 다친 고양이를 깊은 연민으로 치료했다.
+compassionate|인정 많은, 동정심 있는|She is a compassionate listener who never judges.|그녀는 절대 판단하지 않는 따뜻한 경청자다.
+compatible|호환되는, 양립할 수 있는|Is this charger compatible with my tablet?|이 충전기가 제 태블릿과 호환되나요?
+compensate|보상하다, 만회하다|The airline compensated us with free meal vouchers.|항공사가 무료 식사 쿠폰으로 보상해 주었다.
+compensation|보상(금)|Workers received compensation for the extra hours.|직원들은 초과 근무에 대해 보상을 받았다.
+competence|능숙함, 능력|The new driver showed great competence on the icy road.|새 운전자는 빙판길에서 뛰어난 능숙함을 보였다.
+competent|유능한, 능숙한|She is a competent swimmer, so don't worry.|그녀는 수영을 잘하니 걱정 마세요.
+compile|엮다, 편집하다|I compiled a list of my favorite family recipes.|나는 내가 좋아하는 집안 요리법 목록을 정리했다.
+completion|완료, 완성|The new library is near completion and opens next month.|새 도서관이 거의 완공되어 다음 달에 문을 연다.
+complexion|안색, 피부색|Drinking more water improved her complexion.|물을 더 마셨더니 그녀의 안색이 좋아졌다.
+complexity|복잡성|The complexity of the board game surprised the kids.|보드게임이 복잡해서 아이들이 놀랐다.
+component|구성 요소, 부품|Sleep is an important component of a healthy lifestyle.|수면은 건강한 생활 방식의 중요한 요소다.
+comprehension|이해(력)|The test checks your reading comprehension.|이 시험은 독해력을 확인한다.
+comprehensive|포괄적인, 종합적인|The guidebook gives a comprehensive list of local restaurants.|그 안내서에는 지역 식당 목록이 빠짐없이 실려 있다.
+compress|압박붕대, 찜질 패드|Put a cold compress on your forehead to ease the headache.|두통을 덜려면 이마에 냉찜질 패드를 올리세요.
+compression|압축, 압박|File compression makes large videos easier to send.|파일 압축을 하면 큰 영상을 보내기 쉬워진다.
+compulsory|의무적인, 강제적인|Wearing a helmet is compulsory for all cyclists here.|이곳에서는 모든 자전거 이용자가 헬멧을 의무적으로 써야 한다.
+compute|계산하다|The app computes how many calories you burn while walking.|그 앱은 걸으면서 소모하는 칼로리를 계산해 준다.
+conceal|숨기다, 감추다|She tried to conceal her excitement about the surprise party.|그녀는 깜짝 파티에 대한 설렘을 감추려고 애썼다.
+concede|인정하다, 양보하다|He finally conceded that my map was right.|그는 결국 내 지도가 맞았다고 인정했다.
+conceit|자만심, 자부심|His conceit made it hard for him to accept advice.|자만심 때문에 그는 조언을 받아들이기 어려웠다.
+conceivable|생각할 수 있는, 상상할 수 있는|We tried every conceivable way to fix the leaking tap.|우리는 새는 수도꼭지를 고치려고 생각할 수 있는 모든 방법을 써 봤다.
+conceive|상상하다, 착상하다, 임신하다|She conceived the idea for the app while waiting for a bus.|그녀는 버스를 기다리다가 그 앱의 아이디어를 떠올렸다.
+conception|개념, 구상, 임신|The artist's conception of the new park included a big pond.|그 예술가가 구상한 새 공원에는 커다란 연못이 있었다.
+concerning|~에 관하여|I have a question concerning the homework.|숙제에 관해 질문이 있어요.
+concession|양보, 할인 요금|Students can get a concession on museum tickets.|학생들은 박물관 입장권 할인을 받을 수 있다.
+concrete|(형) 구체적인, 콘크리트로 된; (명) 콘크리트|We need a concrete plan before we book the flights.|항공권을 예약하기 전에 구체적인 계획이 필요하다.
+condemn|비난하다, 선고하다|Many people condemned the factory for polluting the river.|많은 사람들이 강을 오염시킨 공장을 비난했다.
+conductor|지휘자, 차장, 전도체|The conductor raised her baton and the orchestra began.|지휘자가 지휘봉을 들자 오케스트라가 연주를 시작했다.
+cone|원뿔, 콘|I'd like two scoops of vanilla in a cone, please.|콘에 바닐라 두 스쿱 주세요.
+conference|회의, 학회|She is presenting her research at a conference in Busan.|그녀는 부산의 학회에서 연구를 발표한다.
+conferencing|(화상) 회의 진행|Video conferencing lets our team work from different cities.|화상 회의 덕분에 우리 팀은 서로 다른 도시에서 일할 수 있다.

@@ -198,3 +198,153 @@ schoolmate|학교 친구, 동창|I met an old schoolmate at the supermarket toda
 schoolteacher|학교 선생님, 교사|My aunt has been a schoolteacher for twenty years.|우리 이모는 20년째 학교 선생님으로 일하고 계신다.
 science fiction|공상 과학 소설, SF|I love science fiction stories about life on other planets.|나는 다른 행성의 생명체를 다룬 SF 이야기를 정말 좋아한다.
 scold|꾸짖다, 야단치다|Mom scolded us for leaving mud on the carpet.|엄마는 카펫에 진흙을 묻혔다고 우리를 꾸짖으셨다.
+scope|범위, 여지|The scope of the project grew larger every week.|그 프로젝트의 범위는 매주 더 커졌다.
+score|(명) 점수, 득점; (동) 득점하다|She scored two goals in the second half.|그녀는 후반전에 두 골을 넣었다.
+scratch|(동) 긁다, 할퀴다; (명) 긁힌 자국|The cat scratched the leg of our new table.|고양이가 새 식탁 다리를 긁어 놓았다.
+sculpture|조각, 조각품|There is a huge metal sculpture in front of the museum.|박물관 앞에 거대한 금속 조각품이 있다.
+season|계절, 시즌, 철|Autumn is my favorite season because of the colorful leaves.|알록달록한 단풍 때문에 가을이 내가 제일 좋아하는 계절이다.
+seawater|바닷물|Seawater is too salty to drink.|바닷물은 너무 짜서 마실 수 없다.
+seaweed|해초, 김, 미역|My mom makes seaweed soup on my birthday.|엄마는 내 생일에 미역국을 끓여 주신다.
+second-hand|(형) 중고의; (부) 중고로|I bought a second-hand guitar from a neighbor.|나는 이웃에게서 중고 기타를 샀다.
+secondary school|중등학교(중·고등학교)|My brother will start secondary school next year.|남동생은 내년에 중학교에 들어간다.
+secretly|몰래, 비밀리에|We secretly planned a surprise party for Dad.|우리는 아빠를 위한 깜짝 파티를 몰래 준비했다.
+secure|(형) 안전한, 확실한; (동) 확보하다, 고정하다|Make sure the shelf is secure before you put books on it.|책을 올리기 전에 선반이 단단히 고정됐는지 확인해.
+security|보안, 안전, 경비|We went through security at the airport quickly.|우리는 공항 보안 검색대를 빨리 통과했다.
+seize|붙잡다, 장악하다|He seized the chance to study in another country.|그는 다른 나라에서 공부할 기회를 놓치지 않았다.
+select|(동) 선택하다, 고르다; (형) 엄선된|Please select your seat on the screen.|화면에서 좌석을 선택해 주세요.
+selection|선택, 선발; 엄선된 것들|The shop has a wide selection of teas.|그 가게에는 다양한 차가 갖춰져 있다.
+self-service|셀프서비스의|This is a self-service cafe, so order at the counter.|여기는 셀프서비스 카페라서 카운터에서 주문해야 해.
+selfish|이기적인|It was selfish of me to eat all the cookies.|쿠키를 다 먹어 버린 건 내가 이기적이었어.
+sensation|감각, 느낌; 센세이션|I felt a strange sensation in my fingers in the cold.|추위에 손가락에 이상한 감각이 느껴졌다.
+separation|분리, 이별|The separation from her family was hard during her first year abroad.|해외 생활 첫해에 가족과 떨어져 지내는 게 그녀에게 힘들었다.
+sequence|순서, 연속|Put these pictures in the correct sequence.|이 그림들을 올바른 순서로 배열해 봐.
+series|연속, 시리즈|We watched the whole series in one weekend.|우리는 주말 동안 그 시리즈를 전부 봤다.
+serious|심각한, 진지한|Are you serious about learning to fly a plane?|비행기 조종을 배우겠다는 거 진심이야?
+server|서버; 종업원|The website was slow because the server was busy.|서버가 붐벼서 웹사이트가 느렸다.
+service|(명) 서비스, 봉사, 근무; (동) 점검하다, 정비하다|The service at this hotel is always friendly.|이 호텔의 서비스는 언제나 친절하다.
+session|기간, 시간, 회기|Our study session lasted until midnight.|우리 공부 모임은 자정까지 이어졌다.
+setting|배경, 환경; 설정|The story's setting is a small island in winter.|그 이야기의 배경은 겨울철 작은 섬이다.
+settle|정착하다; 해결하다; 진정시키다|After years of travel, they settled in a quiet town.|몇 년간 여행한 끝에 그들은 조용한 마을에 정착했다.
+settlement|합의, 해결; 정착(지)|The two companies finally reached a settlement.|두 회사는 마침내 합의에 이르렀다.
+settler|정착민|The first settlers built their houses near the river.|최초의 정착민들은 강 근처에 집을 지었다.
+severe|심한, 극심한, 엄격한|The severe cold kept everyone indoors for days.|혹독한 추위 때문에 며칠 동안 모두 집 안에만 있었다.
+severely|심하게, 엄하게|The storm severely damaged the old greenhouse.|폭풍으로 오래된 온실이 심하게 망가졌다.
+sex|성, 성별|Please write your name, age, and sex on the form.|양식에 이름, 나이, 성별을 적어 주세요.
+shadowy|어둑한, 그림자가 많은; 정체불명의|We walked along a shadowy path through the forest.|우리는 숲속의 어둑한 오솔길을 따라 걸었다.
+shallow|얕은; 피상적인|The children played in the shallow end of the pool.|아이들은 수영장의 얕은 쪽에서 놀았다.
+shame|부끄러움, 수치; 유감스러운 일|It's a shame that the concert was cancelled.|콘서트가 취소돼서 아쉽다.
+shameful|부끄러운, 수치스러운|Wasting so much food is shameful.|음식을 이렇게 많이 버리는 건 부끄러운 일이다.
+sharp|(형) 날카로운, 뚜렷한; (부) 정각에|Be careful, that knife is very sharp.|조심해, 그 칼 아주 날카로워.
+shave|면도하다, 깎다|My dad shaves every morning before breakfast.|아빠는 매일 아침 식사 전에 면도하신다.
+sheer|순전한, 완전한; 깎아지른 듯한|Winning the game was sheer luck.|그 경기에서 이긴 건 순전히 운이었다.
+sheet|(침대) 시트; (종이) 한 장|Can you give me a sheet of paper?|종이 한 장 줄 수 있어?
+shelter|피난처, 보호소, 대피|We found shelter from the rain under a bridge.|우리는 다리 밑에서 비를 피했다.
+sheriff|보안관|The sheriff helped the farmer find his lost cows.|보안관이 농부의 잃어버린 소들을 찾도록 도와주었다.
+shift|(명) 교대 근무, 변화; (동) 옮기다, 바꾸다|She works the night shift at the hospital.|그녀는 병원에서 야간 근무를 한다.
+shiny|빛나는, 반짝거리는|He polished his shoes until they were shiny.|그는 구두가 반짝일 때까지 닦았다.
+shiver|떨다, 전율하다|We shivered at the bus stop in the freezing wind.|우리는 얼어붙을 듯한 바람 속에 버스 정류장에서 덜덜 떨었다.
+shocked|충격받은|I was shocked to see how much the city had changed.|도시가 얼마나 많이 변했는지 보고 깜짝 놀랐다.
+shocking|충격적인|The price of strawberries this winter is shocking.|올겨울 딸기 가격이 충격적이다.
+shopper|쇼핑객, 구매자|The mall was full of holiday shoppers.|쇼핑몰은 명절 쇼핑객들로 가득했다.
+shortage|부족, 결핍|There is a shortage of teachers in rural areas.|시골 지역에는 교사가 부족하다.
+shortly|곧, 얼마 안 있어|The train will arrive shortly.|열차가 곧 도착합니다.
+shrimp|새우|I ordered fried rice with shrimp.|나는 새우볶음밥을 주문했다.
+sickness|병, 질병; 메스꺼움|Some passengers felt sickness on the bumpy boat ride.|흔들리는 배에서 일부 승객이 멀미를 했다.
+sidewalk|보도, 인도|Kids drew pictures on the sidewalk with chalk.|아이들이 분필로 인도에 그림을 그렸다.
+sigh|(명) 한숨; (동) 한숨 쉬다|She sighed when she saw the long line.|긴 줄을 보고 그녀는 한숨을 쉬었다.
+signal|(명) 신호; (동) 신호를 보내다|My phone has no signal in the mountains.|산에서는 내 휴대폰이 안 터진다.
+signature|서명|Please put your signature at the bottom of the page.|페이지 하단에 서명해 주세요.
+significance|중요성, 의의|The teacher explained the significance of the old map.|선생님은 그 옛 지도가 갖는 의미를 설명해 주셨다.
+signpost|표지판, 이정표|The signpost pointed us toward the waterfall.|이정표가 폭포 쪽을 가리키고 있었다.
+silent|조용한, 침묵하는|The library was completely silent during exams.|시험 기간 동안 도서관은 쥐 죽은 듯 조용했다.
+silk|비단, 실크|She gave her mother a silk scarf for her birthday.|그녀는 어머니 생신 선물로 실크 스카프를 드렸다.
+similarity|유사성, 닮은 점|There is a clear similarity between the two songs.|두 노래 사이에는 뚜렷한 유사점이 있다.
+similarly|비슷하게, 마찬가지로|The twins dress similarly but have different hobbies.|그 쌍둥이는 옷은 비슷하게 입지만 취미는 다르다.
+simplify|단순화하다, 간소화하다|Let's simplify the instructions for younger students.|어린 학생들을 위해 설명을 간단하게 바꿔 보자.
+simultaneously|동시에|She can cook and talk on the phone simultaneously.|그녀는 요리하면서 동시에 전화 통화를 할 수 있다.
+skeleton|골격, 해골; 뼈대|We saw a dinosaur skeleton at the science museum.|과학관에서 공룡 뼈 화석을 보았다.
+skin|피부, 껍질|This lotion keeps my skin soft in winter.|이 로션 덕분에 겨울에도 피부가 부드럽다.
+skyscraper|고층 건물, 마천루|From the skyscraper, the cars looked like tiny toys.|고층 빌딩에서 보니 자동차들이 작은 장난감 같았다.
+slavery|노예 제도, 노예 상태|We learned about the end of slavery in history class.|역사 시간에 노예 제도의 폐지에 대해 배웠다.
+sleeve|소매|He rolled up his sleeves and started washing the dishes.|그는 소매를 걷어붙이고 설거지를 시작했다.
+slight|(형) 약간의, 사소한; (명) 모욕, 무시|I have a slight headache this afternoon.|오늘 오후에 머리가 약간 아프다.
+slightly|약간, 조금|The soup is slightly too salty for me.|이 수프는 내 입맛엔 약간 짜다.
+slip|(동) 미끄러지다; (명) 미끄러짐; 쪽지, 실수|Be careful not to slip on the icy steps.|얼어붙은 계단에서 미끄러지지 않게 조심해.
+slogan|구호, 표어, 슬로건|Our class made a slogan for the clean-up campaign.|우리 반은 환경 정화 캠페인 구호를 만들었다.
+slope|경사(지), 비탈|We skied down the gentle slope again and again.|우리는 완만한 슬로프를 몇 번이고 내려왔다.
+slot|투입구, 구멍; (시간) 자리|Put a coin in the slot to start the machine.|기계를 작동하려면 투입구에 동전을 넣으세요.
+smoker|흡연자|My grandfather was a smoker, but he quit years ago.|할아버지는 흡연자셨지만 몇 년 전에 끊으셨다.
+sneeze|(명) 재채기; (동) 재채기하다|Dust always makes me sneeze.|나는 먼지 때문에 늘 재채기가 난다.
+snowboard|스노보드|I rented a snowboard for the weekend trip.|주말 여행용으로 스노보드를 빌렸다.
+snowstorm|눈보라|The snowstorm closed all the roads to the village.|눈보라 때문에 마을로 가는 길이 모두 막혔다.
+soap opera|(TV) 연속극, 드라마|My aunt watches a soap opera every evening.|이모는 매일 저녁 연속극을 보신다.
+social networking|소셜 네트워킹, SNS 활동|Social networking helps me keep in touch with old friends.|SNS 덕분에 옛 친구들과 연락을 유지한다.
+socially|사회적으로, 사교적으로|He is shy at first but socially very kind.|그는 처음엔 수줍어하지만 사람들에게 아주 친절하다.
+soil|(명) 흙, 토양; (동) 더럽히다|Tomatoes grow well in rich, dark soil.|토마토는 기름진 검은 흙에서 잘 자란다.
+solid|단단한, 고체의, 견고한|The table is made of solid wood.|그 탁자는 원목으로 만들어졌다.
+somehow|어떻게든, 왠지|Somehow we caught the last bus home.|어찌어찌 우리는 집에 가는 막차를 탔다.
+someplace|어딘가에|Let's go someplace quiet to talk.|조용한 데 가서 이야기하자.
+sometime|언젠가, 어느 때|Let's have lunch together sometime next week.|다음 주 중에 언제 점심 같이 먹자.
+soothe|달래다, 진정시키다|A cup of warm milk can soothe a crying baby.|따뜻한 우유 한 잔이 우는 아기를 달래 줄 수 있다.
+sophomore|(대학·고교) 2학년생|My cousin is a sophomore at a university in Busan.|내 사촌은 부산에 있는 대학교 2학년이다.
+sore|아픈, 쑤시는|My legs are sore after yesterday's hike.|어제 등산 때문에 다리가 쑤신다.
+sorrow|슬픔, 비애|The old song was full of sorrow and longing.|그 옛 노래는 슬픔과 그리움으로 가득했다.
+sort|(명) 종류; (동) 분류하다, 정리하다|Please sort the laundry into whites and colors.|빨래를 흰 옷과 색깔 옷으로 나눠 줘.
+soul|영혼, 정신; 사람|She puts her heart and soul into her paintings.|그녀는 자신의 그림에 온 정성을 쏟는다.
+sour|신, 시큼한; 상한|This lemonade is too sour without sugar.|이 레모네이드는 설탕 없이 마시기엔 너무 시다.
+southeast|(명) 남동쪽; (형) 남동쪽의|The wind is blowing from the southeast today.|오늘은 바람이 남동쪽에서 불어온다.
+southern|남쪽의, 남부의|We spent a week in the southern part of the island.|우리는 섬 남쪽에서 일주일을 보냈다.
+southwest|(명) 남서쪽; (형) 남서쪽의|Our cabin faces southwest, so we get lovely sunsets.|우리 오두막은 남서향이라 노을이 아름답게 보인다.
+souvenir|기념품|I bought a small keychain as a souvenir.|기념품으로 작은 열쇠고리를 샀다.
+sparkle|반짝임, 광채; 생기|I love the sparkle of city lights at night.|나는 밤의 반짝이는 도시 불빛이 좋다.
+specialist|전문가, 전문의|The doctor sent me to a skin specialist.|의사가 나를 피부과 전문의에게 보냈다.
+specialize|전공하다, 전문으로 하다|This bakery specializes in rice cakes.|이 가게는 떡을 전문으로 한다.
+specially|특별히, 일부러|I made this cake specially for you.|이 케이크는 특별히 너를 위해 만들었어.
+spectacular|장관을 이루는, 극적인|The fireworks over the river were spectacular.|강 위의 불꽃놀이는 정말 장관이었다.
+spectator|관중, 구경꾼|Thousands of spectators cheered as the runners finished.|선수들이 결승선을 통과하자 수천 명의 관중이 환호했다.
+spelling|철자(법)|Please check the spelling of my name.|제 이름 철자를 확인해 주세요.
+sphere|구, 구체; 영역|The lamp is shaped like a glass sphere.|그 램프는 유리 구슬 모양이다.
+spice|양념, 향신료|Cinnamon is my favorite spice for baking.|계피는 내가 빵 구울 때 제일 좋아하는 향신료다.
+spider|거미|A tiny spider made a web in the corner of my window.|작은 거미 한 마리가 내 창문 구석에 거미줄을 쳤다.
+spinach|시금치|I added some spinach to my omelet.|오믈렛에 시금치를 조금 넣었다.
+spiral|나선형의|We climbed the spiral staircase to the top of the lighthouse.|우리는 나선형 계단을 올라 등대 꼭대기까지 갔다.
+spirit|정신, 영혼; 기분|The team kept their spirits up even after losing.|팀은 지고 나서도 사기를 잃지 않았다.
+spiritual|정신적인, 영적인|For him, walking in the mountains is a spiritual experience.|그에게 산길을 걷는 것은 영적인 경험이다.
+spoil|망치다; 버릇없게 만들다; 상하다|Don't let the rain spoil our picnic plans.|비 때문에 소풍 계획을 망치지 말자.
+sponge|스펀지|Use a soft sponge to clean the glass table.|유리 탁자는 부드러운 스펀지로 닦아.
+sponsor|(명) 후원자, 스폰서; (동) 후원하다|A local bakery sponsored our school soccer team.|동네 빵집이 우리 학교 축구팀을 후원했다.
+sports|스포츠의, 운동용의|He drives an old red sports car.|그는 낡은 빨간 스포츠카를 몬다.
+sportsmanship|스포츠맨십, 정정당당함|Both teams showed great sportsmanship after the match.|경기가 끝난 뒤 양 팀 모두 훌륭한 스포츠맨십을 보여 주었다.
+stable|안정된, 차분한|Make sure the ladder is stable before you climb it.|사다리에 오르기 전에 흔들리지 않는지 확인해.
+stall|가판대, 노점|We bought hot dumplings from a stall at the market.|우리는 시장 노점에서 뜨거운 만두를 샀다.
+standard|(명) 표준, 기준; (형) 표준의, 일반적인|The hotel room was small but met our standards.|호텔 방은 작았지만 우리 기준에는 맞았다.
+stare|빤히 쳐다보다, 응시하다|The baby stared at the colorful balloons.|아기는 알록달록한 풍선을 빤히 쳐다보았다.
+status|지위, 신분; 상태|You can check the status of your order online.|주문 상태는 온라인에서 확인할 수 있습니다.
+steadily|꾸준히, 착실하게|Her English has improved steadily this year.|그녀의 영어 실력은 올해 꾸준히 늘었다.
+steady|꾸준한, 안정된, 흔들림 없는|Hold the camera steady when you take the photo.|사진 찍을 때 카메라를 흔들리지 않게 잡아.
+steam|증기, 김|Steam rose from the hot bowl of noodles.|뜨거운 국수 그릇에서 김이 올라왔다.
+steel|강철|The new bridge is built of steel and concrete.|새 다리는 강철과 콘크리트로 지어졌다.
+steep|가파른; 급격한|The path to the temple is short but steep.|절로 가는 길은 짧지만 가파르다.
+stem|(~에서) 생겨나다, 유래하다; 막다|Her love of cooking stems from her childhood.|그녀의 요리 사랑은 어린 시절에서 비롯되었다.
+stick|(명) 막대기, 나뭇가지; (동) 붙이다, 찌르다|The dog ran back with a stick in its mouth.|개가 나뭇가지를 물고 다시 달려왔다.
+sticker|스티커|My little sister put stickers all over her notebook.|여동생은 공책 여기저기에 스티커를 붙였다.
+sticky|끈적끈적한; 무더운|My hands are sticky from the honey.|꿀 때문에 손이 끈적끈적하다.
+stir|젓다, 휘젓다; 움직이다|Stir the sauce slowly so it doesn't burn.|소스가 타지 않게 천천히 저어.
+storage|저장, 보관; 저장 공간|We keep winter clothes in a storage box under the bed.|겨울옷은 침대 밑 보관함에 넣어 둔다.
+stormy|폭풍우가 몰아치는; 격렬한|It was a dark and stormy night in the mountains.|산속의 어둡고 폭풍우 치는 밤이었다.
+storyteller|이야기꾼|My grandfather is a wonderful storyteller.|할아버지는 정말 훌륭한 이야기꾼이시다.
+strain|(명) 부담, 긴장; (동) 무리하게 쓰다; 거르다|Reading in dim light puts a strain on your eyes.|어두운 곳에서 책을 읽으면 눈에 무리가 간다.
+strangely|이상하게, 묘하게|The streets were strangely quiet this morning.|오늘 아침 거리는 이상하리만치 조용했다.
+strategic|전략적인|Choosing a seat near the door was a strategic decision.|문 근처 자리를 고른 건 전략적인 선택이었다.
+straw|빨대; 짚, 밀짚|Can I have a paper straw for my juice?|주스에 꽂을 종이 빨대 하나 주시겠어요?
+strawberry|딸기|We picked strawberries at a farm last weekend.|지난 주말에 농장에서 딸기를 땄다.
+stream|(명) 시내, 개울; 흐름; (동) 흐르다; 스트리밍하다|A small stream runs behind my grandmother's house.|할머니 댁 뒤로 작은 개울이 흐른다.
+strengthen|강화하다, 튼튼하게 하다|Swimming helps strengthen your back muscles.|수영은 등 근육을 튼튼하게 하는 데 도움이 된다.
+stress|(명) 스트레스, 압박; 강조; (동) 강조하다|Playing the drums helps me relieve stress.|드럼을 치면 스트레스가 풀린다.
+stressed|스트레스를 받는|I feel stressed before every math test.|수학 시험 전마다 스트레스를 받는다.
+stressful|스트레스가 많은|Moving to a new house can be very stressful.|새집으로 이사하는 건 아주 스트레스가 될 수 있다.
+stretch|늘이다, 뻗다, 스트레칭하다|Always stretch your legs before you go running.|달리기 전에 항상 다리를 스트레칭해.
+stricken|(병·고통 등에) 시달리는, 피해를 입은|The flood-stricken village received food and blankets.|홍수 피해를 입은 마을에 식량과 담요가 전달되었다.
+strip|(명) 가늘고 긴 조각; (동) 벗기다|Cut the paper into long, thin strips.|종이를 가늘고 길게 잘라.
+stripe|줄무늬|He wore a blue shirt with white stripes.|그는 흰 줄무늬가 있는 파란 셔츠를 입었다.
+struggle|(동) 애쓰다, 고군분투하다; (명) 투쟁, 노력|I struggled to open the jar of pickles.|피클 병을 여느라 애를 먹었다.

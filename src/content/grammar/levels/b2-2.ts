@@ -171,7 +171,7 @@ export const b2u05: GrammarUnit = {
   ],
   unitTest: [
     mc('b2-u05-t01', '빈칸에 알맞은 말을 고르세요.', '___ she was ill, she went to work.', ['Even though', 'In spite of', 'Moreover'], 'Even though', '뒤에 절(she was ill)이 오고 양보의 뜻이므로 접속사 Even though 가 맞습니다.'),
-    mc('b2-u05-t02', '구두점이 바른 문장을 고르세요.', '(구두점 고르기)', ['He studied hard. However, he failed.', 'He studied hard, however he failed.', 'He studied hard however, he failed.'], 'He studied hard. However, he failed.', 'however 는 접속부사이므로 앞 문장을 마침표로 끝내고 However 뒤에 쉼표를 찍어야 합니다.'),
+    mc('b2-u05-t02', '빈칸에 알맞은 연결어를 고르세요.', 'It was raining heavily. ___, we went hiking as planned.', ['Nevertheless', 'Therefore', 'Because'], 'Nevertheless', '비가 왔는데도 등산을 갔다는 "예상과 반대"의 흐름이므로 Nevertheless(그럼에도 불구하고)가 맞습니다. Therefore 는 결과, Because 는 접속사라 문장 앞 단독 연결어로 쓸 수 없습니다.'),
     mc('b2-u05-t03', '빈칸에 알맞은 말을 고르세요.', 'The road was icy. ___, several accidents happened.', ['Therefore', 'Although', 'Whereas'], 'Therefore', '길이 얼어 있었던 것이 원인이고 사고가 결과이므로 Therefore 가 맞습니다.'),
     blank('b2-u05-t04', '빈칸에 알맞은 한 단어를 쓰세요. (~에도 불구하고, 전치사)', '___ his injury, he finished the race.', ['Despite', 'despite'], '뒤에 명사구 his injury 가 오므로 전치사 Despite 를 씁니다.'),
     blank('b2-u05-t05', '빈칸에 알맞은 연결어를 쓰세요. (게다가)', 'The course is free. ___, you can study at your own pace.', ['Moreover', 'Furthermore', 'Besides', 'Also'], '같은 방향의 장점을 더하므로 Moreover(게다가)를 씁니다.'),

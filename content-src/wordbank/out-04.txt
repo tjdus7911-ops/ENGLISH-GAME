@@ -198,3 +198,153 @@ pollute|오염시키다|Factories should not pollute the river.|공장이 강을
 popular|인기 있는|This song is very popular with teenagers.|이 노래는 십 대들에게 아주 인기가 있다.
 population|인구|The population of our town is growing fast.|우리 동네 인구가 빠르게 늘고 있다.
 portrait|초상화, 인물 사진|There is a portrait of my grandmother in the hall.|복도에 할머니의 초상화가 있다.
+position|위치, 자세; 직위|Sit in a comfortable position and close your eyes.|편한 자세로 앉아서 눈을 감으세요.
+possible|가능한|Is it possible to change my seat?|자리를 바꾸는 것이 가능할까요?
+possibly|아마; 어떻게든|Could you possibly help me with this box?|이 상자 좀 도와주실 수 있을까요?
+post office|우체국|I need to send this package at the post office.|우체국에서 이 소포를 보내야 한다.
+pour|붓다, 따르다; 퍼붓다|Can you pour me a glass of water?|물 한 잔 따라 줄래?
+power|힘, 권력; 전력|The power went out during the storm.|폭풍 때문에 정전이 됐다.
+powerful|강력한, 영향력 있는|This vacuum cleaner is small but powerful.|이 청소기는 작지만 성능이 강력하다.
+precise|정확한, 정밀한|Please give me the precise time of your arrival.|도착 시간을 정확히 알려 주세요.
+predict|예측하다|Nobody can predict the weather perfectly.|아무도 날씨를 완벽하게 예측할 수 없다.
+prediction|예측, 예상|My prediction about the game was wrong.|그 경기에 대한 내 예상은 틀렸다.
+prefer|더 좋아하다, 선호하다|I prefer tea to coffee in the morning.|나는 아침에 커피보다 차를 더 좋아한다.
+prepare|준비하다|We prepared sandwiches for the picnic.|우리는 소풍을 위해 샌드위치를 준비했다.
+pressure|압력, 압박|There is a lot of pressure before final exams.|기말고사 전에는 압박감이 크다.
+pretend|(형) 가짜의, 놀이용의; (동) ~인 척하다|He pretended to be asleep when Mom came in.|그는 엄마가 들어오자 자는 척했다.
+prevent|막다, 예방하다|Washing your hands can prevent colds.|손을 씻으면 감기를 예방할 수 있다.
+pride|자부심, 자존심|She looked at her painting with pride.|그녀는 자부심을 가지고 자기 그림을 바라보았다.
+principal|(형) 주요한; (명) 교장|The principal gave a short speech at the ceremony.|교장 선생님이 식에서 짧은 연설을 하셨다.
+print|(명) 인쇄, 활자; (동) 인쇄하다, 출력하다|Can you print two copies of this report?|이 보고서 두 부 출력해 줄 수 있어?
+printer|프린터, 인쇄기|The printer in the office is out of paper.|사무실 프린터에 종이가 떨어졌다.
+private|사적인, 개인의, 사립의|This is a private beach for hotel guests.|이곳은 호텔 투숙객 전용 해변이다.
+pro|프로, 전문가|She plays tennis like a pro.|그녀는 프로처럼 테니스를 친다.
+probably|아마|It will probably be sunny tomorrow.|내일은 아마 맑을 것이다.
+produce|생산하다, 만들어 내다|This farm produces fresh eggs every day.|이 농장은 매일 신선한 달걀을 생산한다.
+product|제품, 상품|This shop sells only local products.|이 가게는 지역 제품만 판다.
+production|생산, 제작|The production of the new phone starts next month.|새 휴대폰의 생산이 다음 달에 시작된다.
+professional|(형) 전문적인, 직업의; (명) 전문가|You should ask a professional to fix the roof.|지붕 수리는 전문가에게 맡겨야 해.
+progressive|진보적인, 점진적인|The school uses progressive teaching methods.|그 학교는 진보적인 교수법을 사용한다.
+promise|(명) 약속; (동) 약속하다|I promise I'll call you tonight.|오늘 밤에 꼭 전화할게, 약속해.
+pronounce|발음하다|How do you pronounce your last name?|성을 어떻게 발음하세요?
+pronunciation|발음|Her English pronunciation is very clear.|그녀의 영어 발음은 아주 분명하다.
+proper|적절한, 제대로 된|You need proper shoes for hiking.|등산하려면 제대로 된 신발이 필요하다.
+provide|제공하다, 공급하다|The hotel provides free breakfast.|그 호텔은 무료 조식을 제공한다.
+psychologist|심리학자, 심리 상담가|The school psychologist helps students with stress.|학교 상담 선생님은 학생들의 스트레스 해소를 돕는다.
+public|(형) 공공의, 대중의; (명) 대중|You can't smoke in public places.|공공장소에서는 담배를 피울 수 없다.
+publish|출판하다, 발표하다|Her first book was published last year.|그녀의 첫 책은 작년에 출판되었다.
+pull|당기다, 끌다|Pull the door to open it.|문을 당겨서 여세요.
+punctuation|구두점, 구두법|Check your spelling and punctuation before you hand it in.|제출하기 전에 철자와 문장 부호를 확인하세요.
+purpose|목적, 의도|What is the purpose of your visit?|방문 목적이 무엇입니까?
+pursue|추구하다, 쫓다|She wants to pursue a career in music.|그녀는 음악 분야의 진로를 추구하고 싶어 한다.
+quality|(형) 고급의, 양질의; (명) 품질, 자질|These shoes are expensive, but the quality is good.|이 신발은 비싸지만 품질이 좋다.
+queen|여왕, 왕비|The queen lived in a castle by the sea.|여왕은 바닷가 성에서 살았다.
+quick|빠른, 신속한|Let's have a quick lunch before the meeting.|회의 전에 간단히 점심 먹자.
+quietly|조용히|Please close the door quietly, the baby is sleeping.|아기가 자고 있으니 문을 조용히 닫아 주세요.
+quit|(형) 벗어난, 면한; (동) 그만두다, 끊다|My dad quit smoking ten years ago.|아빠는 10년 전에 담배를 끊으셨다.
+quite|꽤, 상당히; 완전히|The test was quite easy this time.|이번 시험은 꽤 쉬웠다.
+quiz|퀴즈, 간단한 시험|We have a vocabulary quiz every Friday.|우리는 매주 금요일에 단어 퀴즈를 본다.
+racket|라켓; 소음|I left my tennis racket at the club.|테니스 라켓을 클럽에 두고 왔다.
+raincoat|비옷, 우비|Take your raincoat, it looks like rain.|비 올 것 같으니 우비 챙겨 가.
+raise|올리다, 기르다, 모으다|Raise your hand if you have a question.|질문이 있으면 손을 드세요.
+range|(명) 범위, 다양성; (동) (범위가) ~에 이르다|The store has a wide range of sports shoes.|그 가게에는 다양한 운동화가 있다.
+rap|(명) 랩; 톡톡 두드리기; (동) 랩을 하다; 톡톡 두드리다|My brother can rap really fast.|형은 랩을 정말 빠르게 할 수 있다.
+rate|(명) 비율, 요금, 속도; (동) 평가하다|The hotel has a special rate for students.|그 호텔에는 학생 할인 요금이 있다.
+rather|오히려, 꽤; 차라리|I'd rather stay home tonight.|오늘 밤은 차라리 집에 있고 싶어.
+rating|평가, 등급, 시청률|This app has a high rating from users.|이 앱은 사용자 평점이 높다.
+raw|날것의, 가공하지 않은|I don't like raw fish very much.|나는 날생선을 별로 좋아하지 않는다.
+ray|광선, 빛|A ray of sunlight came through the window.|한 줄기 햇빛이 창문으로 들어왔다.
+reach|(명) 손이 닿는 범위; (동) ~에 도착하다, 손을 뻗다|We reached the top of the hill at noon.|우리는 정오에 언덕 꼭대기에 도착했다.
+realize|깨닫다, 실현하다|I didn't realize it was so late.|그렇게 늦은 줄 몰랐다.
+receipt|영수증|Can I have a receipt, please?|영수증 좀 주시겠어요?
+receive|받다|Did you receive my email yesterday?|어제 내 이메일 받았어?
+recent|최근의|Is this a recent photo of you?|이거 최근에 찍은 사진이야?
+recently|최근에|I've recently started learning the guitar.|나는 최근에 기타를 배우기 시작했다.
+receptionist|접수 담당자, 안내원|The receptionist gave us the room key.|안내 직원이 우리에게 방 열쇠를 주었다.
+record|(명) 기록, 음반; (동) 기록하다, 녹음하다|She broke the school record in running.|그녀는 달리기에서 학교 기록을 깼다.
+recycle|재활용하다|We recycle bottles and paper at home.|우리는 집에서 병과 종이를 재활용한다.
+refer|언급하다, 참조하다, 가리키다|Please refer to the map on page five.|5쪽에 있는 지도를 참조하세요.
+reflect|반사하다, 비추다; 반영하다|The lake reflects the mountains like a mirror.|호수가 거울처럼 산을 비춘다.
+refrigerator|냉장고|Put the milk back in the refrigerator.|우유를 다시 냉장고에 넣어.
+regret|(명) 후회, 유감; (동) 후회하다|I regret not studying harder for the test.|시험공부를 더 열심히 하지 않은 게 후회된다.
+regular|규칙적인, 정기적인; 보통의|Regular exercise keeps you healthy.|규칙적인 운동은 건강을 유지해 준다.
+regularly|규칙적으로, 정기적으로|I visit my grandparents regularly.|나는 조부모님을 정기적으로 찾아뵌다.
+relax|휴식을 취하다, 긴장을 풀다|I like to relax with a book on Sundays.|나는 일요일에 책을 읽으며 쉬는 것을 좋아한다.
+relaxed|느긋한, 편안한|Everyone felt relaxed after the long holiday.|긴 휴가 뒤에 모두가 편안해졌다.
+release|(명) 석방, 출시; (동) 풀어 주다, 출시하다|The band will release a new album in May.|그 밴드는 5월에 새 앨범을 낸다.
+remain|남다, 여전히 ~이다|Please remain seated until the plane stops.|비행기가 멈출 때까지 자리에 앉아 계세요.
+remind|상기시키다, 생각나게 하다|Remind me to buy bread on the way home.|집에 가는 길에 빵 사라고 나한테 말해 줘.
+remote|외딴, 먼; 원격의|They live in a remote village in the mountains.|그들은 산속 외딴 마을에 산다.
+rent|(명) 집세, 임대료; (동) 빌리다, 임대하다|We rented bikes to ride around the island.|우리는 섬을 돌아보려고 자전거를 빌렸다.
+repair|(명) 수리; (동) 수리하다|The man came to repair our washing machine.|그 남자가 우리 세탁기를 고치러 왔다.
+replace|교체하다, 대신하다|I need to replace the battery in my watch.|시계 배터리를 교체해야 한다.
+reply|(명) 대답, 답장; (동) 대답하다, 답장하다|She hasn't replied to my message yet.|그녀는 아직 내 메시지에 답장하지 않았다.
+report|(명) 보고서, 보도; (동) 보고하다, 보도하다|I have to write a report on climate change.|나는 기후 변화에 관한 보고서를 써야 한다.
+represent|대표하다, 나타내다|She will represent our school in the contest.|그녀는 대회에서 우리 학교를 대표할 것이다.
+request|(명) 요청; (동) 요청하다|The hotel accepted our request for a quiet room.|호텔이 조용한 방을 달라는 우리 요청을 받아들였다.
+research|(명) 연구, 조사; (동) 연구하다, 조사하다|I did some research before buying a laptop.|노트북을 사기 전에 조사를 좀 했다.
+response|응답, 반응|Thank you for your quick response.|빠른 답변 감사합니다.
+retire|은퇴하다|My grandmother retired at the age of sixty.|할머니는 예순 살에 은퇴하셨다.
+retired|은퇴한|My retired neighbor spends his days gardening.|은퇴한 이웃은 정원을 가꾸며 하루를 보낸다.
+return|(명) 귀환, 반납; (동) 돌아오다, 돌려주다|Please return the books to the library by Friday.|금요일까지 도서관에 책을 반납해 주세요.
+reunion|재회, 동창회|We had a family reunion at Grandma's house.|할머니 댁에서 가족 모임을 가졌다.
+reveal|드러내다, 밝히다|The magician never reveals his secrets.|마술사는 절대 자기 비밀을 밝히지 않는다.
+rhythm|리듬, 박자|Clap your hands to the rhythm of the music.|음악 리듬에 맞춰 손뼉을 치세요.
+right-hand|오른쪽의, 오른손의|Take the right-hand road at the corner.|모퉁이에서 오른쪽 길로 가세요.
+road|길, 도로|Be careful when you cross the road.|길을 건널 때 조심해.
+roast|(형) 구운; (동) 굽다, 볶다|We had roast chicken for Sunday dinner.|우리는 일요일 저녁으로 통닭구이를 먹었다.
+rob|털다, 강탈하다|Someone tried to rob the shop last night.|어젯밤 누군가 그 가게를 털려고 했다.
+robbery|강도 사건, 강도질|There was a robbery at the bank downtown.|시내 은행에서 강도 사건이 있었다.
+robin|울새|A little robin was singing in the garden.|작은 울새가 정원에서 노래하고 있었다.
+rock|(명) 바위, 록 음악; (동) 흔들다|We sat on a big rock by the sea.|우리는 바닷가의 큰 바위에 앉았다.
+roll|(명) 두루마리, 롤빵; (동) 구르다, 굴리다|The ball rolled under the table.|공이 탁자 밑으로 굴러갔다.
+romance|로맨스, 연애|They met at work, and the romance began.|그들은 직장에서 만났고 로맨스가 시작되었다.
+romantic|낭만적인, 연애의|We had a romantic dinner by the river.|우리는 강가에서 낭만적인 저녁 식사를 했다.
+roof|지붕|There is a cat sleeping on the roof.|지붕 위에서 고양이가 자고 있다.
+root|뿌리, 근원|The roots of this tree go very deep.|이 나무의 뿌리는 아주 깊이 뻗어 있다.
+rope|밧줄|Hold the rope tightly and climb up.|밧줄을 꽉 잡고 올라가.
+roughly|대략; 거칠게|The trip takes roughly two hours by car.|그 여행은 차로 대략 두 시간 걸린다.
+round|(형) 둥근; (부) 빙 돌아; (명) 회, 라운드; (전) ~을 돌아; (동) 돌다|We sat at a round table near the window.|우리는 창가의 둥근 탁자에 앉았다.
+roundabout|로터리, 회전 교차로|Turn left at the next roundabout.|다음 로터리에서 왼쪽으로 도세요.
+royal|왕의, 왕실의|We visited the royal palace in the morning.|우리는 아침에 왕궁을 방문했다.
+rugby|럭비|He plays rugby for his university team.|그는 대학 팀에서 럭비를 한다.
+ruin|(명) 폐허, 파멸; (동) 망치다, 파괴하다|The rain ruined our plans for the picnic.|비 때문에 소풍 계획을 망쳤다.
+rumor|소문|There's a rumor that our teacher is leaving.|우리 선생님이 떠나신다는 소문이 있다.
+runner|달리는 사람, 주자|She is the fastest runner in our class.|그녀는 우리 반에서 가장 빠른 달리기 선수다.
+running|달리기, 경주|Running every morning gives me energy.|매일 아침 달리기를 하면 힘이 난다.
+rush|(명) 서두름, 혼잡; (동) 서두르다, 급히 가다|There's no need to rush, the shop is open late.|가게가 늦게까지 여니 서두를 필요 없어.
+sadly|슬프게; 유감스럽게도|Sadly, the concert was canceled.|안타깝게도 콘서트가 취소되었다.
+safe|안전한|Keep your passport in a safe place.|여권을 안전한 곳에 보관하세요.
+sailing|요트 타기, 항해|We went sailing on the lake last summer.|우리는 지난여름 호수에서 요트를 탔다.
+sake|위함, 이익|Please slow down, for my sake.|나를 위해서라도 속도 좀 줄여 줘.
+sample|견본, 샘플, 표본|The shop gave us free samples of cheese.|가게에서 치즈 시식 샘플을 무료로 줬다.
+sandy|모래의, 모래투성이의|The children built castles on the sandy beach.|아이들은 모래 해변에서 성을 쌓았다.
+satisfy|만족시키다, 충족시키다|Nothing seems to satisfy my picky cat.|입맛 까다로운 우리 고양이를 만족시킬 만한 것이 없는 것 같다.
+sauce|소스|This pasta sauce is made with fresh tomatoes.|이 파스타 소스는 신선한 토마토로 만들었다.
+sausage|소시지|I had eggs and sausages for breakfast.|아침으로 달걀과 소시지를 먹었다.
+scale|규모; 저울; 눈금|Put the bag on the scale, please.|가방을 저울 위에 올려 주세요.
+scarf|스카프, 목도리|Wear a scarf, it's cold outside.|밖이 추우니 목도리 해.
+scene|장면; 현장|The last scene of the movie made me cry.|영화의 마지막 장면에서 나는 울었다.
+scenery|경치, 풍경|The scenery along the coast is beautiful.|해안을 따라 펼쳐진 경치가 아름답다.
+schedule|(명) 일정, 시간표; (동) 일정을 잡다|Let's schedule the meeting for Tuesday.|회의를 화요일로 잡읍시다.
+schoolchild|학생, 학동|Every schoolchild in the town got a free book.|그 마을의 모든 학생이 무료로 책을 받았다.
+schoolwork|학업, 숙제|She finishes her schoolwork before dinner.|그녀는 저녁 식사 전에 학교 공부를 끝낸다.
+scientific|과학의, 과학적인|They did a scientific study on sleep.|그들은 수면에 관한 과학적 연구를 했다.
+scissors|가위|Can I borrow your scissors for a second?|가위 좀 잠깐 빌려도 될까?
+scream|(명) 비명; (동) 비명을 지르다|She screamed when she saw the spider.|그녀는 거미를 보고 비명을 질렀다.
+screen|(명) 화면, 스크린; 칸막이; (동) 상영하다, 가리다|My phone screen is cracked.|내 휴대폰 화면이 깨졌다.
+screw|(명) 나사; (동) 나사로 고정하다, 돌려 끼우다|Screw the lid onto the jar tightly.|병뚜껑을 단단히 돌려 닫아.
+script|대본, 원고|The actors read the script together for the first time.|배우들이 처음으로 함께 대본을 읽었다.
+seafood|해산물|This town is famous for its fresh seafood.|이 마을은 신선한 해산물로 유명하다.
+search|(명) 검색, 수색; (동) 찾다, 검색하다|I searched everywhere for my glasses.|나는 안경을 찾으려고 여기저기 뒤졌다.
+seaside|해변, 바닷가|We spent a week at the seaside in August.|우리는 8월에 바닷가에서 일주일을 보냈다.
+secret|(형) 비밀의; (명) 비밀|Can you keep a secret?|비밀 지킬 수 있어?
+secretary|비서; 장관|The secretary will send you the details.|비서가 자세한 내용을 보내드릴 거예요.
+seed|씨, 씨앗|Plant the seeds in spring.|씨앗을 봄에 심으세요.
+seek|찾다, 구하다|Many young people seek work in big cities.|많은 젊은이들이 대도시에서 일자리를 구한다.
+seem|~처럼 보이다, ~인 것 같다|You seem tired today.|오늘 너 피곤해 보여.
+semester|학기|The new semester starts in March.|새 학기는 3월에 시작한다.
+send|보내다|I'll send you the photos tonight.|오늘 밤에 사진 보내 줄게.
+senior|(형) 고위의, 연장자의; (명) 연장자, 졸업반 학생|My sister is a senior in high school.|언니는 고등학교 3학년이다.
+sense|(명) 감각, 느낌, 의미; (동) 감지하다, 느끼다|Dogs have a great sense of smell.|개는 후각이 아주 뛰어나다.
+separate|(형) 분리된, 별개의; (동) 분리하다, 나누다|Please separate the white clothes from the dark ones.|흰 옷과 어두운 옷을 분리해 주세요.

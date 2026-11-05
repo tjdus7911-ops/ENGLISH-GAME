@@ -24,7 +24,7 @@ export interface LexEntry {
 const POS_FULL: Record<string, string> = { 명: '명사', 동: '동사', 형: '형용사', 부: '부사', 대: '대명사', 전: '전치사', 접: '접속사', 조: '조동사', 감: '감탄사', 한: '한정사', 수: '수사' };
 export const posName = (p: string) => p.split(/[·,/]/).map((x) => POS_FULL[x.trim()] ?? x.trim()).join('·');
 
-export const normKey = (w: string) => w.toLowerCase().replace(/[’']/g, "'").replace(/^[^a-z]+|[^a-z']+$/g, '').replace(/'s$/, '').trim();
+export const normKey = (w: string) => w.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[’']/g, "'").replace(/^[^a-z]+|[^a-z']+$/g, '').replace(/'s$/, '').replace(/'$/, '').trim();
 
 /** 불규칙 변화형 → 원형 */
 const IRREGULAR: Record<string, string> = {
@@ -34,7 +34,7 @@ const IRREGULAR: Record<string, string> = {
   made: 'make', said: 'say', says: 'say', told: 'tell', knew: 'know', known: 'know', thought: 'think', found: 'find', got: 'get', ran: 'run', sat: 'sit', stood: 'stand',
   felt: 'feel', kept: 'keep', left: 'leave', lost: 'lose', bought: 'buy', brought: 'bring', built: 'build', began: 'begin', begun: 'begin', caught: 'catch', heard: 'hear',
   held: 'hold', hid: 'hide', hidden: 'hide', flew: 'fly', drew: 'draw', drawn: 'draw', dug: 'dig', blew: 'blow', shone: 'shine', swam: 'swim', woke: 'wake', laid: 'lay',
-  lit: 'light', hung: 'hang', spread: 'spread', paid: 'pay', sold: 'sell', wrote: 'write', written: 'write', became: 'become', froze: 'freeze', broke: 'break', forgot: 'forget', grew: 'grow', drove: 'drive', chose: 'choose', fell: 'fall', meant: 'mean', rode: 'ride', sang: 'sing', spoke: 'speak', threw: 'throw', wore: 'wear', met: 'meet', put: 'put',
+  lit: 'light', hung: 'hang', spread: 'spread', paid: 'pay', sold: 'sell', wrote: 'write', written: 'write', became: 'become', froze: 'freeze', spoken: 'speak', stolen: 'steal', sent: 'send', chosen: 'choose', driven: 'drive', fallen: 'fall', forgotten: 'forget', broken: 'break', ridden: 'ride', worn: 'wear', thrown: 'throw', shown: 'show', grown: 'grow', flown: 'fly', broke: 'break', forgot: 'forget', grew: 'grow', drove: 'drive', chose: 'choose', fell: 'fall', meant: 'mean', rode: 'ride', sang: 'sing', spoke: 'speak', threw: 'throw', wore: 'wear', met: 'meet', put: 'put',
   cut: 'cut', read: 'read', let: 'let', set: 'set', hit: 'hit', torn: 'tear', taught: 'teach', slept: 'sleep', spent: 'spend', understood: 'understand', won: 'win',
   could: 'can', "can't": 'can', cannot: 'can', "couldn't": 'can', would: 'will', "won't": 'will', "wouldn't": 'will', "i'll": 'will', should: 'should', "shouldn't": 'should',
   children: 'child', men: 'man', women: 'woman', people: 'person', feet: 'foot', teeth: 'tooth', mice: 'mouse', geese: 'goose', elves: 'elf', sheep: 'sheep', wolves: 'wolf', leaves: 'leaf', knives: 'knife', lives: 'life',
@@ -115,5 +115,5 @@ export function registerLexicon(entries: { key: string; word: string; meaning: s
 
 /** 문장 → [토큰(단어 또는 공백·구두점)] */
 export function tokenize(sentence: string): { text: string; word: boolean }[] {
-  return sentence.split(/([A-Za-z][A-Za-z'’-]*)/).filter((t) => t !== '').map((t) => ({ text: t, word: /^[A-Za-z]/.test(t) }));
+  return sentence.split(/((?<![0-9A-Za-z\u00C0-\u024F])[A-Za-z\u00C0-\u024F][A-Za-z\u00C0-\u024F'’-]*)/).filter((t) => t !== '').map((t) => ({ text: t, word: /^[A-Za-z\u00C0-\u024F]/.test(t) }));
 }

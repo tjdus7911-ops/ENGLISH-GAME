@@ -1,0 +1,350 @@
+inspector|검사관, 감독관; 경위|The health inspector visited the restaurant kitchen.|위생 검사관이 식당 주방을 방문했다.
+inspirational|영감을 주는, 고무적인|The coach gave an inspirational talk before the game.|코치는 경기 전에 사기를 북돋우는 말을 했다.
+instantly|즉시, 즉각|The soup warmed me up instantly.|수프를 먹자 몸이 금세 따뜻해졌다.
+instill|(생각·감정을) 서서히 심어 주다|Parents try to instill good habits in their children.|부모는 아이들에게 좋은 습관을 심어 주려고 노력한다.
+instinct|본능, 직감|My instinct told me not to trust the strange email.|내 직감은 그 이상한 이메일을 믿지 말라고 했다.
+institution|기관, 단체; 제도|The university is a famous research institution.|그 대학은 유명한 연구 기관이다.
+instruct|지시하다; 가르치다|The pilot instructed passengers to fasten their seat belts.|조종사는 승객들에게 안전벨트를 매라고 지시했다.
+insufficient|불충분한|There was insufficient time to finish the puzzle.|퍼즐을 끝내기에는 시간이 부족했다.
+insult|(명) 모욕; (동) 모욕하다|Calling his cooking bad felt like an insult.|그의 요리가 형편없다고 한 말은 모욕처럼 느껴졌다.
+integrate|통합하다; 융화되다|The new students integrated quickly into the class.|새로 온 학생들은 반에 빠르게 적응했다.
+intellectual|(형) 지적인, 지능의; (명) 지식인|Chess is a great intellectual challenge.|체스는 대단한 지적 도전이다.
+intent|몰두하는, 열중하는; 작정한|She was intent on finishing the novel tonight.|그녀는 오늘 밤 그 소설을 다 읽겠다고 작정했다.
+interactive|상호적인, 대화형의|The science museum has many interactive displays.|과학관에는 직접 체험할 수 있는 전시물이 많다.
+interfere|간섭하다, 방해하다|Loud music can interfere with your sleep.|시끄러운 음악은 수면을 방해할 수 있다.
+interior|내부, 실내; 인테리어|The interior of the café is cozy and bright.|그 카페의 실내는 아늑하고 밝다.
+interpersonal|대인 관계의|Good interpersonal skills are important at work.|직장에서는 좋은 대인 관계 능력이 중요하다.
+interpret|해석하다, 통역하다|How do you interpret the ending of the film?|그 영화의 결말을 어떻게 해석하니?
+interpretation|해석, 이해; 통역|There are many interpretations of this poem.|이 시에는 다양한 해석이 있다.
+interpreter|통역사|We hired an interpreter for our trip to Japan.|우리는 일본 여행을 위해 통역사를 고용했다.
+interruption|중단, 방해|Sorry for the interruption, but dinner is ready.|방해해서 미안한데, 저녁 준비됐어.
+intersection|교차로; 교차|Turn left at the next intersection.|다음 교차로에서 좌회전하세요.
+intimate|친밀한; 아늑한; 사적인|We had an intimate dinner with close friends.|우리는 친한 친구들과 오붓하게 저녁을 먹었다.
+intransitive|자동사의|"Sleep" is an intransitive verb.|"sleep"은 자동사이다.
+intravenous|정맥 내의, 정맥 주사의|The patient received intravenous fluids at the hospital.|환자는 병원에서 정맥 수액을 맞았다.
+intrude|침범하다, 방해하다|I'm sorry to intrude, but can I ask a question?|방해해서 죄송하지만 질문 하나 해도 될까요?
+intruder|침입자, 불청객|The dog barked loudly at the intruder in the yard.|개가 마당에 들어온 침입자를 향해 크게 짖었다.
+intrusion|침입, 방해|The constant phone calls were an intrusion on my weekend.|계속 걸려 오는 전화가 내 주말을 방해했다.
+invariable|변함없는, 불변의|His invariable answer was "I'm fine, thanks."|그의 변함없는 대답은 "괜찮아, 고마워"였다.
+invariably|변함없이, 언제나|The bus is invariably late on rainy days.|비 오는 날이면 그 버스는 어김없이 늦는다.
+inventor|발명가|The inventor showed us his new cleaning robot.|그 발명가는 새로 만든 청소 로봇을 우리에게 보여 주었다.
+inverted commas|따옴표, 인용 부호|Put the book title in inverted commas.|책 제목을 따옴표 안에 넣으세요.
+investigate|조사하다, 수사하다|Scientists are investigating why the bees are disappearing.|과학자들은 벌이 사라지는 이유를 조사하고 있다.
+investigator|조사관, 수사관|The investigator asked the shop owner some questions.|조사관이 가게 주인에게 몇 가지 질문을 했다.
+investment|투자, 투자금|Learning a language is a good investment of time.|언어를 배우는 것은 시간을 잘 투자하는 일이다.
+investor|투자자|The startup found an investor for its new app.|그 스타트업은 새 앱에 투자할 투자자를 찾았다.
+invisible|보이지 않는|Air is invisible, but we can feel the wind.|공기는 보이지 않지만 우리는 바람을 느낄 수 있다.
+invitingly|유혹하듯, 마음을 끌게|The pool sparkled invitingly in the hot sun.|뜨거운 햇볕 아래 수영장이 들어오라는 듯 반짝였다.
+invoke|(법·규칙 등을) 들먹이다, 적용하다; 불러일으키다|The smell of pine invokes memories of my childhood.|소나무 향기는 어린 시절의 기억을 불러일으킨다.
+involvement|관여, 참여, 개입|Parents' involvement helps children do well at school.|부모의 참여는 아이들이 학교생활을 잘하는 데 도움이 된다.
+ironically|아이러니하게도, 역설적으로|Ironically, the fire station caught fire last night.|아이러니하게도 어젯밤 소방서에 불이 났다.
+irrational|비이성적인, 불합리한|I have an irrational fear of butterflies.|나는 나비에 대한 비이성적인 두려움이 있다.
+irresistible|저항할 수 없는, 너무 매력적인|The smell of fresh bread was irresistible.|갓 구운 빵 냄새는 참을 수 없을 만큼 좋았다.
+irresistibly|억누를 수 없이, 너무나 매력적으로|The puppy was irresistibly cute.|그 강아지는 어쩔 수 없을 만큼 귀여웠다.
+irresponsible|무책임한|It's irresponsible to leave the dog alone all day.|개를 하루 종일 혼자 두는 것은 무책임하다.
+irritated|짜증 난, 화가 난; 따끔거리는|She was irritated by the noise next door.|그녀는 옆집 소음에 짜증이 났다.
+irritating|짜증 나게 하는, 자극하는|That ringtone is really irritating.|그 벨소리는 정말 짜증 난다.
+irritation|짜증, 화; (피부의) 자극|This soap may cause skin irritation.|이 비누는 피부 자극을 일으킬 수 있다.
+islander|섬사람, 섬 주민|The islanders welcomed us with fresh fish.|섬 주민들이 싱싱한 생선으로 우리를 맞아 주었다.
+italicize|이탤릭체로 쓰다|Italicize the names of newspapers in your essay.|에세이에서 신문 이름은 이탤릭체로 쓰세요.
+itch|가렵다; 몹시 하고 싶어 하다|My mosquito bite itches a lot.|모기 물린 곳이 몹시 가렵다.
+jaw|턱|He has a strong jaw and a friendly smile.|그는 각진 턱과 친근한 미소를 가졌다.
+jealously|질투하여; 조심스럽게 지키며|The cat jealously watched the new puppy.|고양이는 새로 온 강아지를 질투 어린 눈으로 지켜보았다.
+jeopardize|위태롭게 하다|Staying up late could jeopardize your exam results.|밤늦게까지 깨어 있으면 시험 결과를 망칠 수도 있다.
+jeweler|보석상, 보석 세공인|The jeweler fixed the broken chain on my necklace.|보석상이 내 목걸이의 끊어진 줄을 고쳐 주었다.
+journalism|저널리즘, 언론(학)|She wants to study journalism at university.|그녀는 대학에서 언론학을 공부하고 싶어 한다.
+judo|유도|My brother has a black belt in judo.|우리 형은 유도 검은 띠를 갖고 있다.
+junk food|정크 푸드, 불량 식품|Try to eat less junk food and more fruit.|정크 푸드는 줄이고 과일을 더 먹도록 해.
+juror|배심원|Each juror listened carefully to the witness.|배심원 각자가 증인의 말을 주의 깊게 들었다.
+jury|배심원단; 심사위원단|The jury chose her painting as the winner.|심사위원단은 그녀의 그림을 우승작으로 선정했다.
+justify|정당화하다, 해명하다|How can you justify spending so much on shoes?|신발에 그렇게 많은 돈을 쓴 걸 어떻게 정당화할 수 있어?
+kangaroo|캥거루|We saw a kangaroo with a baby in its pouch.|우리는 주머니에 새끼를 넣은 캥거루를 보았다.
+karaoke|노래방, 가라오케|We sang at a karaoke room after dinner.|우리는 저녁 식사 후 노래방에서 노래를 불렀다.
+keen|열망하는, 열정적인; 예리한|He is keen to learn how to surf.|그는 서핑을 배우고 싶어 안달이다.
+keeper|관리인, 사육사; 골키퍼|The zoo keeper fed the penguins fresh fish.|동물원 사육사가 펭귄들에게 싱싱한 생선을 먹였다.
+kerosene|등유|The old heater in the cabin burns kerosene.|오두막의 낡은 난로는 등유를 땐다.
+keystroke|키 입력, 타건|You can save the file with a single keystroke.|키 하나만 눌러 파일을 저장할 수 있다.
+kneel|무릎을 꿇다|She knelt down to tie her son's shoelaces.|그녀는 무릎을 꿇고 아들의 신발 끈을 묶어 주었다.
+knot|매듭; (나무의) 옹이|I can't untie the knot in this rope.|이 밧줄의 매듭을 풀 수가 없다.
+knowingly|고의로, 알면서; 다 안다는 듯이|She smiled knowingly when I mentioned the surprise.|내가 깜짝 선물 얘기를 꺼내자 그녀는 다 안다는 듯 미소 지었다.
+known|알려진, 유명한|This beach is known for its beautiful sunsets.|이 해변은 아름다운 석양으로 유명하다.
+label|상표, 라벨, 꼬리표|Read the label before you wash this sweater.|이 스웨터를 빨기 전에 라벨을 읽어 보세요.
+laborer|노동자, 인부|The laborers finished building the wall by noon.|인부들은 정오까지 담장 쌓기를 마쳤다.
+lame|절름거리는; 설득력 없는, 시시한|"The bus was late" sounded like a lame excuse.|"버스가 늦었어요"는 궁색한 변명처럼 들렸다.
+lance|(기사의) 긴 창|The knight in the painting holds a long lance.|그림 속 기사는 긴 창을 들고 있다.
+landing|착륙; 층계참|The plane made a smooth landing in the rain.|비행기는 빗속에서 부드럽게 착륙했다.
+landlady|여자 집주인|Our landlady fixed the leaking sink quickly.|우리 집주인 아주머니가 새는 싱크대를 금방 고쳐 주셨다.
+landslide|산사태; 압도적 승리|Heavy rain caused a landslide near the village.|폭우로 마을 근처에 산사태가 났다.
+lap|무릎(앉았을 때 허벅지 위); (경주의) 한 바퀴|The cat fell asleep on my lap.|고양이가 내 무릎 위에서 잠들었다.
+laptop|노트북 컴퓨터|I brought my laptop to the library to study.|나는 공부하려고 도서관에 노트북을 가져왔다.
+lark|종다리; 장난, 재미|We went to the beach just for a lark.|우리는 그냥 재미로 해변에 갔다.
+laser|레이저|The teacher used a laser pointer during the class.|선생님은 수업 중에 레이저 포인터를 사용하셨다.
+last minute|마지막 순간|He always finishes his homework at the last minute.|그는 항상 마지막 순간에 숙제를 끝낸다.
+last-minute|막판의, 마지막 순간의|We found a cheap last-minute flight to Jeju.|우리는 제주행 싼 막판 항공권을 구했다.
+lastly|마지막으로|Lastly, don't forget to turn off the lights.|마지막으로, 불 끄는 것 잊지 마세요.
+laundry|세탁물, 빨래; 세탁소|I do the laundry every Sunday morning.|나는 일요일 아침마다 빨래를 한다.
+lava|용암|Hot lava flowed slowly down the volcano.|뜨거운 용암이 화산을 따라 천천히 흘러내렸다.
+lawmaker|입법자, 국회의원|The lawmakers discussed a new rule for bike lanes.|의원들은 자전거 도로에 관한 새 규정을 논의했다.
+lawn|잔디밭|Dad mows the lawn every Saturday.|아빠는 토요일마다 잔디를 깎으신다.
+lawsuit|소송|The company faced a lawsuit over its faulty product.|그 회사는 결함 있는 제품 때문에 소송을 당했다.
+layabout|게으름뱅이, 건달|My cousin is a layabout who sleeps until noon.|내 사촌은 정오까지 자는 게으름뱅이다.
+leaflet|전단, 광고지|Someone left a pizza leaflet in our mailbox.|누군가 우리 우편함에 피자 전단을 넣어 두었다.
+leak|(명) 새는 곳, 누출; (동) 새다, 누설하다|Water is leaking from the bathroom ceiling.|욕실 천장에서 물이 새고 있다.
+learning|학습, 배움; 학식|Online learning became popular during the past few years.|지난 몇 년간 온라인 학습이 인기를 얻었다.
+lease|임대차 계약|We signed a two-year lease for the apartment.|우리는 그 아파트에 대해 2년 임대 계약을 맺었다.
+leash|(개의) 목줄|Keep your dog on a leash in the park.|공원에서는 개에게 목줄을 채우세요.
+lecturer|강사, 강연자|The lecturer made the history class really fun.|그 강사는 역사 수업을 정말 재미있게 만들었다.
+leek|리크, 서양 대파|Add chopped leeks to the potato soup.|감자 수프에 썬 리크를 넣으세요.
+legend|전설; 전설적 인물; 범례|According to legend, a dragon lived in this lake.|전설에 따르면 이 호수에는 용이 살았다고 한다.
+legendary|전설적인, 아주 유명한|My grandmother's kimchi is legendary in our family.|우리 할머니 김치는 우리 집안에서 전설적이다.
+legislate|법률을 제정하다|The country legislated to ban plastic straws.|그 나라는 플라스틱 빨대를 금지하는 법을 만들었다.
+legislation|법률, 법률 제정|New legislation protects workers' rest time.|새 법률은 노동자의 휴식 시간을 보호한다.
+legislative|입법의, 입법부의|The legislative branch makes the country's laws.|입법부는 나라의 법을 만든다.
+legislator|입법자, 국회의원|The legislator visited our school to talk about voting age.|그 의원은 투표 연령에 대해 이야기하러 우리 학교를 방문했다.
+legislature|입법부, 의회|The state legislature meets every spring.|주 의회는 매년 봄에 열린다.
+legitimate|합법적인, 정당한, 타당한|Being sick is a legitimate reason to miss class.|아픈 것은 수업에 빠질 정당한 이유다.
+leisurely|느긋하게, 여유 있게|We walked leisurely along the river after lunch.|우리는 점심 후 강을 따라 느긋하게 걸었다.
+lengthen|길게 하다, 늘이다|The tailor lengthened my trousers by two centimeters.|재단사가 내 바지를 2센티미터 늘여 주었다.
+lengthy|너무 긴, 장황한|The meeting was lengthy and boring.|회의는 길고 지루했다.
+leopard|표범|The leopard rested on a tree branch in the shade.|표범이 그늘진 나뭇가지 위에서 쉬고 있었다.
+lest|~하지 않도록, ~할까 봐|Write it down lest you forget the address.|주소를 잊어버리지 않도록 적어 두세요.
+liberal|진보적인, 자유주의의; 관대한; 후한|She was liberal with praise for her students.|그녀는 학생들에게 칭찬을 아끼지 않았다.
+lick|핥다|The puppy licked my face to wake me up.|강아지가 나를 깨우려고 얼굴을 핥았다.
+lid|뚜껑; 눈꺼풀|Put the lid on the pot and let it boil.|냄비에 뚜껑을 덮고 끓이세요.
+lifeless|생명이 없는, 죽은; 활기 없는|The city felt lifeless during the long holiday.|긴 연휴 동안 도시는 활기가 없었다.
+lifetime|일생, 평생|Traveling to Iceland was the trip of a lifetime.|아이슬란드 여행은 평생 한 번뿐인 여행이었다.
+lighten|가볍게 하다; 밝게 하다; (기분을) 풀다|A funny joke can lighten the mood.|재미있는 농담은 분위기를 밝게 할 수 있다.
+lighting|조명|The soft lighting made the room feel warm.|은은한 조명 덕분에 방이 따뜻하게 느껴졌다.
+likewise|마찬가지로, 똑같이|I stood up to clap, and my friends did likewise.|내가 일어서서 박수를 치자 친구들도 똑같이 했다.
+limb|팔다리; 큰 나뭇가지|After the long swim, my limbs felt heavy.|오래 수영하고 나니 팔다리가 무거웠다.
+linen|리넨, 아마포; 침구류|Linen shirts keep you cool in summer.|리넨 셔츠는 여름에 시원하게 입을 수 있다.
+liner|대형 여객선; 안감, 라이너|We sailed across the ocean on a huge cruise liner.|우리는 거대한 유람선을 타고 바다를 건넜다.
+ling|링(대구과 바닷물고기); 헤더(히스류 식물)|The fishermen caught a large ling off the coast.|어부들은 해안 앞바다에서 커다란 링을 잡았다.
+linger|오래 머무르다, 남아 있다|The smell of coffee lingered in the kitchen.|커피 향이 부엌에 오래 남아 있었다.
+listener|듣는 사람, 청취자|She is a good listener and never interrupts.|그녀는 남의 말을 잘 들어 주고 절대 끼어들지 않는다.
+literal|글자 그대로의, 직역의|A literal translation often sounds strange.|직역은 종종 어색하게 들린다.
+literally|문자 그대로; 정말로, 그야말로|I was literally shaking with excitement.|나는 그야말로 흥분해서 몸이 떨렸다.
+litter|(길에 버린) 쓰레기; 한 배 새끼|Please pick up your litter after the picnic.|소풍이 끝나면 쓰레기를 주워 가세요.
+loan|대출(금), 빌려줌|She took out a loan to buy a small car.|그녀는 작은 차를 사려고 대출을 받았다.
+lobby|로비, 현관 홀; 압력 단체|Let's meet in the hotel lobby at nine.|9시에 호텔 로비에서 만나자.
+loneliness|외로움, 고독|Talking to friends helped her deal with loneliness.|친구들과 이야기하는 것이 그녀가 외로움을 이겨 내는 데 도움이 되었다.
+long-distance|장거리의|They kept a long-distance friendship for ten years.|그들은 10년 동안 멀리 떨어져서도 우정을 이어 왔다.
+long-term|장기적인|Exercise has many long-term health benefits.|운동은 장기적으로 건강에 많은 이점이 있다.
+loosely|느슨하게; 대략|She tied her hair loosely with a ribbon.|그녀는 리본으로 머리를 느슨하게 묶었다.
+lousy|형편없는, 엉망인|I had a lousy night's sleep because of the heat.|더위 때문에 밤에 잠을 엉망으로 잤다.
+lower|낮추다, 내리다|Please lower your voice in the library.|도서관에서는 목소리를 낮춰 주세요.
+lowland|저지대, 평지|Rice grows well in the wet lowlands.|벼는 습한 저지대에서 잘 자란다.
+lucrative|수익성이 좋은, 돈벌이가 되는|Selling handmade candles became a lucrative hobby.|수제 양초 판매가 돈벌이가 되는 취미가 되었다.
+lush|(식물이) 무성한, 푸르게 우거진|The island is covered with lush green forests.|그 섬은 푸르게 우거진 숲으로 덮여 있다.
+luxurious|호화로운, 사치스러운|We stayed in a luxurious hotel for our anniversary.|우리는 기념일에 호화로운 호텔에 묵었다.
+lyrics|(노래의) 가사|I can't remember the lyrics of this song.|이 노래 가사가 기억나지 않는다.
+madam|(정중한 호칭) 부인, 사모님|Can I help you find something, madam?|손님, 찾으시는 것 도와드릴까요?
+madame|(프랑스식 호칭) 부인, 마담|Madame Laurent runs the small bakery on the corner.|로랑 부인이 모퉁이의 작은 빵집을 운영한다.
+madness|광기; 미친 짓|Driving in this snowstorm would be madness.|이 눈보라 속에서 운전하는 것은 미친 짓일 것이다.
+maestro|거장, 명지휘자|The maestro raised his baton, and the orchestra began.|지휘자가 지휘봉을 들자 오케스트라가 연주를 시작했다.
+magnify|확대하다; 과장하다|This lens can magnify an ant to look like a dog.|이 렌즈는 개미를 개만큼 크게 확대할 수 있다.
+malady|병, 질병; 병폐|Boredom is a common malady on long flights.|지루함은 장거리 비행에서 흔히 겪는 병이다.
+malaria|말라리아|Travelers should protect themselves from malaria in some regions.|일부 지역에서 여행객은 말라리아에 걸리지 않도록 조심해야 한다.
+mama|엄마|The little girl ran to her mama with a flower.|어린 여자아이가 꽃을 들고 엄마에게 달려갔다.
+mango|망고|This mango is so ripe and sweet!|이 망고는 정말 잘 익고 달아!
+manipulate|(교묘하게) 조종하다; 다루다, 조작하다|Some ads try to manipulate how we feel.|어떤 광고들은 우리의 감정을 교묘하게 조종하려 한다.
+mansion|대저택|The old mansion on the hill has thirty rooms.|언덕 위 오래된 대저택에는 방이 서른 개 있다.
+manual|(형) 손으로 하는, 수동의; (명) 설명서|Read the manual before using the new printer.|새 프린터를 쓰기 전에 설명서를 읽으세요.
+manufacture|(명) 제조; (동) 제조하다, 생산하다|This factory manufactures bicycle parts.|이 공장은 자전거 부품을 제조한다.
+manufacturer|제조업자, 제조사|Contact the manufacturer if the product breaks.|제품이 고장 나면 제조사에 연락하세요.
+manufacturing|제조업, 제조|Manufacturing jobs are important in this city.|이 도시에서는 제조업 일자리가 중요하다.
+marathon|마라톤; 장시간에 걸친 일|We had a movie marathon all weekend.|우리는 주말 내내 영화를 몰아서 봤다.
+margin|여백; 차이; 이윤|Write your notes in the margin of the page.|메모는 페이지 여백에 적으세요.
+marketing|마케팅|She works in marketing for a cosmetics company.|그녀는 화장품 회사에서 마케팅 일을 한다.
+martial art|무술, 무도|Taekwondo is a Korean martial art.|태권도는 한국의 무술이다.
+mask|가면, 마스크|She wore a mask because she had a cold.|그녀는 감기에 걸려서 마스크를 썼다.
+massacre|대학살, 학살|The museum remembers the victims of a massacre long ago.|그 박물관은 오래전 학살의 희생자들을 추모한다.
+massage|마사지, 안마|A foot massage after a long walk feels wonderful.|오래 걸은 후 발 마사지를 받으면 정말 좋다.
+masseur|(남자) 마사지사|The masseur helped relax my sore shoulders.|마사지사가 뻐근한 내 어깨를 풀어 주었다.
+master|주인; 대가, 명인; 석사|He is a master of traditional Korean pottery.|그는 한국 전통 도자기의 명인이다.
+masterpiece|걸작, 명작|This painting is considered a masterpiece.|이 그림은 걸작으로 여겨진다.
+mastery|숙달, 통달; 지배|She showed great mastery of the violin.|그녀는 바이올린을 대단히 능숙하게 연주했다.
+mate|친구, 동료; 짝|My mate from school is visiting this weekend.|학교 친구가 이번 주말에 놀러 온다.
+mathematical|수학의, 수학적인|He has strong mathematical skills.|그는 수학 실력이 뛰어나다.
+mature|성숙한, 다 자란|She is very mature for a twelve-year-old.|그녀는 열두 살치고 매우 성숙하다.
+mausoleum|웅장한 무덤, 능, 영묘|The Taj Mahal is a famous white mausoleum.|타지마할은 유명한 하얀 대리석 영묘이다.
+means|수단, 방법; 재산|The bicycle is my main means of transport.|자전거는 나의 주요 교통수단이다.
+mechanize|기계화하다|Farmers mechanized their work with new tractors.|농부들은 새 트랙터로 일을 기계화했다.
+media|매체, 대중 매체, 언론|The media reported on the new train line.|언론은 새 철도 노선에 대해 보도했다.
+medication|약, 약물(치료)|Take this medication twice a day after meals.|이 약은 하루 두 번 식후에 드세요.
+medieval|중세의|We visited a medieval castle in Germany.|우리는 독일에 있는 중세 성을 방문했다.
+mediocre|평범한, 썩 좋지 않은|The food was mediocre, but the view was great.|음식은 그저 그랬지만 경치는 훌륭했다.
+melody|멜로디, 선율|I can't stop humming this catchy melody.|이 귀에 쏙 들어오는 멜로디를 계속 흥얼거리게 된다.
+memorial|기념비, 기념관, 추도식|We placed flowers at the war memorial.|우리는 전쟁 기념비에 꽃을 바쳤다.
+mentor|멘토, (경험 많은) 조언자|My first boss became my mentor.|나의 첫 상사는 나의 멘토가 되었다.
+merchandise|상품, 물품; 굿즈|The band sells merchandise after every concert.|그 밴드는 매 공연 후에 굿즈를 판매한다.
+mercy|자비, 연민|The judge showed mercy to the young man.|판사는 그 청년에게 자비를 베풀었다.
+merge|합치다, 합병하다; 합류하다|The two lanes merge just after the bridge.|다리 바로 뒤에서 두 차선이 합쳐진다.
+merger|(기업) 합병|The merger created the largest bank in the country.|그 합병으로 국내 최대 은행이 탄생했다.
+messenger|전달자, 메신저|Don't blame the messenger for the bad news.|나쁜 소식을 전하는 사람을 탓하지 마.
+metaphor|은유, 비유|"Life is a journey" is a common metaphor.|"인생은 여행이다"는 흔한 은유이다.
+metric|미터법의|Most countries use the metric system.|대부분의 나라는 미터법을 사용한다.
+micro|초소형 기기, 마이크로컴퓨터|My uncle still keeps his old micro from the 1980s.|우리 삼촌은 1980년대의 낡은 소형 컴퓨터를 아직 갖고 있다.
+microbe|미생물, 세균|Some microbes help us digest food.|어떤 미생물은 우리가 음식을 소화하는 것을 돕는다.
+microcomputer|마이크로컴퓨터, 소형 컴퓨터|The first microcomputer in our school was very slow.|우리 학교의 첫 소형 컴퓨터는 매우 느렸다.
+micrometer|마이크로미터(길이 단위; 측정기)|A human hair is about seventy micrometers thick.|사람 머리카락은 두께가 약 70마이크로미터이다.
+microorganism|미생물|Yogurt contains helpful microorganisms.|요구르트에는 유익한 미생물이 들어 있다.
+microphone|마이크|Please speak into the microphone so everyone can hear.|모두가 들을 수 있도록 마이크에 대고 말씀해 주세요.
+microscope|현미경|We looked at onion cells under a microscope.|우리는 현미경으로 양파 세포를 관찰했다.
+microscopic|미세한, 현미경으로만 보이는|There are microscopic creatures in a drop of pond water.|연못물 한 방울에도 미세한 생물들이 있다.
+microscopy|현미경 검사(법)|She learned microscopy in her biology lab class.|그녀는 생물 실험 수업에서 현미경 검사법을 배웠다.
+microwave|전자레인지; 극초단파|Heat the soup in the microwave for two minutes.|수프를 전자레인지에 2분 동안 데우세요.
+midst|한가운데, 중앙|In the midst of the party, the lights went out.|파티가 한창일 때 불이 나갔다.
+mighty|강력한, 거대한|The mighty river flows all the way to the sea.|거대한 강이 바다까지 흘러간다.
+migration|이주, 이동; (새의) 철새 이동|We watched the migration of birds in autumn.|우리는 가을에 새들이 이동하는 것을 지켜보았다.
+mill|방앗간, 제분소; 공장|The old mill by the river ground wheat into flour.|강가의 오래된 방앗간에서 밀을 빻아 밀가루를 만들었다.
+millimeter|밀리미터|The screw is only five millimeters long.|그 나사는 길이가 5밀리미터밖에 되지 않는다.
+millionaire|백만장자|He became a millionaire by selling a popular game.|그는 인기 게임을 팔아 백만장자가 되었다.
+mimic|흉내를 잘 내는 사람(동물)|The parrot is a great mimic of human voices.|그 앵무새는 사람 목소리를 아주 잘 흉내 낸다.
+miniature|소형의, 축소된|My brother collects miniature cars.|우리 형은 미니어처 자동차를 모은다.
+minister|장관; 성직자, 목사|The minister of education visited our school.|교육부 장관이 우리 학교를 방문했다.
+mint|박하, 민트; 조폐국|I added fresh mint leaves to my lemonade.|나는 레모네이드에 신선한 민트 잎을 넣었다.
+misconception|오해, 잘못된 생각|It's a misconception that goldfish only remember three seconds.|금붕어의 기억이 3초뿐이라는 것은 잘못된 생각이다.
+misfortune|불운, 불행|He had the misfortune to lose his luggage twice.|그는 불운하게도 짐을 두 번이나 잃어버렸다.
+misleading|오해의 소지가 있는, 호도하는|The photo of the hotel was misleading.|그 호텔 사진은 오해를 불러일으켰다.
+missile|미사일; 던진 물건|The museum displays an old missile from the space program.|그 박물관에는 우주 계획에 쓰였던 오래된 미사일이 전시되어 있다.
+mist|엷은 안개, 물안개|Morning mist covered the lake.|아침 물안개가 호수를 덮었다.
+mistreat|학대하다, 혹사하다|People who mistreat animals should be punished.|동물을 학대하는 사람들은 처벌받아야 한다.
+mistrustful|의심 많은, 신뢰하지 않는|The cat was mistrustful of strangers at first.|그 고양이는 처음에 낯선 사람을 경계했다.
+misunderstand|오해하다|Please don't misunderstand me; I really like your idea.|오해하지 마, 나는 네 생각이 정말 마음에 들어.
+mixture|혼합물, 혼합|Pour the mixture into the cake pan.|혼합물을 케이크 틀에 부으세요.
+mobility|이동성, 기동성; 유동성|Wheelchair ramps improve mobility for many people.|휠체어 경사로는 많은 사람들의 이동성을 높여 준다.
+mock|모의의, 가짜의|We take a mock exam before the real one.|우리는 실제 시험 전에 모의고사를 본다.
+modernization|현대화, 근대화|The modernization of the station took three years.|역의 현대화 공사는 3년이 걸렸다.
+modernize|현대화하다|The city plans to modernize its old buses.|시는 낡은 버스들을 현대화할 계획이다.
+modest|겸손한; 적당한, 수수한|They live in a modest house near the sea.|그들은 바닷가 근처의 수수한 집에 산다.
+modification|수정, 변경|We made a small modification to the recipe.|우리는 요리법을 조금 수정했다.
+mogul|거물, 실력자|The media mogul started his career selling newspapers.|그 언론계 거물은 신문 판매로 경력을 시작했다.
+mold|(명) 곰팡이; 틀; (동) 틀에 넣어 만들다|There is green mold on this old bread.|이 오래된 빵에 초록색 곰팡이가 피었다.
+momentarily|잠깐, 잠시; 곧|The singer paused momentarily to drink some water.|가수는 물을 마시려고 잠깐 멈췄다.
+momentary|순간적인, 잠깐의|There was a momentary silence after the joke.|농담 뒤에 잠깐 정적이 흘렀다.
+monastery|수도원|The monks at the monastery make their own cheese.|그 수도원의 수도사들은 직접 치즈를 만든다.
+moody|기분 변화가 심한, 침울한|Teenagers can be moody sometimes.|십 대들은 가끔 기분 변화가 심할 수 있다.
+moonlight|달빛|We walked along the beach in the moonlight.|우리는 달빛 아래 해변을 따라 걸었다.
+moonscape|달 표면의 풍경, 황량한 풍경|The desert looked like a moonscape at dawn.|새벽녘의 사막은 달 표면처럼 황량해 보였다.
+morality|도덕(성), 윤리|The story teaches children about honesty and morality.|그 이야기는 아이들에게 정직과 도덕을 가르친다.
+morally|도덕적으로|Is it morally right to keep the money you found?|주운 돈을 가지는 것이 도덕적으로 옳을까?
+mortal|죽을 운명의; 치명적인|In the myth, the hero was mortal, unlike the gods.|신화에서 영웅은 신들과 달리 언젠가 죽는 존재였다.
+mortar|모르타르, 회반죽; 절구|The builder mixed mortar to lay the bricks.|건축업자가 벽돌을 쌓으려고 모르타르를 섞었다.
+mortgage|(담보) 대출, 주택 담보 대출|My parents finally paid off their mortgage.|우리 부모님은 마침내 주택 담보 대출을 다 갚으셨다.
+mortify|굴욕감을 주다, 몹시 창피하게 하다|I was mortified when my phone rang during the test.|시험 중에 휴대폰이 울려서 나는 몹시 창피했다.
+mother-in-law|시어머니, 장모|My mother-in-law taught me how to make kimchi.|시어머니께서 김치 담그는 법을 가르쳐 주셨다.
+motion|운동, 움직임; 동작; 동의(안)|The gentle motion of the boat made me sleepy.|배의 잔잔한 흔들림에 나는 졸음이 왔다.
+motivated|의욕이 있는, 동기가 부여된|The students were highly motivated to win the contest.|학생들은 대회에서 우승하겠다는 의욕이 넘쳤다.
+motorbike|오토바이|He rides his motorbike to work every day.|그는 매일 오토바이를 타고 출근한다.
+motorist|운전자|Motorists should slow down near schools.|운전자들은 학교 근처에서 속도를 줄여야 한다.
+mournful|구슬픈, 애절한|A mournful song played as the sun went down.|해가 질 무렵 구슬픈 노래가 흘러나왔다.
+mover|이삿짐 운송업자; 움직이는 사람|The movers carried our piano up three floors.|이삿짐 센터 직원들이 우리 피아노를 3층까지 옮겨 주었다.
+moving|감동적인; 움직이는|The movie had a very moving ending.|그 영화는 결말이 정말 감동적이었다.
+muddy|진흙투성이의, 질척한|Take off your muddy boots before coming inside.|들어오기 전에 진흙투성이 장화를 벗으세요.
+multiple|많은, 다수의, 다양한|The test has multiple choice questions.|그 시험에는 객관식 문제가 있다.
+multiply|곱하다; 크게 증가하다|If you multiply four by five, you get twenty.|4에 5를 곱하면 20이 된다.
+mumble|(명) 중얼거림; (동) 중얼거리다|He mumbled an answer that nobody could hear.|그는 아무도 알아듣지 못하게 대답을 중얼거렸다.
+murmur|속삭임, 웅성거림; 졸졸 소리|We could hear the murmur of the stream nearby.|근처에서 시냇물이 졸졸 흐르는 소리가 들렸다.
+muse|사색하다, 곰곰이 생각하다|She mused about what life would be like in Paris.|그녀는 파리에서의 삶이 어떨지 곰곰이 생각했다.
+mustache|콧수염|My grandfather has a gray mustache.|우리 할아버지는 회색 콧수염을 기르신다.
+mutability|변하기 쉬움, 가변성|The poem is about the mutability of the seasons.|그 시는 계절의 변화무쌍함에 관한 것이다.
+mutable|변하기 쉬운, 변덕스러운|Mountain weather is highly mutable.|산의 날씨는 매우 변하기 쉽다.
+mutter|(명) 중얼거림, 투덜거림; (동) 중얼거리다|He muttered something about the long line.|그는 긴 줄에 대해 뭐라고 투덜거렸다.
+mutton|양고기|Mutton stew is popular in winter in that region.|그 지역에서는 겨울에 양고기 스튜가 인기다.
+mystify|어리둥절하게 하다, 당황하게 하다|The magic trick mystified the whole audience.|그 마술은 모든 관객을 어리둥절하게 했다.
+nano|나노(10억분의 1); 초소형 기기|Nano is a prefix that means one billionth.|나노는 10억분의 1을 뜻하는 접두사다.
+narcissistic|자기도취적인, 나르시시즘의|His narcissistic posts are all selfies.|그의 자기도취적인 게시물은 전부 셀카다.
+narrator|해설자, (이야기의) 화자|The narrator of the story is a young cat.|그 이야기의 화자는 어린 고양이다.
+narrowly|간신히, 아슬아슬하게; 좁게|We narrowly caught the last train home.|우리는 집에 가는 마지막 기차를 아슬아슬하게 탔다.
+nationwide|(형) 전국적인; (부) 전국적으로|The bakery has stores nationwide.|그 빵집은 전국에 매장이 있다.
+native speaker|원어민|Practicing with a native speaker improved my English.|원어민과 연습한 덕분에 내 영어 실력이 늘었다.
+naughty|버릇없는, 말을 안 듣는, 장난꾸러기의|The naughty puppy chewed my new slippers.|말썽꾸러기 강아지가 내 새 슬리퍼를 물어뜯었다.
+naval|해군의|My uncle served as a naval officer for ten years.|우리 삼촌은 10년간 해군 장교로 복무했다.
+navigate|길을 찾다, 항해하다; 다루다|I used my phone to navigate through the old town.|나는 휴대폰으로 구시가지에서 길을 찾았다.
+navigation|항해, 운항; 길 찾기, 내비게이션|The car's navigation system took us the wrong way.|차의 내비게이션이 우리를 엉뚱한 길로 안내했다.
+navy|해군; 남색|She wore a navy blue dress to the interview.|그녀는 면접에 남색 원피스를 입고 갔다.
+neat|깔끔한, 정돈된; 멋진|Keep your desk neat and tidy.|책상을 깔끔하게 정돈해 두렴.
+necessarily|반드시, 필연적으로|Expensive things are not necessarily better.|비싼 것이 반드시 더 좋은 것은 아니다.
+necessity|필요(성), 필수품|Water is a necessity for all living things.|물은 모든 생물에게 필수품이다.
+needless|불필요한, 쓸데없는|Needless to say, we were very happy with the result.|말할 필요도 없이 우리는 결과에 매우 만족했다.
+needy|(경제적으로) 어려운, 가난한|The school collected winter coats for needy families.|학교는 어려운 가정을 위해 겨울 외투를 모았다.
+negatively|부정적으로|Lack of sleep can affect your mood negatively.|수면 부족은 기분에 부정적인 영향을 줄 수 있다.
+neglect|방치, 소홀|The garden fell into neglect after they moved away.|그들이 이사 간 뒤 정원은 방치되었다.
+neighboring|이웃의, 인접한|We often shop in the neighboring town.|우리는 종종 이웃 마을에서 장을 본다.
+neither|(부) ~도 아니다; (접) A도 B도 아닌; (한)(대) 어느 쪽도 아닌|Neither of my brothers likes spicy food.|우리 형제 중 누구도 매운 음식을 좋아하지 않는다.
+nerve|신경; 용기, 배짱|It took a lot of nerve to ask for a raise.|월급 인상을 요구하는 데는 큰 용기가 필요했다.
+nerves|긴장, 신경과민|I always get nerves before a speech.|나는 연설 전에 항상 긴장한다.
+nervously|초조하게, 긴장하여|He laughed nervously before his turn to sing.|그는 노래할 차례가 되기 전 초조하게 웃었다.
+netsurfer|인터넷 서핑을 하는 사람, 네티즌|As a keen netsurfer, she finds cheap flights easily.|인터넷 서핑에 능숙한 그녀는 저렴한 항공권을 쉽게 찾는다.
+neurosis|신경증, 노이로제|His neurosis about germs makes him wash his hands often.|세균에 대한 노이로제 때문에 그는 손을 자주 씻는다.
+newscaster|뉴스 진행자, 앵커|The newscaster read the weather report with a smile.|뉴스 진행자가 미소를 지으며 일기 예보를 전했다.
+newsworthy|보도 가치가 있는|The town's giant pumpkin was newsworthy.|그 마을의 거대한 호박은 뉴스거리가 될 만했다.
+nicely|훌륭하게, 잘; 친절하게|The flowers are growing nicely this spring.|올봄에 꽃들이 잘 자라고 있다.
+nightclub|나이트클럽|The street is full of restaurants and nightclubs.|그 거리는 식당과 나이트클럽으로 가득하다.
+nightmare|악몽; 악몽 같은 일|Finding parking downtown is a nightmare.|시내에서 주차 자리를 찾는 것은 악몽이다.
+nobility|귀족(계급); 고귀함|The palace was built for the nobility.|그 궁전은 귀족들을 위해 지어졌다.
+noble|고귀한, 숭고한; 귀족의|Helping the elderly is a noble thing to do.|노인을 돕는 것은 숭고한 일이다.
+nobleman|귀족|The nobleman lived in a castle by the lake.|그 귀족은 호숫가의 성에 살았다.
+nomad|유목민; 방랑자|Digital nomads can work from anywhere with internet.|디지털 노마드는 인터넷만 있으면 어디서든 일할 수 있다.
+nomination|지명, 후보 추천|The film received a nomination for best music.|그 영화는 최우수 음악상 후보에 올랐다.
+nominee|지명된 사람, 후보|Each nominee gave a short speech.|후보자들은 각자 짧은 연설을 했다.
+non-smoking|금연의|We asked for a table in the non-smoking area.|우리는 금연 구역의 자리를 요청했다.
+nonprofessional|비전문적인, 아마추어의|The play was performed by nonprofessional actors.|그 연극은 아마추어 배우들이 공연했다.
+northward|북쪽으로|The geese are flying northward for the summer.|기러기들이 여름을 나려고 북쪽으로 날아가고 있다.
+nostril|콧구멍|The horse's nostrils flared in the cold air.|찬 공기 속에서 말의 콧구멍이 벌름거렸다.
+nought|영(0); 무(無)|Write a nought before the decimal point.|소수점 앞에 0을 쓰세요.
+nourish|영양분을 공급하다; (감정을) 키우다|Healthy food nourishes both the body and mind.|건강한 음식은 몸과 마음 모두에 영양을 준다.
+nourishment|영양(분), 음식물|Plants get nourishment from the soil.|식물은 흙에서 영양분을 얻는다.
+novelty|새로움, 신기함; 신기한 물건|The novelty of the new phone soon wore off.|새 휴대폰의 신기함은 곧 사라졌다.
+nuisance|성가신 것(사람), 골칫거리|The mosquitoes were a real nuisance at the campsite.|캠핑장의 모기들은 정말 골칫거리였다.
+numerical|수의, 숫자로 나타낸|Put the files in numerical order.|파일들을 번호순으로 정리하세요.
+nursery|어린이집, 탁아소; 묘목장|My daughter goes to a nursery near my office.|우리 딸은 내 사무실 근처 어린이집에 다닌다.
+nut|견과; 너트; 괴짜|Almonds are my favorite kind of nut.|아몬드는 내가 가장 좋아하는 견과류다.
+nutshell|견과 껍데기; (in a nutshell) 요컨대|In a nutshell, the trip was a great success.|요컨대 그 여행은 대성공이었다.
+oath|맹세, 선서; 욕설|The new doctors took an oath to help patients.|새로 된 의사들은 환자를 돕겠다고 선서했다.
+obedience|복종, 순종|The puppy is taking obedience classes.|그 강아지는 복종 훈련 수업을 받고 있다.
+obedient|순종하는, 말을 잘 듣는|Our dog is very obedient and calm.|우리 개는 아주 말을 잘 듣고 차분하다.
+obey|따르다, 복종하다|All drivers must obey the traffic signals.|모든 운전자는 교통 신호를 따라야 한다.
+obituary|부고 (기사)|The newspaper published an obituary for the beloved teacher.|신문에 존경받던 선생님의 부고 기사가 실렸다.
+obligation|의무, 책임|You have no obligation to buy anything.|아무것도 살 의무는 없습니다.
+observer|관찰자, 참관인|A careful observer will notice the hidden cat in the picture.|주의 깊은 관찰자라면 그림 속에 숨은 고양이를 발견할 것이다.
+obsess|집착하다, 사로잡다|She obsesses over every small detail of her work.|그녀는 일의 사소한 부분 하나하나에 집착한다.
+obsession|집착, 강박 관념|His obsession with sneakers fills his whole closet.|운동화에 대한 그의 집착으로 옷장이 꽉 찼다.
+obsessive|강박적인, 집착하는|He is obsessive about keeping his car clean.|그는 차를 깨끗이 하는 데 강박적이다.
+odd|이상한, 특이한; 홀수의|It's odd that the shop is closed on Saturday.|그 가게가 토요일에 문을 닫다니 이상하다.
+offend|기분 상하게 하다; 위반하다|I'm sorry if my joke offended you.|내 농담에 기분이 상했다면 미안해.
+offender|범죄자, 위반자|First-time offenders often get a warning.|초범은 대개 경고를 받는다.
+offense|범죄, 위반; 모욕, 불쾌감|No offense, but your music is too loud.|기분 나쁘게 듣지 마, 근데 네 음악이 너무 시끄러워.
+offhand|즉석에서, 준비 없이|I can't tell you the exact price offhand.|당장은 정확한 가격을 말해 줄 수 없다.
+offshore|앞바다의, 연안의; 해외의|There is a huge offshore wind farm near the island.|그 섬 근처에는 거대한 해상 풍력 발전 단지가 있다.
+ointment|연고|Put some ointment on the scratch.|긁힌 데에 연고를 좀 바르렴.
+olive|올리브|Drizzle some olive oil over the salad.|샐러드 위에 올리브유를 조금 뿌리세요.
+Olympia|올림피아(고대 올림픽 경기 개최지)|We visited the ancient ruins at Olympia in Greece.|우리는 그리스 올림피아의 고대 유적을 방문했다.
+Olympiad|올림피아드(국제 경시대회); 올림픽 대회|She won a medal at the International Math Olympiad.|그녀는 국제 수학 올림피아드에서 메달을 땄다.
+openly|공공연히, 터놓고, 솔직하게|We talked openly about our worries.|우리는 걱정거리에 대해 터놓고 이야기했다.
+operator|(기계) 조작자, 교환원; 운영자|The tour operator changed our hotel at the last minute.|여행사가 막판에 우리 호텔을 바꿨다.
+opponent|상대, 적수; 반대자|She shook hands with her opponent after the match.|그녀는 경기 후 상대 선수와 악수했다.
+optimism|낙관주의, 낙관론|She faced the new year with optimism.|그녀는 낙관적인 마음으로 새해를 맞았다.
+optimist|낙관주의자|An optimist sees the glass as half full.|낙관주의자는 컵에 물이 반이나 차 있다고 본다.
+optimistic|낙관적인|I'm optimistic that the weather will clear up.|나는 날씨가 갤 거라고 낙관한다.
+optional|선택적인, 선택 과목의|The Saturday class is optional.|토요일 수업은 선택 사항이다.
+orator|연설가, 웅변가|He was a gifted orator who inspired many people.|그는 많은 사람에게 감동을 준 타고난 연설가였다.
+orchestral|오케스트라의, 관현악의|The film's orchestral music was beautiful.|그 영화의 관현악 음악은 아름다웠다.
+orchid|난초|My mother grows orchids by the window.|우리 엄마는 창가에서 난초를 키우신다.
+organizer|주최자, 조직자; 정리함|The organizers thanked everyone for coming to the festival.|주최 측은 축제에 와 준 모두에게 감사 인사를 했다.
+originality|독창성|The judges praised the originality of her design.|심사위원들은 그녀 디자인의 독창성을 칭찬했다.
+originally|원래, 처음에는|I'm originally from Busan, but I live in Seoul now.|나는 원래 부산 출신이지만 지금은 서울에 산다.
+originate|비롯되다, 유래하다|Pizza originated in Italy.|피자는 이탈리아에서 유래했다.
+ornament|장식품, 장신구|We hung shiny ornaments on the Christmas tree.|우리는 크리스마스트리에 반짝이는 장식품을 걸었다.
+ounce|온스(약 28그램); 조금|Add one ounce of butter to the pan.|팬에 버터 1온스를 넣으세요.
+outback|(호주의) 오지, 내륙 지대|We saw wild kangaroos in the Australian outback.|우리는 호주 오지에서 야생 캥거루를 보았다.
+outbreak|(질병·전쟁 등의) 발생, 발발|There was an outbreak of flu at the school.|학교에서 독감이 발생했다.
+outcome|결과|We are waiting for the outcome of the job interview.|우리는 면접 결과를 기다리고 있다.
+outdistance|훨씬 앞지르다|The young runner outdistanced everyone in the race.|그 어린 선수는 경주에서 모두를 훨씬 앞질렀다.
+outdo|능가하다, ~보다 낫다|My sister always tries to outdo me in cooking.|우리 언니는 요리에서 항상 나를 능가하려고 한다.
+outfit|옷(차림), 의상 한 벌|I love your outfit; where did you buy it?|네 옷차림 정말 예쁘다, 어디서 샀어?
+outgrow|(커서) 맞지 않게 되다; 벗어나다|My son has outgrown all his shoes this year.|우리 아들은 올해 신발이 모두 작아졌다.
+outing|소풍, 나들이, 야유회|The company outing was at a beautiful lake.|회사 야유회는 아름다운 호숫가에서 열렸다.
+outlet|콘센트; 할인 매장, 아웃렛; 배출구|Is there a power outlet near my seat?|제 자리 근처에 콘센트가 있나요?
+outlive|~보다 오래 살다|Some turtles outlive their owners.|어떤 거북이는 주인보다 오래 산다.

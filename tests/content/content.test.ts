@@ -56,8 +56,8 @@ describe('A1 문법 콘텐츠 (정량 기준)', () => {
     const published = [...GRAMMAR_UNITS, ...DIALOGUES, ...SITUATIONS, ...EXPRESSIONS].filter((x) => x.reviewStatus === 'published' || x.reviewStatus === 'expert-reviewed');
     expect(published).toHaveLength(0);
   });
-  it('A2 8단원 공개, 작성 전 단원만 준비 중', () => {
-    expect(GRAMMAR_UNITS.filter((u) => u.level === 'A2')).toHaveLength(8);
+  it('A1 10 · A2 8 · B1 7 · B2 6 단원 공개, 커리큘럼 전부 이용 가능', () => {
+    expect(['A1', 'A2', 'B1', 'B2'].map((lv) => GRAMMAR_UNITS.filter((u) => u.level === lv).length)).toEqual([10, 8, 7, 6]);
     for (const c of CURRICULUM) expect(c.available, c.id).toBe(!!GRAMMAR_BY_ID[c.id]);
   });
 });

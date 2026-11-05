@@ -20,6 +20,10 @@ SRC = ROOT / 'content-src/wordbank'
 OUT = ROOT / 'public/wordbank'
 CMU = cmudict.dict()
 
+# 학습용으로 부적절한 비하 표현은 제외, 원본 목록의 오탈자는 바로잡는다
+EXCLUDE = {'gook', 'cripple'}
+RENAME = {'porten': 'portent'}
+
 BAND = {'A1': 'beginner', 'A2': 'beginner', 'B1': 'intermediate', 'B2': 'intermediate', 'C1': 'advanced', 'C2': 'advanced'}
 
 # ── 한글 발음 근사 ──
@@ -111,12 +115,14 @@ def main():
             hw, m, ex, exko = parts
             e = by_hw.get(hw)
             if not e or not m or not ex or not exko: continue
-            if not re.match(r'[A-Za-z]', hw): continue  # 'm, 're 같은 축약 조각은 단독 단어가 아니므로 제외
+            if not re.match(r'[A-Za-z]', hw) or hw.lower() in EXCLUDE: continue  # 'm, 're 같은 축약 조각은 단독 단어가 아니므로 제외
             key = hw.lower()
             if key in seen: continue
             seen.add(key)
             idv = f'wb-{slug(hw)}'
-            rec = {'id': idv, 'w': hw, 'pos': e['pos'], 'lv': e['lv'], 'm': m, 'ipa': ipa(hw), 'ko': ko_pron(hw), 'ex': ex, 'exKo': exko}
+            hw_out = RENAME.get(hw, hw)
+            idv = f'wb-{slug(hw_out)}'
+            rec = {'id': idv, 'w': hw_out, 'pos': e['pos'], 'lv': e['lv'], 'm': m, 'ipa': ipa(hw_out), 'ko': ko_pron(hw_out), 'ex': ex, 'exKo': exko}
             bands[BAND[e['lv']]].append(rec)
             stats[e['lv']] = stats.get(e['lv'], 0) + 1
     OUT.mkdir(parents=True, exist_ok=True)

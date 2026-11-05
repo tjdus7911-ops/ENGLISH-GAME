@@ -507,6 +507,7 @@ jog|조깅하다|동|A1
 july|7월|명|Pre-A1
 strong|강한, 튼튼한|형|A1
 uniform|교복, 제복|명|A2
+cafe|카페|명|A1
 decide|결정하다|동|A2
 healthy|건강한, 건강에 좋은|형|A1
 invite|초대하다|동|A2
@@ -533,5 +534,5 @@ export const PROPER_NOUNS: Record<string, string> = {
   mina: '미나 (사람 이름)', jun: '준 (사람 이름)', sora: '소라 (사람 이름)', yuna: '유나 (사람 이름)', hana: '하나 (사람 이름)', mossy: '모시 (캐릭터 이름)', lumi: '루미 (캐릭터 이름)',
   pepper: '페퍼 (고양이 이름) · 일반 명사로는 후추', bolt: '볼트 (로봇 이름) · 일반 명사로는 나사못', della: '델라 (사람 이름)', jim: '짐 (사람 이름)', kang: '강 (성씨)',
   'seo-yun': '서윤 (사람 이름)', jisoo: '지수 (사람 이름)', jake: '제이크 (사람 이름)', jane: '제인 (사람 이름)', tom: '톰 (사람 이름)', kim: '김 (성씨)', lee: '이 (성씨)',
-  korea: '한국 (나라 이름)', japan: '일본 (나라 이름)', daegu: '대구 (도시 이름)', seoul: '서울 (도시 이름)', busan: '부산 (도시 이름)', asia: '아시아 (대륙 이름)', north: '북쪽 (North Wind: 북풍)', m: '(I’m 의 m: am)', p: '(알파벳 p)', x: '(알파벳 X · 표시)',
+  korea: '한국 (나라 이름)', indian: '인도의, 인도 사람 (Indian)', italy: '이탈리아 (나라 이름)', jeju: '제주 (지명)', london: '런던 (도시 이름)', paris: '파리 (도시 이름)', canada: '캐나다 (나라 이름)', harry: '해리 (사람 이름)', rowling: '롤링 (작가 이름, J.K. Rowling)', j: '(이름 머리글자 J)', k: '(이름 머리글자 K)', japan: '일본 (나라 이름)', daegu: '대구 (도시 이름)', seoul: '서울 (도시 이름)', busan: '부산 (도시 이름)', asia: '아시아 (대륙 이름)', north: '북쪽 (North Wind: 북풍)', m: '(I’m 의 m: am)', p: '(알파벳 p)', x: '(알파벳 X · 표시)',
 };

@@ -88,7 +88,7 @@ export const b1u05: GrammarUnit = {
     tr('b1-u05-t07', 'If I lived near the office, I would walk to work.', ['사무실 근처에 산다면 걸어서 출근할 텐데요.', '사무실 근처에 살았을 때 걸어서 출근했어요.', '사무실 근처에 살면 걸어서 출근할 거예요.'], '사무실 근처에 산다면 걸어서 출근할 텐데요.', '과거형 lived 는 현재 사실의 반대를 상상하는 2차 조건문입니다.'),
     wr('b1-u05-t08', '내가 너라면 그에게 전화하겠어.', ['If I were you, I would call him.', "If I were you, I'd call him.", 'I would call him if I were you.', "I'd call him if I were you."], 'If I were you, I would + 동사원형으로 조언합니다.'),
   ],
-  prerequisites: ['a2-u01', 'a2-u02', 'a2-u04'],
+  prerequisites: ['b1-u04', 'a2-u04'],
   reviewStatus: 'expert-review-needed',
 };
 
@@ -270,6 +270,6 @@ export const b1u07: GrammarUnit = {
     tr('b1-u07-t07', 'I used to be shy, but now I enjoy meeting people.', ['예전에는 수줍음이 많았지만 지금은 사람 만나는 걸 즐겨요.', '저는 수줍음이 많은 데 익숙해서 사람을 만나지 않아요.', '저는 앞으로 수줍음이 많을 거예요.'], '예전에는 수줍음이 많았지만 지금은 사람 만나는 걸 즐겨요.', 'used to be 는 과거에는 그랬지만 지금은 아닌 상태를 나타냅니다.'),
     wr('b1-u07-t08', '저는 매운 음식에 익숙하지 않아요.', ["I'm not used to spicy food.", 'I am not used to spicy food.', "I'm not used to eating spicy food.", 'I am not used to eating spicy food.'], 'be not used to + 명사/-ing 로 "~에 익숙하지 않다"를 표현합니다.'),
   ],
-  prerequisites: ['a2-u01', 'a2-u06'],
+  prerequisites: ['b1-u01', 'a2-u06'],
   reviewStatus: 'expert-review-needed',
 };

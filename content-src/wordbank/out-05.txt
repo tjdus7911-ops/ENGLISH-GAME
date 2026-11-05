@@ -1,0 +1,350 @@
+seriously|진지하게, 심각하게|Are you seriously going to eat all that pizza?|너 진짜 그 피자를 다 먹을 거야?
+serve|(음식을) 내다, 제공하다; 봉사하다|This restaurant serves breakfast until eleven.|이 식당은 11시까지 아침 식사를 제공한다.
+several|(한) 몇몇의, 여러; (대) 몇몇|I've read this book several times.|나는 이 책을 여러 번 읽었다.
+sew|바느질하다, 꿰매다|My grandmother taught me how to sew a button.|할머니가 단추 다는 법을 가르쳐 주셨다.
+shade|그늘; 색조|Let's sit in the shade of that tree.|저 나무 그늘에 앉자.
+shadow|(명) 그림자; (동) 그늘지게 하다, 미행하다|My shadow gets longer in the evening.|저녁이 되면 내 그림자가 길어진다.
+shall|~할까요? ~일 것이다|Shall we go for a walk after lunch?|점심 먹고 산책할까요?
+shampoo|샴푸|We've run out of shampoo again.|샴푸가 또 다 떨어졌다.
+shape|(명) 모양, 형태; 몸매; (동) 모양을 만들다|The cookies are in the shape of stars.|그 쿠키들은 별 모양이다.
+shell|(명) 껍데기, 조개껍질; (동) 껍질을 까다|We collected shells on the beach.|우리는 해변에서 조개껍데기를 주웠다.
+shine|빛나다, 비추다|The sun is shining, so let's go outside.|해가 비치니까 밖에 나가자.
+shock|(명) 충격; (동) 충격을 주다|The news came as a shock to everyone.|그 소식은 모두에게 충격이었다.
+shoot|쏘다; 촬영하다; 슛하다|They will shoot the music video at the beach.|그들은 해변에서 뮤직비디오를 촬영할 것이다.
+shop assistant|점원, 판매원|The shop assistant helped me find a bigger size.|점원이 더 큰 사이즈를 찾도록 도와주었다.
+shore|해안, 물가|We walked along the shore at sunset.|우리는 해 질 녘에 해안을 따라 걸었다.
+shot|발사; (사진) 한 장; 슛; 주사|That's a great shot of the mountains!|산을 정말 멋지게 찍은 사진이네!
+shout|(명) 외침; (동) 소리치다|Please don't shout, I can hear you.|소리 지르지 마, 다 들려.
+shut|(형) 닫힌; (동) 닫다|Shut the window, it's getting cold.|창문 닫아, 추워지고 있어.
+sightseeing|관광|We went sightseeing in Rome all day.|우리는 하루 종일 로마를 관광했다.
+significant|중요한, 상당한|There was a significant change in the weather.|날씨에 상당한 변화가 있었다.
+silence|침묵, 고요|There was a long silence after his question.|그의 질문 뒤에 긴 침묵이 흘렀다.
+silently|조용히, 말없이|The students read silently in the library.|학생들은 도서관에서 조용히 책을 읽었다.
+silly|어리석은, 바보 같은|It was a silly mistake, but we fixed it.|어리석은 실수였지만 우리가 바로잡았다.
+silver|(형) 은색의, 은으로 만든; (명) 은|She wears a silver ring on her finger.|그녀는 손가락에 은반지를 끼고 있다.
+similar|비슷한, 유사한|My sister and I have similar tastes in music.|언니와 나는 음악 취향이 비슷하다.
+simple|간단한, 단순한|The recipe is simple and quick.|그 요리법은 간단하고 빠르다.
+simply|그냥, 단순히; 간단히|I simply forgot to call you, sorry.|그냥 전화하는 걸 깜빡했어, 미안해.
+since|(부) 그 이후로; (접) ~한 이래로, ~때문에; (전) ~이후로|I have lived here since 2019.|나는 2019년부터 여기 살고 있다.
+singing|노래하기, 노랫소리|We could hear singing from the next room.|옆방에서 노랫소리가 들렸다.
+single|(형) 단 하나의, 독신의, 1인용의; (명) 편도표, 싱글 음반|I'd like a single room for two nights.|1인실로 이틀 밤 묵고 싶어요.
+singular|(형) 단수의; (명) 단수형|Mouse is singular, and mice is plural.|mouse는 단수형이고 mice는 복수형이다.
+sink|(명) 싱크대, 세면대; (동) 가라앉다|Put the dirty dishes in the sink.|더러운 접시는 싱크대에 넣어.
+sitting room|거실|The family watched TV in the sitting room.|가족은 거실에서 TV를 보았다.
+situation|상황, 처지|We need to talk about the situation at work.|우리는 회사 상황에 대해 이야기해야 한다.
+skate|(명) 스케이트; (동) 스케이트를 타다|Can you skate on ice?|아이스 스케이트 탈 줄 알아?
+skateboarding|스케이트보드 타기|Skateboarding is popular with kids in my area.|우리 동네 아이들 사이에서 스케이트보드가 인기다.
+skating|스케이트 타기|We went skating on the frozen lake.|우리는 얼어붙은 호수에서 스케이트를 탔다.
+ski|(명) 스키; (동) 스키를 타다|I learned to ski when I was six.|나는 여섯 살 때 스키 타는 법을 배웠다.
+skiing|스키 타기|Skiing is my favorite winter sport.|스키는 내가 가장 좋아하는 겨울 스포츠다.
+slave|노예|The museum tells the story of a slave who became free.|그 박물관은 자유를 얻은 한 노예의 이야기를 들려준다.
+sleepless|잠 못 이루는|I had a sleepless night before my exam.|시험 전날 밤에 한숨도 못 잤다.
+sleepy|졸린|I always feel sleepy after a big lunch.|나는 점심을 많이 먹으면 항상 졸리다.
+slice|(명) 조각; (동) 얇게 썰다|Would you like a slice of cake?|케이크 한 조각 드실래요?
+slide|(명) 미끄럼틀, 슬라이드; (동) 미끄러지다|The kids took turns going down the slide.|아이들은 차례로 미끄럼틀을 탔다.
+slim|날씬한, 얇은|This slim laptop is easy to carry.|이 얇은 노트북은 들고 다니기 쉽다.
+smooth|매끄러운, 순조로운|The baby's skin is so soft and smooth.|아기 피부는 정말 부드럽고 매끈하다.
+smoothly|순조롭게, 매끄럽게|The meeting went smoothly this morning.|오늘 아침 회의는 순조롭게 진행되었다.
+snack|간식|I usually have a small snack after school.|나는 보통 방과 후에 간단한 간식을 먹는다.
+snowboarding|스노보드 타기|We tried snowboarding for the first time last winter.|우리는 지난겨울에 처음으로 스노보드를 타 봤다.
+soap|비누|Wash your hands with soap and warm water.|비누와 따뜻한 물로 손을 씻어.
+society|사회, 협회|Old people are important members of our society.|노인들은 우리 사회의 중요한 구성원이다.
+sock|양말|I can't find my other sock.|양말 한 짝을 못 찾겠어.
+soda|탄산음료; 소다|Can I get a soda with my burger?|햄버거랑 탄산음료 하나 주시겠어요?
+soft|부드러운, 푹신한|This pillow is really soft.|이 베개는 정말 푹신하다.
+soft drink|청량음료|We only sell soft drinks, no beer.|저희는 청량음료만 팔고 맥주는 없어요.
+softly|부드럽게, 조용히|She spoke softly so the baby wouldn't wake up.|그녀는 아기가 깨지 않도록 조용히 말했다.
+software|소프트웨어|You need to update the software on your phone.|휴대폰 소프트웨어를 업데이트해야 해.
+soldier|군인, 병사|My cousin is a soldier in the army.|사촌은 육군 군인이다.
+solution|해결책; 용액|We need to find a solution to this problem.|우리는 이 문제의 해결책을 찾아야 한다.
+somebody|누군가|Somebody left an umbrella on the bus.|누군가 버스에 우산을 두고 내렸다.
+someday|언젠가|Someday I want to visit Iceland.|언젠가 아이슬란드에 가 보고 싶다.
+somewhere|어딘가에|I left my phone somewhere in the kitchen.|휴대폰을 부엌 어딘가에 두었다.
+sound|(형) 건전한, 깊은; (명) 소리; (동) ~처럼 들리다|That sounds like a great idea!|그거 좋은 생각 같은데!
+source|원천, 근원, 출처|Fruit is a good source of vitamins.|과일은 좋은 비타민 공급원이다.
+south|(형) 남쪽의; (부) 남쪽으로; (명) 남쪽|Birds fly south for the winter.|새들은 겨울을 나러 남쪽으로 날아간다.
+space|공간; 우주|There isn't enough space in my suitcase.|내 여행 가방에 공간이 충분하지 않다.
+spaceship|우주선|The movie is about a spaceship traveling to Mars.|그 영화는 화성으로 가는 우주선 이야기다.
+spaghetti|스파게티|The kids love spaghetti with meatballs.|아이들은 미트볼 스파게티를 아주 좋아한다.
+speaker|연사, 말하는 사람; 스피커|Turn up the speaker, I can't hear the music.|스피커 소리 좀 키워, 음악이 안 들려.
+specific|구체적인, 특정한|Do you have a specific day in mind for the trip?|여행 날짜로 특별히 생각해 둔 날이 있어?
+speed|(명) 속도; (동) 빨리 가다, 과속하다|The train was traveling at a high speed.|기차는 빠른 속도로 달리고 있었다.
+spill|흘리다, 엎지르다|Oops, I spilled coffee on my shirt.|이런, 셔츠에 커피를 쏟았어.
+splash|(명) 첨벙 소리, 튄 것; (동) 물을 튀기다|The kids splashed water at each other in the pool.|아이들은 수영장에서 서로 물을 튀겼다.
+split|(형) 갈라진; (명) 분열, 틈; (동) 나누다, 쪼개다|Let's split the bill between the four of us.|우리 넷이서 계산을 나눠 내자.
+spoon|숟가락|Can I have a spoon for my soup?|수프 먹을 숟가락 좀 주실래요?
+sports center|스포츠 센터, 체육관|I play badminton at the sports center on Tuesdays.|나는 화요일마다 스포츠 센터에서 배드민턴을 친다.
+spread|(명) 확산; 스프레드; (동) 펼치다, 바르다, 퍼지다|Spread some butter on the toast.|토스트에 버터를 좀 발라.
+square|(형) 정사각형의; (명) 정사각형, 광장|We met in the main square of the old town.|우리는 구시가지의 중앙 광장에서 만났다.
+stadium|경기장|The stadium was full of happy fans.|경기장은 신난 팬들로 가득 찼다.
+staff|직원, 스태프|The hotel staff were very kind to us.|호텔 직원들이 우리에게 아주 친절했다.
+stair|계단|She ran up the stairs to her room.|그녀는 계단을 뛰어 올라 자기 방으로 갔다.
+stamp|(명) 우표, 도장; (동) 도장을 찍다, 발을 구르다|I need a stamp for this postcard.|이 엽서에 붙일 우표가 필요해.
+state|(형) 국가의, 주의; (명) 상태, 주, 국가; (동) 말하다, 진술하다|The house was in a terrible state after the party.|파티가 끝난 후 집은 엉망인 상태였다.
+statement|진술, 성명; 명세서|Please check your bank statement every month.|매달 은행 거래 내역서를 확인하세요.
+statue|조각상, 동상|There is a bronze statue in the park.|공원에 청동 조각상이 있다.
+steak|스테이크|How would you like your steak cooked?|스테이크 굽기는 어떻게 해 드릴까요?
+steal|훔치다|Our cat likes to steal socks from the laundry basket.|우리 고양이는 빨래 바구니에서 양말을 훔쳐 가는 걸 좋아한다.
+stomach|위, 배|My stomach hurts after eating too fast.|너무 빨리 먹었더니 배가 아프다.
+stomachache|복통, 배앓이|I stayed home today because of a stomachache.|배가 아파서 오늘 집에 있었다.
+storm|폭풍, 폭풍우|The storm knocked down several trees.|폭풍으로 나무 여러 그루가 쓰러졌다.
+stove|가스레인지, 난로|The soup is warming on the stove.|수프가 가스레인지 위에서 데워지고 있다.
+stranger|낯선 사람|Don't open the door to strangers.|낯선 사람에게 문을 열어 주지 마.
+strategy|전략|We need a new strategy to win the next game.|다음 경기에서 이기려면 새로운 전략이 필요하다.
+strength|힘, 강점|Patience is one of her greatest strengths.|인내심은 그녀의 가장 큰 장점 중 하나다.
+strike|(명) 파업, 타격; (동) 치다, 부딪치다|The bus drivers are on strike today.|오늘 버스 기사들이 파업 중이다.
+string|끈, 줄; (악기의) 현|Tie the box with a piece of string.|끈으로 상자를 묶어.
+strongly|강하게, 강력히|I strongly recommend this restaurant.|이 식당을 강력히 추천해.
+structure|구조, 구조물|The structure of the bridge is very strong.|그 다리의 구조는 아주 튼튼하다.
+stuff|(명) 물건, 것; (동) 채워 넣다|There's too much stuff in my closet.|내 옷장에 물건이 너무 많다.
+style|스타일, 방식, 양식|I love the style of your new glasses.|네 새 안경 스타일 정말 마음에 든다.
+succeed|성공하다; 뒤를 잇다|If you keep practicing, you will succeed.|계속 연습하면 성공할 거야.
+success|성공|The school festival was a big success.|학교 축제는 대성공이었다.
+successfully|성공적으로|She successfully passed her driving test.|그녀는 운전면허 시험에 성공적으로 합격했다.
+such|(한) 그런, 매우 ~한; (대) 그러한 것|It was such a beautiful day.|정말 아름다운 날이었다.
+sudden|갑작스러운|There was a sudden change in the weather.|날씨가 갑자기 바뀌었다.
+suggest|제안하다, 추천하다|Can you suggest a good place for dinner?|저녁 먹기 좋은 곳 추천해 줄 수 있어?
+suit|(명) 정장; (동) 어울리다, 맞다|That color really suits you.|그 색깔 너한테 정말 잘 어울린다.
+suitable|적합한, 알맞은|This movie is not suitable for young children.|이 영화는 어린아이들에게 적합하지 않다.
+suitcase|여행 가방|My suitcase is too heavy to carry.|내 여행 가방은 너무 무거워서 들 수가 없다.
+summary|요약|Write a short summary of the story.|그 이야기를 짧게 요약하세요.
+sunflower|해바라기|Sunflowers always turn toward the sun.|해바라기는 항상 해를 향한다.
+sunglasses|선글라스|Don't forget your sunglasses at the beach.|해변 갈 때 선글라스 잊지 마.
+sunlight|햇빛|Plants need sunlight to grow.|식물은 자라기 위해 햇빛이 필요하다.
+superlative|최상급|The superlative of good is best.|good의 최상급은 best다.
+superstar|슈퍼스타, 대스타|The young player became a superstar overnight.|그 젊은 선수는 하룻밤 사이에 대스타가 되었다.
+supper|저녁 식사|We had soup and bread for supper.|우리는 저녁으로 수프와 빵을 먹었다.
+support|(명) 지지, 지원; (동) 지지하다, 응원하다|My parents always support my dreams.|부모님은 항상 내 꿈을 응원해 주신다.
+surfing|서핑, 파도타기|We went surfing early in the morning.|우리는 아침 일찍 서핑을 하러 갔다.
+surname|성(姓)|Please write your surname in capital letters.|성을 대문자로 써 주세요.
+surprised|놀란|I was surprised to see her at the party.|파티에서 그녀를 보고 놀랐다.
+surprising|놀라운|The ending of the book was surprising.|그 책의 결말은 놀라웠다.
+survive|살아남다, 견뎌 내다|These plants can survive without much water.|이 식물들은 물이 많지 않아도 살아남을 수 있다.
+swallow|삼키다|Chew your food well before you swallow.|삼키기 전에 음식을 잘 씹어.
+sweat|(명) 땀; (동) 땀을 흘리다|I was covered in sweat after the run.|달리기 후에 나는 땀범벅이 되었다.
+sweater|스웨터|Put on a sweater, it's chilly tonight.|오늘 밤 쌀쌀하니 스웨터 입어.
+sweetheart|연인, 애인; (호칭) 얘야|Good night, sweetheart, sleep well.|잘 자, 우리 아가, 푹 자렴.
+swimming costume|수영복|Pack your swimming costume for the hotel pool.|호텔 수영장용으로 수영복을 챙겨.
+swimsuit|수영복|She bought a new swimsuit for the holiday.|그녀는 휴가용으로 새 수영복을 샀다.
+symbol|상징, 기호|The dove is a symbol of peace.|비둘기는 평화의 상징이다.
+symphony|교향곡|The orchestra played a symphony in the park.|오케스트라가 공원에서 교향곡을 연주했다.
+system|체계, 시스템, 제도|The school has a new online system for homework.|학교에 숙제용 새 온라인 시스템이 생겼다.
+table tennis|탁구|We play table tennis after work on Fridays.|우리는 금요일 퇴근 후에 탁구를 친다.
+tablespoon|큰술, 테이블스푼|Add two tablespoons of sugar to the mix.|반죽에 설탕 두 큰술을 넣으세요.
+talent|재능, 재능 있는 사람|She has a real talent for drawing.|그녀는 그림에 진짜 재능이 있다.
+tap|(명) 수도꼭지; 톡톡 두드리기; (동) 가볍게 두드리다|Turn off the tap while you brush your teeth.|양치하는 동안 수도꼭지를 잠가.
+tape|(명) 테이프; (동) 테이프로 붙이다, 녹음하다|Tape the poster to the wall.|포스터를 벽에 테이프로 붙여.
+target|목표, 표적|Our target is to save money for a trip.|우리 목표는 여행 경비를 모으는 것이다.
+task|일, 과업, 과제|Cleaning the kitchen is my task today.|오늘 부엌 청소는 내 일이다.
+tear|(명) 눈물; 찢어진 곳; (동) 찢다|Tears ran down her face during the sad movie.|슬픈 영화를 보는 동안 그녀의 얼굴에 눈물이 흘렀다.
+teenage|십 대의|My teenage son sleeps until noon on weekends.|십 대 아들은 주말에 정오까지 잔다.
+teenager|십 대, 청소년|Many teenagers spend hours on their phones.|많은 십 대들이 휴대폰으로 몇 시간씩 보낸다.
+temperature|온도, 체온|The temperature will drop tonight.|오늘 밤 기온이 떨어질 것이다.
+terrify|겁먹게 하다, 무섭게 하다|Big dogs terrify my little sister.|여동생은 큰 개를 무서워한다.
+terrorist|(형) 테러리스트의; (명) 테러리스트|Airport security checks bags to stop terrorist attacks.|공항 보안 검색대는 테러를 막기 위해 가방을 검사한다.
+text|(명) 글, 본문, 문자; (동) 문자를 보내다|Text me when you get home.|집에 도착하면 문자 줘.
+text message|문자 메시지|I got a text message from my teacher.|선생님께 문자 메시지를 받았다.
+textbook|교과서|Open your textbook to page twenty.|교과서 20쪽을 펴세요.
+theirs|그들의 것|Our house is small, but theirs is huge.|우리 집은 작지만 그들의 집은 아주 크다.
+themselves|그들 자신, 그들 스스로|The kids made breakfast by themselves.|아이들이 스스로 아침을 만들었다.
+therefore|그러므로, 따라서|It was raining; therefore, we stayed inside.|비가 와서 우리는 안에 머물렀다.
+thief|도둑|The thief ran away with her bag.|도둑이 그녀의 가방을 들고 달아났다.
+third|세 번째의, 3분의 1의|My office is on the third floor.|내 사무실은 3층에 있다.
+though|(부) 그래도, 하지만; (접) 비록 ~이지만|Though it was cold, we went swimming.|추웠지만 우리는 수영하러 갔다.
+thought|생각, 사고|That's a nice thought, thank you.|좋은 생각이야, 고마워.
+thousand|천, 1000|The concert hall holds two thousand people.|그 공연장은 2천 명을 수용한다.
+thunderstorm|뇌우|The thunderstorm woke me up at midnight.|천둥 번개 때문에 자정에 잠이 깼다.
+tidy|(형) 깔끔한, 정돈된; (동) 정돈하다|Please tidy your room before dinner.|저녁 먹기 전에 방 정리해.
+tie|(명) 넥타이, 동점; (동) 묶다|Can you help me tie my shoelaces?|신발 끈 묶는 것 좀 도와줄래?
+tights|타이츠|She wore black tights with her skirt.|그녀는 치마에 검은 타이츠를 신었다.
+till|(접) ~할 때까지; (전) ~까지; (명) 계산대, 금전 등록기|The shop is open till nine tonight.|그 가게는 오늘 밤 9시까지 연다.
+timetable|시간표, 운행표|Check the bus timetable before you leave.|나가기 전에 버스 시간표를 확인해.
+tip|(명) 팁, 조언; 끝; (동) 팁을 주다, 기울이다|Here's a tip: drink water before you feel thirsty.|팁 하나 줄게, 목마르기 전에 물을 마셔.
+title|제목; 칭호|What's the title of the song you were singing?|네가 부르던 노래 제목이 뭐야?
+toast|토스트; 건배|I had toast and jam for breakfast.|아침으로 토스트와 잼을 먹었다.
+toe|발가락|I hit my toe on the table leg.|탁자 다리에 발가락을 부딪쳤다.
+tone|(명) 어조, 음색, 색조; (동) 탄력 있게 하다|I didn't like the tone of his voice.|나는 그의 말투가 마음에 들지 않았다.
+toothache|치통|I have a terrible toothache today.|오늘 이가 너무 아프다.
+toothbrush|칫솔|I forgot to pack my toothbrush.|칫솔 챙기는 걸 깜빡했다.
+tour|(명) 여행, 관광, 투어; (동) 관광하다, 순회하다|We took a boat tour around the islands.|우리는 보트를 타고 섬들을 둘러보는 투어를 했다.
+tour guide|관광 가이드|Our tour guide spoke three languages.|우리 관광 가이드는 3개 국어를 했다.
+tourist|관광객|The city is full of tourists in summer.|그 도시는 여름에 관광객들로 가득하다.
+toward|~쪽으로, ~을 향하여|The dog ran toward me happily.|개가 신나서 나에게 달려왔다.
+track|(명) 길, 트랙, 선로; (동) 추적하다|You can track your package online.|소포를 온라인으로 추적할 수 있다.
+trade|(명) 무역, 거래; (동) 거래하다, 교환하다|I traded my sandwich for his apple.|나는 내 샌드위치를 그의 사과와 바꿨다.
+tradition|전통|Eating rice cake soup on New Year's Day is a tradition.|설날에 떡국을 먹는 것은 전통이다.
+traditional|전통적인|She wore a traditional dress for the wedding.|그녀는 결혼식에 전통 의상을 입었다.
+traffic|교통, 교통량|There was heavy traffic on the way to work.|출근길에 교통이 매우 혼잡했다.
+traffic light|신호등|Turn right at the second traffic light.|두 번째 신호등에서 우회전하세요.
+training|훈련, 교육|New staff get two weeks of training.|신입 직원은 2주간 교육을 받는다.
+tram|전차, 트램|We took the tram to the city center.|우리는 트램을 타고 시내 중심가로 갔다.
+trap|덫, 함정|The farmer set a trap to catch the mice.|농부는 쥐를 잡으려고 덫을 놓았다.
+traveler|여행자|The hostel is full of young travelers.|그 호스텔은 젊은 여행자들로 가득하다.
+treasure|보물|The children searched the garden for hidden treasure.|아이들은 숨겨진 보물을 찾으려고 정원을 뒤졌다.
+trick|(명) 속임수, 묘기, 요령; (동) 속이다|My dog can do a few tricks.|우리 개는 재주를 몇 가지 부릴 수 있다.
+trouble|(명) 문제, 곤란; (동) 괴롭히다, 걱정시키다|I had trouble finding your house.|너희 집을 찾는 데 애먹었어.
+truly|진심으로, 정말로|I'm truly sorry for being late.|늦어서 정말 죄송합니다.
+trust|(명) 신뢰; (동) 믿다, 신뢰하다|You can trust him with your secret.|그에게는 비밀을 털어놓아도 돼.
+truth|진실, 사실|Just tell me the truth.|그냥 사실대로 말해 줘.
+tune|(명) 곡조, 선율; (동) 조율하다, 채널을 맞추다|She was humming a happy tune while cooking.|그녀는 요리하면서 즐거운 곡조를 흥얼거렸다.
+twice|두 번, 두 배로|I brush my teeth twice a day.|나는 하루에 두 번 이를 닦는다.
+uncertain|불확실한, 확신이 없는|I'm uncertain about which course to take.|어떤 강좌를 들어야 할지 잘 모르겠다.
+uncomfortable|불편한|These new shoes are really uncomfortable.|이 새 신발은 정말 불편하다.
+underwater|(형) 물속의; (부) 물속에서|We took underwater photos of the fish.|우리는 물고기의 수중 사진을 찍었다.
+uneasy|불안한, 불편한|I felt uneasy walking home alone in the dark.|어두운데 혼자 집에 걸어가니 불안했다.
+unfair|불공평한, 부당한|It's unfair that he gets more cake than me.|그가 나보다 케이크를 더 많이 받는 건 불공평해.
+unforgettable|잊을 수 없는|Our trip to the mountains was unforgettable.|산으로 떠난 우리의 여행은 잊을 수 없다.
+unfortunately|불행히도, 유감스럽게도|Unfortunately, the museum is closed today.|유감스럽게도 박물관은 오늘 휴관이다.
+unhappy|불행한, 불만스러운|He was unhappy with his test results.|그는 시험 결과에 만족하지 못했다.
+unhealthy|건강에 좋지 않은, 건강하지 못한|Eating fast food every day is unhealthy.|매일 패스트푸드를 먹는 건 건강에 좋지 않다.
+uniform|(형) 균일한, 한결같은; (명) 제복, 교복|Students must wear a uniform at my school.|우리 학교 학생들은 교복을 입어야 한다.
+unimportant|중요하지 않은|Don't worry about unimportant details.|중요하지 않은 세부 사항은 신경 쓰지 마.
+unit|단위; 단원; 한 개, 세트|We finished Unit 3 in our English book.|우리는 영어 책 3단원을 끝냈다.
+unknown|알려지지 않은, 미지의|The singer was unknown until last year.|그 가수는 작년까지 무명이었다.
+unlike|(형) 다른; (전) ~와 달리|Unlike her brother, she loves vegetables.|오빠와 달리 그녀는 채소를 아주 좋아한다.
+unnecessary|불필요한|Turn off unnecessary lights to save energy.|에너지를 아끼려면 불필요한 불은 꺼.
+unpleasant|불쾌한, 기분 나쁜|There's an unpleasant smell in the fridge.|냉장고에서 불쾌한 냄새가 난다.
+unusual|특이한, 흔치 않은|It's unusual to see snow here in April.|이곳에서 4월에 눈을 보는 건 흔치 않다.
+upon|~위에, ~하자마자|Once upon a time, there lived a little fox.|옛날 옛적에 작은 여우가 살았다.
+upset|(형) 속상한, 화난; (동) 속상하게 하다, 뒤엎다|She was upset because she lost her ring.|그녀는 반지를 잃어버려서 속상했다.
+upstairs|(형) 위층의; (부) 위층으로; (명) 위층|The bathroom is upstairs on the left.|화장실은 위층 왼쪽에 있어요.
+used|중고의; ~에 익숙한|I bought a used car from my neighbor.|나는 이웃에게서 중고차를 샀다.
+useful|유용한, 쓸모 있는|This app is very useful for learning words.|이 앱은 단어 공부에 아주 유용하다.
+usual|평소의, 보통의|Let's meet at the usual place.|평소 만나던 곳에서 보자.
+valley|골짜기, 계곡|A small river runs through the valley.|작은 강이 골짜기를 가로질러 흐른다.
+value|(명) 가치, 값; (동) 소중히 여기다, 평가하다|I really value our friendship.|나는 우리의 우정을 정말 소중히 여긴다.
+verb|동사|Run is a verb that shows action.|run은 동작을 나타내는 동사다.
+video game|비디오 게임|My brother plays video games after dinner.|남동생은 저녁 먹고 비디오 게임을 한다.
+view|(명) 경치, 견해; (동) 보다, 여기다|The view from the top of the tower is amazing.|탑 꼭대기에서 보는 경치는 정말 멋지다.
+village|마을|My grandparents live in a quiet village.|조부모님은 조용한 마을에 사신다.
+violent|폭력적인; 격렬한|A violent storm broke many windows in town.|격렬한 폭풍으로 마을의 많은 창문이 깨졌다.
+violin|바이올린|She has played the violin since she was five.|그녀는 다섯 살 때부터 바이올린을 연주했다.
+visitor|방문객, 손님|The museum had many visitors this weekend.|이번 주말에 박물관에 방문객이 많았다.
+vocabulary|어휘|Reading books helps you build your vocabulary.|책을 읽으면 어휘력을 키우는 데 도움이 된다.
+voice|(명) 목소리; (동) 의견을 말하다|She has a beautiful singing voice.|그녀는 노래하는 목소리가 아름답다.
+walking|걷기, 보행|Walking is a great way to stay healthy.|걷기는 건강을 유지하는 좋은 방법이다.
+wallet|지갑|I left my wallet at home, can you pay?|지갑을 집에 두고 왔는데 네가 계산해 줄래?
+wander|돌아다니다, 거닐다|We wandered around the old streets all afternoon.|우리는 오후 내내 옛 거리를 거닐었다.
+washing machine|세탁기|The washing machine is making a strange noise.|세탁기에서 이상한 소리가 난다.
+washing-up|설거지|It's your turn to do the washing-up tonight.|오늘 밤엔 네가 설거지할 차례야.
+wave|(명) 파도, 물결; 손 흔들기; (동) 손을 흔들다|The children waved goodbye from the bus.|아이들이 버스에서 손을 흔들며 작별 인사를 했다.
+weak|약한, 힘없는|I felt weak after being sick for a week.|일주일 동안 아팠더니 몸에 힘이 없었다.
+wealth|부, 재산; 풍부함|Health is more important than wealth.|건강이 재산보다 더 중요하다.
+web|거미줄; 웹, 인터넷|A spider made a web in the corner of my room.|거미가 내 방 구석에 거미줄을 쳤다.
+web page|웹 페이지|The web page takes a long time to load.|그 웹 페이지는 로딩이 오래 걸린다.
+website|웹사이트|You can book tickets on our website.|저희 웹사이트에서 표를 예매할 수 있습니다.
+wedding|결혼식|We're going to my cousin's wedding on Saturday.|우리는 토요일에 사촌 결혼식에 간다.
+weekday|평일|The library opens at nine on weekdays.|도서관은 평일에 9시에 문을 연다.
+weekly|(형) 매주의, 주간의; (부) 매주|We have a weekly meeting every Monday.|우리는 매주 월요일에 주간 회의를 한다.
+weep|흐느낌, 울기|She had a good weep and felt better afterward.|그녀는 실컷 울고 나서 기분이 나아졌다.
+weigh|무게가 ~이다, 무게를 달다|How much does your suitcase weigh?|네 여행 가방 무게가 얼마나 돼?
+weight|무게, 체중|He lost some weight by cycling to work.|그는 자전거로 출근해서 살을 좀 뺐다.
+well-known|잘 알려진, 유명한|This is a well-known bakery in our city.|이곳은 우리 도시에서 잘 알려진 빵집이다.
+west|(형) 서쪽의; (부) 서쪽으로; (명) 서쪽|The sun sets in the west.|해는 서쪽으로 진다.
+wet|젖은, 축축한|My shoes got wet in the rain.|비 때문에 신발이 젖었다.
+whatever|(한) 어떤 ~이든; (대) 무엇이든|You can order whatever you like.|먹고 싶은 거 아무거나 주문해.
+wheelchair|휠체어|The new library is easy to enter in a wheelchair.|새 도서관은 휠체어로 들어가기 쉽다.
+while|(접) ~하는 동안, ~인 반면; (명) 잠시, 동안|I listen to music while I cook.|나는 요리하는 동안 음악을 듣는다.
+whole|(형) 전체의, 모든; (명) 전체|She ate the whole pizza by herself.|그녀는 피자 한 판을 혼자 다 먹었다.
+whom|누구를, 누구에게|To whom should I send this letter?|이 편지를 누구에게 보내야 하나요?
+wide|(형) 넓은; (부) 활짝, 넓게|The river is very wide here.|이곳은 강폭이 아주 넓다.
+widely|널리, 폭넓게|English is widely spoken around the world.|영어는 전 세계에서 널리 사용된다.
+wild|야생의; 거친, 열광적인|We saw wild horses near the beach.|우리는 해변 근처에서 야생마를 보았다.
+windy|바람이 부는|It's too windy to fly a kite today.|오늘은 바람이 너무 세서 연을 날릴 수 없다.
+wine|와인, 포도주|My parents had a glass of wine with dinner.|부모님은 저녁 식사와 함께 와인을 한 잔 드셨다.
+winner|승자, 우승자|The winner of the contest gets a free trip.|대회 우승자는 무료 여행을 받는다.
+wisdom|지혜|My grandfather is full of wisdom.|할아버지는 지혜로 가득하시다.
+wise|현명한, 지혜로운|It was wise of you to bring an umbrella.|우산을 가져오다니 현명했네.
+within|~이내에, ~안에|Please reply within three days.|3일 이내에 답장해 주세요.
+without|~없이|I can't start my day without coffee.|나는 커피 없이는 하루를 시작할 수 없다.
+wonder|(명) 경이, 놀라움; (동) 궁금해하다|I wonder what time the store closes.|가게가 몇 시에 닫는지 궁금하다.
+wood|나무, 목재; (복수) 숲|This table is made of wood.|이 탁자는 나무로 만들어졌다.
+wooden|나무로 된, 목재의|We sat on a wooden bench in the garden.|우리는 정원의 나무 벤치에 앉았다.
+wool|양모, 털실|This warm sweater is made of wool.|이 따뜻한 스웨터는 양모로 만들어졌다.
+worldwide|(형) 전 세계적인; (부) 전 세계에|The game has millions of players worldwide.|그 게임은 전 세계에 수백만 명의 플레이어가 있다.
+worried|걱정하는|Mom was worried because I came home late.|내가 늦게 귀가해서 엄마가 걱정하셨다.
+worse|(형) 더 나쁜; (부) 더 나쁘게; (명) 더 나쁜 것|My cold got worse overnight.|감기가 밤사이에 더 심해졌다.
+worst|(형) 최악의; (부) 가장 나쁘게; (명) 최악|That was the worst meal I've ever had.|그건 내가 먹어 본 것 중 최악의 식사였다.
+writing|글쓰기, 글씨|Her writing is hard to read.|그녀의 글씨는 알아보기 힘들다.
+yeah|응, 그래|Yeah, I'd love to come with you.|응, 너랑 같이 가고 싶어.
+youth|젊음, 청춘; 젊은이|He spent his youth by the sea.|그는 바닷가에서 젊은 시절을 보냈다.
+zone|지역, 구역|This is a no-parking zone.|이곳은 주차 금지 구역이다.
+abandon|버리다, 포기하다|They had to abandon the game because of rain.|비 때문에 그들은 경기를 중단해야 했다.
+able|~할 수 있는, 유능한|Will you be able to come tomorrow?|내일 올 수 있어?
+abnormal|비정상적인|The doctor found nothing abnormal in my test.|의사는 검사에서 아무 이상도 발견하지 못했다.
+aboard|(부) 탑승하여; (전) ~에 탑승하여|All passengers are now aboard the ship.|모든 승객이 이제 배에 탑승했다.
+aborigine|원주민, 토착민|The guide told us stories about the aborigines of the area.|가이드가 그 지역 원주민에 관한 이야기를 들려주었다.
+absence|부재, 결석|Nobody noticed his absence from the meeting.|아무도 그가 회의에 빠진 것을 눈치채지 못했다.
+absent|결석한, 부재의|Three students were absent from class today.|오늘 학생 세 명이 결석했다.
+absolute|(형) 완전한, 절대적인; (명) 절대적인 것|The trip was an absolute pleasure.|그 여행은 정말 즐거웠다.
+absolutely|완전히, 전적으로; 물론이죠|You're absolutely right about that.|그 점에 대해서는 네 말이 전적으로 옳아.
+absorb|흡수하다, 받아들이다|This towel absorbs water very quickly.|이 수건은 물을 아주 빨리 흡수한다.
+abstract|추상적인|I don't really understand abstract art.|나는 추상 미술을 잘 이해하지 못한다.
+abundance|풍부, 많음|The garden has an abundance of flowers in May.|5월이면 그 정원에 꽃이 가득하다.
+abundant|풍부한, 많은|Fresh fruit is abundant in summer.|여름에는 신선한 과일이 풍부하다.
+academic|학업의, 학문적인|The academic year begins in September.|학년도는 9월에 시작된다.
+academy|학원, 학교, 학회|She teaches dance at a small academy.|그녀는 작은 학원에서 춤을 가르친다.
+accent|억양, 말투; 강세|He speaks English with a lovely Irish accent.|그는 멋진 아일랜드 억양으로 영어를 한다.
+acceptance|수락, 승인, 받아들임|I got a letter of acceptance from the university.|대학에서 합격 통지서를 받았다.
+access|(명) 접근, 이용; (동) 접근하다, 접속하다|You can access the internet in the lobby.|로비에서 인터넷에 접속할 수 있다.
+accessible|접근 가능한, 이용하기 쉬운|The park is easily accessible by bus.|그 공원은 버스로 쉽게 갈 수 있다.
+accessory|액세서리, 부속품|She always wears a fun accessory in her hair.|그녀는 항상 머리에 재미있는 액세서리를 한다.
+accidental|우연한, 뜻하지 않은|Our meeting at the airport was accidental.|공항에서 우리가 만난 건 우연이었다.
+accidentally|우연히, 실수로|I accidentally deleted all my photos.|실수로 사진을 전부 지워 버렸다.
+accompany|동행하다, 반주하다|Children must be accompanied by an adult.|어린이는 반드시 어른과 동행해야 합니다.
+accomplish|이루다, 성취하다|We accomplished a lot in one day.|우리는 하루에 많은 것을 해냈다.
+according to|~에 따르면|According to the news, it will snow tomorrow.|뉴스에 따르면 내일 눈이 온다고 한다.
+accountant|회계사|My mother works as an accountant for a bank.|어머니는 은행에서 회계사로 일하신다.
+accuracy|정확성|Check your answers for accuracy before submitting.|제출하기 전에 답이 정확한지 확인하세요.
+accurate|정확한|Is this clock accurate?|이 시계 정확해?
+accurately|정확하게|Please measure the window accurately.|창문 크기를 정확하게 재 주세요.
+accuse|비난하다, 고발하다|She accused me of eating her chocolate.|그녀는 내가 자기 초콜릿을 먹었다고 나를 탓했다.
+accustom|익숙하게 하다|It took me a month to accustom myself to the cold.|추위에 익숙해지는 데 한 달이 걸렸다.
+ache|(명) 아픔, 통증; (동) 아프다|My legs ache after the long hike.|긴 등산 후에 다리가 쑤신다.
+achievement|성취, 업적|Finishing the marathon was a big achievement for me.|마라톤 완주는 나에게 큰 성취였다.
+acknowledge|인정하다; (받았음을) 알리다|He acknowledged that he was wrong.|그는 자신이 틀렸다는 것을 인정했다.
+acknowledgment|인정; 감사의 말; 수령 확인|We received an acknowledgment of our order by email.|이메일로 주문 접수 확인을 받았다.
+acquaintance|아는 사람, 지인|She is just an acquaintance from my yoga class.|그녀는 요가 수업에서 알게 된 지인일 뿐이다.
+acquire|얻다, 습득하다|Children acquire new words very quickly.|아이들은 새 단어를 아주 빨리 습득한다.
+active|활동적인, 적극적인|My grandmother is still very active at eighty.|할머니는 여든이신데도 여전히 활동적이시다.
+actress|여배우|The actress smiled and waved to her fans.|그 여배우는 미소 지으며 팬들에게 손을 흔들었다.
+ad|광고|I saw an ad for a cheap flight to Jeju.|제주행 저렴한 항공권 광고를 봤다.
+adapt|적응하다, 맞추다|It took a while to adapt to my new school.|새 학교에 적응하는 데 시간이 좀 걸렸다.
+addressee|수신인|Write the addressee's name clearly on the envelope.|봉투에 수신인 이름을 또박또박 쓰세요.
+administration|관리, 행정; 행정부|Ask the school administration about the new timetable.|새 시간표에 대해서는 학교 행정실에 문의하세요.
+admiration|감탄, 존경|I have great admiration for nurses.|나는 간호사들을 매우 존경한다.
+admission|입장, 입학; 입장료; 인정|Admission to the museum is free for children.|어린이는 박물관 입장이 무료다.
+adopt|입양하다; 채택하다|We adopted a cat from the animal shelter.|우리는 동물 보호소에서 고양이를 입양했다.
+adorable|사랑스러운, 귀여운|Your baby is absolutely adorable!|아기가 정말 사랑스러워요!
+advance|(명) 전진, 발전; (동) 나아가다, 발전하다|You should book your tickets in advance.|표는 미리 예매하는 게 좋아.
+adverb|부사|Quickly is an adverb in this sentence.|이 문장에서 quickly는 부사다.
+adverbial|부사의, 부사적인|Find the adverbial phrase in the second line.|두 번째 줄에서 부사구를 찾아보세요.
+advert|광고|There's an advert for a new phone on TV.|TV에 새 휴대폰 광고가 나온다.
+advertise|광고하다|The cafe advertises its specials on a chalkboard.|그 카페는 칠판에 오늘의 메뉴를 광고한다.
+adviser|고문, 조언자|I talked to my academic adviser about my classes.|나는 지도 교수님과 수업에 대해 상담했다.
+aerobics|에어로빅|My aunt goes to aerobics three times a week.|이모는 일주일에 세 번 에어로빅을 하러 간다.
+affect|영향을 미치다|Lack of sleep can affect your mood.|수면 부족은 기분에 영향을 줄 수 있다.
+affection|애정, 애착|The old dog showed great affection for the children.|그 늙은 개는 아이들에게 큰 애정을 보였다.
+afterward|나중에, 그 후에|We had dinner and went for a walk afterward.|우리는 저녁을 먹고 그 후에 산책하러 갔다.
+afterwards|나중에, 그 후에|Finish your homework first, and you can play afterwards.|숙제 먼저 끝내고 나중에 놀아도 돼.
+agenda|의제, 안건; 일정|What's on the agenda for today's meeting?|오늘 회의 안건은 뭐예요?
+aggressive|공격적인; 적극적인|That dog looks aggressive, so stay back.|저 개는 사나워 보이니 물러나 있어.
+agreement|합의, 동의, 협정|We finally reached an agreement about the price.|우리는 마침내 가격에 대해 합의했다.
+agricultural|농업의|This region is famous for its agricultural products.|이 지역은 농산물로 유명하다.
+agriculture|농업|Agriculture is the main industry in this area.|농업은 이 지역의 주요 산업이다.
+aid|(명) 도움, 원조; (동) 돕다|Keep a first aid kit in your car.|차에 구급상자를 두세요.
+aim|(명) 목표, 겨냥; (동) 목표로 하다, 겨누다|My aim is to read fifty books this year.|내 목표는 올해 책 50권을 읽는 것이다.
+air conditioning|에어컨, 냉방|The air conditioning in the office is too cold.|사무실 에어컨이 너무 춥다.
+air force|공군|His father was a pilot in the air force.|그의 아버지는 공군 조종사였다.
+airline|항공사|Which airline are you flying with?|어느 항공사 비행기를 타세요?
+alcohol|술, 알코올|Children under nineteen cannot buy alcohol.|19세 미만은 술을 살 수 없다.
+alcoholic|(형) 술의, 알코올이 든; (명) 알코올 중독자|Do you have any drinks that are not alcoholic?|알코올이 안 들어간 음료 있나요?
+alike|(형) 비슷한; (부) 똑같이|The twins look alike, but they act differently.|그 쌍둥이는 똑같이 생겼지만 행동은 다르다.
+allergic|알레르기가 있는|I'm allergic to peanuts.|나는 땅콩 알레르기가 있다.
+allowance|용돈; 허용량|I get a small allowance every week.|나는 매주 용돈을 조금 받는다.
+aloud|소리 내어|Please read the first paragraph aloud.|첫 문단을 소리 내어 읽어 주세요.
+alphabet|알파벳, 자모|My little brother can sing the alphabet song.|남동생은 알파벳 노래를 부를 줄 안다.
+alternative|(형) 대안의; (명) 대안|Is there an alternative route to the airport?|공항으로 가는 다른 길이 있나요?
+altogether|모두 합쳐; 완전히|That will be twenty dollars altogether.|모두 합쳐서 20달러입니다.
+amazed|놀란, 감탄한|I was amazed by how big the ocean looked.|바다가 얼마나 넓어 보이는지에 깜짝 놀랐다.
+amazing|놀라운, 굉장한|The view from the hotel balcony was amazing.|호텔 발코니에서 본 경치는 굉장했다.

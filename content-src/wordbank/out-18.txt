@@ -88,3 +88,263 @@ unavailable|이용할 수 없는; 만날 수 없는|The manager is unavailable u
 unaware|알지 못하는, 눈치채지 못한|She was unaware that the meeting had been cancelled.|그녀는 회의가 취소된 줄 몰랐다.
 unbearable|참을 수 없는, 견딜 수 없는|The heat in the room was almost unbearable.|방 안의 더위는 거의 견딜 수 없을 정도였다.
 unbeatable|무적의, 이길 수 없는; 최고의|This shop offers unbeatable prices on fresh fruit.|이 가게는 신선한 과일을 최저가로 판매한다.
+unchanged|변하지 않은, 그대로인|The village has remained unchanged for decades.|그 마을은 수십 년 동안 변함없이 그대로였다.
+uncharacteristic|평소답지 않은, 특징적이지 않은|His angry reply was completely uncharacteristic.|그가 화를 내며 대답한 것은 전혀 그답지 않았다.
+unclearly|불분명하게, 모호하게|The instructions were written so unclearly that nobody understood them.|설명서가 너무 모호하게 쓰여 있어서 아무도 이해하지 못했다.
+uncomfortably|불편하게, 거북하게|He shifted uncomfortably in his chair during the interview.|그는 면접 중에 의자에서 불편한 듯 몸을 들썩였다.
+uncommon|흔하지 않은, 드문|Snow is uncommon in this part of the country.|이 지역에서는 눈이 드물다.
+unconcerned|무관심한, 걱정하지 않는|She seemed unconcerned about the approaching deadline.|그녀는 다가오는 마감에 대해 걱정하지 않는 듯했다.
+unconscious|의식을 잃은; 무의식적인|The climber was unconscious when the rescuers found him.|구조대가 발견했을 때 그 등반가는 의식을 잃은 상태였다.
+underestimate|과소평가하다|Never underestimate how long a move will take.|이사에 걸리는 시간을 절대 얕보지 마라.
+undergraduate|대학 학부생|She is an undergraduate studying marine biology.|그녀는 해양생물학을 공부하는 학부생이다.
+underground|(형) 지하의; 비밀의; (부) 지하에서|The city plans to build an underground parking lot.|시는 지하 주차장을 지을 계획이다.
+undersea|해저의, 바닷속의|Engineers repaired the undersea cable last week.|기술자들이 지난주에 해저 케이블을 수리했다.
+understandable|이해할 만한, 무리가 아닌|Your disappointment is completely understandable.|네가 실망하는 건 충분히 이해할 만해.
+understanding|(형) 이해심 있는; (명) 이해, 합의|My boss was very understanding when my child got sick.|아이가 아팠을 때 상사는 매우 너그럽게 이해해 주었다.
+undertake|착수하다, 떠맡다|The museum will undertake a major renovation next year.|그 박물관은 내년에 대규모 보수 공사에 착수할 것이다.
+underwear|속옷|Pack enough underwear for a week-long trip.|일주일 여행에 필요한 속옷을 충분히 챙겨라.
+undoubtedly|의심할 여지 없이, 확실히|She is undoubtedly the best singer in our choir.|그녀는 의심할 여지 없이 우리 합창단 최고의 가수다.
+undreamed|꿈도 꾸지 못한, 상상도 못 한|The internet brought undreamed of opportunities to small businesses.|인터넷은 소규모 기업들에 꿈도 꾸지 못한 기회를 가져다주었다.
+undressed|옷을 벗은|The toddler got undressed and jumped into the bath.|아이는 옷을 벗고 욕조로 뛰어들었다.
+unease|불안, 걱정|There was a growing sense of unease among the staff.|직원들 사이에 불안감이 커지고 있었다.
+uneasily|불안하게, 걱정스럽게|She glanced uneasily at the dark clouds.|그녀는 먹구름을 불안하게 힐끗 쳐다보았다.
+unenthusiastic|열의 없는, 시큰둥한|The students were unenthusiastic about the extra homework.|학생들은 추가 숙제에 시큰둥했다.
+uneven|평평하지 않은, 고르지 않은|Be careful, the floor here is uneven.|조심해, 여기 바닥이 울퉁불퉁해.
+unfamiliar|익숙하지 않은, 낯선|I felt nervous in such an unfamiliar city.|그렇게 낯선 도시에서 나는 긴장했다.
+unfashionable|유행에 뒤떨어진|Those wide ties were unfashionable for years.|그런 넓은 넥타이는 몇 년 동안 유행에 뒤떨어진 것이었다.
+unforeseen|예상치 못한, 뜻밖의|The concert was postponed due to unforeseen circumstances.|예기치 못한 사정으로 콘서트가 연기되었다.
+ungodly|(시간이) 터무니없는; 신앙심 없는|Why are you calling me at this ungodly hour?|이런 말도 안 되는 시간에 왜 전화를 하는 거야?
+unhappiness|불행, 불만|Money alone cannot cure unhappiness.|돈만으로는 불행을 치유할 수 없다.
+unhelpful|도움이 안 되는, 비협조적인|The clerk was rude and unhelpful.|그 직원은 무례하고 비협조적이었다.
+unimaginable|상상할 수 없는|Life without electricity seems unimaginable today.|오늘날 전기 없는 삶은 상상조차 할 수 없다.
+unimaginably|상상할 수 없을 만큼|The universe is unimaginably large.|우주는 상상할 수 없을 만큼 거대하다.
+united|연합한; 단결한, 하나가 된|The team stayed united even after several losses.|그 팀은 여러 번 패한 뒤에도 똘똘 뭉쳤다.
+universal|보편적인, 전 세계적인|Music is often called a universal language.|음악은 흔히 만국 공통어라고 불린다.
+unjustly|부당하게, 불공평하게|He felt he had been unjustly accused of lying.|그는 거짓말을 했다는 누명을 부당하게 썼다고 느꼈다.
+unkind|불친절한, 매정한|It was unkind of you to laugh at her mistake.|그녀의 실수를 비웃은 건 매정한 행동이었어.
+unlimited|무제한의, 한없는|This phone plan includes unlimited data.|이 요금제에는 무제한 데이터가 포함되어 있다.
+unload|(짐을) 내리다|Can you help me unload the groceries from the car?|차에서 장 본 물건 내리는 것 좀 도와줄래?
+unlock|(자물쇠를) 열다; 드러내다|She unlocked the door and stepped inside.|그녀는 문을 열고 안으로 들어갔다.
+unmistakable|오해의 여지가 없는, 틀림없는|The smell of fresh bread was unmistakable.|갓 구운 빵 냄새가 틀림없었다.
+unmistakably|틀림없이, 명백하게|The voice on the phone was unmistakably my uncle's.|전화 속 목소리는 틀림없이 삼촌의 목소리였다.
+unnatural|부자연스러운, 비정상적인|Her smile in the photo looked unnatural.|사진 속 그녀의 미소는 부자연스러워 보였다.
+unofficial|비공식적인|This is only an unofficial estimate of the results.|이것은 결과에 대한 비공식적인 추정치일 뿐이다.
+unpopular|인기 없는|The new school rule was unpopular with students.|새 교칙은 학생들 사이에서 인기가 없었다.
+unrealistic|비현실적인|Losing ten kilos in a week is an unrealistic goal.|일주일에 10킬로그램을 빼는 것은 비현실적인 목표다.
+unreasonable|불합리한, 지나친|The landlord made an unreasonable demand for more rent.|집주인은 월세를 더 올려 달라는 부당한 요구를 했다.
+unreliable|믿을 수 없는, 신뢰할 수 없는|The bus service here is slow and unreliable.|이곳 버스는 느리고 믿을 수가 없다.
+unrest|불안, 동요; 소요|The factory closure caused unrest among local workers.|공장 폐쇄로 지역 노동자들 사이에 동요가 일었다.
+unsafe|안전하지 않은, 위험한|The old bridge was declared unsafe for traffic.|그 낡은 다리는 차량 통행에 안전하지 않다는 판정을 받았다.
+unsatisfactory|만족스럽지 못한|The quality of the repair work was unsatisfactory.|수리 작업의 품질이 만족스럽지 않았다.
+unselfish|이기적이지 않은, 남을 배려하는|Her unselfish act inspired everyone in the class.|그녀의 이타적인 행동은 반 친구 모두에게 감동을 주었다.
+unstoppable|막을 수 없는|Once the team scored first, they seemed unstoppable.|그 팀은 선제골을 넣자 막을 수 없을 것처럼 보였다.
+unsuccessful|성공하지 못한, 실패한|His first attempt to start a business was unsuccessful.|그의 첫 창업 시도는 실패로 끝났다.
+unsuitable|부적합한, 어울리지 않는|This film is unsuitable for young children.|이 영화는 어린아이들에게 적합하지 않다.
+unsure|확신이 없는, 잘 모르는|I'm unsure whether I locked the front door.|현관문을 잠갔는지 확실하지 않다.
+untalented|재능이 없는|He thought he was untalented until he tried painting.|그는 그림을 그려 보기 전까지 자신이 재능이 없다고 생각했다.
+unthinkably|생각할 수도 없을 만큼|The price of houses has risen unthinkably high.|집값이 생각할 수도 없을 만큼 높이 올랐다.
+untie|(매듭 등을) 풀다|Could you untie this knot for me?|이 매듭 좀 풀어 줄 수 있어?
+unto|(고어) ~에게, ~까지|Do unto others as you would have them do unto you.|남에게 대접받고자 하는 대로 남을 대접하라.
+untreated|치료받지 않은; 처리되지 않은|An untreated infection can become very serious.|치료하지 않은 감염은 매우 심각해질 수 있다.
+untrimmed|다듬지 않은, 손질하지 않은|The garden was full of untrimmed hedges.|정원에는 손질하지 않은 산울타리가 가득했다.
+unusualness|특이함, 이례적임|The unusualness of the request surprised the staff.|요청이 이례적이어서 직원들이 놀랐다.
+unwilling|꺼리는, 마지못해 하는|He was unwilling to admit his mistake.|그는 자신의 실수를 인정하려 하지 않았다.
+unwise|현명하지 못한, 어리석은|It would be unwise to drive in this storm.|이런 폭풍 속에서 운전하는 것은 현명하지 못할 것이다.
+unworldly|세상 물정 모르는; 비현실적인|The young monk was gentle and unworldly.|그 젊은 스님은 온화하고 세상 물정에 어두웠다.
+upbringing|양육, 가정교육|She credits her strict upbringing for her discipline.|그녀는 자신의 절제력이 엄격한 가정교육 덕분이라고 말한다.
+upgrade|(명) 업그레이드, 개선; (동) 개선하다, 승급시키다|The airline upgraded us to business class for free.|항공사가 우리 좌석을 무료로 비즈니스석으로 승급해 주었다.
+upright|(형) 똑바로 선; 정직한; (부) 똑바로|Please keep your seat in the upright position during landing.|착륙하는 동안 좌석을 똑바로 세워 주십시오.
+upside down|(형) 거꾸로 된; 엉망인; (부) 거꾸로|The picture on the wall is hanging upside down.|벽에 걸린 그림이 거꾸로 걸려 있다.
+urban|도시의|Urban areas often have higher living costs.|도시 지역은 흔히 생활비가 더 많이 든다.
+urgently|긴급히, 급히|The hospital urgently needs blood donors.|그 병원은 헌혈자가 긴급히 필요하다.
+user|사용자, 이용자|The app has over a million users worldwide.|그 앱은 전 세계에 100만 명이 넘는 사용자를 보유하고 있다.
+usher|(동) 안내하다; (명) 안내원|An usher showed us to our seats in the theater.|극장 안내원이 우리를 좌석까지 안내해 주었다.
+utility|(전기·가스 등) 공공시설; 유용성|Our monthly utility bills went up this winter.|이번 겨울 우리 집 공과금이 올랐다.
+utilize|활용하다, 이용하다|The school utilizes solar panels to save energy.|그 학교는 에너지를 절약하기 위해 태양광 패널을 활용한다.
+utter|(동) (소리·말을) 내다; (형) 완전한|She didn't utter a single word during dinner.|그녀는 저녁 식사 내내 한마디도 하지 않았다.
+utterly|완전히, 순전히|I was utterly exhausted after the marathon.|마라톤을 마친 후 나는 완전히 녹초가 되었다.
+vacant|비어 있는; (자리가) 공석인|There are several vacant apartments in this building.|이 건물에는 빈 아파트가 몇 채 있다.
+vaccine|백신|Scientists developed a new vaccine against the virus.|과학자들이 그 바이러스에 대한 새 백신을 개발했다.
+valentine|밸런타인 카드; 연인|He secretly sent her a valentine with a poem inside.|그는 시를 적은 밸런타인 카드를 그녀에게 몰래 보냈다.
+valid|유효한; 타당한|Your passport must be valid for six months.|여권은 6개월 동안 유효해야 합니다.
+vanish|사라지다, 자취를 감추다|The magician made the coin vanish in seconds.|마술사는 몇 초 만에 동전을 사라지게 했다.
+vanity|허영심, 자만심|Buying such an expensive car was pure vanity.|그렇게 비싼 차를 산 것은 순전히 허영심 때문이었다.
+variation|변화, 변동; 변형|There is little variation in temperature here all year.|이곳은 일 년 내내 기온 변화가 거의 없다.
+varied|다양한, 여러 가지의|The menu offers a varied selection of dishes.|메뉴에는 다양한 요리가 준비되어 있다.
+venture|(모험적) 사업, 벤처; 모험|Opening a café was a risky venture for them.|카페를 여는 것은 그들에게 위험한 모험이었다.
+venue|(행사) 장소|The venue for the wedding has a beautiful garden.|결혼식 장소에는 아름다운 정원이 있다.
+verbal|말의, 구두의; 언어의|They made a verbal agreement but signed nothing.|그들은 구두로 합의했지만 아무것도 서명하지 않았다.
+verbally|말로, 구두로|The coach verbally warned the player twice.|코치는 그 선수에게 두 번 말로 경고했다.
+verse|(명) 운문, 시; (노래의) 절; (동) 정통하게 하다|The second verse of the song is my favorite.|그 노래의 2절이 내가 가장 좋아하는 부분이다.
+version|판, 버전; 설명|Please download the latest version of the software.|소프트웨어의 최신 버전을 내려받으세요.
+versus|(전) ~대, ~에 대한|Tonight's game is Seoul versus Busan.|오늘 밤 경기는 서울 대 부산이다.
+veteran|베테랑, 노련가; 참전 용사|She is a veteran of thirty years in teaching.|그녀는 교직 30년 경력의 베테랑이다.
+vibrate|진동하다, 떨리다|My phone vibrated in my pocket during the lecture.|강의 중에 주머니 속 휴대폰이 진동했다.
+vibration|진동, 떨림|We could feel the vibration of the passing train.|지나가는 기차의 진동이 느껴졌다.
+viewer|시청자; 보는 사람|The documentary attracted millions of viewers.|그 다큐멘터리는 수백만 명의 시청자를 끌어모았다.
+vigor|활력, 원기, 정력|He returned to work with renewed vigor.|그는 새로운 활력을 되찾아 업무에 복귀했다.
+vigorous|활발한, 격렬한; 원기 왕성한|Doctors recommend thirty minutes of vigorous exercise daily.|의사들은 매일 30분의 격렬한 운동을 권한다.
+vigorously|힘차게, 격렬하게|She shook her head vigorously in disagreement.|그녀는 반대한다는 뜻으로 고개를 세차게 저었다.
+villa|별장, 빌라|They rented a villa by the sea for the summer.|그들은 여름 동안 바닷가 별장을 빌렸다.
+villager|마을 사람|The villagers gathered in the square for the festival.|마을 사람들이 축제를 위해 광장에 모였다.
+vinegar|식초|Add a spoonful of vinegar to the salad dressing.|샐러드드레싱에 식초 한 숟가락을 넣으세요.
+violate|위반하다, 어기다; 침해하다|Drivers who violate speed limits will be fined.|제한 속도를 위반하는 운전자에게는 벌금이 부과된다.
+virtual reality|가상 현실|Virtual reality lets students explore ancient cities.|가상 현실 덕분에 학생들은 고대 도시를 탐험해 볼 수 있다.
+virtually|사실상, 거의; 가상으로|The town was virtually empty during the holiday.|휴일 동안 마을은 거의 텅 비어 있었다.
+virtue|미덕, 선; 장점|Honesty is a virtue that everyone admires.|정직은 모든 사람이 존경하는 미덕이다.
+visibly|눈에 띄게, 확연히|He was visibly nervous before his speech.|그는 연설 전에 눈에 띄게 긴장해 있었다.
+vital|필수적인, 매우 중요한; 생명의|Regular sleep is vital for good health.|규칙적인 수면은 건강에 필수적이다.
+vitamin|비타민|Oranges are a great source of vitamin C.|오렌지는 비타민 C의 훌륭한 공급원이다.
+vocalist|가수, 보컬리스트|The band is looking for a new lead vocalist.|그 밴드는 새 리드 보컬을 찾고 있다.
+vomit|구토, 토사물|The nurse quickly cleaned up the vomit on the floor.|간호사가 바닥의 토사물을 재빨리 치웠다.
+voter|투표자, 유권자|Young voters turned out in record numbers.|젊은 유권자들이 기록적인 수로 투표에 참여했다.
+vow|맹세, 서약|The couple wrote their own wedding vows.|그 커플은 혼인 서약을 직접 썼다.
+wage|임금, 급료|The workers asked for a fair wage.|노동자들은 공정한 임금을 요구했다.
+waist|허리|These trousers are too tight around the waist.|이 바지는 허리가 너무 꽉 낀다.
+waistcoat|조끼|He wore a grey waistcoat under his jacket.|그는 재킷 안에 회색 조끼를 입었다.
+walkabout|(군중 속) 거닐기; 도보 여행|The mayor went on a walkabout through the market.|시장은 시장 골목을 걸으며 시민들을 만났다.
+walker|보행자, 산책하는 사람; 보행기|The trail is popular with walkers and cyclists.|그 산책로는 걷는 사람과 자전거 타는 사람들에게 인기가 있다.
+wallboard|석고보드, 벽판|The builders nailed wallboard onto the wooden frame.|인부들은 나무 틀에 석고보드를 못으로 박았다.
+walnut|호두; 호두나무|She added chopped walnuts to the banana bread.|그녀는 바나나 빵에 다진 호두를 넣었다.
+warship|군함|An old warship is now a floating museum.|오래된 군함 한 척이 지금은 물 위의 박물관이 되었다.
+wartime|전시, 전쟁 기간|Food was rationed during wartime.|전시에는 식량이 배급되었다.
+wasp|말벌|A wasp landed on my sandwich at the picnic.|소풍에서 말벌 한 마리가 내 샌드위치에 앉았다.
+waterproof|방수의|Bring a waterproof jacket in case it rains.|비가 올 경우를 대비해 방수 재킷을 챙겨라.
+weaken|약화시키다, 약해지다|Lack of sleep can weaken your immune system.|수면 부족은 면역 체계를 약화시킬 수 있다.
+weakly|약하게, 힘없이|The sick puppy wagged its tail weakly.|아픈 강아지가 힘없이 꼬리를 흔들었다.
+wealthy|부유한, 재산이 많은|A wealthy family donated the new library.|한 부유한 가족이 새 도서관을 기증했다.
+wearisome|지루한, 지치게 하는|The long drive across the plains was wearisome.|평원을 가로지르는 긴 운전은 지루했다.
+weary|지친, 피곤한; 싫증 난|The weary travelers finally reached the inn.|지친 여행자들이 마침내 여관에 도착했다.
+weave|짜기, 직조; 짜임새|This blanket has a tight, even weave.|이 담요는 촘촘하고 고르게 짜여 있다.
+wed|결혼하다|They plan to wed in the spring.|그들은 봄에 결혼할 계획이다.
+weed|잡초|I spent the afternoon pulling weeds in the garden.|나는 오후 내내 정원에서 잡초를 뽑았다.
+welfare|복지, 행복; 사회 보장|The charity works to improve animal welfare.|그 자선 단체는 동물 복지 향상을 위해 일한다.
+well-balanced|균형 잡힌; 분별 있는|A well-balanced diet includes plenty of vegetables.|균형 잡힌 식단에는 채소가 충분히 포함된다.
+well-built|체격이 좋은; 튼튼하게 지어진|The house is old but well-built.|그 집은 오래되었지만 튼튼하게 지어졌다.
+well-organized|잘 정리된, 체계적인|The conference was well-organized and ran on time.|그 학회는 체계적으로 준비되어 정시에 진행되었다.
+well-paid|보수가 좋은|He finally found a well-paid job in engineering.|그는 마침내 보수가 좋은 엔지니어 일자리를 구했다.
+western|서쪽의; 서양의|We drove along the western coast of the island.|우리는 섬의 서쪽 해안을 따라 운전했다.
+wheat|밀|This bread is made from whole wheat flour.|이 빵은 통밀가루로 만들었다.
+whereas|(접) ~인 반면에|I love spicy food, whereas my sister can't stand it.|나는 매운 음식을 좋아하는 반면 언니는 질색한다.
+whip|휘젓다, 거품 내다; 채찍질하다|Whip the cream until it forms soft peaks.|생크림이 부드러운 뿔 모양이 될 때까지 휘저으세요.
+whiskey|위스키|He enjoys a small glass of whiskey on cold nights.|그는 추운 밤에 위스키 한 잔을 즐긴다.
+widen|넓히다, 넓어지다|The city plans to widen the main road.|시는 큰길을 넓힐 계획이다.
+widow|과부, 미망인|The widow lived alone in the cottage after her husband died.|남편이 세상을 떠난 뒤 그 미망인은 오두막에서 홀로 살았다.
+width|폭, 너비|Measure the width of the window before buying curtains.|커튼을 사기 전에 창문의 폭을 재세요.
+wilderness|황무지, 황야, 미개척지|They spent a week camping in the wilderness.|그들은 야생의 자연 속에서 일주일 동안 캠핑을 했다.
+willing|기꺼이 하는, 자발적인|Are you willing to work on weekends?|주말에도 일할 의향이 있으세요?
+willingly|기꺼이, 자진해서|She willingly gave up her seat to the elderly man.|그녀는 노인에게 기꺼이 자리를 양보했다.
+winding|구불구불한|A winding road led up to the old castle.|구불구불한 길이 오래된 성까지 이어져 있었다.
+windshield|(자동차) 앞 유리|A small stone cracked the windshield.|작은 돌 하나가 앞 유리에 금이 가게 했다.
+wink|윙크, 눈짓|He gave me a wink to show he was joking.|그는 농담이라는 뜻으로 내게 윙크를 했다.
+wipe|닦다, 훔치다|Please wipe the table after you eat.|식사 후에 식탁을 닦아 주세요.
+wit|재치, 기지; 지혜|Her quick wit made the whole room laugh.|그녀의 재치 있는 말에 방 안의 모두가 웃었다.
+withdraw|(돈을) 인출하다; 철수하다; 물러나다|I need to withdraw some cash from the ATM.|ATM에서 현금을 좀 인출해야 해.
+withdrawal|인출; 철수; 금단 증상|The bank charges a fee for each withdrawal.|은행은 인출할 때마다 수수료를 부과한다.
+witty|재치 있는, 재담을 잘하는|The speaker gave a witty and memorable talk.|연사는 재치 있고 기억에 남는 강연을 했다.
+wolf|늑대|We heard a wolf howling in the distance.|멀리서 늑대가 울부짖는 소리가 들렸다.
+wondrous|경이로운, 놀라운|The aquarium was full of wondrous sea creatures.|그 수족관은 경이로운 바다 생물들로 가득했다.
+woodcarving|목각, 나무 조각(품)|My grandfather taught me the art of woodcarving.|할아버지께서 내게 목각 기술을 가르쳐 주셨다.
+wordlessly|말없이|She wordlessly handed him a cup of tea.|그녀는 말없이 그에게 차 한 잔을 건넸다.
+workaholic|일 중독의|My workaholic father rarely takes a vacation.|일 중독인 우리 아버지는 휴가를 거의 가지 않으신다.
+workbench|작업대|He keeps all his tools above the workbench.|그는 모든 공구를 작업대 위에 보관한다.
+workman|일꾼, 노동자, 직공|A workman came to repair the broken pipe.|고장 난 배관을 고치러 일꾼이 왔다.
+worktable|작업대, 작업 테이블|The artist spread her sketches across the worktable.|화가는 작업 테이블 위에 스케치를 펼쳐 놓았다.
+worldly|세속적인; 세상 물정에 밝은|She gave away all her worldly possessions.|그녀는 세속의 소유물을 모두 나누어 주었다.
+worldview|세계관|Travelling abroad completely changed his worldview.|해외여행은 그의 세계관을 완전히 바꿔 놓았다.
+worm|벌레, 지렁이|The early bird catches the worm.|일찍 일어나는 새가 벌레를 잡는다.
+wornout|닳아 해진; 지친|He finally threw away his wornout sneakers.|그는 마침내 낡아 해진 운동화를 버렸다.
+worrying|걱정스러운, 걱정되는|The rise in prices is a worrying trend.|물가 상승은 걱정스러운 추세다.
+worsen|악화되다, 악화시키다|Her cough worsened over the weekend.|주말 동안 그녀의 기침이 심해졌다.
+worship|예배, 숭배|The temple is still used as a place of worship.|그 사원은 지금도 예배 장소로 쓰인다.
+worthless|가치 없는, 쓸모없는|The old coins turned out to be worthless.|그 오래된 동전들은 가치가 없는 것으로 드러났다.
+wreck|난파선; 잔해; 엉망인 상태|Divers explored the wreck of a sunken ship.|잠수부들이 가라앉은 배의 잔해를 탐사했다.
+wrongly|잘못, 틀리게; 부당하게|The letter was wrongly delivered to our house.|그 편지가 우리 집으로 잘못 배달되었다.
+X-ray|엑스레이, X선 (사진)|The doctor ordered an X-ray of my wrist.|의사는 내 손목의 엑스레이를 찍으라고 했다.
+yacht|요트|They sailed around the islands on a small yacht.|그들은 작은 요트를 타고 섬들을 돌았다.
+yawn|(명) 하품; (동) 하품하다|He couldn't stop yawning during the long meeting.|그는 긴 회의 내내 하품을 멈출 수 없었다.
+yearn|갈망하다, 동경하다|She yearned to see her hometown again.|그녀는 고향을 다시 보기를 간절히 바랐다.
+yield|산출하다, 내다; 굴복하다; 양보하다|The orchard yields plenty of apples every autumn.|그 과수원은 매년 가을 사과를 많이 낸다.
+youthful|젊은, 젊음이 넘치는|My grandmother still has a youthful spirit.|우리 할머니는 아직도 젊은 마음을 지니고 계신다.
+yummy|맛있는|These homemade cookies are so yummy!|이 수제 쿠키 정말 맛있다!
+zebra|얼룩말|A zebra's stripes are unique, like fingerprints.|얼룩말의 줄무늬는 지문처럼 저마다 다르다.
+zip|지퍼; 활력|The zip on my bag is broken.|가방 지퍼가 고장 났다.
+zoom|줌 렌즈; 붕 하는 소리|This camera has a powerful zoom for wildlife photos.|이 카메라는 야생동물 촬영을 위한 강력한 줌 기능이 있다.
+abound|많이 있다, 풍부하다|Rumors abound about the new manager's plans.|새 매니저의 계획에 대한 소문이 무성하다.
+abstraction|추상, 추상적 개념; 멍한 상태|Justice can feel like an abstraction until you need it.|정의는 필요할 때가 되기 전까지는 추상적 개념처럼 느껴질 수 있다.
+accustomed|익숙한, 길든; 늘 하는|I'm not accustomed to waking up so early.|나는 그렇게 일찍 일어나는 데 익숙하지 않다.
+acidic|산성의; 신맛이 나는|Lemons and tomatoes are acidic foods.|레몬과 토마토는 산성 식품이다.
+acoustic|음향의; (악기가) 전자 장치를 쓰지 않는|He played a gentle song on his acoustic guitar.|그는 어쿠스틱 기타로 잔잔한 노래를 연주했다.
+acoustically|음향적으로, 음향상|The new concert hall is acoustically superb.|새 콘서트홀은 음향이 탁월하다.
+acoustics|음향 효과; 음향학|The acoustics in this old church are remarkable.|이 오래된 성당의 음향 효과는 놀랍다.
+acre|에이커(약 4,047㎡)|The farm covers about two hundred acres.|그 농장은 약 200에이커에 이른다.
+acutely|강렬히, 예민하게; 몹시|She was acutely aware of everyone staring at her.|그녀는 모두가 자신을 쳐다보고 있다는 것을 예민하게 의식했다.
+adjoin|인접하다, 붙어 있다|The kitchen adjoins a small dining room.|부엌은 작은 식당과 붙어 있다.
+adjoining|인접한, 옆의|We booked adjoining rooms at the hotel.|우리는 호텔에서 서로 붙어 있는 방을 예약했다.
+adjustable|조절할 수 있는|The office chairs have adjustable armrests.|사무실 의자는 팔걸이를 조절할 수 있다.
+adrenaline|아드레날린|Skydiving gives you a huge rush of adrenaline.|스카이다이빙을 하면 아드레날린이 엄청나게 솟구친다.
+advantageous|유리한, 이로운|Speaking two languages is advantageous in this job.|두 개의 언어를 구사하는 것은 이 직무에 유리하다.
+adversary|적, 상대, 적수|In the final, she faced her old adversary.|결승에서 그녀는 오랜 맞수와 맞붙었다.
+advisory|자문의, 조언하는|The scientist serves on an advisory committee.|그 과학자는 자문 위원회의 위원으로 활동한다.
+aesthetic|미적인, 미학의|The design has both practical and aesthetic value.|그 디자인은 실용적 가치와 미적 가치를 모두 지닌다.
+aesthetically|미적으로, 미학적으로|The garden is aesthetically pleasing in every season.|그 정원은 사계절 내내 보기에 아름답다.
+agreeable|기분 좋은, 쾌적한; 기꺼이 동의하는|We spent an agreeable evening chatting on the terrace.|우리는 테라스에서 담소를 나누며 즐거운 저녁을 보냈다.
+aimless|목적 없는, 방향 없는|After graduation, he felt aimless for a while.|졸업 후 그는 한동안 목표 없이 방황했다.
+aimlessly|목적 없이, 정처 없이|We wandered aimlessly through the narrow streets.|우리는 좁은 골목길을 정처 없이 거닐었다.
+alienate|멀어지게 하다, 소외시키다|His rude comments alienated many of his friends.|그의 무례한 발언으로 많은 친구들이 그에게서 멀어졌다.
+align|정렬하다, 일직선으로 하다; 맞추다|Align the pictures so they hang evenly.|사진들이 고르게 걸리도록 줄을 맞추세요.
+alignment|정렬, 일직선; 제휴|The mechanic checked the wheel alignment.|정비사가 바퀴 정렬 상태를 점검했다.
+allege|(증거 없이) 주장하다, 혐의를 제기하다|The report alleges that the company hid its losses.|보고서는 그 회사가 손실을 숨겼다고 주장한다.
+alleviate|완화하다, 경감하다|This medicine will help alleviate the pain.|이 약은 통증을 완화하는 데 도움이 될 것이다.
+altruism|이타주의, 이타심|Volunteering at the shelter is an act of altruism.|보호소에서 자원봉사를 하는 것은 이타적인 행동이다.
+altruistic|이타적인|Her motives for donating were purely altruistic.|그녀가 기부한 동기는 순수하게 이타적이었다.
+amateur|(명) 아마추어, 비전문가; (형) 아마추어의|He is an amateur photographer who sells prints online.|그는 사진을 온라인으로 판매하는 아마추어 사진가다.
+amid|(전) ~의 한가운데에, ~ 속에서|The festival continued amid heavy rain.|축제는 폭우 속에서도 계속되었다.
+amplification|(소리의) 증폭; 확대, 부연|The band needed more amplification for the outdoor show.|밴드는 야외 공연을 위해 더 큰 음향 증폭이 필요했다.
+amply|충분히, 넉넉히|Her hard work was amply rewarded.|그녀의 노력은 충분히 보상받았다.
+anchored|닻을 내린, 고정된|Several fishing boats were anchored in the bay.|어선 여러 척이 만에 닻을 내리고 있었다.
+animatedly|활기차게, 생기 있게|The children talked animatedly about their trip to the zoo.|아이들은 동물원 나들이에 대해 신이 나서 이야기했다.
+anthropologist|인류학자|The anthropologist lived with the community for two years.|그 인류학자는 2년 동안 그 공동체와 함께 살았다.
+anthropology|인류학|She plans to study anthropology at university.|그녀는 대학에서 인류학을 공부할 계획이다.
+anticlimactic|용두사미의, 맥 빠지는|After months of hype, the ending felt anticlimactic.|몇 달간의 기대와 달리 결말은 맥이 빠졌다.
+antics|익살스러운 짓, 기행|The puppy's antics kept the whole family entertained.|강아지의 익살스러운 행동에 온 가족이 즐거워했다.
+antiquated|구식의, 낡은|The office still uses an antiquated computer system.|그 사무실은 아직도 낡은 컴퓨터 시스템을 쓴다.
+antiquity|고대; 고대 유물|These statues date back to antiquity.|이 조각상들은 고대로 거슬러 올라간다.
+appall|오싹하게 하다, 질겁하게 하다|The waste of food in restaurants appalls me.|식당에서 음식이 버려지는 것을 보면 질겁하게 된다.
+appalling|끔찍한, 형편없는|The service at that hotel was appalling.|그 호텔의 서비스는 형편없었다.
+appallingly|끔찍하게, 지독하게|The roads were appallingly crowded on the holiday.|연휴에 도로가 지독하게 막혔다.
+appliance|(가정용) 기기, 가전제품|We bought a new kitchen appliance for making bread.|우리는 빵을 만드는 새 주방 기기를 샀다.
+apprehensive|걱정하는, 불안해하는|She felt apprehensive about her first day at work.|그녀는 첫 출근을 앞두고 불안했다.
+apprentice|(명) 견습생, 도제; (동) 견습생으로 두다|He worked as an apprentice to a skilled baker.|그는 숙련된 제빵사 밑에서 견습생으로 일했다.
+apprenticeship|견습 기간, 도제 제도|She completed a four-year apprenticeship as an electrician.|그녀는 전기 기술자로서 4년간의 견습 과정을 마쳤다.
+apt|적절한; ~하는 경향이 있는|That was an apt description of the situation.|그것은 상황을 적절하게 묘사한 말이었다.
+apt to|~하기 쉽다, ~하는 경향이 있다|Young children are apt to forget their homework.|어린아이들은 숙제를 잊어버리기 쉽다.
+aqua|청록색의, 물빛의|She painted the bathroom walls a soft aqua color.|그녀는 욕실 벽을 은은한 청록색으로 칠했다.
+aquarium|수족관; 어항|We watched the sharks at the city aquarium.|우리는 시립 수족관에서 상어를 구경했다.
+artistically|예술적으로|The cakes were artistically decorated with flowers.|케이크는 꽃으로 예술적으로 장식되어 있었다.
+assertion|주장, 단언|There is no evidence to support his assertion.|그의 주장을 뒷받침할 증거가 없다.
+astray|길을 잃고; 타락하여|The letter went astray and never arrived.|그 편지는 분실되어 끝내 도착하지 않았다.
+atmospheric|대기의; 분위기 있는|The café has an atmospheric interior with candles.|그 카페는 촛불이 켜진 분위기 있는 인테리어를 갖추고 있다.
+avid|열렬한, 열심인|My aunt is an avid reader of mystery novels.|우리 이모는 추리 소설을 열렬히 읽는 독자다.
+baldly|노골적으로, 단도직입적으로|He stated baldly that the plan would fail.|그는 그 계획이 실패할 거라고 단도직입적으로 말했다.
+batter|(동) 연타하다, 두들기다; (명) 반죽; 타자|Huge waves battered the small fishing village.|거대한 파도가 작은 어촌을 강타했다.
+battered|낡은, 찌그러진; 상처투성이의|He carried a battered old suitcase.|그는 낡고 찌그러진 여행 가방을 들고 다녔다.
+bearded|수염이 있는|A bearded man was playing the violin in the park.|수염 난 남자가 공원에서 바이올린을 연주하고 있었다.
+beforehand|미리, 사전에|Please let me know beforehand if you can't come.|못 오시게 되면 미리 알려 주세요.
+beguiling|매력적인, 마음을 끄는|The island has a beguiling mix of beaches and mountains.|그 섬은 해변과 산이 어우러진 매혹적인 곳이다.
+beguilingly|매혹적으로|The puzzle looked beguilingly simple at first.|그 퍼즐은 처음에는 현혹될 만큼 단순해 보였다.
+believably|그럴듯하게, 믿을 수 있게|The actor played the old professor very believably.|그 배우는 노교수 역을 매우 그럴듯하게 연기했다.
+benign|양성의; 온화한, 친절한|Luckily, the doctor said the lump was benign.|다행히 의사는 그 혹이 양성이라고 했다.
+benignly|온화하게, 상냥하게|The old librarian smiled benignly at the children.|나이 든 사서는 아이들에게 온화하게 미소 지었다.
+bequeath|(유언으로) 물려주다, 유증하다|She bequeathed her paintings to the local museum.|그녀는 자신의 그림을 지역 박물관에 유증했다.
+billiards|당구|We played billiards after dinner at the hotel.|우리는 호텔에서 저녁 식사 후 당구를 쳤다.
+blankness|공백, 멍함; 무표정|There was a strange blankness in his expression.|그의 표정에는 이상하게 멍한 기색이 있었다.
+bliss|더없는 행복, 지복|Sleeping late on a Sunday is pure bliss.|일요일에 늦잠을 자는 것은 더없는 행복이다.
+blister|(명) 물집; (동) 물집이 생기다|New shoes gave me a blister on my heel.|새 신발 때문에 발뒤꿈치에 물집이 생겼다.
+blithely|태평하게, 무심하게|He blithely ignored the warning signs.|그는 경고 표지판을 태평하게 무시했다.
+blockbuster|블록버스터, 대히트작|The film became the summer's biggest blockbuster.|그 영화는 그해 여름 최고의 흥행작이 되었다.
+bouquet|부케, 꽃다발; (와인의) 향기|He surprised her with a bouquet of roses.|그는 장미 꽃다발로 그녀를 깜짝 놀라게 했다.
+brainwash|세뇌하다|Some advertisements try to brainwash consumers.|어떤 광고들은 소비자를 세뇌하려 한다.
+brainwashing|세뇌|The novel explores the dangers of brainwashing.|그 소설은 세뇌의 위험성을 다룬다.
+bribe|(동) 뇌물을 주다, 매수하다; (명) 뇌물|He tried to bribe the referee but was caught.|그는 심판을 매수하려다 적발되었다.
+bribery|뇌물 수수, 증뢰|The official was arrested on charges of bribery.|그 공무원은 뇌물 수수 혐의로 체포되었다.

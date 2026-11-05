@@ -3,9 +3,14 @@ import { u01, u02, u03, u04, u05 } from './units1to5';
 import { u06, u07, u08, u09, u10 } from './units6to10';
 import { a2u01, a2u02, a2u03, a2u04 } from './levels/a2-1';
 import { a2u05, a2u06, a2u07, a2u08 } from './levels/a2-2';
+import { b1u01, b1u02, b1u03, b1u04 } from './levels/b1-1';
+import { b1u05, b1u06, b1u07 } from './levels/b1-2';
+import { b2u01, b2u02, b2u03 } from './levels/b2-1';
+import { b2u04, b2u05, b2u06 } from './levels/b2-2';
 
 export const A1_UNITS: GrammarUnit[] = [u01, u02, u03, u04, u05, u06, u07, u08, u09, u10];
-export const GRAMMAR_UNITS: GrammarUnit[] = [...A1_UNITS, a2u01, a2u02, a2u03, a2u04, a2u05, a2u06, a2u07, a2u08];
+export const GRAMMAR_UNITS: GrammarUnit[] = [...A1_UNITS, a2u01, a2u02, a2u03, a2u04, a2u05, a2u06, a2u07, a2u08,
+  b1u01, b1u02, b1u03, b1u04, b1u05, b1u06, b1u07, b2u01, b2u02, b2u03, b2u04, b2u05, b2u06];
 export const GRAMMAR_BY_ID: Record<string, GrammarUnit> = Object.fromEntries(GRAMMAR_UNITS.map((u) => [u.id, u]));
 
 const outline = (level: CurriculumUnitOutline['level'], titles: string[]): CurriculumUnitOutline[] =>

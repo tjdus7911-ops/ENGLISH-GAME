@@ -88,7 +88,7 @@ export const b2u01: GrammarUnit = {
     tr('b2-u01-t07', 'If only I had saved some money last year.', ['작년에 돈을 좀 모아 두기만 했더라면.', '작년에 돈을 좀 모아 둬서 다행이에요.', '내년에는 돈을 좀 모아 둘 거예요.'], '작년에 돈을 좀 모아 두기만 했더라면.', 'If only + had p.p. 는 과거에 하지 못한 일에 대한 강한 후회를 나타냅니다.'),
     wr('b2-u01-t08', '그가 일찍 일어났더라면 회의에 늦지 않았을 텐데.', ["If he had woken up early, he wouldn't have been late for the meeting.", 'If he had woken up early, he would not have been late for the meeting.', "If he'd woken up early, he wouldn't have been late for the meeting.", "If he had got up early, he wouldn't have been late for the meeting.", "If he had gotten up early, he wouldn't have been late for the meeting.", "He wouldn't have been late for the meeting if he had woken up early."], 'If + had woken up, wouldn\'t have been late 로 과거 사실의 반대를 표현합니다.'),
   ],
-  prerequisites: ['a2-u01', 'a2-u04'],
+  prerequisites: ['b1-u05', 'a2-u04'],
   reviewStatus: 'expert-review-needed',
 };
 
@@ -270,6 +270,6 @@ export const b2u03: GrammarUnit = {
     tr('b2-u03-t07', 'The man to whom I sent the letter never replied.', ['내가 편지를 보낸 그 남자는 끝내 답장하지 않았어요.', '그 남자는 나에게 편지를 보냈지만 나는 답장하지 않았어요.', '내가 편지를 보내지 않은 그 남자는 답장했어요.'], '내가 편지를 보낸 그 남자는 끝내 답장하지 않았어요.', 'to whom 은 "~에게"라는 뜻으로, I sent the letter to the man 이 관계절이 된 것입니다.'),
     wr('b2-u03-t08', '그는 시험에 합격했는데, 그것이 모두를 놀라게 했어요.', ['He passed the exam, which surprised everyone.', 'He passed the test, which surprised everyone.', 'He passed the exam, which surprised everybody.', 'He passed the test, which surprised everybody.'], '앞 문장 전체를 받는 계속적 용법 , which 를 씁니다.'),
   ],
-  prerequisites: ['a1-u01', 'a2-u07'],
+  prerequisites: ['b1-u03', 'a2-u07'],
   reviewStatus: 'expert-review-needed',
 };
